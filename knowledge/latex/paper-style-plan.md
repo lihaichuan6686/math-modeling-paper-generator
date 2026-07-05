@@ -35,3 +35,11 @@ D:\2-各比赛Word模板及LaTeX模板\LATEX\model1.pdf
 - 附录结构
 - 编译方式
 
+## 已形成的结构规范
+
+详见：
+
+```text
+knowledge/latex/long-paper-blueprint.md
+knowledge/latex/model1-case-study.md
+```
