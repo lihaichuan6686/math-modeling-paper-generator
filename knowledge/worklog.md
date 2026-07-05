@@ -1,5 +1,20 @@
 # Worklog
 
+## 2026-07-06 Continued Local Study
+
+- Completed first-pass visual reading notes for 2021 CUMCM official excellent papers A-E.
+- Added `knowledge/cumcm/2021-official-first-pass.md`.
+- Extracted five generator routing cases:
+  - FAST active reflector: geometry and engineering mechanics.
+  - C4 olefin preparation: statistics, chemical optimization, experiment design.
+  - Raw material ordering and transport: supplier evaluation plus planning.
+  - Continuous cutting: online integer optimization and abnormal-scenario adjustment.
+  - Chinese medicine spectra: preprocessing, feature extraction, classifier comparison.
+- No GitHub upload was performed, following the user's instruction that unattended learning should stay local.
+- Inspected the 2024 CUMCM Word/LaTeX template bundle as a formatting and compliance resource.
+- Added `knowledge/quality/reproducibility-and-ai-difference-framework.md`.
+- Recorded a template-risk case: rendered cover year can follow current compile year while manual date fields remain stale, so date/season consistency must become a preflight check.
+
 ## 2026-07-06
 
 ### 已完成
@@ -64,4 +79,3 @@
 4. 为每类题型补充更细的算法选择规则。
 5. 升级 LaTeX 主模板，使其默认接近 20-30 页完整论文结构。
 6. 建立论文质量检查 Rubric 2.0。
-

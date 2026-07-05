@@ -1,5 +1,7 @@
 # Problem Type to Method Map
 
+> 2026-07-06 update: 2021 CUMCM excellent papers add five confirmed routing cases: FAST active reflector -> geometry/engineering mechanics; C4 olefin preparation -> statistics + chemical optimization + experiment design; raw material ordering and transport -> evaluation + planning; continuous cutting -> online integer optimization; Chinese medicine spectra -> preprocessing + feature engineering + classification.
+
 本文件把国赛常见题型和算法族连接起来。生成器在拿到题面后，应先识别题型，再提出多条候选模型链，而不是直接套单一算法。
 
 ## 评价决策类
@@ -154,4 +156,3 @@
 论文结构：
 
 机制假设 -> 状态转移规则 -> 参数设定 -> 仿真结果 -> 稳健性分析。
-
