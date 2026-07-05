@@ -29,6 +29,7 @@
 ## 工作原则
 
 - 先读 `problems/problem.md`，再行动。
+- 先查 `knowledge/cumcm/`、`knowledge/algorithms/` 和 `knowledge/latex/`，再提出建模路线。
 - 先写计划和假设，再写代码和正文。
 - 每个模型都要说明变量、参数、目标函数、约束、适用条件和局限。
 - 所有图表要有标题、编号、数据来源和解释。
@@ -47,6 +48,7 @@
 ### Phase 1: Ideation
 
 - 至少提出 3 条候选建模路线。
+- 每条路线应由“题型判断 + 算法链 + 论文表达方式 + 风险”组成，而不是单个算法名。
 - 比较每条路线的数学基础、数据需求、可解释性、实现难度和风险。
 - 产出 `runs/current/model-candidates.md`。
 
@@ -54,6 +56,7 @@
 
 - 选定主模型和备选模型。
 - 写清变量定义、假设、公式、算法和验证策略。
+- 对照 `knowledge/algorithms/problem-type-to-method.md` 检查模型链是否合理。
 - 产出 `runs/current/model-plan.md`。
 
 ### Phase 3: Implementation
@@ -67,6 +70,7 @@
 - 填充 `paper/sections/` 下的正文。
 - 写作顺序建议：问题重述、假设、符号、模型建立、求解、结果、检验、优缺点、结论。
 - 摘要最后写。
+- 摘要采用“整体方法概述 + 逐问题方法与结果 + 关键词”的国赛优秀论文范式。
 
 ### Phase 5: Build
 
@@ -76,6 +80,7 @@
 ### Phase 6: Review
 
 - 按 `docs/review-checklist.md` 审查。
+- 对照 `knowledge/quality/quality-rubric-plan.md` 检查逻辑链、模型合理性和 AI 风险信号。
 - 产出 `reviews/review-current.md`。
 - 修复高风险问题后重新编译。
 
@@ -89,4 +94,3 @@
 - 生成图表和表格。
 - 一份审查报告。
 - 一份说明哪些结论仍需人工确认的备注。
-

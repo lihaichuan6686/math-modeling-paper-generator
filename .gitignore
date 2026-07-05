@@ -27,6 +27,7 @@ venv/
 paper/main.pdf
 paper/build/
 runs/current/
+knowledge/_generated/
 *.tmp
 
 # Local files
