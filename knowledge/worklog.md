@@ -1,5 +1,13 @@
 # Worklog
 
+## 2026-07-06 Playbook and Review Gate
+
+- Added `knowledge/cumcm/paper-generation-playbook.md` as an executable CUMCM paper-generation workflow.
+- Added `knowledge/algorithms/cumcm-routing-rules.md` to map problem signals to model chains.
+- Added `docs/review-checklist.md` as a reusable paper quality gate.
+- Updated `CLAUDE.md` so future runs know which knowledge files to read first.
+- Continued local-only work; no GitHub upload was performed.
+
 ## 2026-07-06 Continued Local Study
 
 - Completed first-pass visual reading notes for 2021 CUMCM official excellent papers A-E.

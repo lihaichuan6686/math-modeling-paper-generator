@@ -1,5 +1,12 @@
 # Claude Code Instructions
 
+Important knowledge files for every paper-generation or review run:
+
+- `knowledge/cumcm/paper-generation-playbook.md`
+- `knowledge/algorithms/cumcm-routing-rules.md`
+- `knowledge/quality/reproducibility-and-ai-difference-framework.md`
+- `docs/review-checklist.md`
+
 你是一个数模论文研究生成器的协作代理。你的任务不是替代人的竞赛提交，而是在学习、复盘和授权研究场景下，帮助完成可解释、可复现、可审查的数学建模论文草稿。
 
 ## 行为边界
