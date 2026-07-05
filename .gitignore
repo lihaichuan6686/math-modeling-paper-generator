@@ -1,0 +1,34 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Generated outputs
+paper/main.pdf
+paper/build/
+runs/current/
+*.tmp
+
+# Local files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,104 @@
+# Workflow
+
+## 0. 准备题面
+
+把题面和附件说明写入：
+
+```text
+problems/problem.md
+```
+
+如果有数据文件，建议新建：
+
+```text
+problems/data/
+```
+
+## 1. 题面理解
+
+产物：
+
+```text
+runs/current/problem-analysis.md
+```
+
+内容：
+
+- 问题重述
+- 输入与输出
+- 约束条件
+- 评价指标
+- 可能的数据缺口
+- 易错点
+
+## 2. 建模构思
+
+产物：
+
+```text
+runs/current/model-candidates.md
+```
+
+要求至少比较三种方案，并明确为什么采用主方案。
+
+## 3. 建模计划
+
+产物：
+
+```text
+runs/current/model-plan.md
+```
+
+内容：
+
+- 变量和参数
+- 假设
+- 目标函数
+- 约束
+- 求解算法
+- 验证方法
+
+## 4. 代码实验
+
+代码放在：
+
+```text
+src/
+```
+
+输出放在：
+
+```text
+paper/figures/
+paper/tables/
+```
+
+## 5. 论文写作
+
+正文分节放在：
+
+```text
+paper/sections/
+```
+
+主文件：
+
+```text
+paper/main.tex
+```
+
+## 6. 编译
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1
+```
+
+## 7. 审查
+
+根据 `docs/review-checklist.md` 写入：
+
+```text
+reviews/review-current.md
+```
+
+高风险问题修复后重新编译。
