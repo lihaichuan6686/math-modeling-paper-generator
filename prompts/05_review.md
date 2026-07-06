@@ -6,6 +6,7 @@ Read:
 - `runs/current/artifact-ledger.md`
 - `runs/current/figure-plan.md`
 - `knowledge/quality/reproducibility-and-ai-difference-framework.md`
+- `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - current `paper/`
@@ -21,6 +22,7 @@ Review:
 
 - problem coverage
 - section structure
+- 20-30 page structure and visual-density contract
 - model logic
 - code/data reproducibility
 - figures and tables

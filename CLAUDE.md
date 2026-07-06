@@ -3,6 +3,7 @@
 Important knowledge files for every paper-generation or review run:
 
 - `knowledge/cumcm/paper-generation-playbook.md`
+- `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
 - `knowledge/quality/reproducibility-and-ai-difference-framework.md`

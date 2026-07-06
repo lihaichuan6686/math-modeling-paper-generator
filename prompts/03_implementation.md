@@ -6,6 +6,7 @@ Read:
 - `runs/current/verification-plan.md`
 - `runs/current/figure-plan.md`
 - `runs/current/artifact-ledger.md`
+- `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 
 Create or update:

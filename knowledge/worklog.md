@@ -20,6 +20,12 @@
 - Added a second detailed-card batch for nonlinear programming, dynamic programming, time-series forecasting, queueing models, graph algorithms, and simulation.
 - Added `knowledge/algorithms/cards/README.md` as a fast selection index from problem signals to method cards and expected paper artifacts.
 
+## 2026-07-06 Paper Structure Blueprint
+
+- Added `knowledge/cumcm/20-30-page-paper-blueprint.md`.
+- The blueprint turns the user's structure reminder into an executable contract: page budget, visual-density minimums, per-subquestion coverage, figure-chain rules, anti-filler checks, abstract gate, and final PDF inspection checks.
+- Linked the blueprint from `CLAUDE.md` and implementation/writing/review prompts so future runs plan length and figures before writing.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.

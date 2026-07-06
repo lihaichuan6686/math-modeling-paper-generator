@@ -7,6 +7,7 @@ Read:
 - `runs/current/figure-plan.md`
 - `runs/current/artifact-ledger.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
+- `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 
@@ -46,6 +47,7 @@ A full CUMCM paper reaches 20-30 pages through structure:
 - appendix supports reproducibility
 
 Do not pad with generic background.
+Use `knowledge/cumcm/20-30-page-paper-blueprint.md` to check page budget, visual density, per-subquestion coverage, and anti-filler rules before finalizing section drafts.
 
 ## Figure and Table Rule
 
