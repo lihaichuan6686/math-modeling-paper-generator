@@ -1,32 +1,62 @@
 # Research Agenda
 
-本项目的核心研究问题是：人类与 AI 生成的数学建模论文在质量、结构、推理链条和可复现性上有什么系统性差异。
+Core research question:
 
-## 研究问题
+How do human-written and AI-assisted mathematical modeling papers differ in quality, structure, reasoning chain, reproducibility, and visual evidence?
 
-1. AI 论文是否更容易出现形式完整但推理松散的问题。
-2. 人类论文和 AI 论文在假设设置、模型选择和结果解释上有何差异。
-3. AI 生成代码和图表是否更容易出现不可复现、过度平滑或解释不足的问题。
-4. 哪些审查指标可以帮助识别论文质量风险，而不是简单判断作者身份。
-5. 如何将生成器转化为论文品质检查助手，服务教学、赛后复盘和官方评审辅助。
+## Research Questions
 
-## 可观察维度
+1. Are AI-assisted papers more likely to look structurally complete while having weak reasoning closure?
+2. How do human and AI-assisted papers differ in assumptions, model selection, validation, and result interpretation?
+3. Are AI-assisted code and figures more likely to be non-reproducible, overly smooth, or insufficiently explained?
+4. Which review indicators identify paper-quality risks without simply trying to classify author identity?
+5. How can a generator be transformed into a quality-checking assistant for education, post-contest review, and authorized official support?
 
-- 问题覆盖度
-- 假设合理性
-- 变量和单位一致性
-- 模型推导完整度
-- 代码可复现性
-- 图表与正文一致性
-- 结论边界感
-- 引用真实性
-- 排版规范性
+## Observable Dimensions
 
-## 项目原则
+- problem coverage
+- section structure
+- assumption quality
+- variable and unit consistency
+- model derivation completeness
+- code reproducibility
+- figure/table traceability
+- result-validation consistency
+- conclusion boundary awareness
+- citation authenticity
+- LaTeX/PDF quality
 
-- 关注论文质量，不做简单的作者身份判定。
-- 保留中间产物，便于审计生成过程。
-- 对 AI 参与保持透明记录。
-- 优先支持研究、教学、复盘和质量检查场景。
-- 对可能造成竞赛不公平的功能保持私有和审慎使用。
+## Working Hypotheses
 
+- Human papers may contain local imperfections but often preserve authentic problem-solving traces.
+- AI-assisted papers may be fluent and complete-looking while missing evidence closure.
+- The strongest quality signal is not style, but traceability from problem to model to code to result to validation.
+- Figure and table provenance may reveal more than surface text style.
+- Quality checking should use Pass/Warn/Fail/Unknown evidence labels rather than binary AI/human judgments.
+
+## Research Outputs
+
+- reusable review checklist
+- reproducibility framework
+- route-selection knowledge base
+- section-structure contract
+- artifact ledger
+- figure plan
+- responsible-use guidelines
+
+## Use Boundaries
+
+Allowed:
+
+- post-contest reconstruction
+- educational review
+- authorized research
+- quality checking
+- reproducibility analysis
+
+Not allowed:
+
+- active contest cheating
+- hiding prohibited AI involvement
+- fabricating data, citations, or experiments
+- producing dishonest submissions

@@ -1,23 +1,74 @@
 # Phase 1 Prompt: Ideation
 
-基于 `runs/current/problem-analysis.md`，生成 `runs/current/model-candidates.md`。
+Read:
 
-先参考：
+- `runs/current/problem-analysis.md`
+- `runs/current/data-inventory.md`
+- `knowledge/algorithms/cumcm-routing-rules.md`
+- `knowledge/cumcm/paper-generation-playbook.md`
+- recent CUMCM first-pass notes under `knowledge/cumcm/`
 
-- `knowledge/algorithms/problem-type-to-method.md`
-- `knowledge/algorithms/algorithm-cards.md`
-- `knowledge/cumcm/2023-official-first-pass.md`
+Create:
 
-请至少提出三种候选方案，并比较：
+- `runs/current/model-candidates.md`
 
-- 数学基础
-- 数据需求
-- 可解释性
-- 实现复杂度
-- 稳健性
-- 论文表达难度
-- 主要风险
+## Goal
 
-每种方案必须是模型链，例如“数据清洗 -> 聚类 -> 预测 -> 优化”，不要只给一个算法名。
+Propose at least three candidate model chains. Each candidate must be a route, not a single algorithm name.
 
-最后给出推荐方案和理由，并说明如果采用该方案，论文中应出现哪些图、表、公式和验证。
+## Candidate Format
+
+For each candidate:
+
+```text
+Candidate name:
+Problem type:
+Model chain:
+Mathematical basis:
+Required data:
+Expected equations:
+Expected figures:
+Expected tables:
+Validation plan:
+Page-structure impact:
+Interpretability:
+Implementation difficulty:
+Main risks:
+```
+
+## Required Comparison
+
+Compare candidates by:
+
+- fit to each subquestion
+- data support
+- mathematical credibility
+- interpretability
+- reproducibility
+- figure/table potential
+- validation strength
+- LaTeX presentation difficulty
+- risk of overclaiming
+
+## Selection Rule
+
+Choose the route with the best balance of:
+
+```text
+problem fit + data support + interpretability + validation + reproducibility
+```
+
+Avoid choosing a complex model only because it appears advanced.
+
+## Required Final Section
+
+End `model-candidates.md` with:
+
+```text
+Recommended route:
+Why selected:
+Rejected alternatives:
+Expected section structure:
+Expected figure/table set:
+Main open risks:
+```

@@ -1,16 +1,41 @@
 # Phase 5 Prompt: Review
 
-根据 `docs/review-checklist.md` 审查当前论文、代码和图表，生成 `reviews/review-current.md`。
+Read:
 
-同时参考：
+- `docs/review-checklist.md`
+- `runs/current/artifact-ledger.md`
+- `runs/current/figure-plan.md`
+- `knowledge/quality/reproducibility-and-ai-difference-framework.md`
+- `knowledge/latex/cumcm-section-contract.md`
+- `knowledge/latex/figures-tables-equations-style.md`
+- current `paper/`
+- current `src/`
 
-- `knowledge/quality/quality-rubric-plan.md`
-- `knowledge/algorithms/algorithm-cards.md`
+Create:
 
-审查报告格式：
+- `reviews/review-current.md`
+
+## Review Scope
+
+Review:
+
+- problem coverage
+- section structure
+- model logic
+- code/data reproducibility
+- figures and tables
+- validation and sensitivity analysis
+- LaTeX/PDF quality
+- responsible-use constraints
+
+## Required Output
+
+Use this structure:
 
 ```text
 # Review
+
+## Summary
 
 ## Blocking Issues
 
@@ -18,16 +43,35 @@
 
 ## Minor Issues
 
-## Suggested Revisions
+## Evidence Checked
+
+## Evidence Not Checked
+
+## Required Fixes
 
 ## Human Verification Needed
+
+## Final Status
+Pass / Needs revision / Reject for research use
 ```
 
-发现高风险问题后，应先修复再重新编译。
+## Hard Fail Conditions
 
-重点检查：
+Mark as blocking if:
 
-- 是否每个算法都有使用理由。
-- 是否每个子问题都有清晰输入、输出和验证。
-- 是否存在公式、变量或结论无法闭合。
-- 是否存在 AI 式空泛表达、过度自信或结果不可复现。
+- any subquestion is unanswered
+- main results cannot be traced to data/code/equations
+- figures or tables are used without source/caption/reference
+- validation is absent for core results
+- PDF cannot compile or has unreadable major content
+- fabricated data, references, or experimental evidence are detected
+- the request appears to support active contest cheating or concealment of prohibited AI involvement
+
+## Repair Loop
+
+If blocking or important issues are found:
+
+1. fix the source document/code/artifact
+2. rebuild if needed
+3. update the artifact ledger
+4. revise the review

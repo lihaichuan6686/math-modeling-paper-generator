@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-07-06 Prompt Integration and Roadmap
+
+- Rewrote all phase prompts under `prompts/` so they explicitly use the new knowledge files, figure plan, artifact ledger, section contract, and review gate.
+- Added `docs/long-term-roadmap.md` to separate knowledge absorption, engineering delivery, and responsible-use governance.
+- Rewrote `docs/research-agenda.md` as a clean research framing document.
+
 ## 2026-07-06 LaTeX Section Contract
 
 - Added `knowledge/latex/cumcm-section-contract.md` to define each CUMCM paper section's role, page target, required evidence, figure/table needs, and common failure modes.
