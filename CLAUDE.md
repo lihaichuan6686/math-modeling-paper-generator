@@ -4,6 +4,7 @@ Important knowledge files for every paper-generation or review run:
 
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
+- `knowledge/algorithms/cards/`
 - `knowledge/quality/reproducibility-and-ai-difference-framework.md`
 - `docs/review-checklist.md`
 - `docs/artifact-ledger-template.md`

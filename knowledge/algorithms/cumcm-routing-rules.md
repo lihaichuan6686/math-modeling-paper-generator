@@ -23,6 +23,17 @@ route_id:
     - common failure mode
 ```
 
+## Detailed Method Cards
+
+Use these cards when a candidate route includes one of the following method families:
+
+- `knowledge/algorithms/cards/linear-integer-programming.md`
+- `knowledge/algorithms/cards/regression.md`
+- `knowledge/algorithms/cards/pca-lda.md`
+- `knowledge/algorithms/cards/random-forest.md`
+- `knowledge/algorithms/cards/svm.md`
+- `knowledge/algorithms/cards/response-surface.md`
+
 ## Route: Geometry and Engineering Mechanics
 
 Trigger terms:

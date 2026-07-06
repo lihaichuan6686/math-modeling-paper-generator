@@ -5,6 +5,7 @@ Read:
 - `runs/current/problem-analysis.md`
 - `runs/current/data-inventory.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
+- relevant files under `knowledge/algorithms/cards/`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - recent CUMCM first-pass notes under `knowledge/cumcm/`
 
@@ -15,6 +16,7 @@ Create:
 ## Goal
 
 Propose at least three candidate model chains. Each candidate must be a route, not a single algorithm name.
+When a candidate route uses a method that has a detailed card, read that card and reflect its inputs, equations, validation, figures, and risks in the candidate.
 
 ## Candidate Format
 

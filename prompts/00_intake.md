@@ -6,6 +6,7 @@ Read:
 - all attachments under `problems/`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
+- relevant files under `knowledge/algorithms/cards/`
 
 Create:
 

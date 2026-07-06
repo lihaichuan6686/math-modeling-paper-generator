@@ -1,5 +1,23 @@
 # Worklog
 
+## 2026-07-06 GitHub Sync Policy
+
+- User clarified that GitHub uploads should happen once per day, not too frequently.
+- Updated `docs/long-term-roadmap.md` governance rules: local commits are preferred during unattended learning; GitHub uploads should be batched into a daily sync unless the user explicitly requests immediate upload.
+- User also requested stopping near the final 10% of a five-hour work quota. Current visible goal status exposes elapsed goal time but not a hard token budget, so the project policy now uses 4.5 hours of visible goal time as the conservative stop point when exact quota is unavailable.
+- Checked the official Codex pricing page through the user's local proxy: Plus usage is documented as a five-hour local-message window with model-dependent ranges, not as a fixed token quota. Image generation counts against included limits and should be batched.
+
+## 2026-07-06 Algorithm Card Expansion
+
+- Added detailed cards under `knowledge/algorithms/cards/` for:
+  - linear and integer programming
+  - regression
+  - PCA and LDA
+  - random forest
+  - support vector machine
+  - response surface methodology
+- Updated routing rules so future CUMCM problem routing can jump from a route to the relevant detailed method card.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.

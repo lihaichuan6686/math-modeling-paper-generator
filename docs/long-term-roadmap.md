@@ -185,7 +185,10 @@ Deliverables:
 Next tasks:
 
 - Keep repository private unless user explicitly decides otherwise.
-- Do not auto-push to GitHub.
+- Do not auto-push to GitHub more than once per day unless the user explicitly requests an immediate upload.
+- Prefer local commits during unattended learning; batch GitHub uploads into a daily sync.
+- During long unattended work, stop when the visible five-hour work window reaches the final 10% reserve. OpenAI's Codex pricing page describes Plus local-message limits as a five-hour window with model-dependent ranges, not a fixed token total. If exact account quota is not visible in this environment, use 4.5 hours of visible goal time as the conservative stopping point and resume after the quota refresh.
+- Treat image generation as a higher-cost step. OpenAI's Codex pricing page says image generation counts against the same included usage limits and uses them faster on average, so visual generation should be batched and used when it materially improves figures, diagrams, or review artifacts.
 - Maintain `SECURITY.md` and responsible-use warnings.
 - Record limitations and human verification requirements.
 - Ensure generated outputs are clearly research drafts unless human-reviewed.
