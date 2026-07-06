@@ -5,6 +5,7 @@ Read:
 - `runs/current/model-candidates.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
+- `knowledge/algorithms/cards/README.md`
 - relevant files under `knowledge/algorithms/cards/`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`

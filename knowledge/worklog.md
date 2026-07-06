@@ -18,6 +18,7 @@
   - response surface methodology
 - Updated routing rules so future CUMCM problem routing can jump from a route to the relevant detailed method card.
 - Added a second detailed-card batch for nonlinear programming, dynamic programming, time-series forecasting, queueing models, graph algorithms, and simulation.
+- Added `knowledge/algorithms/cards/README.md` as a fast selection index from problem signals to method cards and expected paper artifacts.
 
 ## 2026-07-06 Deep Reading D017
 
