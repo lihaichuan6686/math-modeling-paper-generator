@@ -56,6 +56,13 @@
 - Rewrote `knowledge/cumcm/deep-reading-queue.md` into a clean long-term reading queue.
 - Marked completed first-pass and deep-read work, prioritized representative 2021-2023 official excellent papers, and defined extraction outputs for each future deep read.
 
+## 2026-07-06 Deep Reading 2021 A028
+
+- Rendered all 38 pages of 2021 official excellent paper `A028.pdf` for visual inspection because text extraction is dominated by watermark text.
+- Added `knowledge/cumcm/deep-reading-2021A028.md`.
+- Extracted geometry/engineering route lessons: coordinate frame first, ideal target surface, deviation metrics, actuator/node adjustment table, final physical-performance evaluation, model evaluation, and appendix code inventory.
+- Updated geometry/engineering routing rules and model-chain patterns to require a final engineering-performance metric after geometric fitting or adjustment.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.

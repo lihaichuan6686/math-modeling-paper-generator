@@ -8,6 +8,7 @@ Purpose: organize long-term, batch-by-batch reading of CUMCM papers. Each deep r
 | --- | --- | --- |
 | User awarded paper `LATEX/model1.pdf` | case study complete | `knowledge/latex/model1-case-study.md` |
 | 2021 D017 | deep read complete | `knowledge/cumcm/deep-reading-2021D017.md` |
+| 2021 A028 | deep read complete | `knowledge/cumcm/deep-reading-2021A028.md` |
 | 2021 A-E first pass | first pass complete | `knowledge/cumcm/2021-official-first-pass.md` |
 | 2022 A-E first pass | first pass complete | `knowledge/cumcm/2022-official-first-pass.md` |
 | 2023 A-E first pass | first pass complete | `knowledge/cumcm/2023-official-first-pass.md` |
@@ -20,14 +21,13 @@ Goal: build reliable route examples across A-E problem types.
 
 | Priority | Sample | Reason | Expected extraction |
 | ---: | --- | --- | --- |
-| 1 | 2021 A028 | geometry/engineering mechanics | coordinate model, physical constraints, error figures |
-| 2 | 2021 C066 | supply-chain planning | evaluation-to-planning chain, order/transport tables |
-| 3 | 2021 E014 | spectral classification | preprocessing, feature extraction, classifier comparison |
-| 4 | 2022 B030 | geometric/engineering or spatial route pattern | diagram density, formula-to-figure chain |
-| 5 | 2022 C155 | decision/planning with data | model chain, robustness checks |
-| 6 | 2023 C050 | dynamic pricing/supply chain | forecast/evaluation/planning bridge |
-| 7 | 2023 D039 | spatial optimization | geometry, visualization, validation |
-| 8 | 2023 E176 | monitoring or data-analysis route | feature construction, validation, quality signals |
+| 1 | 2021 C066 | supply-chain planning | evaluation-to-planning chain, order/transport tables |
+| 2 | 2021 E014 | spectral classification | preprocessing, feature extraction, classifier comparison |
+| 3 | 2022 B030 | geometric/engineering or spatial route pattern | diagram density, formula-to-figure chain |
+| 4 | 2022 C155 | decision/planning with data | model chain, robustness checks |
+| 5 | 2023 C050 | dynamic pricing/supply chain | forecast/evaluation/planning bridge |
+| 6 | 2023 D039 | spatial optimization | geometry, visualization, validation |
+| 7 | 2023 E176 | monitoring or data-analysis route | feature construction, validation, quality signals |
 
 ### P1: Same-Problem Comparison
 

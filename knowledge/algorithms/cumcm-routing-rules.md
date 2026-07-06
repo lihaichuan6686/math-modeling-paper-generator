@@ -86,6 +86,7 @@ Validation:
 - constraint violation check
 - sensitivity to angle/position/step size
 - physical sanity check
+- final physical-performance metric, such as reception efficiency, coverage, energy, displacement reduction, or operational loss
 
 Risks:
 
@@ -93,6 +94,7 @@ Risks:
 - formulas not tied to geometry
 - optimization without physical constraints
 - result figures not showing the actual spatial relation
+- stopping at geometric fitting error while omitting the final engineering performance measure
 
 ## Route: Statistics plus Chemical or Material Optimization
 

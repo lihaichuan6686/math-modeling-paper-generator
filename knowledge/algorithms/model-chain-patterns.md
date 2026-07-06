@@ -128,6 +128,10 @@ Common failure:
 
 - formulas look mathematical but are not tied to a coordinate frame or physical constraint.
 
+Additional rule from 2021 A028:
+
+- after geometric fitting or adjustment, include a final engineering-performance metric. For FAST-like reflector problems, this may be reception ratio or reflected signal coverage. For other engineering problems, it may be displacement reduction, error reduction, coverage, energy, loss, or safety margin.
+
 ## Pattern 5: Factor Analysis -> Response Surface -> Verification Proposal
 
 Use when:
