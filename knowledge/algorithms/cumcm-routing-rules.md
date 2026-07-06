@@ -186,6 +186,7 @@ Expected outputs:
 - order quantity table
 - carrier allocation table
 - capacity boundary or cost curve
+- inventory or production-capacity time curve
 
 Validation:
 
@@ -193,6 +194,7 @@ Validation:
 - historical backtest
 - stress test for supply shortage
 - sensitivity to weights and demand
+- inventory stability and capacity feasibility over the planning horizon
 
 Risks:
 
@@ -200,6 +202,7 @@ Risks:
 - ranking-only paper with no executable plan
 - missing capacity or loss constraints
 - unrealistic integer/rounding assumptions
+- selected suppliers listed without week-by-week order and transport decisions
 
 ## Route: Online Scheduling and Industrial Optimization
 

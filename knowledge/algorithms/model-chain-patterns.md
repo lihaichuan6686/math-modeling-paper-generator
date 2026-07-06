@@ -29,10 +29,15 @@ Required artifacts:
 - plan table
 - capacity/feasibility audit
 - sensitivity table for weights or demand
+- inventory or production-capacity time curve
 
 Common failure:
 
 - stopping after ranking and never producing an executable plan.
+
+Additional rule from 2021 C066:
+
+- keep the evaluation result, supplier-selection result, ordering plan, transportation plan, and validation result as separate artifacts. The artifact ledger should not collapse them into one generic "result table."
 
 ## Pattern 2: Forecast -> Optimization -> Robustness
 

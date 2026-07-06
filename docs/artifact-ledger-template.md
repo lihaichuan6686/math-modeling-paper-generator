@@ -106,15 +106,16 @@ Checks:
 
 ## Key Results
 
-| ID | Result statement | Value | Evidence source | Paper location | Verification |
-|---|---|---:|---|---|---|
-| K01 | | | | | |
+| ID | Result kind | Result statement | Value | Evidence source | Paper location | Verification |
+|---|---|---|---:|---|---|---|
+| K01 | evaluation/decision/validation | | | | | |
 
 Checks:
 
 - Every abstract result appears here.
 - Every conclusion result appears here.
 - Each result has a source file, equation, or code output.
+- Evaluation results, decision results, and validation results should be distinguishable.
 
 ## Validation Evidence
 

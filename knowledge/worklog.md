@@ -63,6 +63,14 @@
 - Extracted geometry/engineering route lessons: coordinate frame first, ideal target surface, deviation metrics, actuator/node adjustment table, final physical-performance evaluation, model evaluation, and appendix code inventory.
 - Updated geometry/engineering routing rules and model-chain patterns to require a final engineering-performance metric after geometric fitting or adjustment.
 
+## 2026-07-06 Deep Reading 2021 C066
+
+- Rendered all 60 pages of 2021 official excellent paper `C066.pdf`.
+- Added `knowledge/cumcm/deep-reading-2021C066.md`.
+- Extracted the supply-chain route: data preprocessing, supplier indicator hierarchy, TOPSIS evaluation, supplier selection, order/transport planning, inventory and capacity validation, appendix file inventory.
+- Updated supply-chain routing and model-chain patterns to require executable order/transport plans and inventory/capacity validation after evaluation.
+- Updated the artifact ledger key-results table to distinguish evaluation, decision, and validation results.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.
