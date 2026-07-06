@@ -71,6 +71,11 @@
 - Updated supply-chain routing and model-chain patterns to require executable order/transport plans and inventory/capacity validation after evaluation.
 - Updated the artifact ledger key-results table to distinguish evaluation, decision, and validation results.
 
+## 2026-07-06 Continuation State
+
+- Added `docs/continuation-state.md` so future long-running work can resume from the current knowledge state without depending on conversation memory.
+- Recorded completed deep reads, next reading queue, operating rules, GitHub sync policy, and core method lessons from A028 and C066.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.
