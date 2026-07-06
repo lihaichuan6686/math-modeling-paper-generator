@@ -83,23 +83,17 @@ Deliverables:
 
 Current status:
 
-- Section contract, figure plan, artifact ledger, and figure/table/equation style guide exist.
+- Section contract, figure plan, artifact ledger, figure/table/equation style guide, and reusable LaTeX snippets exist.
 
 Next tasks:
 
 - Compare user awarded paper and official templates.
-- Extract concrete LaTeX snippets for:
-  - route figure
-  - three-line result table
-  - long table
-  - subfigure comparison
-  - algorithm steps
-  - appendix code inventory
+- Expand snippets with compiled examples and problem-type-specific variants.
 - Create reusable examples that compile.
 
 Deliverables:
 
-- `knowledge/latex/snippets.md`
+- `knowledge/latex/snippets.md`: initial version complete
 - stronger `paper/sections/` placeholders
 - rendered PDF inspection notes
 
@@ -198,12 +192,11 @@ Next tasks:
 
 ## Near-Term Priority Order
 
-1. Add LaTeX snippets for figures, tables, equations, algorithms, and appendix.
-2. Deep-read one official excellent paper end to end and extract a full structure map.
-3. Add detailed algorithm cards for LP/IP, regression, PCA/LDA, random forest, SVM, and response surface.
-4. Build a small demo run from a toy problem to test the full chain.
-5. Compile and visually inspect the demo PDF.
-6. Convert review checklist into a stricter quality-check workflow.
+1. Deep-read one official excellent paper end to end and extract a full structure map.
+2. Add detailed algorithm cards for LP/IP, regression, PCA/LDA, random forest, SVM, and response surface.
+3. Build a small demo run from a toy problem to test the full chain.
+4. Compile and visually inspect the demo PDF.
+5. Convert review checklist into a stricter quality-check workflow.
 
 ## Definition of Progress
 

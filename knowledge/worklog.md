@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-07-06 LaTeX Snippets
+
+- GitHub push was attempted after explicit user request, but the network connection to `github.com:443` failed.
+- Added `knowledge/latex/snippets.md` with reusable LaTeX patterns for route figures, evidence figures, subfigures, result tables, long tables, optimization equations, prediction metrics, algorithm steps, sensitivity tables, and appendix code inventory.
+- Linked snippets from `CLAUDE.md` and updated `docs/long-term-roadmap.md`.
+
 ## 2026-07-06 Run Scaffold Automation
 
 - Upgraded `scripts/new-run.ps1` so every new run creates the full scaffold: problem analysis, data inventory, model candidates, model plan, verification plan, figure plan, artifact ledger, review file, and output directories.
