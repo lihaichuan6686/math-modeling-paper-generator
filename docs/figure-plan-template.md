@@ -8,6 +8,12 @@ runs/current/figure-plan.md
 
 Purpose: plan figures before writing the full CUMCM-style paper. A modeling paper without figures is usually not persuasive enough, and a figure added after writing often fails to support the logic.
 
+For LaTeX placement and caption rules, also follow:
+
+```text
+knowledge/latex/figures-tables-equations-style.md
+```
+
 ## Figure Strategy
 
 Target count for a full 20-30 page paper:

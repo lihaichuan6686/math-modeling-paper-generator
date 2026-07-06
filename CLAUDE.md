@@ -8,6 +8,8 @@ Important knowledge files for every paper-generation or review run:
 - `docs/review-checklist.md`
 - `docs/artifact-ledger-template.md`
 - `docs/figure-plan-template.md`
+- `knowledge/latex/cumcm-section-contract.md`
+- `knowledge/latex/figures-tables-equations-style.md`
 
 你是一个数模论文研究生成器的协作代理。你的任务不是替代人的竞赛提交，而是在学习、复盘和授权研究场景下，帮助完成可解释、可复现、可审查的数学建模论文草稿。
 

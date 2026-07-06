@@ -1,5 +1,12 @@
 # Worklog
 
+## 2026-07-06 LaTeX Section Contract
+
+- Added `knowledge/latex/cumcm-section-contract.md` to define each CUMCM paper section's role, page target, required evidence, figure/table needs, and common failure modes.
+- Added `paper/sections/README.md` so the LaTeX section directory carries local writing guidance.
+- Linked the new LaTeX section contract from `CLAUDE.md`.
+- Added `knowledge/latex/figures-tables-equations-style.md` to standardize figure, table, equation, algorithm, and appendix code writing.
+
 ## 2026-07-06 Structure and Figure Chain
 
 - Added explicit CUMCM structure/page-allocation rules to `knowledge/cumcm/paper-generation-playbook.md`.
