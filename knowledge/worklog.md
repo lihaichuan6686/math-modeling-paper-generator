@@ -51,6 +51,11 @@
 - Rewrote `knowledge/README.md` into a clean navigation file because the previous Chinese text displayed with encoding corruption in the terminal.
 - Added ordered reading entry points for CUMCM generation/review runs and linked today's new structure, algorithm, visual, and quality assets.
 
+## 2026-07-06 Deep Reading Queue Cleanup
+
+- Rewrote `knowledge/cumcm/deep-reading-queue.md` into a clean long-term reading queue.
+- Marked completed first-pass and deep-read work, prioritized representative 2021-2023 official excellent papers, and defined extraction outputs for each future deep read.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.

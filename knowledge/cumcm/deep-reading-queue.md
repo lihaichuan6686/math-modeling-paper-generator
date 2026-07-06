@@ -1,92 +1,117 @@
 # CUMCM Deep Reading Queue
 
-本队列用于长期、分批、可追踪地学习国赛资料。目标不是读完后写泛泛总结，而是把每篇论文转化为生成器规则、审查指标或算法卡片。
+Purpose: organize long-term, batch-by-batch reading of CUMCM papers. Each deep read should produce generator rules, review criteria, algorithm-card updates, or LaTeX structure guidance.
 
-## 已完成的自动概览
+## Completed
 
-自动抽取文件：
+| Sample | Status | Output |
+| --- | --- | --- |
+| User awarded paper `LATEX/model1.pdf` | case study complete | `knowledge/latex/model1-case-study.md` |
+| 2021 D017 | deep read complete | `knowledge/cumcm/deep-reading-2021D017.md` |
+| 2021 A-E first pass | first pass complete | `knowledge/cumcm/2021-official-first-pass.md` |
+| 2022 A-E first pass | first pass complete | `knowledge/cumcm/2022-official-first-pass.md` |
+| 2023 A-E first pass | first pass complete | `knowledge/cumcm/2023-official-first-pass.md` |
+
+## Priority Queue
+
+### P0: One Official Excellent Paper Per Problem Type
+
+Goal: build reliable route examples across A-E problem types.
+
+| Priority | Sample | Reason | Expected extraction |
+| ---: | --- | --- | --- |
+| 1 | 2021 A028 | geometry/engineering mechanics | coordinate model, physical constraints, error figures |
+| 2 | 2021 C066 | supply-chain planning | evaluation-to-planning chain, order/transport tables |
+| 3 | 2021 E014 | spectral classification | preprocessing, feature extraction, classifier comparison |
+| 4 | 2022 B030 | geometric/engineering or spatial route pattern | diagram density, formula-to-figure chain |
+| 5 | 2022 C155 | decision/planning with data | model chain, robustness checks |
+| 6 | 2023 C050 | dynamic pricing/supply chain | forecast/evaluation/planning bridge |
+| 7 | 2023 D039 | spatial optimization | geometry, visualization, validation |
+| 8 | 2023 E176 | monitoring or data-analysis route | feature construction, validation, quality signals |
+
+### P1: Same-Problem Comparison
+
+Goal: compare multiple papers for the same problem to learn acceptable structural variation.
+
+Recommended batches:
+
+- 2021 D problem: compare D017 against another D paper if available.
+- 2021 C problem: compare multiple supply-chain papers.
+- 2023 C problem: compare dynamic pricing papers.
+- 2023 E problem: compare monitoring/data-analysis papers.
+
+Extraction focus:
+
+- section order differences
+- page allocation differences
+- figure/table density
+- validation strength
+- appendix and code evidence
+- how similar methods are written differently
+
+### P2: Recent Complete Drafts and Code-Linked Materials
+
+Goal: learn generator risks and paper-code consistency from recent complete artifacts.
+
+Targets:
+
+- 2024 A complete paper drafts
+- 2024 B complete paper drafts
+- 2024 C complete paper drafts
+- 2024 D complete paper drafts
+- 2024 E complete paper drafts
+- any attached code or idea documents
+
+Extraction focus:
+
+- reproducibility gaps
+- template/date/identity risks
+- figure source traceability
+- appendix-code alignment
+- signs of generated-draft weakness
+
+## Deep Reading Template
+
+Every deep read should extract:
+
+1. problem year and type
+2. page count and section structure
+3. abstract pattern
+4. model chain
+5. core algorithms and equations
+6. data processing steps
+7. figure and table inventory
+8. validation and sensitivity strategy
+9. strengths/limitations writing pattern
+10. appendix and code reproducibility
+11. reusable generator rules
+12. review signals for paper-quality checking
+
+## Output Naming
+
+Use:
 
 ```text
-knowledge/_generated/inventory/cumcm-paper-pdf-overview.csv
+knowledge/cumcm/deep-reading-<year><problem><paper-id>.md
 ```
 
-覆盖：
+Examples:
 
-- 国赛论文目录下 79 个 PDF
-- 每个 PDF 的相对路径、大小、页数、首页文本片段
+```text
+deep-reading-2021A028.md
+deep-reading-2021C066.md
+deep-reading-2023C050.md
+```
 
-## 第一批 P0 深读样本
+## Reading Order
 
-### 用户一等奖样例
-
-| 样本 | 页数 | 用途 |
-|---|---:|---|
-| `LATEX/model1.pdf` | 38 | 学习完整 LaTeX 论文结构、摘要范式、图表密度、代码附录 |
-
-### 2023 官方优秀论文
-
-| 样本 | 页数 | 用途 |
-|---|---:|---|
-| `2023/A0127.pdf` | 50 | A 题优秀论文结构 |
-| `2023/B311.pdf` | 31 | B 题优秀论文结构 |
-| `2023/C050.pdf` | 41 | C 题优秀论文结构 |
-| `2023/D039.pdf` | 27 | D 题优秀论文结构 |
-| `2023/E176.pdf` | 50 | E 题优秀论文结构 |
-
-### 2022 官方优秀论文
-
-优先每题抽 1 篇，再扩展到同题多篇对比。
-
-| 样本 | 页数 | 用途 |
-|---|---:|---|
-| `2022 A001` | 37 | A 题优秀论文 |
-| `2022 B030` | 42 | B 题优秀论文 |
-| `2022 C155` | 41 | C 题优秀论文 |
-| `2022 D999` | 25 | D 题优秀论文 |
-| `2022 E014` | 24 | E 题优秀论文 |
-
-### 2021 官方优秀论文
-
-优先每题抽 1 篇，再对同题论文做结构差异分析。
-
-| 样本 | 页数 | 用途 |
-|---|---:|---|
-| `2021 A028` | 38 | A 题优秀论文 |
-| `2021 B007` | 45 | B 题优秀论文 |
-| `2021 C066` | 60 | C 题优秀论文 |
-| `2021 D017` | 21 | D 题优秀论文 |
-| `2021 E014` | 51 | E 题优秀论文 |
-
-### 2024 成品与思路代码
-
-| 样本 | 页数 | 用途 |
-|---|---:|---|
-| `2024 A 第1套成品论文` | 29 | 新近完整成品论文 |
-| `2024 B 第4套成品论文` | 24 | 新近完整成品论文 |
-| `2024 C 杨老师成品论文` | 22 | 新近完整成品论文 |
-| `2024 D 第1套成品论文` | 31 | 新近完整成品论文 |
-| `2024 E 第1套成品论文` | 28 | 新近完整成品论文 |
-
-## 每篇论文深读模板
-
-每篇论文至少提取：
-
-1. 题型与年份
-2. 论文页数和章节结构
-3. 摘要结构
-4. 主要模型链条
-5. 核心算法
-6. 数据处理方式
-7. 图表类型与密度
-8. 结果验证方式
-9. 优缺点写法
-10. 附录和代码可复现性
-11. 可迁移到智能体的规则
-12. 对 AI 论文质量检查的启发
-
-## 读法
-
-- 先按题号横向读：A-E 各选一篇，建立题型差异。
-- 再按年份纵向读：2021-2023 官方优秀论文，建立规范变化。
-- 最后读 2024 成品/思路/代码，建立生成器的代码-论文联动能力。
-
+1. Read horizontally across problem types: one A, B, C, D, E paper each.
+2. Read vertically across years: compare how similar problem types change from 2021 to 2023.
+3. Read recent complete drafts and code-linked materials to learn generator-risk patterns.
+4. Convert each finding into one of:
+   - route rule
+   - model-chain pattern
+   - algorithm-card update
+   - figure/table requirement
+   - LaTeX structure rule
+   - quality-rubric item
