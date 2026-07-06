@@ -31,6 +31,7 @@
 - Added `docs/visual-generation-pipeline.md`.
 - The pipeline classifies figures into evidence, validation, explanatory schematic, format, and review figures.
 - It defines when code-generated figures are mandatory, when AI/image-generation schematics are allowed, how prompts and source paths must be recorded, and how captions and rendered-PDF review should work.
+- Updated `docs/figure-plan-template.md` and `docs/artifact-ledger-template.md` so new runs capture figure role, source type, prompt/source, caption draft, status, and review notes.
 
 ## 2026-07-06 Deep Reading D017
 

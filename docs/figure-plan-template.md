@@ -12,6 +12,7 @@ For LaTeX placement and caption rules, also follow:
 
 ```text
 knowledge/latex/figures-tables-equations-style.md
+docs/visual-generation-pipeline.md
 ```
 
 ## Figure Strategy
@@ -25,12 +26,12 @@ Target count for a full 20-30 page paper:
 
 ## Planned Figures
 
-| ID | Type | Purpose | Paper section | Source/tool | Input data or prompt | Output path | Status |
-|---|---|---|---|---|---|---|---|
-| F01 | route | Show overall model chain | Method overview | Mermaid/Python/TikZ | | paper/figures/ | Planned |
-| F02 | explanatory | Explain key model structure | Model section | | | paper/figures/ | Planned |
-| F03 | evidence | Show data/result pattern | Results | Python/R/MATLAB | | paper/figures/ | Planned |
-| F04 | validation | Show robustness/error | Validation | Python/R/MATLAB | | paper/figures/ | Planned |
+| ID | Role | Purpose | Paper section | Source type | Tool | Input data/source/prompt | Output path | Caption draft | Status |
+|---|---|---|---|---|---|---|---|---|---|
+| F01 | route | Show overall model chain | Method overview | schematic | Mermaid/Python/TikZ | | paper/figures/ | | planned |
+| F02 | explanatory | Explain key model structure | Model section | schematic | | | paper/figures/ | | planned |
+| F03 | evidence | Show data/result pattern | Results | reproducible code | Python/R/MATLAB | | paper/figures/ | | planned |
+| F04 | validation | Show robustness/error | Validation | reproducible code | Python/R/MATLAB | | paper/figures/ | | planned |
 
 ## Figure Types
 
@@ -155,3 +156,12 @@ Before final PDF:
 3. Are captions specific?
 4. Are labels, units, and legends readable?
 5. Are generated schematic prompts or source files recorded in the artifact ledger?
+
+Allowed statuses:
+
+- planned
+- generated
+- inserted
+- rendered
+- needs revision
+- accepted
