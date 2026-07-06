@@ -219,6 +219,8 @@ Expected outputs:
 - Gantt-style timeline
 - loss comparison table
 - scenario result table
+- abnormal-event type diagram
+- initial-vs-adjusted plan table
 
 Validation:
 
@@ -226,6 +228,8 @@ Validation:
 - total loss comparison
 - target-deviation distribution
 - stress test with multiple abnormal events
+- per-event loss audit
+- operational-time feasibility check
 
 Risks:
 
@@ -233,6 +237,12 @@ Risks:
 - no trigger rule for abnormal events
 - no distinction between fixed and adjustable variables
 - result cannot be updated step by step
+- reporting total loss without scenario-level evidence
+- ignoring adjustment time or execution delay without disclosing it
+
+Deep-reading evidence:
+
+- `knowledge/cumcm/deep-reading-2021D017.md` shows a compact official excellent paper pattern for this route: process schematic -> assumptions/symbols -> feasibility theorem -> discretized integer model -> abnormal-event classification -> repeated initial/adjusted plan tables -> model evaluation -> appendix file inventory.
 
 ## Route: Machine Learning Classification or Identification
 

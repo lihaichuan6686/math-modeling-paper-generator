@@ -1,5 +1,13 @@
 # Worklog
 
+## 2026-07-06 Deep Reading D017
+
+- Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.
+- Added `knowledge/cumcm/deep-reading-2021D017.md`.
+- Updated online scheduling/industrial optimization routing rules with D017-derived evidence patterns.
+- Updated the appendix section contract with file-to-subquestion mapping rules.
+- GitHub was successfully updated earlier in this session by routing Git through local Clash proxy `127.0.0.1:7890`.
+
 ## 2026-07-06 LaTeX Snippets
 
 - GitHub push was attempted after explicit user request, but the network connection to `github.com:443` failed.

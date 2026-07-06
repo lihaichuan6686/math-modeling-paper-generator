@@ -402,12 +402,21 @@ Must include:
 - key code excerpts
 - extra tables/figures
 - data field explanation
+- mapping from files to subquestions
+- programming language/tool notes
 
 Must avoid:
 
 - appendix-only code with no runnable source in the repository
 - unrelated template examples
 - dumping huge code blocks when a file inventory is better
+
+Observed official-paper pattern:
+
+- Start appendix with a support-file list.
+- Group code by subquestion.
+- Name the tool/language used by each file.
+- Include selected code excerpts after the file inventory.
 
 ## Figure Placement Rules
 
