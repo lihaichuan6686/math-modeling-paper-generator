@@ -33,6 +33,13 @@
 - It defines when code-generated figures are mandatory, when AI/image-generation schematics are allowed, how prompts and source paths must be recorded, and how captions and rendered-PDF review should work.
 - Updated `docs/figure-plan-template.md` and `docs/artifact-ledger-template.md` so new runs capture figure role, source type, prompt/source, caption draft, status, and review notes.
 
+## 2026-07-06 Quality Rubric v2
+
+- Added `knowledge/quality/quality-rubric-v2.md` as a clean, machine-readable review rubric.
+- Rubric v2 covers problem coverage, structure/page logic, model credibility, result traceability, visual/table quality, validation, reproducibility, LaTeX/PDF quality, and responsible use.
+- It frames human-AI paper comparison as quality-signal research rather than binary authorship detection.
+- Linked Rubric v2 from `CLAUDE.md` and the review prompt.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.

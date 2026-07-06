@@ -6,6 +6,7 @@ Read:
 - `runs/current/artifact-ledger.md`
 - `runs/current/figure-plan.md`
 - `knowledge/quality/reproducibility-and-ai-difference-framework.md`
+- `knowledge/quality/quality-rubric-v2.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
@@ -31,6 +32,7 @@ Review:
 - validation and sensitivity analysis
 - LaTeX/PDF quality
 - responsible-use constraints
+- quality-rubric-v2 dimensions and evidence requirements
 
 ## Required Output
 
