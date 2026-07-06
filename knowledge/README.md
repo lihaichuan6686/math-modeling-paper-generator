@@ -1,21 +1,68 @@
 # Knowledge Base
 
-这个目录用于沉淀本地数模资料的长期学习结果。原则是：不复制大体量原始资料，而是保存索引、抽取结果、结构化知识和对智能体有用的规范。
+Purpose: store structured knowledge extracted from local mathematical-modeling resources without copying full source papers or templates into the repository.
 
-## 子目录
+## How to Read This Knowledge Base
 
-- `inventory/`：资料清单、文件类型统计、优先级队列。
-- `cumcm/`：国赛题型、年份、赛题、优秀论文和解法范式。
-- `algorithms/`：常见算法的适用场景、优缺点、论文表达模板。
-- `latex/`：成品 LaTeX 论文结构、排版习惯、图表公式规范。
-- `quality/`：论文质量检查指标、人类与 AI 论文差异指标。
-- `_generated/`：机器生成的临时索引，不纳入 Git。
+For any CUMCM paper-generation or review run, read in this order:
 
-## 吸收原则
+1. `cumcm/paper-generation-playbook.md`
+2. `cumcm/20-30-page-paper-blueprint.md`
+3. `algorithms/cumcm-routing-rules.md`
+4. `algorithms/cards/README.md`
+5. `algorithms/model-chain-patterns.md`
+6. relevant detailed algorithm cards under `algorithms/cards/`
+7. `latex/cumcm-section-contract.md`
+8. `latex/figures-tables-equations-style.md`
+9. `latex/snippets.md`
+10. `quality/quality-rubric-v2.md`
 
-1. 优先国赛，其次扩展到美赛、深圳杯、华数杯等其他业务。
-2. 优先学习高质量成品论文，再学习思路、代码和经验文档。
-3. 每个结论都尽量关联到资料来源路径。
-4. 不把原始论文全文复制进仓库，只保存结构化观察和可复用规则。
-5. 对生成器能力的改进要落到提示词、代码、审查清单或 LaTeX 模板中。
+## Directory Map
 
+- `inventory/`: source file inventories, extension statistics, and priority queues for later reading.
+- `cumcm/`: CUMCM problem types, official paper observations, deep-reading notes, paper-generation workflows, and structure blueprints.
+- `algorithms/`: routing rules, model-chain patterns, algorithm cards, and problem-type method mappings.
+- `latex/`: paper structure, section contracts, figure/table/equation style, and reusable LaTeX snippets.
+- `quality/`: paper review rubrics, reproducibility checks, and human-AI difference research framework.
+- `_generated/`: temporary rendered pages, screenshots, and machine-generated inspection artifacts. This directory is not committed.
+
+## Current Strong Entry Points
+
+Structure and writing:
+
+- `cumcm/paper-generation-playbook.md`
+- `cumcm/20-30-page-paper-blueprint.md`
+- `latex/cumcm-section-contract.md`
+
+Algorithms and model routes:
+
+- `algorithms/cumcm-routing-rules.md`
+- `algorithms/cards/README.md`
+- `algorithms/model-chain-patterns.md`
+
+Visuals and artifacts:
+
+- `../docs/figure-plan-template.md`
+- `../docs/artifact-ledger-template.md`
+- `../docs/visual-generation-pipeline.md`
+- `latex/figures-tables-equations-style.md`
+
+Quality review:
+
+- `quality/quality-rubric-v2.md`
+- `../docs/review-checklist.md`
+- `quality/reproducibility-and-ai-difference-framework.md`
+
+## Absorption Rules
+
+1. Prioritize CUMCM resources before expanding to other contests.
+2. Extract structure, model chains, evidence patterns, and review rules instead of copying full papers.
+3. Every extracted rule should eventually improve one of:
+   - a prompt,
+   - an algorithm card,
+   - a LaTeX contract,
+   - a review checklist,
+   - a scaffold script,
+   - or a paper template.
+4. Treat excellent papers as evidence for structure and method use, not as text to imitate.
+5. Preserve responsible-use boundaries: this project supports research, post-contest review, education, and authorized quality checking.

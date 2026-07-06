@@ -46,6 +46,11 @@
 - Captured reusable CUMCM route patterns such as evaluation-to-planning, forecast-to-optimization, feature-extraction-to-classification, physical-derivation-to-optimization, response-surface optimization, queueing/simulation capacity planning, graph-network modeling, and online update under abnormal scenarios.
 - Linked the model-chain pattern library from `CLAUDE.md` and ideation/model-plan prompts.
 
+## 2026-07-06 Knowledge Index Cleanup
+
+- Rewrote `knowledge/README.md` into a clean navigation file because the previous Chinese text displayed with encoding corruption in the terminal.
+- Added ordered reading entry points for CUMCM generation/review runs and linked today's new structure, algorithm, visual, and quality assets.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.
