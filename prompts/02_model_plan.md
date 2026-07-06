@@ -9,6 +9,7 @@ Read:
 - relevant files under `knowledge/algorithms/cards/`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
+- `docs/visual-generation-pipeline.md`
 - `docs/figure-plan-template.md`
 - `docs/artifact-ledger-template.md`
 

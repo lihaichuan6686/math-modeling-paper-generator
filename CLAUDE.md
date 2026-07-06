@@ -10,6 +10,7 @@ Important knowledge files for every paper-generation or review run:
 - `docs/review-checklist.md`
 - `docs/artifact-ledger-template.md`
 - `docs/figure-plan-template.md`
+- `docs/visual-generation-pipeline.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `knowledge/latex/snippets.md`

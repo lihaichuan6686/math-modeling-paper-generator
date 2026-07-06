@@ -9,6 +9,7 @@ Read:
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
+- `docs/visual-generation-pipeline.md`
 - current `paper/`
 - current `src/`
 
@@ -26,6 +27,7 @@ Review:
 - model logic
 - code/data reproducibility
 - figures and tables
+- visual source classification and AI-schematic disclosure
 - validation and sensitivity analysis
 - LaTeX/PDF quality
 - responsible-use constraints

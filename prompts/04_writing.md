@@ -10,6 +10,7 @@ Read:
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
+- `docs/visual-generation-pipeline.md`
 
 Write:
 
@@ -58,6 +59,8 @@ Every figure/table inserted into LaTeX must:
 - have a label
 - be cited and interpreted in text
 - be listed in the artifact ledger
+
+For AI-generated or hand-drawn schematics, follow `docs/visual-generation-pipeline.md`: they may explain structure but must not be treated as data evidence.
 
 ## Result Rule
 

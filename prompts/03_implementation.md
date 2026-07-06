@@ -8,6 +8,7 @@ Read:
 - `runs/current/artifact-ledger.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/figures-tables-equations-style.md`
+- `docs/visual-generation-pipeline.md`
 
 Create or update:
 

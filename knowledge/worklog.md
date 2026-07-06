@@ -26,6 +26,12 @@
 - The blueprint turns the user's structure reminder into an executable contract: page budget, visual-density minimums, per-subquestion coverage, figure-chain rules, anti-filler checks, abstract gate, and final PDF inspection checks.
 - Linked the blueprint from `CLAUDE.md` and implementation/writing/review prompts so future runs plan length and figures before writing.
 
+## 2026-07-06 Visual Generation Pipeline
+
+- Added `docs/visual-generation-pipeline.md`.
+- The pipeline classifies figures into evidence, validation, explanatory schematic, format, and review figures.
+- It defines when code-generated figures are mandatory, when AI/image-generation schematics are allowed, how prompts and source paths must be recorded, and how captions and rendered-PDF review should work.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.
