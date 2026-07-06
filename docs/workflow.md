@@ -102,3 +102,43 @@ reviews/review-current.md
 ```
 
 高风险问题修复后重新编译。
+# Workflow Addendum
+
+For every active generation or review run, create an artifact ledger based on `docs/artifact-ledger-template.md` at `runs/current/artifact-ledger.md`. The ledger is the bridge between paper claims, code outputs, data files, figures, tables, and PDF review.
+
+## Structure and Figure Addendum
+
+A complete CUMCM-style paper should reach 20-30 pages through structure:
+
+```text
+abstract
+-> problem restatement
+-> method overview
+-> problem analysis
+-> assumptions
+-> symbols
+-> data processing
+-> model establishment and solution
+-> results and validation
+-> sensitivity analysis
+-> strengths and limitations
+-> conclusion
+-> references
+-> appendix
+```
+
+The figure plan must be created before writing the full paper:
+
+```text
+runs/current/figure-plan.md
+```
+
+The plan should include:
+
+- route or workflow figure
+- model-specific explanatory figures
+- data exploration figures
+- result figures
+- validation or sensitivity figures
+
+All figures must be listed in `runs/current/artifact-ledger.md`. Data-driven figures should be reproducible from code. Explanatory diagrams or AI-generated schematic images are allowed only when their source or prompt is recorded and they are not presented as experimental evidence.

@@ -1,5 +1,13 @@
 # Worklog
 
+## 2026-07-06 Structure and Figure Chain
+
+- Added explicit CUMCM structure/page-allocation rules to `knowledge/cumcm/paper-generation-playbook.md`.
+- Added figure-generation requirements to the modeling and implementation phases.
+- Added `docs/figure-plan-template.md` so every run can plan route diagrams, explanatory schematics, evidence plots, and validation figures before writing.
+- Updated `docs/artifact-ledger-template.md` to distinguish evidence, explanatory, and format figures.
+- Updated `docs/workflow.md` and `CLAUDE.md` so future runs treat structure and figures as first-class workflow items.
+
 ## 2026-07-06 Playbook and Review Gate
 
 - Added `knowledge/cumcm/paper-generation-playbook.md` as an executable CUMCM paper-generation workflow.
