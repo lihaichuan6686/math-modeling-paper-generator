@@ -17,6 +17,7 @@
   - support vector machine
   - response surface methodology
 - Updated routing rules so future CUMCM problem routing can jump from a route to the relevant detailed method card.
+- Added a second detailed-card batch for nonlinear programming, dynamic programming, time-series forecasting, queueing models, graph algorithms, and simulation.
 
 ## 2026-07-06 Deep Reading D017
 

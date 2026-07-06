@@ -29,10 +29,16 @@ Use these cards when a candidate route includes one of the following method fami
 
 - `knowledge/algorithms/cards/linear-integer-programming.md`
 - `knowledge/algorithms/cards/regression.md`
+- `knowledge/algorithms/cards/nonlinear-programming.md`
+- `knowledge/algorithms/cards/dynamic-programming.md`
+- `knowledge/algorithms/cards/time-series.md`
 - `knowledge/algorithms/cards/pca-lda.md`
 - `knowledge/algorithms/cards/random-forest.md`
 - `knowledge/algorithms/cards/svm.md`
 - `knowledge/algorithms/cards/response-surface.md`
+- `knowledge/algorithms/cards/queuing-models.md`
+- `knowledge/algorithms/cards/graph-algorithms.md`
+- `knowledge/algorithms/cards/simulation.md`
 
 ## Route: Geometry and Engineering Mechanics
 
