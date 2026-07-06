@@ -1,5 +1,27 @@
 # Workflow
 
+## Standard Run Setup
+
+Start every new research run with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\new-run.ps1 -Name current -Problem "problem label"
+```
+
+The script creates the standard scaffold:
+
+- `runs/current/problem-analysis.md`
+- `runs/current/data-inventory.md`
+- `runs/current/model-candidates.md`
+- `runs/current/model-plan.md`
+- `runs/current/verification-plan.md`
+- `runs/current/figure-plan.md`
+- `runs/current/artifact-ledger.md`
+- `reviews/review-current.md`
+- output folders for figures, tables, data, models, and generated artifacts
+
+Then follow the phase prompts from `prompts/00_intake.md` through `prompts/05_review.md`.
+
 ## 0. 准备题面
 
 把题面和附件说明写入：

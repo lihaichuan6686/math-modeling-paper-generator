@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-07-06 Run Scaffold Automation
+
+- Upgraded `scripts/new-run.ps1` so every new run creates the full scaffold: problem analysis, data inventory, model candidates, model plan, verification plan, figure plan, artifact ledger, review file, and output directories.
+- Smoke-tested the script with a temporary `codex-smoke` run and removed the test artifacts afterward.
+- Updated `docs/workflow.md` and `docs/long-term-roadmap.md` with the standard run setup.
+
 ## 2026-07-06 Prompt Integration and Roadmap
 
 - Rewrote all phase prompts under `prompts/` so they explicitly use the new knowledge files, figure plan, artifact ledger, section contract, and review gate.

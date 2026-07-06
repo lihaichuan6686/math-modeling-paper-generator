@@ -111,6 +111,10 @@ Goal:
 
 Create a command that initializes a new research run.
 
+Current status:
+
+- `scripts/new-run.ps1` now creates the full run scaffold, including analysis files, model planning files, figure plan, artifact ledger, review file, and output directories.
+
 Expected behavior:
 
 - create `runs/current/`
@@ -121,7 +125,7 @@ Expected behavior:
 
 Deliverables:
 
-- `scripts/new-run.ps1` enhancement
+- `scripts/new-run.ps1` enhancement: initial version complete
 - `runs/current/` template behavior
 
 ### B2. Figure and Table Pipeline
@@ -194,13 +198,12 @@ Next tasks:
 
 ## Near-Term Priority Order
 
-1. Enhance `scripts/new-run.ps1` to create the full run scaffold.
-2. Add LaTeX snippets for figures, tables, equations, algorithms, and appendix.
-3. Deep-read one official excellent paper end to end and extract a full structure map.
-4. Add detailed algorithm cards for LP/IP, regression, PCA/LDA, random forest, SVM, and response surface.
-5. Build a small demo run from a toy problem to test the full chain.
-6. Compile and visually inspect the demo PDF.
-7. Convert review checklist into a stricter quality-check workflow.
+1. Add LaTeX snippets for figures, tables, equations, algorithms, and appendix.
+2. Deep-read one official excellent paper end to end and extract a full structure map.
+3. Add detailed algorithm cards for LP/IP, regression, PCA/LDA, random forest, SVM, and response surface.
+4. Build a small demo run from a toy problem to test the full chain.
+5. Compile and visually inspect the demo PDF.
+6. Convert review checklist into a stricter quality-check workflow.
 
 ## Definition of Progress
 
