@@ -6,6 +6,7 @@ Read:
 - `runs/current/data-inventory.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
+- `knowledge/algorithms/model-chain-patterns.md`
 - relevant files under `knowledge/algorithms/cards/`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - recent CUMCM first-pass notes under `knowledge/cumcm/`

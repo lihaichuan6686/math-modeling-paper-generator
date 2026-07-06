@@ -40,6 +40,12 @@
 - It frames human-AI paper comparison as quality-signal research rather than binary authorship detection.
 - Linked Rubric v2 from `CLAUDE.md` and the review prompt.
 
+## 2026-07-06 Model Chain Patterns
+
+- Added `knowledge/algorithms/model-chain-patterns.md`.
+- Captured reusable CUMCM route patterns such as evaluation-to-planning, forecast-to-optimization, feature-extraction-to-classification, physical-derivation-to-optimization, response-surface optimization, queueing/simulation capacity planning, graph-network modeling, and online update under abnormal scenarios.
+- Linked the model-chain pattern library from `CLAUDE.md` and ideation/model-plan prompts.
+
 ## 2026-07-06 Deep Reading D017
 
 - Completed a first full-structure deep reading of 2021 official excellent paper `D017.pdf`.
