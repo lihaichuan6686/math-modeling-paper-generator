@@ -18,6 +18,7 @@ For any CUMCM paper-generation or review run, read in this order:
 10. `latex/figures-tables-equations-style.md`
 11. `latex/snippets.md`
 12. `quality/quality-rubric-v2.md`
+13. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
 
 ## Directory Map
 

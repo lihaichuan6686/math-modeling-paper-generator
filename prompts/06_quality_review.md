@@ -123,12 +123,21 @@ Check validation according to model type:
 |---|---|
 | evaluation | weight sensitivity or method comparison |
 | planning | feasibility audit and scenario stress |
+| rail timetable/service planning | full timetable artifact, capacity audit, tracking/dwell audit, baseline comparison, scenario recommendations |
 | forecast | holdout/rolling error and uncertainty propagation |
 | classification | split policy, confusion matrix, macro metric |
 | geometry | residual map and physical feasibility |
 | simulation | repeated runs, seed, uncertainty summary |
 
 Fail if the paper reports final results with no validation path.
+
+For rail-timetable/service-planning drafts, fail if:
+
+- the timetable is only plotted and no machine-readable full output exists;
+- large/small route or frequency choices are not compared against candidate alternatives;
+- capacity, headway, tracking, or dwell constraints are not audited;
+- Q3 recommendations lack a scenario table;
+- raw cost and service-level components are hidden behind only normalized scores.
 
 ### Step 7: LaTeX and PDF
 

@@ -92,6 +92,8 @@ Fail conditions:
 | Classification models have more than accuracy. | Unknown | |
 | Optimization results have feasibility checks. | Unknown | |
 | Physical/business sanity checks are included where relevant. | Unknown | |
+| Timetable/service-planning outputs include full machine-readable schedules when required. | Unknown | |
+| Timetable/service-planning drafts include capacity, headway/tracking, and dwell audits. | Unknown | |
 
 Fail conditions:
 
@@ -99,6 +101,7 @@ Fail conditions:
 - Accuracy is reported without data split details.
 - Optimization solutions violate stated constraints.
 - Sensitivity analysis has no perturbation range.
+- A timetable figure is shown but the full timetable artifact or feasibility audit is missing.
 
 ## 6. Writing Quality
 

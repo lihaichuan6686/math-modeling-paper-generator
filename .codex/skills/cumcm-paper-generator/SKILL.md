@@ -51,6 +51,7 @@ Load these as needed:
 - Generation workflow: `knowledge/cumcm/paper-generation-playbook.md`
 - Route selection: `knowledge/algorithms/cumcm-routing-rules.md`
 - Algorithm cards: `knowledge/algorithms/cards/README.md`
+- Rail/timetable route: `knowledge/algorithms/cards/rail-timetable-operation.md` when the problem involves trains, timetables, headways, OD flow, or large/small routes
 - Visual rules: `docs/visual-generation-pipeline.md`
 - Review rules: `knowledge/quality/quality-rubric-v2.md`
 - LaTeX style: `knowledge/latex/cumcm-section-contract.md`
@@ -69,6 +70,8 @@ A v1.0 output is acceptable only if:
 - review records remaining weaknesses and human-verification needs.
 
 For the review step, use `prompts/06_quality_review.md` rather than writing a free-form summary.
+
+If the problem is a timetable/service-planning problem, the output must also include machine-readable operation-plan, timetable, capacity-audit, tracking/dwell-audit, and scenario-analysis artifacts, or the review must mark the run `Needs revision`.
 
 ## Responsible Use
 

@@ -39,6 +39,12 @@ Read first:
 7. `docs/visual-generation-pipeline.md`
 8. `knowledge/quality/quality-rubric-v2.md`
 
+For train, metro, bus, OD-flow, headway, running-diagram, or timetable problems, also read:
+
+- `knowledge/cumcm/problem-type-paper-archetypes.md`, Type I
+- `knowledge/algorithms/cards/rail-timetable-operation.md`
+- `knowledge/quality/mathorcup-2023B-v1-test-review.md`
+
 ## Step 1: Create Run Scaffold
 
 ```powershell
@@ -110,6 +116,8 @@ Minimum v1.0 implementation:
 - stable output paths;
 - artifact-ledger entries.
 
+For timetable/service-planning problems, the minimum is higher: full timetable output, operation-plan output, capacity audit, tracking/dwell audit, and a scenario table are required before the run can pass review.
+
 If real data are absent, create a clearly labeled synthetic or illustrative dataset only for demo/testing. Do not present synthetic results as real contest evidence.
 
 ## Step 6: Writing
@@ -174,6 +182,7 @@ The v1.0 toolchain is ready for user inspection when:
 
 After v1.0 works:
 
+- build a dedicated `rail_timetable` example route from the MathorCup 2023 B review;
 - improve LaTeX template polish;
 - add automated ledger update helpers;
 - add demo problem and expected output;

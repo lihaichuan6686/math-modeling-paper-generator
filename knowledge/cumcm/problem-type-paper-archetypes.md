@@ -360,6 +360,64 @@ Common failure:
 
 - optimum lies outside the experimental domain or lacks verification discussion.
 
+## Type I: Rail Transit Timetable And Service Planning
+
+Signals:
+
+- trains, metro, urban rail, bus frequency, timetable, headway, dwell time, running diagram, passenger flow, OD matrix, large/small route, stop plan, or service level;
+- the answer must include an executable operation plan, schedule, timetable, or frequency plan;
+- objectives usually combine operating cost and passenger service quality.
+
+Paper rhythm:
+
+```text
+passenger-flow audit -> route/service pattern design -> objective and constraint system -> multi-objective solution -> timetable or frequency output -> feasibility audit -> operation suggestions
+```
+
+Model chain:
+
+```text
+section flow + OD matrix -> candidate service patterns -> cost/service objective decomposition -> Pareto or weighted/TOPSIS selection -> arrival/departure recurrence -> capacity/tracking/dwell audit -> scenario recommendations
+```
+
+Required tables:
+
+- passenger-flow or OD summary table;
+- parameter and unit table;
+- objective-component table before normalization;
+- candidate route/service-pattern table;
+- selected operation-plan table;
+- timetable sample table, with full timetable saved as an artifact;
+- capacity audit table by section;
+- tracking/dwell feasibility audit table;
+- scenario or sensitivity recommendation table.
+
+Required figures:
+
+- section passenger-flow profile;
+- OD heatmap or demand-distribution plot;
+- model/solution workflow diagram;
+- cost-service Pareto or tradeoff plot;
+- running diagram or timetable plot;
+- sensitivity or scenario comparison plot.
+
+Validation:
+
+- section capacity check for every selected service segment;
+- headway and minimum tracking interval check across all relevant trains/stations;
+- dwell-time bound check;
+- comparison of selected plan against at least one baseline;
+- sensitivity for demand, headway, route interval, or service-pattern changes;
+- explicit link between Q1 operation plan and Q2 timetable output.
+
+Common failure:
+
+- a timetable figure is produced without a station-by-station recurrence or feasibility audit;
+- normalized cost is reported without raw cost components;
+- service level is compressed into one number without waiting, in-vehicle, transfer, or crowding interpretation;
+- suggestions are narrative instead of backed by scenario tables;
+- artifact ledger says the run passed while timetable, capacity, or tracking evidence is missing.
+
 ## Page-Budget Hint
 
 For a 20-30 page paper, each active problem type should normally contribute:

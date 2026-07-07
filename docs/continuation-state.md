@@ -14,6 +14,8 @@ problem -> scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF/rev
 
 The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real MathorCup 2023 B test run showed that the tool can produce a complete draft and attachments, but the next priority is stronger contest-grade modeling, especially for rail-timetable optimization.
 
+Latest local progress: the MathorCup 2023 B review has been converted into a reusable rail/timetable route. The repository now has a Type I archetype, a rail-timetable operation card, and stricter model-plan, implementation, runbook, skill, and quality-review gates for timetable/service-planning problems.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -73,9 +75,9 @@ Do not treat this as final paper quality. It proves the loop; the next work is e
 
 ## Next Engineering Queue
 
-1. Build a dedicated `rail_timetable` route from the MathorCup 2023 B review: big/small route planning, Pareto/TOPSIS selection, equal-interval timetable, and feasibility audits.
+1. Implement a reusable `rail_timetable` starter/example script that produces operation plan, full timetable, capacity audit, tracking/dwell audit, scenario table, and Chinese-labeled figures.
 2. Strengthen the quality gate so the artifact ledger cannot pass while `reviews/review-current.md` is empty or still marked needs-revision.
-3. Add mandatory outputs for timetable problems: operation plan, full timetable, capacity audit, tracking audit, and scenario analysis.
+3. Add automated checks for required artifacts by problem type, beginning with Type I rail/timetable cases.
 4. Expand generated papers toward 20-30 pages by requiring each subproblem to include model construction, algorithm, result table/figure, and validation.
 5. Improve Chinese figure/table polish: Chinese labels, readable axes, richer captions, and method-specific references.
 

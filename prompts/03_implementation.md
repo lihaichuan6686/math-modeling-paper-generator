@@ -28,6 +28,16 @@ Create or update:
 - Record any schematic or AI-generated explanatory image source/prompt.
 - Do not write non-reproducible manual numbers into the paper.
 
+For rail-timetable or service-planning problems, implementation must additionally save:
+
+- operation-plan output under `runs/current/`;
+- full timetable output under `runs/current/`;
+- capacity audit by section;
+- tracking and dwell audit by train/station;
+- scenario analysis table for recommendations.
+
+Do not mark the implementation complete if only a plotted timetable exists. The machine-readable timetable and feasibility audits are required artifacts.
+
 ## Figure Generation Chain
 
 For each planned figure:
@@ -57,3 +67,4 @@ Implementation is not complete until:
 3. key numerical results are saved
 4. artifact ledger is updated
 5. known failures are documented
+6. for timetable/service-planning problems, timetable, capacity-audit, tracking-audit, and scenario-analysis files exist or the run is marked `Needs revision`

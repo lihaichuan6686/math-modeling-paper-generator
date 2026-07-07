@@ -8,6 +8,7 @@ Read:
 - `knowledge/algorithms/cards/README.md`
 - `knowledge/algorithms/model-chain-patterns.md`
 - relevant files under `knowledge/algorithms/cards/`
+- if the problem involves trains, timetables, headways, OD flow, or large/small routes, also read `knowledge/algorithms/cards/rail-timetable-operation.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `docs/visual-generation-pipeline.md`
@@ -40,6 +41,21 @@ Expected figures:
 Expected tables:
 Validation:
 Failure modes:
+```
+
+If the problem matches `Type I: Rail Transit Timetable And Service Planning`, the model plan must also define:
+
+```text
+Passenger-flow objects:
+Candidate route/service patterns:
+Raw cost components:
+Raw service-level components:
+Feasibility constraints by group:
+Timetable recurrence:
+Required machine-readable outputs:
+Capacity/tracking/dwell audit method:
+Baseline plan for comparison:
+Scenario parameters:
 ```
 
 ## Figure Plan Requirements
@@ -90,6 +106,14 @@ Define:
 - sensitivity parameters
 - baseline or sanity checks
 - code outputs needed to verify paper claims
+
+For timetable/service-planning problems, the verification plan must include:
+
+- capacity audit by section;
+- headway and tracking-interval audit by station/train;
+- dwell-time bound audit;
+- check that full timetable output exists and matches the paper sample;
+- baseline comparison and scenario table for recommendations.
 
 ## Artifact Ledger
 
