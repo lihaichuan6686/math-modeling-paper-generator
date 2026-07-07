@@ -14,9 +14,10 @@ For any CUMCM paper-generation or review run, read in this order:
 6. `algorithms/model-chain-patterns.md`
 7. relevant detailed algorithm cards under `algorithms/cards/`
 8. `latex/cumcm-section-contract.md`
-9. `latex/figures-tables-equations-style.md`
-10. `latex/snippets.md`
-11. `quality/quality-rubric-v2.md`
+9. `latex/section-writing-patterns.md`
+10. `latex/figures-tables-equations-style.md`
+11. `latex/snippets.md`
+12. `quality/quality-rubric-v2.md`
 
 ## Directory Map
 
@@ -35,6 +36,7 @@ Structure and writing:
 - `cumcm/20-30-page-paper-blueprint.md`
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
+- `latex/section-writing-patterns.md`
 
 Algorithms and model routes:
 

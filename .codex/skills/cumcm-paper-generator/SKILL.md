@@ -54,6 +54,7 @@ Load these as needed:
 - Visual rules: `docs/visual-generation-pipeline.md`
 - Review rules: `knowledge/quality/quality-rubric-v2.md`
 - LaTeX style: `knowledge/latex/cumcm-section-contract.md`
+- Section writing patterns: `knowledge/latex/section-writing-patterns.md`
 
 ## v1.0 Acceptance Gate
 

@@ -35,7 +35,8 @@ Read these first for generation/review tasks:
 6. `knowledge/algorithms/model-chain-patterns.md`
 7. `knowledge/algorithms/cards/README.md`
 8. `docs/visual-generation-pipeline.md`
-9. `knowledge/quality/quality-rubric-v2.md`
+9. `knowledge/latex/section-writing-patterns.md`
+10. `knowledge/quality/quality-rubric-v2.md`
 
 ## Next Reading Queue
 

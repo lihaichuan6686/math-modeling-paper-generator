@@ -32,6 +32,7 @@ For every generation or review run, read these files first:
 - `knowledge/quality/reproducibility-and-ai-difference-framework.md`
 - `knowledge/quality/quality-rubric-v2.md`
 - `knowledge/latex/cumcm-section-contract.md`
+- `knowledge/latex/section-writing-patterns.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `knowledge/latex/snippets.md`
 

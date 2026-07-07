@@ -1,5 +1,10 @@
 # Worklog
 
+## 2026-07-07 LaTeX section writing patterns
+
+- Added `knowledge/latex/section-writing-patterns.md` with practical paragraph, table, figure, validation, conclusion, and appendix patterns.
+- Linked the file from `knowledge/README.md`, `CLAUDE.md`, the repository skill, and continuation state so future paper-writing runs load it before editing LaTeX.
+
 ## 2026-07-07 Evaluation algorithm cards
 
 - Added detailed algorithm cards for entropy weighting, AHP, and TOPSIS.
