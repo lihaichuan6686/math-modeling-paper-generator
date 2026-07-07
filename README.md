@@ -71,6 +71,7 @@ prompts/02_model_plan.md
 prompts/03_implementation.md
 prompts/04_writing.md
 prompts/05_review.md
+prompts/06_quality_review.md
 ```
 
 5. Compile the paper:

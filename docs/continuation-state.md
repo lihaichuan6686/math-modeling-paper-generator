@@ -36,7 +36,8 @@ Read these first for generation/review tasks:
 7. `knowledge/algorithms/cards/README.md`
 8. `docs/visual-generation-pipeline.md`
 9. `knowledge/latex/section-writing-patterns.md`
-10. `knowledge/quality/quality-rubric-v2.md`
+10. `prompts/06_quality_review.md`
+11. `knowledge/quality/quality-rubric-v2.md`
 
 ## Next Reading Queue
 

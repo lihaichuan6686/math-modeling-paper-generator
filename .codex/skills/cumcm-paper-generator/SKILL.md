@@ -55,6 +55,7 @@ Load these as needed:
 - Review rules: `knowledge/quality/quality-rubric-v2.md`
 - LaTeX style: `knowledge/latex/cumcm-section-contract.md`
 - Section writing patterns: `knowledge/latex/section-writing-patterns.md`
+- Executable review prompt: `prompts/06_quality_review.md`
 
 ## v1.0 Acceptance Gate
 
@@ -66,6 +67,8 @@ A v1.0 output is acceptable only if:
 - LaTeX references the generated table and figure;
 - PDF compilation has been attempted and errors are fixed when possible;
 - review records remaining weaknesses and human-verification needs.
+
+For the review step, use `prompts/06_quality_review.md` rather than writing a free-form summary.
 
 ## Responsible Use
 

@@ -1,5 +1,10 @@
 # Worklog
 
+## 2026-07-07 Executable quality review prompt
+
+- Added `prompts/06_quality_review.md` so generated papers can be reviewed through a structured evidence-first audit rather than a free-form summary.
+- Linked the prompt from the repository skill, README, and continuation state.
+
 ## 2026-07-07 LaTeX section writing patterns
 
 - Added `knowledge/latex/section-writing-patterns.md` with practical paragraph, table, figure, validation, conclusion, and appendix patterns.
