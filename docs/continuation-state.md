@@ -12,7 +12,7 @@ The project has shifted from "read more first" to a v1.0 closed-loop toolchain:
 problem -> scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF/review
 ```
 
-The next priority is to make the bundled demo become a complete inspectable paper draft.
+The bundled `v1-demo` now compiles and has rendered-PDF review evidence. The next priority is to expand from a smoke test into a fuller v1.0 research draft and then package the workflow so Claude Code can reuse it directly.
 
 ## Completed Deep Reads
 
@@ -47,17 +47,9 @@ Next P0 papers:
 5. `2023 D039`: spatial optimization and visualization.
 6. `2023 E176`: monitoring/data-analysis route.
 
-## Recommended Cleanup Step Before More Deep Reading
+## v1.0 Demo Baseline
 
-Run a small demo workflow before the next long PDF deep read:
-
-```text
-toy problem -> new run scaffold -> model plan -> one code figure/table -> LaTeX draft -> PDF compile -> review
-```
-
-This will test whether the knowledge assets are actually usable as a generator pipeline.
-
-Initial v1.0 demo assets now exist:
+The first small closed-loop demo exists and has been compiled/reviewed:
 
 - `docs/v1-runbook.md`
 - `problems/demo-v1-supply.md`
@@ -66,6 +58,19 @@ Initial v1.0 demo assets now exist:
 - generated demo table: `paper/tables/demo_v1_order_plan.csv`
 - generated demo figure: `paper/figures/demo_v1_inventory.png`
 - generated demo summary: `runs/v1-demo/demo-v1-summary.md`
+- demo artifact ledger: `runs/v1-demo/artifact-ledger.md`
+- demo review: `reviews/review-v1-demo.md`
+- compiled PDF: `paper/main.pdf` (ignored by Git)
+
+Do not treat this as final paper quality. It proves the loop; the next work is expansion, packaging, and stronger examples.
+
+## Next Engineering Queue
+
+1. Expand the demo paper from 6 pages toward a 20-30 page CUMCM-style draft.
+2. Add richer generated figures: model flowchart, sensitivity plot, feasibility audit, and cost comparison.
+3. Make the demo runner preserve or regenerate the artifact ledger and review report instead of resetting them to placeholders.
+4. Package `docs/v1-runbook.md` into a Claude Code skill-style workflow.
+5. Add a stronger example route after the supply-planning demo, preferably classification (`2021 E014`) or optimization/planning (`2022 C155`).
 
 ## Operating Rules
 

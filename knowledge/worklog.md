@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-07-07 Post-upload cleanup
+
+- Rewrote `CLAUDE.md` to remove encoding-corrupted Chinese text and make the project instructions stable for Claude Code.
+- Updated `docs/continuation-state.md` and `docs/long-term-roadmap.md` so the next work starts after the completed v1-demo smoke test rather than repeating it.
+- Set the next priority to full-length demo expansion, stronger generated figures, runner hardening, skill packaging, and then continued deep reading.
+
 ## 2026-07-07 v1.0 demo compile and review
 
 - Compiled the v1-demo LaTeX sample to a 6-page PDF.

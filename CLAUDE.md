@@ -1,115 +1,127 @@
 # Claude Code Instructions
 
-Important knowledge files for every paper-generation or review run:
+This repository is a research-only mathematical modeling paper generator and paper-quality assistant. It is intended for learning, post-contest review, authorized research, and human-AI writing comparison. Do not use it to support active contest rule violations, hidden AI participation, fabricated experiments, fake citations, or unverifiable claims.
+
+## Current Project State
+
+The project now has a v1.0 closed-loop demo:
+
+```text
+problem -> run scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF -> review
+```
+
+The demo is intentionally small, but it proves the chain works. Do not restart broad reading before preserving and extending this usable workflow.
+
+## Read First
+
+For every generation or review run, read these files first:
 
 - `docs/v1-runbook.md`
+- `docs/continuation-state.md`
+- `knowledge/README.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
 - `knowledge/algorithms/model-chain-patterns.md`
-- `knowledge/quality/reproducibility-and-ai-difference-framework.md`
-- `knowledge/quality/quality-rubric-v2.md`
+- `docs/visual-generation-pipeline.md`
 - `docs/review-checklist.md`
 - `docs/artifact-ledger-template.md`
 - `docs/figure-plan-template.md`
-- `docs/visual-generation-pipeline.md`
-- `docs/continuation-state.md`
+- `knowledge/quality/reproducibility-and-ai-difference-framework.md`
+- `knowledge/quality/quality-rubric-v2.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `knowledge/latex/snippets.md`
 
-你是一个数模论文研究生成器的协作代理。你的任务不是替代人的竞赛提交，而是在学习、复盘和授权研究场景下，帮助完成可解释、可复现、可审查的数学建模论文草稿。
+## v1.0 Demo Entry Points
 
-## 行为边界
+- Demo problem: `problems/demo-v1-supply.md`
+- Demo runner: `scripts/run-v1-demo.ps1`
+- Demo code: `src/demo_v1.py`
+- Demo table: `paper/tables/demo_v1_order_plan.tex`
+- Demo figure: `paper/figures/demo_v1_inventory.png`
+- Demo ledger: `runs/v1-demo/artifact-ledger.md`
+- Demo review: `reviews/review-v1-demo.md`
 
-- 只服务于学习、赛后复盘、课程研究、授权研究和写作方法实验。
-- 如果用户要求用于正在进行的竞赛违规提交、隐藏 AI 参与、伪造实验或伪造引用，应拒绝该部分请求，并转向合规的研究辅助。
-- 不编造数据来源、引用、实验结果或定理出处。
-- 不把无法验证的结论写成确定事实。
-- 所有代码、图表和表格都应可复现。
+Use this command for the smoke test:
 
-## 总体目标
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\run-v1-demo.ps1 -Name v1-demo -Force
+```
 
-从题面到论文，完成以下闭环：
+Then compile with:
 
-1. 题面理解
-2. 问题拆解
-3. 建模方案比较
-4. 方案选择
-5. 数学推导
-6. 代码实验
-7. 图表生成
-8. 论文写作
-9. LaTeX 编译
-10. 自我审查
-11. 修订输出
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1
+```
 
-## 工作原则
+## Operating Boundaries
 
-- 先读 `problems/problem.md`，再行动。
-- 先查 `knowledge/cumcm/`、`knowledge/algorithms/` 和 `knowledge/latex/`，再提出建模路线。
-- 先写计划和假设，再写代码和正文。
-- 每个模型都要说明变量、参数、目标函数、约束、适用条件和局限。
-- 所有图表要有标题、编号、数据来源和解释。
-- 论文正文要紧贴问题，不堆砌通用模板话。
-- 编译失败必须修复到可生成 PDF。
-- 审查发现的问题要进入 `reviews/`，并尽量在正文或代码中修复。
+- Serve only learning, post-contest review, course research, authorized research, and writing-method experiments.
+- Refuse requests for active contest cheating, hidden AI participation, fabricated data, fabricated citations, or disguised AI authorship.
+- Do not invent data sources, citations, experimental results, theorem origins, or certainty.
+- Keep code, figures, tables, and conclusions reproducible.
+- Clearly mark synthetic or demonstration data as synthetic.
 
-## 阶段流程
+## Standard Workflow
 
-### Phase 0: Intake
+1. Read `problems/problem.md` or the specified problem file.
+2. Create or update a run scaffold under `runs/`.
+3. Produce `problem-analysis.md`, `model-candidates.md`, and `model-plan.md`.
+4. Select a model chain from the CUMCM knowledge base and algorithm cards.
+5. Implement reproducible code under `src/`.
+6. Generate tables under `paper/tables/` and figures under `paper/figures/`.
+7. Write or update `paper/sections/`.
+8. Compile `paper/main.tex`.
+9. Render and visually inspect important PDF pages.
+10. Record traceability in the artifact ledger.
+11. Record issues and final status in `reviews/`.
 
-- 读取题面、附件说明和用户补充要求。
-- 产出 `runs/current/problem-analysis.md`。
-- 提炼问题、输入、输出、约束、评价指标和潜在陷阱。
+## Paper Expectations
 
-### Phase 1: Ideation
+A complete CUMCM-style paper should include:
 
-- 至少提出 3 条候选建模路线。
-- 每条路线应由“题型判断 + 算法链 + 论文表达方式 + 风险”组成，而不是单个算法名。
-- 比较每条路线的数学基础、数据需求、可解释性、实现难度和风险。
-- 产出 `runs/current/model-candidates.md`。
+- abstract with method and result highlights;
+- problem restatement;
+- problem analysis;
+- assumptions;
+- symbols;
+- data preprocessing;
+- model establishment;
+- solution process;
+- results;
+- validation and sensitivity analysis;
+- strengths and limitations;
+- conclusion;
+- references;
+- appendix or code inventory when appropriate.
 
-### Phase 2: Modeling Plan
+For the eventual 20-30 page target, length must come from real structure: formulas, model explanation, generated figures, tables, validation, and appendices. Do not pad with generic filler.
 
-- 选定主模型和备选模型。
-- 写清变量定义、假设、公式、算法和验证策略。
-- 对照 `knowledge/algorithms/problem-type-to-method.md` 检查模型链是否合理。
-- 产出 `runs/current/model-plan.md`。
+## Figure and Table Rules
 
-### Phase 3: Implementation
+- Every figure and table must have a stable source path, caption, paper label, and ledger entry.
+- Evidence figures must be generated from data or code, not from decorative image generation.
+- AI-generated images are allowed only for explanatory schematics or review artifacts, and the prompt/source must be recorded.
+- Figures must be visually inspected in the rendered PDF.
+- Captions should explain what the reader should learn, not merely repeat the filename.
 
-- 在 `src/` 中实现数据处理、模型计算、仿真和绘图。
-- 输出图表到 `paper/figures/` 和 `paper/tables/`。
-- 保留可重复运行入口。
+## Review Rules
 
-### Phase 4: Writing
+A run is not complete until:
 
-- 填充 `paper/sections/` 下的正文。
-- 写作顺序建议：问题重述、假设、符号、模型建立、求解、结果、检验、优缺点、结论。
-- 摘要最后写。
-- 摘要采用“整体方法概述 + 逐问题方法与结果 + 关键词”的国赛优秀论文范式。
+- the PDF compiles;
+- generated figures and tables appear in the rendered PDF;
+- key abstract/conclusion claims are listed in the artifact ledger;
+- code outputs match paper claims;
+- review status is `Pass` or `Needs revision with explicit open items`;
+- responsible-use limitations are recorded.
 
-### Phase 5: Build
+## Near-Term Priorities
 
-- 运行 `scripts/compile.ps1`。
-- 修复 LaTeX 报错、缺图、交叉引用和排版问题。
-
-### Phase 6: Review
-
-- 按 `docs/review-checklist.md` 审查。
-- 对照 `knowledge/quality/quality-rubric-plan.md` 检查逻辑链、模型合理性和 AI 风险信号。
-- 产出 `reviews/review-current.md`。
-- 修复高风险问题后重新编译。
-
-## 输出标准
-
-最终交付应包含：
-
-- `paper/main.pdf` 或编译后的 PDF。
-- 完整 LaTeX 源文件。
-- 可运行代码。
-- 生成图表和表格。
-- 一份审查报告。
-- 一份说明哪些结论仍需人工确认的备注。
+1. Expand the v1-demo from a 6-page smoke test toward a full-length 20-30 page research draft.
+2. Package the runbook into a Claude Code skill-style workflow.
+3. Add a stronger CUMCM-style optimization/classification example.
+4. Resume deep reading, starting with `2021 E014` for the spectral/classification route.
+5. Convert the review checklist into a stricter reusable review prompt or script.

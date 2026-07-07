@@ -193,11 +193,12 @@ Next tasks:
 
 ## Near-Term Priority Order
 
-1. Turn the bundled `v1-demo` artifacts into a complete LaTeX draft.
-2. Compile and visually inspect the demo PDF.
-3. Use the demo to harden `paper/sections/`, artifact ledger, figure plan, and review workflow.
-4. Convert review checklist/rubric into a stricter reusable review prompt or script.
-5. Resume deep reading with `2021 E014` for the spectral/classification route.
+1. Expand the bundled `v1-demo` from a 6-page smoke test toward a 20-30 page CUMCM-style research draft.
+2. Add more generated visual artifacts: model-chain diagram, sensitivity plot, feasibility audit, and comparison table.
+3. Harden the demo runner so ledger/review files are generated with real evidence instead of reset placeholders.
+4. Package the runbook into a Claude Code skill-style workflow.
+5. Convert review checklist/rubric into a stricter reusable review prompt or script.
+6. Resume deep reading with `2021 E014` for the spectral/classification route.
 
 ## Definition of Progress
 
