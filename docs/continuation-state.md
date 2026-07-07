@@ -26,6 +26,7 @@ Latest local progress: the MathorCup 2023 B review has been converted into a reu
 | 2021 C066 | supply-chain evaluation and planning | `knowledge/cumcm/deep-reading-2021C066.md` |
 | 2023 C050 | dynamic pricing and supply-chain bridge | `knowledge/cumcm/deep-reading-2023C050.md` |
 | 2023 D039 | spatial optimization and cycle planning | `knowledge/cumcm/deep-reading-2023D039.md` |
+| 2023 E176 | monitoring design, hydrology analysis, and forecast-to-decision chaining | `knowledge/cumcm/deep-reading-2023E176.md` |
 
 ## Strong Entry Points
 
@@ -49,7 +50,7 @@ Read these first for generation/review tasks:
 
 Next P0 papers:
 
-1. `2023 E176`: monitoring/data-analysis route.
+1. `2023 E same-problem comparison`: compare another 2023 E excellent paper against `E176` to learn acceptable structural variation in the monitoring route.
 
 ## v1.0 Demo Baseline
 
@@ -110,6 +111,14 @@ Supply-chain route:
 - selected suppliers must feed executable order and transport plans;
 - validation should include inventory stability and capacity feasibility;
 - artifact ledger should separate evaluation, decision, and validation results.
+
+Monitoring/data-analysis route:
+
+- show the data-cleaning and aggregation path before modeling;
+- give each subproblem one clear method family and one result loop;
+- use descriptive, test-based, and scale-based evidence together for periodicity and abruptness;
+- connect forecasting outputs to a decision model instead of stopping at prediction;
+- keep mixed-tool appendices traceable by question and by artifact role.
 
 ## Git State Rule
 
