@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-07-07 Demo evidence regeneration
+
+- Updated `src/demo_v1.py` so rerunning the demo automatically writes a non-empty artifact ledger and review report.
+- Verified `scripts/run-v1-demo.ps1 -Name v1-demo -Force` regenerates tables, figures, summary, ledger, and review.
+- This fixes the previous issue where `new-run.ps1 -Force` reset `runs/v1-demo/artifact-ledger.md` and `reviews/review-v1-demo.md` to placeholders.
+
 ## 2026-07-07 Problem-type paper archetypes
 
 - Added `knowledge/cumcm/problem-type-paper-archetypes.md` to map common CUMCM problem types to paper rhythm, model chain, required tables, required figures, validation, and common failures.
