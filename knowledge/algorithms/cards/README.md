@@ -6,6 +6,7 @@ Purpose: choose detailed method cards from problem signals before writing a mode
 
 | Problem signal | Likely route | Read these cards first | Expected paper artifacts |
 | --- | --- | --- | --- |
+| comprehensive evaluation, ranking, indicator weights, scheme selection | evaluation and ranking | `entropy-weight.md`, `ahp.md`, `topsis.md` | indicator direction table, weight table, distance/closeness table, ranking stability |
 | allocation, purchase, capacity, scheduling, selection | planning and optimization | `linear-integer-programming.md`, `nonlinear-programming.md`, `dynamic-programming.md` | variable table, objective/constraint block, plan table, feasibility audit |
 | online update, abnormal event, rolling adjustment | dynamic planning | `linear-integer-programming.md`, `dynamic-programming.md`, `simulation.md` | initial plan, update rule, scenario table, loss comparison |
 | factor influence, relationship, prediction from variables | statistical explanation | `regression.md`, `response-surface.md` | coefficient table, residual plot, factor-effect plot, prediction table |
@@ -30,7 +31,7 @@ Purpose: choose detailed method cards from problem signals before writing a mode
 Strong CUMCM papers usually combine cards:
 
 - prediction -> optimization -> sensitivity
-- evaluation -> planning -> scenario audit
+- entropy/AHP weighting -> TOPSIS ranking -> planning -> scenario audit
 - feature extraction -> classification -> error analysis
 - physical/geometric derivation -> numerical optimization -> residual check
 - statistical factor analysis -> response-surface optimization -> verification proposal

@@ -1,5 +1,10 @@
 # Worklog
 
+## 2026-07-07 Evaluation algorithm cards
+
+- Added detailed algorithm cards for entropy weighting, AHP, and TOPSIS.
+- Updated the algorithm-card index and routing rules so evaluation/ranking routes can read concrete method cards before drafting model plans.
+
 ## 2026-07-07 Demo evidence regeneration
 
 - Updated `src/demo_v1.py` so rerunning the demo automatically writes a non-empty artifact ledger and review report.

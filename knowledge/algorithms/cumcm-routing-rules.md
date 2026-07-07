@@ -28,6 +28,9 @@ route_id:
 Use these cards when a candidate route includes one of the following method families:
 
 - `knowledge/algorithms/cards/linear-integer-programming.md`
+- `knowledge/algorithms/cards/entropy-weight.md`
+- `knowledge/algorithms/cards/ahp.md`
+- `knowledge/algorithms/cards/topsis.md`
 - `knowledge/algorithms/cards/regression.md`
 - `knowledge/algorithms/cards/nonlinear-programming.md`
 - `knowledge/algorithms/cards/dynamic-programming.md`
