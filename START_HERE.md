@@ -19,6 +19,24 @@ Expected result:
 - compiled PDF: `paper/main.pdf`
 - review: `reviews/review-v1-demo.md`
 
+## Timetable Demo
+
+For a rail/metro/timetable route demo, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\run-rail-demo.ps1 -Name rail-demo -Force
+```
+
+Expected result:
+
+- operation candidates: `runs/rail-demo/rail_operation_candidates.csv`
+- selected operation plan: `runs/rail-demo/rail_selected_operation_plan.csv`
+- full timetable: `runs/rail-demo/rail_full_timetable.csv`
+- capacity audit: `runs/rail-demo/rail_capacity_audit.csv`
+- tracking and dwell audits: `runs/rail-demo/rail_tracking_audit.csv`, `runs/rail-demo/rail_dwell_audit.csv`
+- scenario analysis: `runs/rail-demo/rail_scenario_analysis.csv`
+- figures: `paper/figures/rail_section_flow.png`, `paper/figures/rail_cost_service_tradeoff.png`, `paper/figures/rail_timetable_diagram.png`
+
 ## Use A New Problem
 
 1. Put the problem statement in `problems/problem.md`.

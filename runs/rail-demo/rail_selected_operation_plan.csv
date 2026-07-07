@@ -1,0 +1,2 @@
+﻿rank,small_start,small_end,n_big,n_small,total_trains,headway_s,big_headway_s,train_km,fixed_cost,variable_cost,fleet_cost,raw_cost,service_score,crowding,norm_cost,norm_service,score
+1,4,10,12,13,25,144.0,300.0,521.6,450.0,1356.2,875.0,2681.2,186.1,0.713,0.4975,0.2998,0.4026

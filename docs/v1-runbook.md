@@ -67,6 +67,14 @@ If you intentionally want the demo to become the active problem statement, add:
 -InstallAsActiveProblem
 ```
 
+For the bundled rail-timetable route demo, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\run-rail-demo.ps1 -Name rail-demo -Force
+```
+
+This creates Type I artifacts for operation-plan selection, full timetable output, capacity audit, tracking/dwell audit, scenario analysis, and Chinese-labeled figures.
+
 ## Step 2: Intake
 
 Follow `prompts/00_intake.md`.
@@ -182,7 +190,7 @@ The v1.0 toolchain is ready for user inspection when:
 
 After v1.0 works:
 
-- build a dedicated `rail_timetable` example route from the MathorCup 2023 B review;
+- integrate the `rail_timetable` demo artifacts into a full LaTeX paper route;
 - improve LaTeX template polish;
 - add automated ledger update helpers;
 - add demo problem and expected output;

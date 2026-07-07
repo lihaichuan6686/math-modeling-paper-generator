@@ -75,7 +75,7 @@ Do not treat this as final paper quality. It proves the loop; the next work is e
 
 ## Next Engineering Queue
 
-1. Implement a reusable `rail_timetable` starter/example script that produces operation plan, full timetable, capacity audit, tracking/dwell audit, scenario table, and Chinese-labeled figures.
+1. Integrate the reusable `rail_timetable` starter/example into LaTeX sections so the demo becomes a full paper route, not only an artifact generator.
 2. Strengthen the quality gate so the artifact ledger cannot pass while `reviews/review-current.md` is empty or still marked needs-revision.
 3. Add automated checks for required artifacts by problem type, beginning with Type I rail/timetable cases.
 4. Expand generated papers toward 20-30 pages by requiring each subproblem to include model construction, algorithm, result table/figure, and validation.
