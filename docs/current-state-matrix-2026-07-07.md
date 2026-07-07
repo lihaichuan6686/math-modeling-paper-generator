@@ -25,6 +25,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The 2023 C050 deep read adds a full retail pricing and replenishment route with statistics, clustering, forecasting, optimization, and practical-factor analysis.
 - The 2023 D039 deep read adds a cycle-based spatial/production optimization route with piecewise occupancy logic, fixed-cycle simplification, and stochastic loss analysis.
 - The 2023 E176 deep read adds a monitoring and hydrology route with shared data preprocessing, multi-method diagnosis, forecast-to-decision chaining, and support-material traceability.
+- The new `knowledge/cumcm/e-route-comparison-2022-2023.md` note separates E-type papers into production-route and monitoring-route families instead of treating E as a single template.
 
 ## Still Open
 

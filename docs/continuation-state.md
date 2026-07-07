@@ -16,6 +16,8 @@ The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real 
 
 Latest local progress: the MathorCup 2023 B review has been converted into a reusable rail/timetable route. The repository now has a Type I archetype, a rail-timetable operation card, stricter model-plan/implementation/review gates, a runnable rail-timetable demo pipeline, a compiled 10-page `paper/rail_demo.tex` example, and an automatic minimum machine artifact gate for the demo scripts.
 
+Newest knowledge-layer progress: `2023 E176` has been deep-read into a monitoring/data-analysis route, and a new cross-year comparison note now maps the 2022 E production-planning papers against the 2023 E monitoring route so the generator can distinguish E-type route families instead of treating all E papers as one template.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -51,6 +53,7 @@ Read these first for generation/review tasks:
 Next P0 papers:
 
 1. `2023 E same-problem comparison`: compare another 2023 E excellent paper against `E176` to learn acceptable structural variation in the monitoring route.
+2. `2022 E full deep read`: deepen either `E014` or `E029` to strengthen the production-route E archetype.
 
 ## v1.0 Demo Baseline
 
@@ -119,6 +122,12 @@ Monitoring/data-analysis route:
 - use descriptive, test-based, and scale-based evidence together for periodicity and abruptness;
 - connect forecasting outputs to a decision model instead of stopping at prediction;
 - keep mixed-tool appendices traceable by question and by artifact role.
+
+E-route family split:
+
+- production-route E papers center on prediction to inventory/service-level or scheduling decisions;
+- monitoring-route E papers center on diagnosis to monitoring or policy decisions;
+- both need a visible action layer after forecasting, but their figures, tables, and appendix evidence differ.
 
 ## Git State Rule
 
