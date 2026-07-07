@@ -1,5 +1,9 @@
 \section{Strengths, Limitations, and Extensions}
 
-The v1.0 demo has three strengths. First, it connects evaluation to planning instead of stopping at supplier ranking. Second, it generates a reproducible table and figure. Third, it records outputs in stable locations for later review.
+The v1.0 demo has four strengths. First, it connects evaluation to planning instead of stopping at supplier ranking. Second, it generates reproducible tables and figures rather than manually describing results. Third, it records outputs in stable locations for later review. Fourth, it separates feasibility, cost, and sensitivity evidence, which makes the paper easier to audit.
 
-The limitations are also clear. The data are synthetic, the planning algorithm is greedy, the weights are illustrative, and demand uncertainty is ignored. A stronger version should use real supplier history, entropy or AHP weighting, mixed-integer programming, carrier allocation, and scenario stress tests.
+The limitations are also clear. The data are synthetic, the planning algorithm is greedy, the weights are illustrative, and demand uncertainty is ignored. The current model does not include order lead time, minimum batch size, supplier disruption, carrier allocation, or multi-material coupling. Therefore the result should be read as a workflow demonstration, not as an operational recommendation.
+
+A stronger version should use real supplier history, entropy or AHP weighting, mixed-integer programming, carrier allocation, and scenario stress tests. It should also include more contest-style evidence: ranking-stability plots, demand-perturbation experiments, constraint violation audits, comparison against a baseline, and an appendix that lists code files and output paths.
+
+For the larger project, this demo suggests a practical development rule. Each future problem type should have a small closed-loop route before the repository attempts broad automation. For example, the classification route should produce preprocessing tables, feature plots, confusion matrices, and error analysis; the geometry route should produce diagrams, coordinate tables, and residual plots; the planning route should produce decision tables, feasibility checks, and sensitivity curves.

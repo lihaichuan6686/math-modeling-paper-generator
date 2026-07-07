@@ -1,5 +1,13 @@
 # Worklog
 
+## 2026-07-07 Expanded v1 demo paper
+
+- Extended `src/demo_v1.py` to generate supplier-score, order-plan, and sensitivity tables plus inventory, weekly-cost, and transport-loss sensitivity figures.
+- Inserted the new tables and figures into the LaTeX paper and expanded the data, model, results, validation, limitations, and conclusion sections.
+- Compiled `paper/main.pdf` successfully to 11 pages and rendered pages 1-11 for inspection.
+- Visually checked pages 4, 8, and 9 for table/figure legibility.
+- Updated `runs/v1-demo/artifact-ledger.md` and `reviews/review-v1-demo.md` with the expanded evidence chain.
+
 ## 2026-07-07 Clone-ready v1 entry
 
 - Added `START_HERE.md` as the first file for a freshly cloned repository.

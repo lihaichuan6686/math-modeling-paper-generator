@@ -1,3 +1,7 @@
 \section{Conclusion}
 
-This demo verifies the first v1.0 loop of the project. A problem statement can be scaffolded into run files, a small model can generate a table and figure, and the LaTeX paper can reference those artifacts. The result is not a finished contest-quality solution, but it is a usable baseline for inspecting and improving the full toolchain.
+This demo verifies the first v1.0 loop of the project. A problem statement can be scaffolded into run files, a small model can generate tables and figures, and the LaTeX paper can reference those artifacts. The current draft includes supplier evaluation, ordering decisions, inventory validation, cost visualization, and transport-loss sensitivity analysis.
+
+The generated plan keeps the minimum ending inventory at 15 units in all eight weeks. This demonstrates feasibility under the synthetic assumptions. At the same time, the paper records that the greedy algorithm, fixed weights, and synthetic data are not enough for a contest-quality solution. That distinction is important: the system should be able to create a complete-looking draft while still making uncertainty and human-verification needs visible.
+
+The next development step is to replace the toy baseline with stronger route-specific examples and to expand the automated review layer. Once each route has reproducible code, visible figures, traceable tables, and a LaTeX structure contract, the project can serve both as a paper-generation research tool and as a quality-checking assistant for comparing human and AI mathematical-modeling drafts.

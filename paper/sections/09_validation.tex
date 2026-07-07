@@ -2,4 +2,19 @@
 
 The minimum ending inventory in the generated plan is 15 units, so the safety inventory constraint is satisfied in all eight weeks. This is a feasibility validation rather than a full robustness analysis.
 
-The main sensitivity risk is the fixed weighting rule in the supplier-evaluation score. If the reliability weight or loss-rate weight changes, supplier ordering may change. A real CUMCM paper should test multiple weighting schemes and compare the resulting cost, inventory, and supplier composition.
+The main sensitivity risk is the fixed weighting rule in the supplier-evaluation score and the fixed transport loss rates. If the reliability weight or loss-rate weight changes, supplier ordering may change. If transport loss increases, the model must order more raw material to receive the same delivered amount. A real CUMCM paper should test multiple weighting schemes and compare the resulting cost, inventory, and supplier composition.
+
+Table~\ref{tab:demo-v1-sensitivity} perturbs all loss rates by a common multiplier. The safety inventory remains feasible in each case because the ordering rule compensates for loss, but total cost changes with the amount that must be ordered.
+
+\input{tables/demo_v1_sensitivity.tex}
+
+Figure~\ref{fig:demo-v1-sensitivity} visualizes the same relationship. The curve is simple, but it performs an important structural role: it turns a stated limitation into measurable evidence.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/demo_v1_sensitivity.png}
+\caption{Sensitivity of total cost to transport loss perturbation.}
+\label{fig:demo-v1-sensitivity}
+\end{figure}
+
+For a production-quality paper, the sensitivity section should be expanded in three directions. First, perturb supplier weights to test ranking stability. Second, perturb demand to test whether the safety threshold is enough under peak demand. Third, compare the greedy baseline against an optimization solver. The current v1.0 version records these needs explicitly so that the review agent can flag them instead of silently treating the demo as a final solution.

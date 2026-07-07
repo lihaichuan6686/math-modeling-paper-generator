@@ -2,11 +2,16 @@
 
 The v1.0 demo considers a campus cafeteria that needs to purchase one raw material for the next eight weeks. Three suppliers are available. Each supplier has a weekly capacity, unit price, estimated transport loss rate, and reliability score.
 
+The management goal is to choose suppliers and weekly order quantities so that demand is met while the ending inventory does not fall below a safety threshold. This is a simplified version of a common CUMCM planning pattern: an upstream evaluation model produces candidate suppliers, and a downstream planning model converts the evaluation result into executable quantities.
+
 The tasks are:
 
 \begin{enumerate}
   \item build an interpretable supplier-evaluation score;
   \item design an eight-week ordering plan that satisfies demand and the safety inventory target;
-  \item generate at least one table and one figure to support the plan;
+  \item generate tables and figures to support the plan;
+  \item validate feasibility and test sensitivity to transport loss;
   \item explain the limitations of this small demo relative to a real CUMCM-scale problem.
 \end{enumerate}
+
+The synthetic setting is intentionally small so that the whole agent pipeline can be inspected in one run. The expected research value is not the numerical answer itself, but the traceable chain from problem understanding to data processing, modeling, code execution, visualization, LaTeX writing, and review.

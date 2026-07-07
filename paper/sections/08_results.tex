@@ -1,6 +1,6 @@
 \section{Results}
 
-Table~\ref{tab:demo-v1-order-plan} reports the generated eight-week ordering plan. The plan uses suppliers A and B in this simple baseline and keeps the ending inventory at the safety threshold.
+Table~\ref{tab:demo-v1-order-plan} reports the generated eight-week ordering plan. The plan uses suppliers A and B in this simple baseline and keeps the ending inventory at the safety threshold. The table is the main decision artifact: every row corresponds to one planning period, and every supplier column is an executable order quantity.
 
 \input{tables/demo_v1_order_plan.tex}
 
@@ -12,3 +12,16 @@ Figure~\ref{fig:demo-v1-inventory} shows that the ending inventory remains at th
 \caption{Ending inventory produced by the v1.0 demo ordering baseline.}
 \label{fig:demo-v1-inventory}
 \end{figure}
+
+The inventory curve is intentionally flat because the greedy rule orders just enough delivered material to restore the safety target. This is acceptable for a baseline, but it also reveals an obvious limitation: the model has no incentive to build inventory before high-demand weeks. A stronger optimization model may choose a different inventory profile if future price changes, transport bottlenecks, or order batch constraints are included.
+
+Figure~\ref{fig:demo-v1-cost} displays the weekly procurement cost. Cost is highest in the weeks with larger demand and therefore larger replenishment needs. This figure gives the generated paper a second evidence channel beyond feasibility: the result is not only whether inventory survives, but also how much the decision costs.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/demo_v1_weekly_cost.png}
+\caption{Weekly procurement cost produced by the v1.0 demo ordering baseline.}
+\label{fig:demo-v1-cost}
+\end{figure}
+
+The combined interpretation of Table~\ref{tab:demo-v1-order-plan}, Figure~\ref{fig:demo-v1-inventory}, and Figure~\ref{fig:demo-v1-cost} is that the demo plan is feasible and transparent, but not yet optimized in the full contest-paper sense. This distinction is useful for the quality checker: a result can be reproducible and still be mathematically immature.

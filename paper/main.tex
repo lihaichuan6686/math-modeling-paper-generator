@@ -23,7 +23,7 @@
 \maketitle
 
 \begin{abstract}
-This draft demonstrates the v1.0 mathematical modeling paper-generation workflow on a synthetic campus supply-planning problem. The paper builds a simple supplier-evaluation score, constructs a greedy ordering baseline for eight weeks, generates a weekly order table and an inventory figure, and records the main limitations for later improvement. The numerical outputs are illustrative only and are used to verify the toolchain rather than support a real contest conclusion.
+This draft demonstrates the v1.0 mathematical modeling paper-generation workflow on a synthetic campus supply-planning problem. The problem is decomposed into supplier evaluation, weekly ordering, feasibility validation, and sensitivity analysis. First, supplier capacity, price, transport loss, and reliability indicators are converted into an interpretable weighted score. Second, a greedy replenishment rule constructs an eight-week ordering plan under capacity and safety-inventory constraints. Third, code-generated tables and figures report supplier scores, weekly orders, ending inventory, weekly cost, and transport-loss sensitivity. The generated plan keeps the minimum ending inventory at 15 units in all weeks, and the sensitivity experiment records how total cost changes when transport loss is perturbed. The numerical outputs are illustrative only and are used to verify the toolchain rather than support a real contest conclusion.
 
 \keywords{mathematical modeling\quad supply planning\quad greedy baseline\quad reproducibility}
 \end{abstract}
