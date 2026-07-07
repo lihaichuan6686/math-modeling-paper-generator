@@ -32,6 +32,18 @@ Do not use it for active contest rule violations, concealed prohibited AI partic
 
 ## Quick Start
 
+For the shortest clone-ready path, open:
+
+```text
+START_HERE.md
+```
+
+Then ask Claude Code to use:
+
+```text
+.codex/skills/cumcm-paper-generator/SKILL.md
+```
+
 1. Put the problem statement in:
 
 ```text
@@ -41,7 +53,7 @@ problems/problem.md
 2. Create a run scaffold:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\new-run.ps1 -Name current -Problem "short problem label"
+powershell -ExecutionPolicy Bypass -File .\scripts\start-current.ps1 -Name current -Force
 ```
 
 3. Ask Claude Code to follow:

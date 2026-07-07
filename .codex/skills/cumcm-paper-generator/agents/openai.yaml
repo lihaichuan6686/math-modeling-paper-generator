@@ -1,0 +1,3 @@
+display_name: CUMCM Paper Generator
+short_description: Generate and review research-only mathematical modeling paper drafts.
+default_prompt: Use this repository to turn the problem statement into a v1.0 mathematical modeling paper draft with code-generated tables, figures, LaTeX, PDF build, and self-review.

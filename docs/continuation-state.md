@@ -51,6 +51,9 @@ Next P0 papers:
 
 The first small closed-loop demo exists and has been compiled/reviewed:
 
+- clone-ready entry: `START_HERE.md`
+- repository skill: `.codex/skills/cumcm-paper-generator/SKILL.md`
+- active-run starter: `scripts/start-current.ps1`
 - `docs/v1-runbook.md`
 - `problems/demo-v1-supply.md`
 - `scripts/run-v1-demo.ps1`

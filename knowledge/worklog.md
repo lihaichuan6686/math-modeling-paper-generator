@@ -1,5 +1,12 @@
 # Worklog
 
+## 2026-07-07 Clone-ready v1 entry
+
+- Added `START_HERE.md` as the first file for a freshly cloned repository.
+- Added repository skill `.codex/skills/cumcm-paper-generator/SKILL.md` so Claude Code has a direct workflow entry.
+- Added `scripts/start-current.ps1` to create `problems/problem.md` when missing and scaffold `runs/current`.
+- Updated `README.md` and continuation state to point at the direct-use path.
+
 ## 2026-07-07 Post-upload cleanup
 
 - Rewrote `CLAUDE.md` to remove encoding-corrupted Chinese text and make the project instructions stable for Claude Code.
