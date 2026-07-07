@@ -10,6 +10,7 @@ Purpose: organize long-term, batch-by-batch reading of CUMCM papers. Each deep r
 | 2021 D017 | deep read complete | `knowledge/cumcm/deep-reading-2021D017.md` |
 | 2021 A028 | deep read complete | `knowledge/cumcm/deep-reading-2021A028.md` |
 | 2021 C066 | deep read complete | `knowledge/cumcm/deep-reading-2021C066.md` |
+| 2021 E014 | deep read complete | `knowledge/cumcm/deep-reading-2021E014.md` |
 | 2021 A-E first pass | first pass complete | `knowledge/cumcm/2021-official-first-pass.md` |
 | 2022 A-E first pass | first pass complete | `knowledge/cumcm/2022-official-first-pass.md` |
 | 2023 A-E first pass | first pass complete | `knowledge/cumcm/2023-official-first-pass.md` |
