@@ -1,27 +1,33 @@
 \section{Results}
 
-Table~\ref{tab:demo-v1-order-plan} reports the generated eight-week ordering plan. The plan uses suppliers A and B in this simple baseline and keeps the ending inventory at the safety threshold. The table is the main decision artifact: every row corresponds to one planning period, and every supplier column is an executable order quantity.
+Table~\ref{tab:demo-v1-forecast-check} reports the short-term demand forecast for the three representative materials. The table also records a simple backtest error metric so that the forecast layer is not treated as an unverified black box.
 
-\input{tables/demo_v1_order_plan.tex}
+\input{tables/demo_v1_forecast_check.tex}
 
-Figure~\ref{fig:demo-v1-inventory} shows that the ending inventory remains at the required target in every week.
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.85\textwidth]{figures/demo_v1_inventory.png}
-\caption{Ending inventory produced by the v1.0 demo ordering baseline.}
-\label{fig:demo-v1-inventory}
-\end{figure}
-
-The inventory curve is intentionally flat because the greedy rule orders just enough delivered material to restore the safety target. This is acceptable for a baseline, but it also reveals an obvious limitation: the model has no incentive to build inventory before high-demand weeks. A stronger optimization model may choose a different inventory profile if future price changes, transport bottlenecks, or order batch constraints are included.
-
-Figure~\ref{fig:demo-v1-cost} displays the weekly procurement cost. Cost is highest in the weeks with larger demand and therefore larger replenishment needs. This figure gives the generated paper a second evidence channel beyond feasibility: the result is not only whether inventory survives, but also how much the decision costs.
+Figure~\ref{fig:demo-v1-forecast} shows the historical and forecast path for one representative material. The role of this figure is not to prove a sophisticated time-series model, but to make the production input visibly auditable.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/demo_v1_weekly_cost.png}
-\caption{Weekly procurement cost produced by the v1.0 demo ordering baseline.}
-\label{fig:demo-v1-cost}
+\includegraphics[width=0.85\textwidth]{figures/demo_v1_forecast_compare.png}
+\caption{Historical and forecast demand for a representative material in the production-route E demo.}
+\label{fig:demo-v1-forecast}
 \end{figure}
 
-The combined interpretation of Table~\ref{tab:demo-v1-order-plan}, Figure~\ref{fig:demo-v1-inventory}, and Figure~\ref{fig:demo-v1-cost} is that the demo plan is feasible and transparent, but not yet optimized in the full contest-paper sense. This distinction is useful for the quality checker: a result can be reproducible and still be mathematically immature.
+Table~\ref{tab:demo-v1-production-plan} gives the rolling production plan for scenario $k_1$. This is the main executable artifact of the paper: every row corresponds to one material-week decision with forecast demand, production quantity, ending inventory, and service level.
+
+\input{tables/demo_v1_production_plan.tex}
+
+Table~\ref{tab:demo-v1-service-levels} summarizes the average forecast demand, average production, minimum inventory, and average service level under both scenarios. It plays the same structural role as the service-level tables in the production-route E papers: the reader can judge whether the route is safe, not only whether it is mathematically neat.
+
+\input{tables/demo_v1_service_levels.tex}
+
+Figure~\ref{fig:demo-v1-service} visualizes the average service level under scenario $k_1$. All three materials remain near or above the 95\% target, which is the key success metric for this demo.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/demo_v1_service_levels.png}
+\caption{Average service level under the baseline capacity scenario $k_1$.}
+\label{fig:demo-v1-service}
+\end{figure}
+
+The combined interpretation of the forecast table, rolling production table, and service-level summary is that the demo now behaves like a small production-route E paper. The route is still lightweight, but forecasting no longer stops at a curve: it directly feeds service-level and production decisions.

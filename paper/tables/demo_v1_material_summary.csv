@@ -1,0 +1,4 @@
+material,label,avg_history,latest_history,inventory,safety_stock,cap_k1,cap_k2
+M1,Leafy vegetables,37.88,45.0,15.0,10.0,38.0,56.0
+M2,Prepared meals,27.62,33.0,11.0,8.0,28.0,40.0
+M3,Frozen items,20.12,24.0,9.0,7.0,21.0,33.0

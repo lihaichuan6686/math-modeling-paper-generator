@@ -1,6 +1,6 @@
 # Continuation State
 
-Last updated: 2026-07-07.
+Last updated: 2026-07-08.
 
 Purpose: make long-running unattended work resumable without rereading the entire conversation.
 
@@ -15,6 +15,8 @@ problem -> scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF/rev
 The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real MathorCup 2023 B test run showed that the tool can produce a complete draft and attachments, but the next priority is stronger contest-grade modeling, especially for rail-timetable optimization.
 
 Latest local progress: the MathorCup 2023 B review has been converted into a reusable rail/timetable route. The repository now has a Type I archetype, a rail-timetable operation card, stricter model-plan/implementation/review gates, a runnable rail-timetable demo pipeline, a compiled 10-page `paper/rail_demo.tex` example, and an automatic minimum machine artifact gate for the demo scripts.
+
+Newest runnable-demo progress: the old supply toy has now been replaced by a synthetic production-route E closed-loop demo. The active `v1-demo` now generates representative-material screening, short-term forecast checks, rolling production plans, service-level summaries, scenario comparison tables/figures, a compiled `paper/main.pdf`, and rendered-page inspection evidence.
 
 Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, review-rubric, playbook, and generation prompts so the generator can distinguish production-route E papers from monitoring-route E papers at ideation, modeling, writing, and review time.
 
@@ -54,9 +56,9 @@ Read these first for generation/review tasks:
 
 Next P0 papers:
 
-1. `E-route run-template update`: reflect the new split in active run templates or starter docs if needed.
-2. `production-route demo lift`: apply the E-route split to a runnable non-rail demo so the route is exercised end-to-end.
-3. `monitoring-route demo scaffold`: prepare a future demo path for hydrology/monitoring style E papers.
+1. `monitoring-route demo scaffold`: prepare a future demo path for hydrology/monitoring style E papers.
+2. `production-route realism lift`: replace more synthetic assumptions in the current production-route demo with stronger scenario tension or attachment-like inputs.
+3. `E-route run-template update`: reflect the new split in any remaining active run templates or starter docs if needed.
 
 ## v1.0 Demo Baseline
 
@@ -69,8 +71,8 @@ The first small closed-loop demo exists and has been compiled/reviewed:
 - `problems/demo-v1-supply.md`
 - `scripts/run-v1-demo.ps1`
 - `src/demo_v1.py`
-- generated demo table: `paper/tables/demo_v1_order_plan.csv`
-- generated demo figure: `paper/figures/demo_v1_inventory.png`
+- generated demo tables: `paper/tables/demo_v1_material_summary.*`, `paper/tables/demo_v1_forecast_check.*`, `paper/tables/demo_v1_production_plan.*`, `paper/tables/demo_v1_service_levels.*`, `paper/tables/demo_v1_scenario_compare.*`
+- generated demo figures: `paper/figures/demo_v1_forecast_compare.png`, `paper/figures/demo_v1_service_levels.png`, `paper/figures/demo_v1_scenario_compare.png`
 - generated demo summary: `runs/v1-demo/demo-v1-summary.md`
 - demo artifact ledger: `runs/v1-demo/artifact-ledger.md`
 - demo review: `reviews/review-v1-demo.md`
@@ -81,10 +83,11 @@ Do not treat this as final paper quality. It proves the loop; the next work is e
 ## Next Engineering Queue
 
 1. Add automated checks for additional problem types beyond Type I rail/timetable cases.
-2. Add real attachment parsing and OD assignment to the rail route.
-3. Expand the compact rail demo toward a 20-30 page example only after adding real attachment parsing, OD assignment, and fleet/turnback constraints.
-4. Expand generated papers toward 20-30 pages by requiring each subproblem to include model construction, algorithm, result table/figure, and validation.
-5. Improve Chinese figure/table polish: Chinese labels, readable axes, richer captions, and method-specific references.
+2. Add a monitoring-route E demo so the new E-family split is exercised on both sides.
+3. Add real attachment parsing and OD assignment to the rail route.
+4. Expand the compact rail demo toward a 20-30 page example only after adding real attachment parsing, OD assignment, and fleet/turnback constraints.
+5. Expand generated papers toward 20-30 pages by requiring each subproblem to include model construction, algorithm, result table/figure, and validation.
+6. Improve Chinese figure/table polish: Chinese labels, readable axes, richer captions, and method-specific references.
 
 ## Operating Rules
 

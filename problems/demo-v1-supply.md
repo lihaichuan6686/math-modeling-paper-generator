@@ -1,49 +1,54 @@
-# Demo v1 Problem: Campus Supply Planning
+# Demo v1 Problem: Synthetic Production-Route E Planning
 
 This is a synthetic toy problem for testing the v1.0 toolchain. It is not a real contest problem and should not be presented as real evidence.
 
 ## Background
 
-A campus cafeteria needs to purchase one raw material for the next 8 weeks. There are three suppliers. Each supplier has a weekly capacity, unit price, and estimated loss rate during transport. The cafeteria wants to meet weekly demand while controlling purchase cost, loss, and inventory fluctuation.
+A central kitchen tracks weekly demand for three representative material groups. The management team wants a short-term production arrangement for the next four weeks. The arrangement should preserve service level, avoid negative inventory, and compare two capacity-use assumptions. The task is intentionally small, but it is shaped to resemble the production-route E papers summarized from `2022 E014` and `2022 E029`.
 
 ## Data
 
-Weekly demand forecast:
+Historical weekly demand for three representative materials:
 
-| Week | Demand |
-|---:|---:|
-| 1 | 120 |
-| 2 | 135 |
-| 3 | 128 |
-| 4 | 150 |
-| 5 | 160 |
-| 6 | 155 |
-| 7 | 142 |
-| 8 | 130 |
+| Week | M1 | M2 | M3 |
+|---:|---:|---:|---:|
+| 1 | 32 | 22 | 18 |
+| 2 | 35 | 24 | 17 |
+| 3 | 31 | 26 | 19 |
+| 4 | 38 | 27 | 20 |
+| 5 | 40 | 28 | 19 |
+| 6 | 39 | 30 | 21 |
+| 7 | 43 | 31 | 23 |
+| 8 | 45 | 33 | 24 |
 
-Supplier data:
+Initial inventory and safety stock:
 
-| Supplier | Capacity | Unit price | Loss rate | Reliability |
-|---|---:|---:|---:|---:|
-| A | 90 | 10.0 | 0.03 | 0.93 |
-| B | 80 | 9.5 | 0.06 | 0.88 |
-| C | 70 | 10.8 | 0.02 | 0.96 |
+| Material | Inventory | Safety stock |
+|---|---:|---:|
+| M1 | 15 | 10 |
+| M2 | 11 | 8 |
+| M3 | 9 | 7 |
 
-Initial inventory: 20 units.
+Two capacity scenarios:
 
-Safety inventory target: at least 15 units after each week.
+| Material | Capacity k1 | Capacity k2 |
+|---|---:|---:|
+| M1 | 38 | 56 |
+| M2 | 28 | 40 |
+| M3 | 21 | 33 |
 
 ## Tasks
 
-1. Build an interpretable supplier evaluation score.
-2. Design an 8-week ordering plan that meets demand and safety inventory.
-3. Generate at least one figure and one table to support the plan.
-4. Discuss limitations and what would be needed for a real CUMCM-scale problem.
+1. Select the representative materials and summarize their demand characteristics.
+2. Build a short-term demand forecast for the next four weeks and compare it with recent actual behavior.
+3. Construct a rolling production plan under a baseline capacity scenario.
+4. Evaluate service level and minimum inventory.
+5. Compare two capacity-use scenarios and report which one is safer or stronger.
 
 ## Expected v1.0 Route
 
 ```text
-supplier evaluation -> greedy planning baseline -> inventory validation -> paper draft review
+material screening -> forecast check -> rolling production rule -> service-level evaluation -> scenario comparison -> paper draft review
 ```
 
-This demo intentionally uses a simple baseline so that the full paper-generation chain can be tested quickly.
+This demo intentionally uses a lightweight rolling-rule baseline so that the full production-route E paper chain can be tested quickly.

@@ -1,59 +1,56 @@
 \section{Model Establishment}
 
-\subsection{Supplier Evaluation}
+\subsection{Short-Term Demand Forecast}
 
-Each supplier receives a weighted score based on normalized price advantage, transport retention, and reliability:
-
-\begin{equation}
-S_i = 0.35 P_i + 0.30(1-\ell_i) + 0.35 R_i,
-\end{equation}
-
-where $P_i$ is a normalized inverse-price score, $\ell_i$ is the loss rate, and $R_i$ is the reliability score. The weights are illustrative and should be replaced by entropy weighting, AHP, or a justified expert rule in a real study.
-
-The score has three roles in the v1.0 pipeline. First, it converts heterogeneous indicators into a single decision signal. Second, it creates a traceable bridge from data processing to supplier selection. Third, it gives the paper a natural place to discuss weighting risk, which is important for later quality checking. A generated paper should not simply name TOPSIS or AHP; it should explain how the indicator table actually affects the downstream decision.
-
-\subsection{Ordering Baseline}
-
-For each week, the required delivered amount is:
+For each representative material, the next-period demand is predicted by a weighted rolling average:
 
 \begin{equation}
-D_t^{req} = \max(0, d_t + 15 - I_{t-1}),
+\hat d_{t+1}=0.5d_t+0.3d_{t-1}+0.2d_{t-2}.
 \end{equation}
 
-where 15 is the safety inventory target. Suppliers are considered in descending evaluation score. The ordered quantity is limited by supplier capacity and adjusted by transport loss:
+The purpose of this forecast is not to demonstrate the best possible time-series method. Instead, it gives the production rule a reproducible short-term signal that can be checked against recent actual values. In a stronger production-route E paper, this layer could be replaced by ARIMA, exponential smoothing, or a mixed forecast-comparison section like the one observed in `2022 E029`.
+
+\subsection{Rolling Production Rule}
+
+Let $I_t$ denote ending inventory, $p_t$ denote the production quantity, $d_t$ denote forecast demand, and $I^{safe}$ denote safety stock. The rolling inventory balance is:
 
 \begin{equation}
-I_t = I_{t-1} + \sum_i q_{i,t}(1-\ell_i) - d_t.
+I_t = I_{t-1}+p_t-d_t.
 \end{equation}
 
-This is a greedy baseline, not a globally optimal mixed-integer planning model. It is sufficient for v1.0 pipeline verification.
-
-\subsection{Extension to a Full Optimization Model}
-
-The greedy rule can be replaced by a mixed-integer planning model when the paper needs stronger mathematical depth. Let $q_{i,t}$ denote the order quantity from supplier $i$ in week $t$, and let $I_t$ denote ending inventory. A full model can minimize total procurement cost:
+The production quantity depends on the forecast-inventory gap:
 
 \begin{equation}
-\min \sum_t \sum_i c_i q_{i,t},
+g_t=d_t+I^{safe}-I_{t-1}.
 \end{equation}
 
-subject to inventory balance, capacity limits, safety inventory, and non-negativity:
+The demo uses a simple interpretable control coefficient $\alpha_t$ and computes:
 
-\begin{align}
-I_t &= I_{t-1} + \sum_i q_{i,t}(1-\ell_i) - d_t,\\
-0 &\le q_{i,t} \le C_i,\\
-I_t &\ge I^{safe}.
-\end{align}
+\begin{equation}
+p_t=\max(0,\min(C,\alpha_t g_t)),
+\end{equation}
 
-This formulation is not solved in the demo because the goal here is a low-dependency closed-loop test. However, writing it into the paper skeleton is useful: it shows where a future exact solver, integer decision variables, transport-provider coupling, and robustness constraints will fit.
+where $C$ is the scenario capacity. The coefficient $\alpha_t$ is selected from a small banded rule: when the gap is large, the rule reacts aggressively; when the gap is small or negative, the rule becomes conservative. This design intentionally imitates the service-level-first flavor seen in `2022 E014`.
+
+\subsection{Scenario Comparison}
+
+Two capacity scenarios are considered:
+
+\begin{enumerate}
+\item scenario $k_1$: baseline production capacity;
+\item scenario $k_2$: expanded production capacity.
+\end{enumerate}
+
+The comparison is not framed as a full optimization contest between many policies. It is a compact route-specific validation layer: if the stronger capacity scenario improves service or inventory robustness, the paper can explain why capacity assumptions matter.
 
 \subsection{Validation Targets}
 
-The model is checked against three targets:
+The route is checked against three targets:
 
 \begin{enumerate}
-\item feasibility: ending inventory should not fall below the safety threshold;
-\item economy: weekly and total cost should be visible and explainable;
-\item robustness: changes in transport loss should not invalidate the basic plan without being detected.
+\item forecast usefulness: the short-term forecast should be auditable against recent actual demand;
+\item support ability: average service level should remain high for representative materials;
+\item feasibility: minimum inventory should stay non-negative under the rolling rule.
 \end{enumerate}
 
-These targets determine the figures and tables in the results section. This is the intended v1.0 pattern: model equations should predict what evidence the paper must display.
+These validation targets match the production-route E contract: forecasting must flow into service-level and inventory consequences rather than remain an isolated accuracy exercise.

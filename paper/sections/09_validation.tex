@@ -1,20 +1,20 @@
 \section{Validation and Sensitivity Analysis}
 
-The minimum ending inventory in the generated plan is 15 units, so the safety inventory constraint is satisfied in all eight weeks. This is a feasibility validation rather than a full robustness analysis.
+The first validation layer is forecast traceability: Table~\ref{tab:demo-v1-forecast-check} records forecast values and a simple backtest error indicator for each representative material. This prevents the production rule from appearing disconnected from recent demand behavior.
 
-The main sensitivity risk is the fixed weighting rule in the supplier-evaluation score and the fixed transport loss rates. If the reliability weight or loss-rate weight changes, supplier ordering may change. If transport loss increases, the model must order more raw material to receive the same delivered amount. A real CUMCM paper should test multiple weighting schemes and compare the resulting cost, inventory, and supplier composition.
+The second validation layer is scenario comparison. Table~\ref{tab:demo-v1-scenario-compare} compares average service level and minimum inventory under the two capacity assumptions. This is a route-specific production check: the paper should show whether stronger capacity meaningfully improves support ability.
 
-Table~\ref{tab:demo-v1-sensitivity} perturbs all loss rates by a common multiplier. The safety inventory remains feasible in each case because the ordering rule compensates for loss, but total cost changes with the amount that must be ordered.
+\input{tables/demo_v1_scenario_compare.tex}
 
-\input{tables/demo_v1_sensitivity.tex}
+The table shows a useful stress signal for the demo: under the tighter $k_1$ setting, the average service level drops below the ideal level for M1 and M2, and the minimum inventory becomes negative for all three materials. Under $k_2$, all three representative materials recover to full service with positive inventory buffers. This gives the paper a genuine scenario-comparison story rather than a purely decorative robustness section.
 
-Figure~\ref{fig:demo-v1-sensitivity} visualizes the same relationship. The curve is simple, but it performs an important structural role: it turns a stated limitation into measurable evidence.
+Figure~\ref{fig:demo-v1-scenario} visualizes the same scenario difference. The higher-capacity scenario is never worse on average service level, which makes it a useful reference case for future solver-based improvements.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/demo_v1_sensitivity.png}
-\caption{Sensitivity of total cost to transport loss perturbation.}
-\label{fig:demo-v1-sensitivity}
+\includegraphics[width=0.85\textwidth]{figures/demo_v1_scenario_compare.png}
+\caption{Average service-level comparison between the two capacity scenarios.}
+\label{fig:demo-v1-scenario}
 \end{figure}
 
-For a production-quality paper, the sensitivity section should be expanded in three directions. First, perturb supplier weights to test ranking stability. Second, perturb demand to test whether the safety threshold is enough under peak demand. Third, compare the greedy baseline against an optimization solver. The current v1.0 version records these needs explicitly so that the review agent can flag them instead of silently treating the demo as a final solution.
+The current v1.0 version is still intentionally conservative. A stronger production-route E paper should add at least three more checks: demand perturbation, coefficient-band sensitivity, and solver comparison against the rolling baseline. The demo writes the route correctly, but it does not pretend to be a final contest-grade optimization study.
