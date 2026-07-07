@@ -12,6 +12,7 @@ Purpose: organize long-term, batch-by-batch reading of CUMCM papers. Each deep r
 | 2021 C066 | deep read complete | `knowledge/cumcm/deep-reading-2021C066.md` |
 | 2021 E014 | deep read complete | `knowledge/cumcm/deep-reading-2021E014.md` |
 | 2022 B030 | deep read complete | `knowledge/cumcm/deep-reading-2022B030.md` |
+| 2022 C155 | deep read complete | `knowledge/cumcm/deep-reading-2022C155.md` |
 | 2021 A-E first pass | first pass complete | `knowledge/cumcm/2021-official-first-pass.md` |
 | 2022 A-E first pass | first pass complete | `knowledge/cumcm/2022-official-first-pass.md` |
 | 2023 A-E first pass | first pass complete | `knowledge/cumcm/2023-official-first-pass.md` |
@@ -24,10 +25,9 @@ Goal: build reliable route examples across A-E problem types.
 
 | Priority | Sample | Reason | Expected extraction |
 | ---: | --- | --- | --- |
-| 1 | 2022 C155 | decision/planning with data | model chain, robustness checks |
-| 2 | 2023 C050 | dynamic pricing/supply chain | forecast/evaluation/planning bridge |
-| 3 | 2023 D039 | spatial optimization | geometry, visualization, validation |
-| 4 | 2023 E176 | monitoring or data-analysis route | feature construction, validation, quality signals |
+| 1 | 2023 C050 | dynamic pricing/supply chain | forecast/evaluation/planning bridge |
+| 2 | 2023 D039 | spatial optimization | geometry, visualization, validation |
+| 3 | 2023 E176 | monitoring or data-analysis route | feature construction, validation, quality signals |
 
 ### P1: Same-Problem Comparison
 

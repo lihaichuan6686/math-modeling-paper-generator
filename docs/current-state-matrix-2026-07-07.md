@@ -29,7 +29,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 |---|---|---|---|
 | Real contest attachment parsing for rail-timetable cases | Open | Current rail demo uses synthetic data, so it is only a structure exemplar. | Replace synthetic inputs with parsed problem attachments when working on a real rail problem. |
 | OD assignment and fleet/turnback realism | Open | The current rail demo checks the route chain but simplifies operational realism. | Add OD passenger assignment and vehicle circulation constraints. |
-| More problem routes | Open | The knowledge base still benefits from additional deep reads. | Prioritize `2022 C155` and other high-value routes. |
+| More problem routes | Open | The knowledge base still benefits from additional deep reads. | Prioritize `2023 C050`, `2023 D039`, and `2023 E176`. |
 | 20-30 page rail-quality expansion | Open | The current rail demo is a compact paper, not a full contest-quality draft. | Expand only after real-data parsing and richer validation are added. |
 
 ## Current Judgment
