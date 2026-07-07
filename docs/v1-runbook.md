@@ -181,6 +181,18 @@ Minimum review output:
 - evidence missing;
 - human verification needed.
 
+Then run the machine artifact gate:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run current
+```
+
+For the rail-timetable demo:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run rail-demo -Paper rail_demo.tex
+```
+
 ## v1.0 Definition of Done
 
 The v1.0 toolchain is ready for user inspection when:

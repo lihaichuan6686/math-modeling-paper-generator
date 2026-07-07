@@ -171,6 +171,22 @@ Unchecked evidence:
 Final status: Pass / Needs revision / Reject for research use
 ```
 
+## Machine Gate
+
+Before accepting a run, execute the minimum artifact gate:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run current
+```
+
+For a named run and paper source:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run rail-demo -Paper rail_demo.tex
+```
+
+This does not replace human review. It only catches missing ledgers, placeholder reviews, missing Type I timetable artifacts, empty CSV outputs, and failing audit status fields.
+
 ## Minimum Pass Criteria
 
 A paper can pass research review only if:

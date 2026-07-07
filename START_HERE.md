@@ -44,6 +44,12 @@ To compile the rail demo paper:
 powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1 -Main rail_demo.tex
 ```
 
+To run the minimum artifact gate:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run rail-demo -Paper rail_demo.tex
+```
+
 ## Use A New Problem
 
 1. Put the problem statement in `problems/problem.md`.

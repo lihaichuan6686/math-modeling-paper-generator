@@ -34,6 +34,7 @@ Needs revision
 - Scenario table exists for Q3-style recommendations.
 - `paper/rail_demo.tex` compiles successfully.
 - Rendered PDF pages 1, 5, 7, and 8 were visually inspected.
+- Machine gate passed: `scripts/check-run-quality.ps1 -Run rail-demo -Paper rail_demo.tex`.
 
 ## Evidence Missing Or Not Checked
 

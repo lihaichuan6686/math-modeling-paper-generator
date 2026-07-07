@@ -163,6 +163,22 @@ Check:
 
 Reject for research use if integrity risk is severe.
 
+### Step 9: Machine Gate
+
+Run the minimum artifact gate and cite the result in the review:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run current
+```
+
+For a named run and paper source, pass both:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run rail-demo -Paper rail_demo.tex
+```
+
+If the script reports issues, the paper cannot receive `Pass` until the issues are fixed or explicitly justified in the review.
+
 ## Output File
 
 Write the review to:

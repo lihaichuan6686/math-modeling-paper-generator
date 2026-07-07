@@ -60,3 +60,5 @@ Purpose: synthetic rail-timetable route demo for the math-modeling paper generat
 ## Review Summary
 
 Generated-artifact status: Pass. `paper/rail_demo.tex` compiles to a 10-page PDF. Rendered pages 1, 5, 7, and 8 were inspected for abstract readability, formula/table fit, timetable sample layout, running-diagram readability, and capacity-audit table fit.
+
+Machine gate: `scripts/check-run-quality.ps1 -Run rail-demo -Paper rail_demo.tex` passed.
