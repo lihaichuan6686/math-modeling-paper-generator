@@ -41,6 +41,7 @@ Read these first for generation/review tasks:
 10. `prompts/06_quality_review.md`
 11. `knowledge/quality/quality-rubric-v2.md`
 12. `knowledge/quality/mathorcup-2023B-v1-test-review.md`
+13. `docs/current-state-matrix-2026-07-07.md`
 
 ## Next Reading Queue
 

@@ -57,6 +57,7 @@ Quality review:
 - `quality/quality-rubric-v2.md`
 - `../docs/review-checklist.md`
 - `quality/reproducibility-and-ai-difference-framework.md`
+- `../docs/current-state-matrix-2026-07-07.md`
 
 ## Absorption Rules
 
