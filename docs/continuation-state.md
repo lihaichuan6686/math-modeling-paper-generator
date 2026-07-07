@@ -26,6 +26,7 @@ Newest knowledge-layer progress: `2023 E176` has been deep-read into a monitorin
 | 2021 D017 | online scheduling and industrial adjustment | `knowledge/cumcm/deep-reading-2021D017.md` |
 | 2021 A028 | geometry and engineering mechanics | `knowledge/cumcm/deep-reading-2021A028.md` |
 | 2021 C066 | supply-chain evaluation and planning | `knowledge/cumcm/deep-reading-2021C066.md` |
+| 2022 E014 | conservative production scheduling with service-level-first rolling rules | `knowledge/cumcm/deep-reading-2022E014.md` |
 | 2023 C050 | dynamic pricing and supply-chain bridge | `knowledge/cumcm/deep-reading-2023C050.md` |
 | 2023 D039 | spatial optimization and cycle planning | `knowledge/cumcm/deep-reading-2023D039.md` |
 | 2022 E029 | production planning via demand forecasting, service level, and rolling inventory logic | `knowledge/cumcm/deep-reading-2022E029.md` |
@@ -53,8 +54,8 @@ Read these first for generation/review tasks:
 
 Next P0 papers:
 
-1. `2022 E014`: complete the production-route pair after `E029`.
-2. `E-route archetype update`: push the E-route family split into the archetype and blueprint documents.
+1. `E-route archetype update`: push the E-route family split into the archetype and blueprint documents.
+2. `E-route rubric update`: add route-specific review signals for production vs monitoring E papers.
 
 ## v1.0 Demo Baseline
 
@@ -129,7 +130,7 @@ E-route family split:
 - production-route E papers center on prediction to inventory/service-level or scheduling decisions;
 - monitoring-route E papers center on diagnosis to monitoring or policy decisions;
 - both need a visible action layer after forecasting, but their figures, tables, and appendix evidence differ.
-- current production-route anchor: `2022 E029`;
+- current production-route anchors: `2022 E014` and `2022 E029`;
 - current monitoring-route anchor: `2023 E176`.
 
 ## Git State Rule

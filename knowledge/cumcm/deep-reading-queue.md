@@ -13,6 +13,7 @@ Purpose: organize long-term, batch-by-batch reading of CUMCM papers. Each deep r
 | 2021 E014 | deep read complete | `knowledge/cumcm/deep-reading-2021E014.md` |
 | 2022 B030 | deep read complete | `knowledge/cumcm/deep-reading-2022B030.md` |
 | 2022 C155 | deep read complete | `knowledge/cumcm/deep-reading-2022C155.md` |
+| 2022 E014 | deep read complete | `knowledge/cumcm/deep-reading-2022E014.md` |
 | 2022 E029 | deep read complete | `knowledge/cumcm/deep-reading-2022E029.md` |
 | 2023 C050 | deep read complete | `knowledge/cumcm/deep-reading-2023C050.md` |
 | 2023 D039 | deep read complete | `knowledge/cumcm/deep-reading-2023D039.md` |
@@ -29,7 +30,7 @@ Goal: build reliable route examples across A-E problem types.
 
 | Priority | Sample | Reason | Expected extraction |
 | ---: | --- | --- | --- |
-| 1 | 2022 E014 | complete the production-route pair after `2022 E029` | structure contrast, safety-stock logic, appendix style |
+| 1 | E-route archetype update | write the production/monitoring split into shared generator docs | archetype, blueprint, rubric updates |
 
 ### P1: Same-Problem Comparison
 

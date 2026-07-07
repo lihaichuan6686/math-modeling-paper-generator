@@ -27,6 +27,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The 2023 E176 deep read adds a monitoring and hydrology route with shared data preprocessing, multi-method diagnosis, forecast-to-decision chaining, and support-material traceability.
 - The new `knowledge/cumcm/e-route-comparison-2022-2023.md` note separates E-type papers into production-route and monitoring-route families instead of treating E as a single template.
 - The 2022 E029 deep read now anchors the production-route E family with ARIMA comparison, safety-stock/service-level reasoning, and rolling production planning.
+- The 2022 E014 deep read complements that route with a more conservative service-level-first rolling-rule variant and explicit parameter-band interpretation.
 
 ## Still Open
 

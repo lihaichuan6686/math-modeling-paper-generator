@@ -21,7 +21,7 @@ Important note:
 
 Status update:
 
-- `2022 E029` has now been deep-read in full and should be treated as the current production-route anchor sample.
+- `2022 E014` and `2022 E029` have now both been deep-read in full and should be treated as the current production-route anchor pair.
 
 ## High-Level Contrast
 
@@ -35,6 +35,7 @@ Observed character:
 - stronger emphasis on stable inventory and service-level safeguards;
 - abstract gives concrete stock and service quantities quickly;
 - appendix is mainly support-material list rather than a long methodological appendix.
+- full deep-read note: `knowledge/cumcm/deep-reading-2022E014.md`
 
 Observed route:
 
@@ -175,6 +176,13 @@ Practical interpretation:
 2023 E teaches how to turn diagnosis and prediction into monitoring and policy action.
 ```
 
+Inside the 2022 production route itself:
+
+```text
+E014 = conservative, service-level-first rolling rule
+E029 = dynamic, ARIMA-comparison-first rolling production plan
+```
+
 ## What This Means For The Generator
 
 ### E-Type Paper Archetype
@@ -239,6 +247,6 @@ Monitoring-route E papers:
 
 Best next local follow-up:
 
-1. Deep read `2022 E014` in full to complete the production-route pair.
-2. Then update `problem-type-paper-archetypes.md` with a dedicated E-route split.
-3. After that, update the paper blueprint and review rubric so E-type generation uses the right route family automatically.
+1. Update `problem-type-paper-archetypes.md` with a dedicated E-route split using `E014`, `E029`, and `E176`.
+2. Then update the paper blueprint so E-type generation chooses the right route family and section allocation.
+3. After that, update the review rubric so E-type papers are checked against the correct route-specific signals.
