@@ -2,6 +2,7 @@
 
 Important knowledge files for every paper-generation or review run:
 
+- `docs/v1-runbook.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`

@@ -17,14 +17,15 @@ Purpose: guide the project toward a research-only CUMCM paper-generation and pap
 Current status:
 
 - First-pass notes exist for 2021, 2022, and 2023 samples.
+- Deep reads exist for:
+  - 2021 D017: online scheduling and abnormal-scenario adjustment
+  - 2021 A028: geometry and engineering mechanics
+  - 2021 C066: supply-chain evaluation and planning
 
 Next tasks:
 
 - Deep-read selected papers by type:
-  - geometry/engineering
   - chemistry/material statistics
-  - supply chain planning
-  - online scheduling
   - machine learning classification
   - time-series decision
   - evaluation/ranking
@@ -47,24 +48,18 @@ Deliverables:
 
 Current status:
 
-- Initial algorithm cards and routing rules exist.
+- Detailed algorithm cards, an algorithm-card index, routing rules, and model-chain patterns exist.
+- Current cards cover LP/IP, nonlinear programming, dynamic programming, time-series forecasting, regression, PCA/LDA, random forest, SVM, response surface methodology, queuing models, graph algorithms, and simulation.
 
 Next tasks:
 
-- Add detailed cards for:
-  - linear programming
-  - integer programming
-  - nonlinear programming
-  - dynamic programming
-  - ARIMA/exponential smoothing
-  - regression families
-  - random forest
-  - SVM
-  - PCA/LDA
-  - response surface methodology
-  - queuing models
-  - graph algorithms
-  - simulation
+- Add or refine cards for:
+  - TOPSIS and entropy weighting
+  - AHP and subjective/objective combined weighting
+  - clustering families
+  - grey prediction and small-sample forecasting
+  - genetic algorithm and simulated annealing
+  - domain-specific chemistry/material modeling methods
 - Each card should include:
   - when to use
   - when not to use
@@ -137,9 +132,11 @@ Expected behavior:
 
 Deliverables:
 
+- visual-generation pipeline: initial version complete
+- figure-plan and artifact-ledger fields: initial version complete
 - example scripts
 - example generated figures/tables
-- ledger update convention
+- demo ledger update convention
 
 ### B3. LaTeX Build and Visual QA
 
@@ -178,6 +175,7 @@ Expected behavior:
 Deliverables:
 
 - `reviews/review-current.md` generated from checklist
+- `knowledge/quality/quality-rubric-v2.md`: initial version complete
 - eventually a script or agent prompt for automated review
 
 ## Track C: Responsible Use and Governance
@@ -195,11 +193,11 @@ Next tasks:
 
 ## Near-Term Priority Order
 
-1. Deep-read one official excellent paper end to end and extract a full structure map.
-2. Add detailed algorithm cards for LP/IP, regression, PCA/LDA, random forest, SVM, and response surface.
-3. Build a small demo run from a toy problem to test the full chain.
-4. Compile and visually inspect the demo PDF.
-5. Convert review checklist into a stricter quality-check workflow.
+1. Turn the bundled `v1-demo` artifacts into a complete LaTeX draft.
+2. Compile and visually inspect the demo PDF.
+3. Use the demo to harden `paper/sections/`, artifact ledger, figure plan, and review workflow.
+4. Convert review checklist/rubric into a stricter reusable review prompt or script.
+5. Resume deep reading with `2021 E014` for the spectral/classification route.
 
 ## Definition of Progress
 

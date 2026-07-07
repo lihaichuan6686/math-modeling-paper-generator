@@ -1,16 +1,14 @@
-\section{结果分析}
+\section{Results}
 
-本节展示每个子问题的核心结果。每个结果都应配套解释、单位和验证依据。
+Table~\ref{tab:demo-v1-order-plan} reports the generated eight-week ordering plan. The plan uses suppliers A and B in this simple baseline and keeps the ending inventory at the safety threshold.
 
-\subsection{问题一结果}
+\input{tables/demo_v1_order_plan.tex}
 
-展示结果表或图，并解释其含义。
+Figure~\ref{fig:demo-v1-inventory} shows that the ending inventory remains at the required target in every week.
 
-\subsection{问题二结果}
-
-展示结果表或图，并解释其含义。
-
-\subsection{问题三结果}
-
-展示结果表或图，并解释其含义。
-
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.85\textwidth]{figures/demo_v1_inventory.png}
+\caption{Ending inventory produced by the v1.0 demo ordering baseline.}
+\label{fig:demo-v1-inventory}
+\end{figure}

@@ -1,14 +1,20 @@
-\section{符号说明}
+\section{Symbols}
 
-\begin{center}
-\begin{tabular}{cc}
+\begin{table}[htbp]
+\centering
+\caption{Main symbols for the v1.0 demo}
+\label{tab:demo-symbols}
+\begin{tabular}{lll}
 \toprule
-符号 & 含义 \\
+Symbol & Meaning & Unit or domain \\
 \midrule
-$x_i$ & 第 $i$ 个决策变量 \\
-$f(x)$ & 目标函数 \\
-$C$ & 约束集合 \\
+$t$ & week index & $1,\ldots,8$ \\
+$i$ & supplier index & A, B, C \\
+$d_t$ & demand in week $t$ & units \\
+$q_{i,t}$ & order quantity from supplier $i$ in week $t$ & units \\
+$c_i$ & unit purchase price of supplier $i$ & cost/unit \\
+$\ell_i$ & transport loss rate of supplier $i$ & proportion \\
+$I_t$ & ending inventory in week $t$ & units \\
 \bottomrule
 \end{tabular}
-\end{center}
-
+\end{table}

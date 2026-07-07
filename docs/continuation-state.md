@@ -1,19 +1,18 @@
 # Continuation State
 
-Last updated: 2026-07-06.
+Last updated: 2026-07-07.
 
 Purpose: make long-running unattended work resumable without rereading the entire conversation.
 
 ## Current Focus
 
-The project is currently prioritizing CUMCM official excellent papers and converting them into:
+The project has shifted from "read more first" to a v1.0 closed-loop toolchain:
 
-- paper-structure rules;
-- model-chain patterns;
-- algorithm cards;
-- LaTeX section contracts;
-- visual-generation and artifact-tracing rules;
-- quality-review rubrics.
+```text
+problem -> scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF/review
+```
+
+The next priority is to make the bundled demo become a complete inspectable paper draft.
 
 ## Completed Deep Reads
 
@@ -29,12 +28,13 @@ The project is currently prioritizing CUMCM official excellent papers and conver
 Read these first for generation/review tasks:
 
 1. `knowledge/README.md`
-2. `knowledge/cumcm/paper-generation-playbook.md`
-3. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-4. `knowledge/algorithms/model-chain-patterns.md`
-5. `knowledge/algorithms/cards/README.md`
-6. `docs/visual-generation-pipeline.md`
-7. `knowledge/quality/quality-rubric-v2.md`
+2. `docs/project-audit-2026-07-06.md`
+3. `knowledge/cumcm/paper-generation-playbook.md`
+4. `knowledge/cumcm/20-30-page-paper-blueprint.md`
+5. `knowledge/algorithms/model-chain-patterns.md`
+6. `knowledge/algorithms/cards/README.md`
+7. `docs/visual-generation-pipeline.md`
+8. `knowledge/quality/quality-rubric-v2.md`
 
 ## Next Reading Queue
 
@@ -46,6 +46,26 @@ Next P0 papers:
 4. `2023 C050`: dynamic pricing/supply-chain bridge.
 5. `2023 D039`: spatial optimization and visualization.
 6. `2023 E176`: monitoring/data-analysis route.
+
+## Recommended Cleanup Step Before More Deep Reading
+
+Run a small demo workflow before the next long PDF deep read:
+
+```text
+toy problem -> new run scaffold -> model plan -> one code figure/table -> LaTeX draft -> PDF compile -> review
+```
+
+This will test whether the knowledge assets are actually usable as a generator pipeline.
+
+Initial v1.0 demo assets now exist:
+
+- `docs/v1-runbook.md`
+- `problems/demo-v1-supply.md`
+- `scripts/run-v1-demo.ps1`
+- `src/demo_v1.py`
+- generated demo table: `paper/tables/demo_v1_order_plan.csv`
+- generated demo figure: `paper/figures/demo_v1_inventory.png`
+- generated demo summary: `runs/v1-demo/demo-v1-summary.md`
 
 ## Operating Rules
 

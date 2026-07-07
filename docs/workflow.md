@@ -1,14 +1,16 @@
 # Workflow
 
+This document describes the standard v1.0 workflow for a research-only CUMCM-style paper draft.
+
 ## Standard Run Setup
 
-Start every new research run with:
+Create a new run:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\new-run.ps1 -Name current -Problem "problem label"
 ```
 
-The script creates the standard scaffold:
+The script creates:
 
 - `runs/current/problem-analysis.md`
 - `runs/current/data-inventory.md`
@@ -22,145 +24,112 @@ The script creates the standard scaffold:
 
 Then follow the phase prompts from `prompts/00_intake.md` through `prompts/05_review.md`.
 
-## 0. 准备题面
+## Phase 0: Intake
 
-把题面和附件说明写入：
+Input:
 
-```text
-problems/problem.md
-```
+- `problems/problem.md`
+- attachments under `problems/`
 
-如果有数据文件，建议新建：
+Output:
 
-```text
-problems/data/
-```
+- `runs/current/problem-analysis.md`
+- `runs/current/data-inventory.md`
 
-## 1. 题面理解
+Required work:
 
-产物：
+- restate the problem;
+- identify subquestions;
+- list inputs, outputs, constraints, metrics, and risks;
+- record routing signals.
 
-```text
-runs/current/problem-analysis.md
-```
+## Phase 1: Ideation
 
-内容：
+Output:
 
-- 问题重述
-- 输入与输出
-- 约束条件
-- 评价指标
-- 可能的数据缺口
-- 易错点
+- `runs/current/model-candidates.md`
 
-## 2. 建模构思
+Required work:
 
-产物：
+- propose at least three route-level model chains;
+- compare mathematical fit, data requirements, interpretability, implementation difficulty, figures/tables, validation, and risks;
+- select one primary route and one backup route.
 
-```text
-runs/current/model-candidates.md
-```
+## Phase 2: Model Plan
 
-要求至少比较三种方案，并明确为什么采用主方案。
+Output:
 
-## 3. 建模计划
+- `runs/current/model-plan.md`
+- `runs/current/verification-plan.md`
+- `runs/current/figure-plan.md`
+- update `runs/current/artifact-ledger.md`
 
-产物：
+Required work:
 
-```text
-runs/current/model-plan.md
-```
+- define assumptions, variables, parameters, equations, constraints, solvers, expected outputs, validation, and failure modes;
+- plan figures before implementation;
+- allocate paper sections using the 20-30 page blueprint.
 
-内容：
+## Phase 3: Implementation
 
-- 变量和参数
-- 假设
-- 目标函数
-- 约束
-- 求解算法
-- 验证方法
+Output:
 
-## 4. 代码实验
+- code under `src/`
+- generated figures under `paper/figures/`
+- generated tables under `paper/tables/`
+- intermediate outputs under `runs/current/`
+- updated artifact ledger
 
-代码放在：
+Required work:
 
-```text
-src/
-```
+- keep a clear run sequence;
+- record random seeds;
+- generate at least one reproducible evidence figure and one result table for v1.0;
+- record schematic or AI-generated figure prompts if used.
 
-输出放在：
+## Phase 4: Writing
 
-```text
-paper/figures/
-paper/tables/
-```
+Output:
 
-## 5. 论文写作
+- LaTeX section files under `paper/sections/`
+- updated `paper/main.tex` only when needed
 
-正文分节放在：
+Required work:
 
-```text
-paper/sections/
-```
+- write a complete structured draft;
+- keep abstract last;
+- cite every figure/table in text;
+- ensure important numbers are listed in the artifact ledger;
+- do not pad with generic background.
 
-主文件：
+## Phase 5: Build
 
-```text
-paper/main.tex
-```
-
-## 6. 编译
+Command:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1
 ```
 
-## 7. 审查
+If compilation fails, repair missing figures, broken references, table overflow, and LaTeX syntax.
 
-根据 `docs/review-checklist.md` 写入：
+## Phase 6: Review
 
-```text
-reviews/review-current.md
-```
+Output:
 
-高风险问题修复后重新编译。
-# Workflow Addendum
+- `reviews/review-current.md` or `reviews/review-<run>.md`
 
-For every active generation or review run, create an artifact ledger based on `docs/artifact-ledger-template.md` at `runs/current/artifact-ledger.md`. The ledger is the bridge between paper claims, code outputs, data files, figures, tables, and PDF review.
+Required work:
 
-## Structure and Figure Addendum
+- use `docs/review-checklist.md`;
+- use `knowledge/quality/quality-rubric-v2.md`;
+- check problem coverage, model logic, reproducibility, visual source classification, validation, PDF quality, and responsible use.
 
-A complete CUMCM-style paper should reach 20-30 pages through structure:
+## v1.0 Completion Gate
 
-```text
-abstract
--> problem restatement
--> method overview
--> problem analysis
--> assumptions
--> symbols
--> data processing
--> model establishment and solution
--> results and validation
--> sensitivity analysis
--> strengths and limitations
--> conclusion
--> references
--> appendix
-```
+A v1.0 run is acceptable when:
 
-The figure plan must be created before writing the full paper:
-
-```text
-runs/current/figure-plan.md
-```
-
-The plan should include:
-
-- route or workflow figure
-- model-specific explanatory figures
-- data exploration figures
-- result figures
-- validation or sensitivity figures
-
-All figures must be listed in `runs/current/artifact-ledger.md`. Data-driven figures should be reproducible from code. Explanatory diagrams or AI-generated schematic images are allowed only when their source or prompt is recorded and they are not presented as experimental evidence.
+1. every subquestion has at least a draft model and draft answer;
+2. at least one figure and one table are generated or explicitly planned;
+3. the LaTeX paper has all major CUMCM sections;
+4. every important claim is marked as verified, illustrative, or pending;
+5. a review file exists with Pass/Warn/Fail/Unknown style findings.

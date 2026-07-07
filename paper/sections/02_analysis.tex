@@ -1,16 +1,11 @@
-\section{问题分析}
+\section{Problem Analysis}
 
-本节按子问题分析建模路径。每个子问题应说明目标、难点、可用数据、候选方法和预期输出。
+This problem is a small supply-planning task. It has the same skeleton as many CUMCM supply-chain papers, but with fewer suppliers and a shorter planning horizon. The appropriate v1.0 route is:
 
-\subsection{问题一分析}
+\begin{center}
+\texttt{supplier evaluation -> greedy planning baseline -> inventory validation}
+\end{center}
 
-说明问题一的核心变量、约束和模型链。
+The evaluation step ranks suppliers by price, loss rate, and reliability. The planning step uses the ranking to allocate weekly orders while preserving a minimum ending inventory. The validation step checks whether the generated plan meets the safety inventory target in every week.
 
-\subsection{问题二分析}
-
-说明问题二相对问题一新增的信息、变量或目标。
-
-\subsection{问题三分析}
-
-说明问题三是否需要预测、优化、评价或仿真。
-
+This route is intentionally simple. Its purpose is to verify the full toolchain from problem intake to generated artifacts and paper review.

@@ -1,16 +1,5 @@
-\section{模型检验与灵敏度分析}
+\section{Validation and Sensitivity Analysis}
 
-本节检查模型稳定性、误差来源、参数敏感性和异常情形表现。
+The minimum ending inventory in the generated plan is 15 units, so the safety inventory constraint is satisfied in all eight weeks. This is a feasibility validation rather than a full robustness analysis.
 
-\subsection{误差分析}
-
-说明误差来源和误差大小。
-
-\subsection{灵敏度分析}
-
-改变关键参数，观察结果变化。
-
-\subsection{稳健性检验}
-
-通过重复实验、基线模型或交叉验证检验结论稳定性。
-
+The main sensitivity risk is the fixed weighting rule in the supplier-evaluation score. If the reliability weight or loss-rate weight changes, supplier ordering may change. A real CUMCM paper should test multiple weighting schemes and compare the resulting cost, inventory, and supplier composition.

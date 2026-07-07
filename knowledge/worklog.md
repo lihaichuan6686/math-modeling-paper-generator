@@ -1,5 +1,13 @@
 # Worklog
 
+## 2026-07-07 v1.0 demo compile and review
+
+- Compiled the v1-demo LaTeX sample to a 6-page PDF.
+- Rendered pages 1-6 for visual inspection.
+- Improved the generated inventory figure so labels are readable in the paper.
+- Recorded `runs/v1-demo/artifact-ledger.md` and `reviews/review-v1-demo.md`.
+- Current status: pass for v1.0 closed-loop smoke test; not yet full production paper quality.
+
 ## 2026-07-06 GitHub Sync Policy
 
 - User clarified that GitHub uploads should happen once per day, not too frequently.
@@ -75,6 +83,21 @@
 
 - Added `docs/continuation-state.md` so future long-running work can resume from the current knowledge state without depending on conversation memory.
 - Recorded completed deep reads, next reading queue, operating rules, GitHub sync policy, and core method lessons from A028 and C066.
+
+## 2026-07-06 Project Audit Before Pause
+
+- Added `docs/project-audit-2026-07-06.md`.
+- Audited current assets against the long-term goal.
+- Identified the main near-term gap: run a full demo workflow before continuing more large-scale deep reads.
+
+## 2026-07-07 v1.0 Direction
+
+- Shifted project direction from further broad reading to a small complete v1.0 toolchain.
+- Rewrote `README.md` and `docs/workflow.md` into clean v1.0-oriented entry documents.
+- Added `docs/v1-runbook.md` as the main Claude Code runbook for first-draft generation.
+- Added synthetic demo problem `problems/demo-v1-supply.md`.
+- Added `scripts/run-v1-demo.ps1` and `src/demo_v1.py`.
+- Verified the demo can create a run scaffold plus one generated table, one generated figure, and a demo summary.
 
 ## 2026-07-06 Deep Reading D017
 
