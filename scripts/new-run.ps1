@@ -214,32 +214,52 @@ Run: $Name
 "@
 
 $reviewCurrent = @"
-# Review
+# Paper Quality Review
 
 Run: $Name
-Created: $createdAt
+Reviewed: $createdAt
 
-## Summary
+## Overall Status
 
-Not reviewed yet.
+Needs revision
 
-## Blocking Issues
+## Critical Findings
 
-## Important Issues
+| ID | Location | Status | Evidence | Risk | Required repair |
+|---|---|---|---|---|---|
 
-## Minor Issues
+## Important Findings
+
+| ID | Location | Status | Evidence | Risk | Required repair |
+|---|---|---|---|---|---|
+
+## Warnings
+
+| ID | Location | Status | Evidence | Risk | Suggested repair |
+|---|---|---|---|---|---|
 
 ## Evidence Checked
 
-## Evidence Not Checked
+- Not reviewed yet.
 
-## Required Fixes
+## Evidence Missing Or Not Checked
+
+- PDF compile and rendered-page inspection.
+- Artifact ledger consistency.
+- Problem coverage.
+- Model validation.
+
+## Required Repairs Before Pass
+
+1. Run `prompts/06_quality_review.md` after paper generation.
 
 ## Human Verification Needed
 
-## Final Status
+- Confirm research-only use context.
 
-Needs revision
+## Responsible-Use Notes
+
+- Generated drafts must not be used for active contest rule violations or fabricated evidence.
 "@
 
 New-TextFileIfNeeded -Path (Join-Path $runDir "problem-analysis.md") -Content $problemAnalysis

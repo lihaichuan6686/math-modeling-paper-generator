@@ -1,5 +1,11 @@
 # Worklog
 
+## 2026-07-07 Review scaffold alignment
+
+- Replaced the old `prompts/05_review.md` free-form structure with a pointer to `prompts/06_quality_review.md`.
+- Updated `scripts/new-run.ps1` so new review files start in the structured `Paper Quality Review` format.
+- Updated `scripts/start-current.ps1` to point new clone-ready runs at `prompts/06_quality_review.md`.
+
 ## 2026-07-07 Executable quality review prompt
 
 - Added `prompts/06_quality_review.md` so generated papers can be reviewed through a structured evidence-first audit rather than a free-form summary.

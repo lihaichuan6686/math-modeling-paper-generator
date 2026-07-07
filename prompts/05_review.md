@@ -1,83 +1,15 @@
 # Phase 5 Prompt: Review
 
-Read:
-
-- `docs/review-checklist.md`
-- `runs/current/artifact-ledger.md`
-- `runs/current/figure-plan.md`
-- `knowledge/quality/reproducibility-and-ai-difference-framework.md`
-- `knowledge/quality/quality-rubric-v2.md`
-- `knowledge/cumcm/20-30-page-paper-blueprint.md`
-- `knowledge/latex/cumcm-section-contract.md`
-- `knowledge/latex/figures-tables-equations-style.md`
-- `docs/visual-generation-pipeline.md`
-- current `paper/`
-- current `src/`
-
-Create:
-
-- `reviews/review-current.md`
-
-## Review Scope
-
-Review:
-
-- problem coverage
-- section structure
-- 20-30 page structure and visual-density contract
-- model logic
-- code/data reproducibility
-- figures and tables
-- visual source classification and AI-schematic disclosure
-- validation and sensitivity analysis
-- LaTeX/PDF quality
-- responsible-use constraints
-- quality-rubric-v2 dimensions and evidence requirements
-
-## Required Output
-
-Use this structure:
+This prompt is kept for the original phase sequence. For the current review workflow, use:
 
 ```text
-# Review
-
-## Summary
-
-## Blocking Issues
-
-## Important Issues
-
-## Minor Issues
-
-## Evidence Checked
-
-## Evidence Not Checked
-
-## Required Fixes
-
-## Human Verification Needed
-
-## Final Status
-Pass / Needs revision / Reject for research use
+prompts/06_quality_review.md
 ```
 
-## Hard Fail Conditions
+## Required Action
 
-Mark as blocking if:
+1. Read `prompts/06_quality_review.md`.
+2. Apply its evidence-first review process.
+3. Write the result to `reviews/review-current.md` or `reviews/review-<run>.md`.
 
-- any subquestion is unanswered
-- main results cannot be traced to data/code/equations
-- figures or tables are used without source/caption/reference
-- validation is absent for core results
-- PDF cannot compile or has unreadable major content
-- fabricated data, references, or experimental evidence are detected
-- the request appears to support active contest cheating or concealment of prohibited AI involvement
-
-## Repair Loop
-
-If blocking or important issues are found:
-
-1. fix the source document/code/artifact
-2. rebuild if needed
-3. update the artifact ledger
-4. revise the review
+Do not write the old free-form review format. The required review output is the structured `Paper Quality Review` format defined in `prompts/06_quality_review.md`.
