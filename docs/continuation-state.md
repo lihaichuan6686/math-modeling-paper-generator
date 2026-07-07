@@ -47,11 +47,10 @@ Read these first for generation/review tasks:
 
 Next P0 papers:
 
-1. `2022 B030`: geometry/spatial engineering route; compare with A028 for formula-to-figure pattern.
-2. `2022 C155`: decision/planning route; compare with C066 for planning and robustness.
-3. `2023 C050`: dynamic pricing/supply-chain bridge.
-4. `2023 D039`: spatial optimization and visualization.
-5. `2023 E176`: monitoring/data-analysis route.
+1. `2022 C155`: decision/planning route; compare with C066 for planning and robustness.
+2. `2023 C050`: dynamic pricing/supply-chain bridge.
+3. `2023 D039`: spatial optimization and visualization.
+4. `2023 E176`: monitoring/data-analysis route.
 
 ## v1.0 Demo Baseline
 
