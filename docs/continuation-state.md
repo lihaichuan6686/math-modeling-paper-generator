@@ -28,6 +28,7 @@ Newest knowledge-layer progress: `2023 E176` has been deep-read into a monitorin
 | 2021 C066 | supply-chain evaluation and planning | `knowledge/cumcm/deep-reading-2021C066.md` |
 | 2023 C050 | dynamic pricing and supply-chain bridge | `knowledge/cumcm/deep-reading-2023C050.md` |
 | 2023 D039 | spatial optimization and cycle planning | `knowledge/cumcm/deep-reading-2023D039.md` |
+| 2022 E029 | production planning via demand forecasting, service level, and rolling inventory logic | `knowledge/cumcm/deep-reading-2022E029.md` |
 | 2023 E176 | monitoring design, hydrology analysis, and forecast-to-decision chaining | `knowledge/cumcm/deep-reading-2023E176.md` |
 
 ## Strong Entry Points
@@ -52,8 +53,8 @@ Read these first for generation/review tasks:
 
 Next P0 papers:
 
-1. `2023 E same-problem comparison`: compare another 2023 E excellent paper against `E176` to learn acceptable structural variation in the monitoring route.
-2. `2022 E full deep read`: deepen either `E014` or `E029` to strengthen the production-route E archetype.
+1. `2022 E014`: complete the production-route pair after `E029`.
+2. `E-route archetype update`: push the E-route family split into the archetype and blueprint documents.
 
 ## v1.0 Demo Baseline
 
@@ -128,6 +129,8 @@ E-route family split:
 - production-route E papers center on prediction to inventory/service-level or scheduling decisions;
 - monitoring-route E papers center on diagnosis to monitoring or policy decisions;
 - both need a visible action layer after forecasting, but their figures, tables, and appendix evidence differ.
+- current production-route anchor: `2022 E029`;
+- current monitoring-route anchor: `2023 E176`.
 
 ## Git State Rule
 

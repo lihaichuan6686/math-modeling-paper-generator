@@ -19,6 +19,10 @@ Important note:
 
 - Then `E176` is used as the next-year route upgrade reference.
 
+Status update:
+
+- `2022 E029` has now been deep-read in full and should be treated as the current production-route anchor sample.
+
 ## High-Level Contrast
 
 ### 2022 E014
@@ -53,6 +57,7 @@ Observed character:
 - spends more effort on raw order-volume patterns and customer-material grouping;
 - stronger dynamic flavor in the abstract and early figures;
 - appendix includes concrete MATLAB program fragments.
+- full deep-read note: `knowledge/cumcm/deep-reading-2022E029.md`
 
 Observed route:
 
@@ -234,6 +239,6 @@ Monitoring-route E papers:
 
 Best next local follow-up:
 
-1. Deep read `2022 E029` or `2022 E014` in full to strengthen the production-route E archetype.
+1. Deep read `2022 E014` in full to complete the production-route pair.
 2. Then update `problem-type-paper-archetypes.md` with a dedicated E-route split.
 3. After that, update the paper blueprint and review rubric so E-type generation uses the right route family automatically.
