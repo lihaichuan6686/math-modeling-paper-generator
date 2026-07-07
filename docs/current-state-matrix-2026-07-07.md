@@ -22,6 +22,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The rail timetable case has its own problem-type contract, algorithm card, demo pipeline, and paper entry point.
 - The demo scripts produce machine-readable outputs and then run the quality gate automatically.
 - The review system now distinguishes placeholder review files from actual evidence-backed reviews.
+- The 2023 C050 deep read adds a full retail pricing and replenishment route with statistics, clustering, forecasting, optimization, and practical-factor analysis.
 
 ## Still Open
 
@@ -29,7 +30,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 |---|---|---|---|
 | Real contest attachment parsing for rail-timetable cases | Open | Current rail demo uses synthetic data, so it is only a structure exemplar. | Replace synthetic inputs with parsed problem attachments when working on a real rail problem. |
 | OD assignment and fleet/turnback realism | Open | The current rail demo checks the route chain but simplifies operational realism. | Add OD passenger assignment and vehicle circulation constraints. |
-| More problem routes | Open | The knowledge base still benefits from additional deep reads. | Prioritize `2023 C050`, `2023 D039`, and `2023 E176`. |
+| More problem routes | Open | The knowledge base still benefits from additional deep reads. | Prioritize `2023 D039` and `2023 E176`. |
 | 20-30 page rail-quality expansion | Open | The current rail demo is a compact paper, not a full contest-quality draft. | Expand only after real-data parsing and richer validation are added. |
 
 ## Current Judgment
