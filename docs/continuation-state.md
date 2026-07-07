@@ -16,7 +16,7 @@ The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real 
 
 Latest local progress: the MathorCup 2023 B review has been converted into a reusable rail/timetable route. The repository now has a Type I archetype, a rail-timetable operation card, stricter model-plan/implementation/review gates, a runnable rail-timetable demo pipeline, a compiled 10-page `paper/rail_demo.tex` example, and an automatic minimum machine artifact gate for the demo scripts.
 
-Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, and review-rubric documents so the generator can distinguish production-route E papers from monitoring-route E papers.
+Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, review-rubric, playbook, and generation prompts so the generator can distinguish production-route E papers from monitoring-route E papers at ideation, modeling, writing, and review time.
 
 ## Completed Deep Reads
 
@@ -54,9 +54,9 @@ Read these first for generation/review tasks:
 
 Next P0 papers:
 
-1. `E-route archetype update`: push the E-route family split into the archetype and blueprint documents.
-2. `E-route rubric update`: add route-specific review signals for production vs monitoring E papers.
-3. `E-route prompt and playbook update`: wire the new split into generation prompts and the paper-generation playbook.
+1. `E-route run-template update`: reflect the new split in active run templates or starter docs if needed.
+2. `production-route demo lift`: apply the E-route split to a runnable non-rail demo so the route is exercised end-to-end.
+3. `monitoring-route demo scaffold`: prepare a future demo path for hydrology/monitoring style E papers.
 
 ## v1.0 Demo Baseline
 
@@ -134,6 +134,7 @@ E-route family split:
 - current production-route anchors: `2022 E014` and `2022 E029`;
 - current monitoring-route anchor: `2023 E176`.
 - shared generator docs updated: `knowledge/cumcm/problem-type-paper-archetypes.md`, `knowledge/cumcm/20-30-page-paper-blueprint.md`, and `knowledge/quality/quality-rubric-v2.md`.
+- shared entry docs updated: `knowledge/cumcm/paper-generation-playbook.md`, `prompts/01_ideation.md`, `prompts/02_model_plan.md`, `prompts/04_writing.md`, and `prompts/06_quality_review.md`.
 
 ## Git State Rule
 

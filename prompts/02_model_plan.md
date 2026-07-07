@@ -58,6 +58,35 @@ Baseline plan for comparison:
 Scenario parameters:
 ```
 
+If the problem matches an E-type route, the model plan must also define:
+
+```text
+E-route family:
+Why this family fits the subquestions:
+Primary action layer:
+Route-specific validation:
+```
+
+For `production-route E`, also define:
+
+```text
+Key materials:
+Forecast-to-production link:
+Service-level or safety-stock metric:
+Rolling rule or production update equation:
+Scenario or capacity assumptions:
+```
+
+For `monitoring-route E`, also define:
+
+```text
+Diagnostic methods by subquestion:
+Forecast-to-monitoring/policy link:
+Information value or decision criterion:
+Intervention/counterfactual comparison:
+Long-horizon consequence artifact:
+```
+
 ## Figure Plan Requirements
 
 Plan figures before implementation:
@@ -96,6 +125,8 @@ Use `knowledge/latex/cumcm-section-contract.md` to allocate expected pages:
 - appendix
 
 Do not use filler text to reach length. Page count must come from structure, equations, figures, tables, validation, and appendix material.
+
+For E-type problems, use the E-route expansion guidance in `knowledge/cumcm/20-30-page-paper-blueprint.md` instead of generic time-series page planning.
 
 ## Verification Plan
 

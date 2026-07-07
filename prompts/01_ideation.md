@@ -20,6 +20,8 @@ Create:
 Propose at least three candidate model chains. Each candidate must be a route, not a single algorithm name.
 When a candidate route uses a method that has a detailed card, read that card and reflect its inputs, equations, validation, figures, and risks in the candidate.
 
+If the problem looks like an E-type forecast-driven paper, at least one candidate must be framed as `production-route E` and at least one candidate must be framed as `monitoring-route E` unless the task evidence clearly rules one family out.
+
 ## Candidate Format
 
 For each candidate:
@@ -63,6 +65,18 @@ problem fit + data support + interpretability + validation + reproducibility
 ```
 
 Avoid choosing a complex model only because it appears advanced.
+
+For E-type problems, explicitly decide:
+
+```text
+Selected E-route family:
+- production-route E
+or
+- monitoring-route E
+Reason:
+```
+
+Do not leave the route at a generic `forecast to decision` label.
 
 ## Required Final Section
 

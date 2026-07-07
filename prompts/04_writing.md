@@ -50,6 +50,12 @@ A full CUMCM paper reaches 20-30 pages through structure:
 Do not pad with generic background.
 Use `knowledge/cumcm/20-30-page-paper-blueprint.md` to check page budget, visual density, per-subquestion coverage, and anti-filler rules before finalizing section drafts.
 
+If the chosen route is E-type, also check:
+
+- production-route E papers include forecast -> service/inventory -> production action;
+- monitoring-route E papers include diagnosis -> forecast -> monitoring/policy action;
+- route-specific tables and figures from the blueprint are actually present.
+
 ## Figure and Table Rule
 
 Every figure/table inserted into LaTeX must:
@@ -71,6 +77,11 @@ Every important number in:
 - conclusion
 
 must appear in `runs/current/artifact-ledger.md` as a key result.
+
+For E-route drafts:
+
+- production-route key results must include at least one service-level, support-rate, inventory, or production quantity artifact;
+- monitoring-route key results must include at least one monitoring/policy decision artifact and, when relevant, one intervention-effect or consequence artifact.
 
 ## Citation Rule
 

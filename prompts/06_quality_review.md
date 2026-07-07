@@ -91,6 +91,12 @@ Fail if a decision model has no constraints.
 Fail if a classifier lacks data split and confusion-level evaluation.
 Fail if a forecast drives decisions but no forecast error is propagated.
 
+For E-type papers:
+
+- if the route is production-route E, check that forecasts feed service-level, inventory, or production decisions;
+- if the route is monitoring-route E, check that diagnostics and forecasts feed monitoring or policy decisions;
+- fail if the paper is reviewed as generic forecast-to-decision while route-specific evidence is missing.
+
 ### Step 4: Result Traceability
 
 Check:
@@ -138,6 +144,14 @@ For rail-timetable/service-planning drafts, fail if:
 - capacity, headway, tracking, or dwell constraints are not audited;
 - Q3 recommendations lack a scenario table;
 - raw cost and service-level components are hidden behind only normalized scores.
+
+For E-route drafts, fail if:
+
+- production-route E: no executable production table exists, or service-level/support-rate claims are not tabulated;
+- production-route E: rolling-rule coefficients or capacity scenarios are used but not explained;
+- monitoring-route E: diagnostics are listed without subquestion mapping;
+- monitoring-route E: prediction ends the paper and no monitoring/policy scheme is produced;
+- monitoring-route E: policy claims lack intervention or comparison evidence when the problem asks for effect assessment.
 
 ### Step 7: LaTeX and PDF
 

@@ -80,6 +80,14 @@ Selection rule:
 - Avoid choosing a complex algorithm only because it sounds advanced.
 - Prefer interpretable models when data are small, noisy, or industry-rule-heavy.
 
+Special route rule for E-type problems:
+
+- Do not stop at generic `forecast -> decision`.
+- First classify the route as either:
+  - `production-route E`: forecast to inventory, service-level, batching, or production decisions;
+  - `monitoring-route E`: diagnosis and forecast to monitoring, sampling, or policy decisions.
+- Use `knowledge/cumcm/problem-type-paper-archetypes.md` to select `Type C1` or `Type C2` explicitly and record that choice in `runs/current/model-candidates.md`.
+
 ## Phase 2: Model Plan
 
 Required outputs:
@@ -110,6 +118,17 @@ question -> variables -> model -> code -> result -> validation -> paper paragrap
 ```
 
 At this phase, figures must already be planned. CUMCM papers without figures usually look unfinished, and figure planning changes the modeling work itself. The agent should decide early which figures are needed to explain the model, which figures are needed to prove the result, and which figures are needed to validate robustness.
+
+For E-type problems, the model plan must also declare the route family:
+
+```text
+E-route family:
+- production-route E
+or
+- monitoring-route E
+```
+
+and explain why the selected route matches the subquestions better than the other E-route family.
 
 ## Phase 3: Implementation
 
@@ -232,6 +251,12 @@ Structural rule:
 - Do not stretch references with irrelevant citations.
 - Use figures and tables to carry real content instead of adding prose filler.
 
+Route-specific writing rule for E papers:
+
+- production-route E papers must continue from forecast outputs to service-level, inventory, or production actions;
+- monitoring-route E papers must continue from diagnosis and forecast outputs to monitoring or policy actions;
+- do not write both as if they were the same `time-series paper`.
+
 ## Figure and Table Expectations
 
 Minimum target for a full paper:
@@ -250,6 +275,8 @@ Preferred artifacts by problem type:
 - scheduling: Gantt charts, time-resource usage plots, adjustment logs
 - classification: confusion matrix, metric table, feature projection, ablation comparison
 - supply chain: score table, order/transport plan table, capacity boundary curve
+- E production-route: representative-material figures, forecast-vs-actual tables, service-level tables, rolling production tables, capacity-scenario comparison
+- E monitoring-route: diagnostic figures, forecast-vs-history plots, monitoring-decision tables, intervention-effect comparisons, long-horizon consequence tables
 
 Figure source rules:
 
@@ -273,6 +300,11 @@ Every paper needs at least one validation strategy:
 - physical or business sanity check
 
 Validation is not optional decoration. It is evidence that the model is not only formatted correctly.
+
+E-route validation rule:
+
+- production-route E papers should validate forecast usefulness through service-level, support-rate, inventory, or capacity consequences;
+- monitoring-route E papers should validate diagnostics and show that forecast outputs actually feed the monitoring or policy model.
 
 ## Self-Review Gate
 
