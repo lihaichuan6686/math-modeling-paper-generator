@@ -70,6 +70,68 @@ Every subquestion should appear in four places:
 
 If a subquestion appears in only one or two places, the paper is structurally weak.
 
+## E-Route Expansion Guide
+
+When the problem is E-type, page length should emerge from route-specific evidence rather than generic narration.
+
+### Production-route E paper
+
+Recommended evidence chain:
+
+```text
+material screening
+-> forecast evidence
+-> service-level / safety-stock evidence
+-> rolling production rule
+-> executable production tables
+-> scenario comparison
+-> appendix file list and code
+```
+
+Good page growth sources:
+
+- representative-material demand figures;
+- actual-vs-forecast comparison tables;
+- service-level and support-rate tables;
+- coefficient-band or policy-parameter explanation tables;
+- scenario comparison under different capacity assumptions.
+
+Minimum route check:
+
+- forecasting does not end the paper;
+- at least one production table is executable;
+- service-level or support metrics are shown for key materials.
+
+### Monitoring-route E paper
+
+Recommended evidence chain:
+
+```text
+data cleaning
+-> relation analysis
+-> seasonality / periodicity / abruptness diagnosis
+-> forecast evidence
+-> monitoring or policy decision model
+-> intervention-effect comparison
+-> long-horizon consequence analysis
+-> support-material tree
+```
+
+Good page growth sources:
+
+- diagnostic figures such as wavelet, abruptness, or seasonality evidence;
+- forecast-versus-history comparison;
+- monitoring-plan tables;
+- intervention-effect figures;
+- counterfactual or long-horizon consequence tables;
+- multi-tool appendix traceability.
+
+Minimum route check:
+
+- diagnostics are tied to subquestions, not just method-dumped;
+- prediction feeds a decision layer;
+- appendix maps files to questions.
+
 ## Figure Chain Contract
 
 Each planned figure must have:
@@ -118,3 +180,19 @@ Before calling the paper complete:
 - Symbols used in formulas appear in the symbol table.
 - Results in abstract, conclusion, tables, and code outputs agree.
 - Appendix lists code files and output artifacts by subquestion.
+
+## Route-Specific Completion Checks
+
+For production-route E papers, confirm:
+
+- key materials are justified;
+- forecast outputs feed inventory, service-level, or production quantities;
+- rolling rules or update equations are explained;
+- at least one scenario or capacity comparison is visible.
+
+For monitoring-route E papers, confirm:
+
+- diagnostic methods are mapped to specific subquestions;
+- forecast outputs feed monitoring or policy decisions;
+- intervention or counterfactual evidence is visible when claimed;
+- appendix traceability covers mixed tools and generated artifacts.

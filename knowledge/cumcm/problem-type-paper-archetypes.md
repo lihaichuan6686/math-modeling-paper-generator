@@ -146,6 +146,106 @@ Common failure:
 
 - forecast is treated as certain input and no error or scenario is propagated.
 
+### Type C1: E-Route Production Scheduling
+
+Signals:
+
+- material demand, order volume, inventory, service level, rolling production, support rate, or batch production;
+- historical demand drives short-term production decisions;
+- the problem usually asks for executable production quantities or support strategies.
+
+Paper rhythm:
+
+```text
+material screening -> demand-pattern analysis -> forecast model -> service-level or safety-stock analysis -> rolling production rule/model -> scenario or capacity comparison -> execution tables
+```
+
+Model chain:
+
+```text
+key-material screening -> periodic/trend reading -> ARIMA or practical short-term forecast -> support/service calculation -> rolling production update rule or dynamic plan -> capacity-scenario audit
+```
+
+Required tables:
+
+- key-material screening table;
+- forecast-versus-actual table;
+- service-level or support-rate table;
+- safety-stock or inventory-gap table;
+- rolling production plan table;
+- scenario comparison table when multiple capacity assumptions exist.
+
+Required figures:
+
+- representative-material demand figure;
+- fitted-vs-actual or forecast comparison figure;
+- service-level or inventory consequence figure;
+- scenario comparison figure when multiple production assumptions are tested.
+
+Validation:
+
+- actual-versus-forecast comparison;
+- service-level audit;
+- inventory nonnegativity or feasibility audit;
+- compare at least two capacity or policy assumptions when possible;
+- explain whether the route is conservative (`2022 E014`) or dynamic (`2022 E029`).
+
+Common failure:
+
+- forecast is presented without any production table;
+- production quantities are listed without service-level or support interpretation;
+- rolling rules use coefficients that are never explained.
+
+### Type C2: E-Route Monitoring And Policy
+
+Signals:
+
+- monitoring scheme, sampling frequency, hydrology, reservoir, abruptness, periodicity, information value, or intervention effect;
+- the problem asks for both future trend judgment and monitoring or policy design.
+
+Paper rhythm:
+
+```text
+data cleaning and aggregation -> relation analysis -> seasonality/periodicity/abruptness diagnosis -> forecast model -> information-aware monitoring or policy model -> effect evaluation -> long-horizon consequence analysis
+```
+
+Model chain:
+
+```text
+cleaned monitoring series -> descriptive and regression analysis -> wavelet/M-K/Fisher/RS-style diagnosis -> forecast -> monitoring optimization or policy decision -> intervention-effect comparison -> counterfactual forecast
+```
+
+Required tables:
+
+- data-cleaning or aggregation table;
+- regression or feature-construction table;
+- forecast comparison table;
+- monitoring or policy decision table;
+- intervention-effect comparison table;
+- long-horizon consequence table when future impact is requested.
+
+Required figures:
+
+- route/workflow figure;
+- periodicity or abruptness evidence figure;
+- forecast-versus-history figure;
+- monitoring-plan or policy-effect figure;
+- long-horizon consequence figure.
+
+Validation:
+
+- descriptive evidence plus at least one formal diagnostic check;
+- forecast evaluation or reasoned fit check;
+- explicit path from forecast to monitoring/policy decision;
+- intervention or counterfactual comparison when the problem asks for effect assessment;
+- mixed-tool appendix traceability when the workflow spans Python, MATLAB, Excel, or solvers.
+
+Common failure:
+
+- many diagnostics are listed but never tied to a subquestion;
+- prediction is the stopping point and no monitoring scheme is produced;
+- policy conclusions are narrative and lack comparison evidence.
+
 ## Type D: Classification Or Recognition
 
 Signals:
@@ -432,6 +532,14 @@ For a 20-30 page paper, each active problem type should normally contribute:
 | validation, sensitivity, and limitations | 3-5 |
 
 If the paper is short, add missing evidence, derivation, validation, or appendix material. Do not add generic filler.
+
+### E-Route Hint
+
+When the identified route is E-type, do not leave it at generic `Type C`.
+
+- Use `Type C1` when the task is forecast to production, inventory, batching, or service-level decisions.
+- Use `Type C2` when the task is diagnosis and forecast to monitoring, sampling, or policy decisions.
+- If the paper mixes both, declare one primary route and one secondary route in the model plan.
 
 ## Review Gate
 

@@ -16,7 +16,7 @@ The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real 
 
 Latest local progress: the MathorCup 2023 B review has been converted into a reusable rail/timetable route. The repository now has a Type I archetype, a rail-timetable operation card, stricter model-plan/implementation/review gates, a runnable rail-timetable demo pipeline, a compiled 10-page `paper/rail_demo.tex` example, and an automatic minimum machine artifact gate for the demo scripts.
 
-Newest knowledge-layer progress: `2023 E176` has been deep-read into a monitoring/data-analysis route, and a new cross-year comparison note now maps the 2022 E production-planning papers against the 2023 E monitoring route so the generator can distinguish E-type route families instead of treating all E papers as one template.
+Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, and review-rubric documents so the generator can distinguish production-route E papers from monitoring-route E papers.
 
 ## Completed Deep Reads
 
@@ -56,6 +56,7 @@ Next P0 papers:
 
 1. `E-route archetype update`: push the E-route family split into the archetype and blueprint documents.
 2. `E-route rubric update`: add route-specific review signals for production vs monitoring E papers.
+3. `E-route prompt and playbook update`: wire the new split into generation prompts and the paper-generation playbook.
 
 ## v1.0 Demo Baseline
 
@@ -132,6 +133,7 @@ E-route family split:
 - both need a visible action layer after forecasting, but their figures, tables, and appendix evidence differ.
 - current production-route anchors: `2022 E014` and `2022 E029`;
 - current monitoring-route anchor: `2023 E176`.
+- shared generator docs updated: `knowledge/cumcm/problem-type-paper-archetypes.md`, `knowledge/cumcm/20-30-page-paper-blueprint.md`, and `knowledge/quality/quality-rubric-v2.md`.
 
 ## Git State Rule
 

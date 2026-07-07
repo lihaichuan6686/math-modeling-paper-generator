@@ -83,6 +83,12 @@ Required evidence:
 - equations in paper
 - code implementation
 
+Route-specific checks for E papers:
+
+- production-route E papers should show how forecast outputs become inventory, service-level, or production decisions;
+- monitoring-route E papers should show how diagnosis and forecast outputs become monitoring or policy decisions;
+- coefficient bands, rolling rules, or information thresholds should be explained when they drive the final action layer.
+
 ## Dimension 4: Result Traceability
 
 Pass indicators:
@@ -152,6 +158,11 @@ Required evidence:
 - baseline comparison
 - sensitivity outputs
 
+Route-specific E-paper failures:
+
+- production-route: service level is claimed but not tabulated, or production quantities are given without inventory/support interpretation;
+- monitoring-route: diagnostic methods are listed but not linked to subquestions, or prediction never reaches a monitoring/policy scheme.
+
 ## Dimension 7: Reproducibility
 
 Pass indicators:
@@ -197,6 +208,11 @@ Required evidence:
 - rendered PDF
 - page screenshots when needed
 - LaTeX source
+
+E-route presentation checks:
+
+- production-route E papers should keep production tables readable and clearly separated by scenario or material group;
+- monitoring-route E papers should keep diagnostic figures and effect-comparison figures distinguishable in captions and section references.
 
 ## Dimension 9: Responsible Use and Integrity
 
