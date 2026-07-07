@@ -18,6 +18,7 @@ Expected result:
 - paper source: `paper/main.tex`
 - compiled PDF: `paper/main.pdf`
 - review: `reviews/review-v1-demo.md`
+- minimum artifact gate runs automatically unless `-SkipQualityGate` is passed
 
 ## Timetable Demo
 
@@ -37,6 +38,7 @@ Expected result:
 - scenario analysis: `runs/rail-demo/rail_scenario_analysis.csv`
 - figures: `paper/figures/rail_section_flow.png`, `paper/figures/rail_cost_service_tradeoff.png`, `paper/figures/rail_timetable_diagram.png`
 - paper source: `paper/rail_demo.tex`
+- minimum artifact gate runs automatically unless `-SkipQualityGate` is passed
 
 To compile the rail demo paper:
 

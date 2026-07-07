@@ -61,6 +61,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\run-v1-demo.ps1 -Name current
 
 This creates the run scaffold and generates one demo table and one demo figure from `problems/demo-v1-supply.md`.
 
+The demo script runs the minimum artifact gate automatically. Use `-SkipQualityGate` only while debugging an intentionally incomplete run.
+
 If you intentionally want the demo to become the active problem statement, add:
 
 ```powershell
@@ -74,6 +76,8 @@ powershell -ExecutionPolicy Bypass -File .\scripts\run-rail-demo.ps1 -Name rail-
 ```
 
 This creates Type I artifacts for operation-plan selection, full timetable output, capacity audit, tracking/dwell audit, scenario analysis, and Chinese-labeled figures.
+
+The rail demo script also runs the minimum artifact gate automatically. Use `-SkipQualityGate` only while debugging an intentionally incomplete run.
 
 To compile the rail-timetable demo paper, run:
 

@@ -320,7 +320,8 @@ def write_summary(
                 "",
                 "Use this output to test artifact-ledger entries, LaTeX insertion, and review.",
             ]
-        ),
+        )
+        + "\n",
         encoding="utf-8",
     )
     return path

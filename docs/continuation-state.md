@@ -14,7 +14,7 @@ problem -> scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF/rev
 
 The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real MathorCup 2023 B test run showed that the tool can produce a complete draft and attachments, but the next priority is stronger contest-grade modeling, especially for rail-timetable optimization.
 
-Latest local progress: the MathorCup 2023 B review has been converted into a reusable rail/timetable route. The repository now has a Type I archetype, a rail-timetable operation card, stricter model-plan/implementation/review gates, a runnable rail-timetable demo pipeline, a compiled 10-page `paper/rail_demo.tex` example, and a minimum machine artifact gate under `scripts/check-run-quality.*`.
+Latest local progress: the MathorCup 2023 B review has been converted into a reusable rail/timetable route. The repository now has a Type I archetype, a rail-timetable operation card, stricter model-plan/implementation/review gates, a runnable rail-timetable demo pipeline, a compiled 10-page `paper/rail_demo.tex` example, and an automatic minimum machine artifact gate for the demo scripts.
 
 ## Completed Deep Reads
 
@@ -75,8 +75,8 @@ Do not treat this as final paper quality. It proves the loop; the next work is e
 
 ## Next Engineering Queue
 
-1. Integrate the machine artifact gate into more scripts so it runs automatically after demo generation and after review.
-2. Add automated checks for additional problem types beyond Type I rail/timetable cases.
+1. Add automated checks for additional problem types beyond Type I rail/timetable cases.
+2. Add real attachment parsing and OD assignment to the rail route.
 3. Expand the compact rail demo toward a 20-30 page example only after adding real attachment parsing, OD assignment, and fleet/turnback constraints.
 4. Expand generated papers toward 20-30 pages by requiring each subproblem to include model construction, algorithm, result table/figure, and validation.
 5. Improve Chinese figure/table polish: Chinese labels, readable axes, richer captions, and method-specific references.

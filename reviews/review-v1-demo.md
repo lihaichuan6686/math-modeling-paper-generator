@@ -56,3 +56,4 @@ Needs revision
 
 - The demo uses synthetic data and is marked as a research prototype.
 - The output must not be used as an active contest submission.
+Machine gate passed: `scripts/check-run-quality.ps1 -Run v1-demo`.

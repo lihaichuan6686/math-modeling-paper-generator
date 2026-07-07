@@ -63,3 +63,4 @@ LaTeX/PDF: pending until compile step is run
 Responsible use: synthetic research demo only
 Final status: needs compile/review after generation
 ```
+Machine gate: `scripts/check-run-quality.ps1 -Run v1-demo` passed.

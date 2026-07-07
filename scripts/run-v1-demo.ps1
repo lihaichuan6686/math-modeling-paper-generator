@@ -1,7 +1,8 @@
 param(
     [string]$Name = "current",
     [switch]$Force,
-    [switch]$InstallAsActiveProblem
+    [switch]$InstallAsActiveProblem,
+    [switch]$SkipQualityGate
 )
 
 $ErrorActionPreference = "Stop"
@@ -26,6 +27,14 @@ if ($Force) {
     & powershell -ExecutionPolicy Bypass -File (Join-Path $repoRoot "scripts\new-run.ps1") -Name $Name -Problem "demo-v1-supply"
 }
 & $python (Join-Path $repoRoot "src\demo_v1.py") $Name
+
+if (-not $SkipQualityGate) {
+    & powershell -ExecutionPolicy Bypass -File (Join-Path $repoRoot "scripts\check-run-quality.ps1") -Run $Name
+    Add-Content -Encoding UTF8 -Path (Join-Path $repoRoot "runs\$Name\artifact-ledger.md") -Value ""
+    Add-Content -Encoding UTF8 -Path (Join-Path $repoRoot "runs\$Name\artifact-ledger.md") -Value "Machine gate: ``scripts/check-run-quality.ps1 -Run $Name`` passed."
+    Add-Content -Encoding UTF8 -Path (Join-Path $repoRoot "reviews\review-$Name.md") -Value ""
+    Add-Content -Encoding UTF8 -Path (Join-Path $repoRoot "reviews\review-$Name.md") -Value "Machine gate passed: ``scripts/check-run-quality.ps1 -Run $Name``."
+}
 
 Write-Host "Demo v1 artifacts generated."
 Write-Host "Demo problem source: problems\demo-v1-supply.md"
