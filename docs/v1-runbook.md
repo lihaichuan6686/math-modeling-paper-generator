@@ -75,6 +75,12 @@ powershell -ExecutionPolicy Bypass -File .\scripts\run-rail-demo.ps1 -Name rail-
 
 This creates Type I artifacts for operation-plan selection, full timetable output, capacity audit, tracking/dwell audit, scenario analysis, and Chinese-labeled figures.
 
+To compile the rail-timetable demo paper, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1 -Main rail_demo.tex
+```
+
 ## Step 2: Intake
 
 Follow `prompts/00_intake.md`.

@@ -11,6 +11,8 @@ Purpose: synthetic rail-timetable route demo for the math-modeling paper generat
 | Run ID | rail-demo |
 | Problem type | Type I: Rail Transit Timetable And Service Planning |
 | Code entry point | `src/rail_timetable_demo.py` |
+| Paper source | `paper/rail_demo.tex` |
+| PDF output | `paper/rail_demo.pdf` |
 | Data | Synthetic line, section flow, and operating parameters embedded in script |
 | Research status | Demo route, not contest evidence |
 
@@ -57,4 +59,4 @@ Purpose: synthetic rail-timetable route demo for the math-modeling paper generat
 
 ## Review Summary
 
-Generated-artifact status: Pass. PDF writing and final review remain separate steps.
+Generated-artifact status: Pass. `paper/rail_demo.tex` compiles to a 10-page PDF. Rendered pages 1, 5, 7, and 8 were inspected for abstract readability, formula/table fit, timetable sample layout, running-diagram readability, and capacity-audit table fit.

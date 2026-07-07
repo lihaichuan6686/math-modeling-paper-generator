@@ -36,6 +36,13 @@ Expected result:
 - tracking and dwell audits: `runs/rail-demo/rail_tracking_audit.csv`, `runs/rail-demo/rail_dwell_audit.csv`
 - scenario analysis: `runs/rail-demo/rail_scenario_analysis.csv`
 - figures: `paper/figures/rail_section_flow.png`, `paper/figures/rail_cost_service_tradeoff.png`, `paper/figures/rail_timetable_diagram.png`
+- paper source: `paper/rail_demo.tex`
+
+To compile the rail demo paper:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1 -Main rail_demo.tex
+```
 
 ## Use A New Problem
 

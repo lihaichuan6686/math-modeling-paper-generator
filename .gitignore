@@ -25,6 +25,7 @@ venv/
 
 # Generated outputs
 paper/main.pdf
+paper/rail_demo.pdf
 paper/build/
 runs/current/
 knowledge/_generated/
