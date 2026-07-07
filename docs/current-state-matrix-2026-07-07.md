@@ -28,6 +28,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The new `knowledge/cumcm/e-route-comparison-2022-2023.md` note separates E-type papers into production-route and monitoring-route families instead of treating E as a single template.
 - The 2022 E029 deep read now anchors the production-route E family with ARIMA comparison, safety-stock/service-level reasoning, and rolling production planning.
 - The 2022 E014 deep read complements that route with a more conservative service-level-first rolling-rule variant and explicit parameter-band interpretation.
+- The new `knowledge/cumcm/2021C-comparison-C066-C085-C169-C283.md` note shows that same-problem supply-chain papers keep a stable evaluation-to-planning backbone while varying their lead rhetoric across uncertainty-led, optimization-led, and heuristic-led styles.
 
 ## Still Open
 
@@ -35,7 +36,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 |---|---|---|---|
 | Real contest attachment parsing for rail-timetable cases | Open | Current rail demo uses synthetic data, so it is only a structure exemplar. | Replace synthetic inputs with parsed problem attachments when working on a real rail problem. |
 | OD assignment and fleet/turnback realism | Open | The current rail demo checks the route chain but simplifies operational realism. | Add OD passenger assignment and vehicle circulation constraints. |
-| More problem routes | Open | The knowledge base still benefits from additional deep reads and comparison reading. | Prioritize a `2023 E` same-problem comparison against `E176`. |
+| More problem routes | Open | The knowledge base still benefits from additional deep reads and comparison reading. | Prioritize a `2021 D` same-problem comparison or a future `2023 E` same-problem comparison when more official samples are available. |
 | 20-30 page rail-quality expansion | Open | The current rail demo is a compact paper, not a full contest-quality draft. | Expand only after real-data parsing and richer validation are added. |
 
 ## Current Judgment

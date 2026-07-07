@@ -18,6 +18,8 @@ Latest local progress: the MathorCup 2023 B review has been converted into a reu
 
 Newest runnable-demo progress: the old supply toy has now been replaced by a synthetic production-route E closed-loop demo. The active `v1-demo` now generates representative-material screening, short-term forecast checks, rolling production plans, service-level summaries, scenario comparison tables/figures, a compiled `paper/main.pdf`, and rendered-page inspection evidence.
 
+Newest comparison-reading progress: the repository now has a same-problem comparison note for the 2021 C supply-chain cluster (`C066`, `C085`, `C169`, `C283`). That note isolates the stable route contract for supplier-evaluation-plus-planning papers from the variable rhetorical choices such as uncertainty-led, optimization-led, or heuristic-led framing.
+
 Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, review-rubric, playbook, and generation prompts so the generator can distinguish production-route E papers from monitoring-route E papers at ideation, modeling, writing, and review time.
 
 ## Completed Deep Reads
@@ -58,7 +60,7 @@ Next P0 papers:
 
 1. `monitoring-route demo scaffold`: prepare a future demo path for hydrology/monitoring style E papers.
 2. `production-route realism lift`: replace more synthetic assumptions in the current production-route demo with stronger scenario tension or attachment-like inputs.
-3. `E-route run-template update`: reflect the new split in any remaining active run templates or starter docs if needed.
+3. `2021 D same-problem comparison`: learn how online scheduling papers vary while keeping a stable route backbone.
 
 ## v1.0 Demo Baseline
 
@@ -138,6 +140,7 @@ E-route family split:
 - current monitoring-route anchor: `2023 E176`.
 - shared generator docs updated: `knowledge/cumcm/problem-type-paper-archetypes.md`, `knowledge/cumcm/20-30-page-paper-blueprint.md`, and `knowledge/quality/quality-rubric-v2.md`.
 - shared entry docs updated: `knowledge/cumcm/paper-generation-playbook.md`, `prompts/01_ideation.md`, `prompts/02_model_plan.md`, `prompts/04_writing.md`, and `prompts/06_quality_review.md`.
+- new same-problem comparison note: `knowledge/cumcm/2021C-comparison-C066-C085-C169-C283.md`.
 
 ## Git State Rule
 

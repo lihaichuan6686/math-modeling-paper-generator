@@ -21,6 +21,7 @@ Purpose: organize long-term, batch-by-batch reading of CUMCM papers. Each deep r
 | 2021 A-E first pass | first pass complete | `knowledge/cumcm/2021-official-first-pass.md` |
 | 2022 A-E first pass | first pass complete | `knowledge/cumcm/2022-official-first-pass.md` |
 | 2023 A-E first pass | first pass complete | `knowledge/cumcm/2023-official-first-pass.md` |
+| 2021 C same-problem comparison | comparison complete | `knowledge/cumcm/2021C-comparison-C066-C085-C169-C283.md` |
 
 ## Priority Queue
 
@@ -39,7 +40,6 @@ Goal: compare multiple papers for the same problem to learn acceptable structura
 Recommended batches:
 
 - 2021 D problem: compare D017 against another D paper if available.
-- 2021 C problem: compare multiple supply-chain papers.
 - 2023 C problem: compare dynamic pricing papers.
 - 2023 E problem: compare monitoring/data-analysis papers.
 
