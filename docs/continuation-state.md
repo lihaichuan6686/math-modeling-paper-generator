@@ -6,13 +6,13 @@ Purpose: make long-running unattended work resumable without rereading the entir
 
 ## Current Focus
 
-The project has shifted from "read more first" to a v1.0 closed-loop toolchain:
+The project has shifted from "read more first" to improving the v1.0 closed-loop toolchain through real generated-paper reviews:
 
 ```text
 problem -> scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF/review
 ```
 
-The bundled `v1-demo` now compiles and has rendered-PDF review evidence. The next priority is to expand from a smoke test into a fuller v1.0 research draft and then package the workflow so Claude Code can reuse it directly.
+The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real MathorCup 2023 B test run showed that the tool can produce a complete draft and attachments, but the next priority is stronger contest-grade modeling, especially for rail-timetable optimization.
 
 ## Completed Deep Reads
 
@@ -38,6 +38,7 @@ Read these first for generation/review tasks:
 9. `knowledge/latex/section-writing-patterns.md`
 10. `prompts/06_quality_review.md`
 11. `knowledge/quality/quality-rubric-v2.md`
+12. `knowledge/quality/mathorcup-2023B-v1-test-review.md`
 
 ## Next Reading Queue
 
@@ -72,11 +73,11 @@ Do not treat this as final paper quality. It proves the loop; the next work is e
 
 ## Next Engineering Queue
 
-1. Expand the demo paper from 6 pages toward a 20-30 page CUMCM-style draft.
-2. Add richer generated figures: model flowchart, sensitivity plot, feasibility audit, and cost comparison.
-3. Make the demo runner preserve or regenerate the artifact ledger and review report instead of resetting them to placeholders.
-4. Package `docs/v1-runbook.md` into a Claude Code skill-style workflow.
-5. Add a stronger example route after the supply-planning demo, preferably classification (`2021 E014`) or optimization/planning (`2022 C155`).
+1. Build a dedicated `rail_timetable` route from the MathorCup 2023 B review: big/small route planning, Pareto/TOPSIS selection, equal-interval timetable, and feasibility audits.
+2. Strengthen the quality gate so the artifact ledger cannot pass while `reviews/review-current.md` is empty or still marked needs-revision.
+3. Add mandatory outputs for timetable problems: operation plan, full timetable, capacity audit, tracking audit, and scenario analysis.
+4. Expand generated papers toward 20-30 pages by requiring each subproblem to include model construction, algorithm, result table/figure, and validation.
+5. Improve Chinese figure/table polish: Chinese labels, readable axes, richer captions, and method-specific references.
 
 ## Operating Rules
 
