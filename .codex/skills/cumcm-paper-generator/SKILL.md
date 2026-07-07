@@ -47,6 +47,7 @@ Produce or update:
 Load these as needed:
 
 - Paper structure: `knowledge/cumcm/20-30-page-paper-blueprint.md`
+- Problem-type paper archetypes: `knowledge/cumcm/problem-type-paper-archetypes.md`
 - Generation workflow: `knowledge/cumcm/paper-generation-playbook.md`
 - Route selection: `knowledge/algorithms/cumcm-routing-rules.md`
 - Algorithm cards: `knowledge/algorithms/cards/README.md`

@@ -1,5 +1,10 @@
 # Worklog
 
+## 2026-07-07 Problem-type paper archetypes
+
+- Added `knowledge/cumcm/problem-type-paper-archetypes.md` to map common CUMCM problem types to paper rhythm, model chain, required tables, required figures, validation, and common failures.
+- Linked the new archetype index from `knowledge/README.md`, `CLAUDE.md`, the repository skill, and continuation state.
+
 ## 2026-07-07 Expanded v1 demo paper
 
 - Extended `src/demo_v1.py` to generate supplier-score, order-plan, and sensitivity tables plus inventory, weekly-cost, and transport-loss sensitivity figures.

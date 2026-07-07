@@ -31,10 +31,11 @@ Read these first for generation/review tasks:
 2. `docs/project-audit-2026-07-06.md`
 3. `knowledge/cumcm/paper-generation-playbook.md`
 4. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-5. `knowledge/algorithms/model-chain-patterns.md`
-6. `knowledge/algorithms/cards/README.md`
-7. `docs/visual-generation-pipeline.md`
-8. `knowledge/quality/quality-rubric-v2.md`
+5. `knowledge/cumcm/problem-type-paper-archetypes.md`
+6. `knowledge/algorithms/model-chain-patterns.md`
+7. `knowledge/algorithms/cards/README.md`
+8. `docs/visual-generation-pipeline.md`
+9. `knowledge/quality/quality-rubric-v2.md`
 
 ## Next Reading Queue
 

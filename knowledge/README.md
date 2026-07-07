@@ -8,14 +8,15 @@ For any CUMCM paper-generation or review run, read in this order:
 
 1. `cumcm/paper-generation-playbook.md`
 2. `cumcm/20-30-page-paper-blueprint.md`
-3. `algorithms/cumcm-routing-rules.md`
-4. `algorithms/cards/README.md`
-5. `algorithms/model-chain-patterns.md`
-6. relevant detailed algorithm cards under `algorithms/cards/`
-7. `latex/cumcm-section-contract.md`
-8. `latex/figures-tables-equations-style.md`
-9. `latex/snippets.md`
-10. `quality/quality-rubric-v2.md`
+3. `cumcm/problem-type-paper-archetypes.md`
+4. `algorithms/cumcm-routing-rules.md`
+5. `algorithms/cards/README.md`
+6. `algorithms/model-chain-patterns.md`
+7. relevant detailed algorithm cards under `algorithms/cards/`
+8. `latex/cumcm-section-contract.md`
+9. `latex/figures-tables-equations-style.md`
+10. `latex/snippets.md`
+11. `quality/quality-rubric-v2.md`
 
 ## Directory Map
 
@@ -32,6 +33,7 @@ Structure and writing:
 
 - `cumcm/paper-generation-playbook.md`
 - `cumcm/20-30-page-paper-blueprint.md`
+- `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
 
 Algorithms and model routes:
