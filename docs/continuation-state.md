@@ -42,6 +42,8 @@ Newest quality-layer progress: `knowledge/quality/finding-gate-matrix.md` now br
 
 Newest drafting-layer progress: `knowledge/cumcm/archetype-section-matrix.md` now maps CUMCM problem archetypes to section emphasis, first artifacts, and validation habits so problem typing can flow straight into a paper skeleton.
 
+Newest synthesis-layer progress: `knowledge/full-stack-execution-map.md` now ties the route, archetype, method, section, and quality bridges into one shortest path from problem signal to review-ready draft.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -193,6 +195,7 @@ E-route family split:
 - new route-method matrix: `knowledge/algorithms/route-method-matrix.md`.
 - new finding-gate matrix: `knowledge/quality/finding-gate-matrix.md`.
 - new archetype-section matrix: `knowledge/cumcm/archetype-section-matrix.md`.
+- new full-stack execution map: `knowledge/full-stack-execution-map.md`.
 - new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
