@@ -27,6 +27,7 @@ For any CUMCM paper-generation or review run, read in this order:
 19. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
 20. `learning-status.md`
 21. `quality/completion-gate.md`
+22. `master-map.md`
 
 ## Directory Map
 
@@ -81,6 +82,7 @@ Quality review:
 Maintenance status:
 
 - `learning-status.md`
+- `master-map.md`
 
 ## Absorption Rules
 

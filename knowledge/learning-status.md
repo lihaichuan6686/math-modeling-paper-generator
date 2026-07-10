@@ -10,6 +10,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM generation loop that connects route selection, section mapping, artifact planning, and iteration decisions.
 - CUMCM paper-family matrix for early artifact and validation planning.
 - CUMCM completion gate for deciding when a generated draft is ready to hand off.
+- CUMCM master map for one-glance navigation across the knowledge stack.
 - Official-paper style versus risky modern-draft failure patterns.
 - E-route split between production-route and monitoring-route families.
 - Core LaTeX section structure and section-writing contracts.
@@ -54,3 +55,4 @@ For the next round of work, prioritize:
 4. more concrete generation-loop examples for common problem families.
 5. more family-specific section and artifact playbooks for recurring contest types.
 6. more concise completion gates for research-review handoff.
+7. a one-glance master map that keeps the knowledge stack easy to navigate.
