@@ -20,8 +20,9 @@ For any CUMCM paper-generation or review run, read in this order:
 12. `latex/section-writing-patterns.md`
 13. `latex/figures-tables-equations-style.md`
 14. `latex/snippets.md`
-15. `quality/quality-rubric-v2.md`
-16. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
+15. `quality/README.md`
+16. `quality/quality-rubric-v2.md`
+17. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
 
 ## Directory Map
 
@@ -29,7 +30,7 @@ For any CUMCM paper-generation or review run, read in this order:
 - `cumcm/`: CUMCM doorway, problem types, official paper observations, deep-reading notes, paper-generation workflows, and structure blueprints.
 - `algorithms/`: routing rules, algorithm doorway, model-chain patterns, algorithm cards, and problem-type method mappings.
 - `latex/`: paper structure, LaTeX doorway, section contracts, figure/table/equation style, and reusable LaTeX snippets.
-- `quality/`: paper review rubrics, reproducibility checks, and human-AI difference research framework.
+- `quality/`: quality doorway, paper review rubrics, reproducibility checks, and human-AI difference research framework.
 - `_generated/`: temporary rendered pages, screenshots, and machine-generated inspection artifacts. This directory is not committed.
 
 ## Current Strong Entry Points
@@ -60,6 +61,7 @@ Visuals and artifacts:
 
 Quality review:
 
+- `quality/README.md`
 - `quality/quality-rubric-v2.md`
 - `../docs/review-checklist.md`
 - `quality/reproducibility-and-ai-difference-framework.md`
