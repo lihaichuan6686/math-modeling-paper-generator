@@ -22,6 +22,8 @@ Newest comparison-reading progress: the repository now has a same-problem compar
 
 Newest comparison-reading progress on the scheduling side: the repository now also has a same-problem comparison note for the 2021 D continuous-cutting cluster (`D017`, `D026`, `D034`). That note separates the stable online-optimization backbone from three valid writing voices: theorem-led, multiobjective-planning-led, and implementation-led.
 
+Newest risk-reading progress: `knowledge/cumcm/2024B-modern-draft-risk-reading.md` records a visual and structural audit of three 2024 B complete-looking drafts. It adds hard gates for placeholder leakage, watermark residue, empty appendices, orphan equations, unsupported claims, and page-count padding.
+
 Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, review-rubric, playbook, and generation prompts so the generator can distinguish production-route E papers from monitoring-route E papers at ideation, modeling, writing, and review time.
 
 ## Completed Deep Reads
@@ -144,6 +146,7 @@ E-route family split:
 - shared entry docs updated: `knowledge/cumcm/paper-generation-playbook.md`, `prompts/01_ideation.md`, `prompts/02_model_plan.md`, `prompts/04_writing.md`, and `prompts/06_quality_review.md`.
 - new same-problem comparison note: `knowledge/cumcm/2021C-comparison-C066-C085-C169-C283.md`.
 - new same-problem comparison note: `knowledge/cumcm/2021D-comparison-D017-D026-D034.md`.
+- new modern-draft risk note: `knowledge/cumcm/2024B-modern-draft-risk-reading.md`.
 
 ## Git State Rule
 

@@ -23,6 +23,7 @@ Purpose: organize long-term, batch-by-batch reading of CUMCM papers. Each deep r
 | 2023 A-E first pass | first pass complete | `knowledge/cumcm/2023-official-first-pass.md` |
 | 2021 C same-problem comparison | comparison complete | `knowledge/cumcm/2021C-comparison-C066-C085-C169-C283.md` |
 | 2021 D same-problem comparison | comparison complete | `knowledge/cumcm/2021D-comparison-D017-D026-D034.md` |
+| 2024 B modern-draft risk reading | risk reading complete | `knowledge/cumcm/2024B-modern-draft-risk-reading.md` |
 
 ## Priority Queue
 
@@ -42,7 +43,7 @@ Recommended batches:
 
 - 2023 C problem: compare dynamic pricing papers.
 - 2023 E problem: compare monitoring/data-analysis papers.
-- 2024 recent complete drafts: compare polished modern drafts against official concise styles.
+- 2024 recent complete drafts: extend risk reading across C/D/E, then compare against official concise styles.
 
 Extraction focus:
 
