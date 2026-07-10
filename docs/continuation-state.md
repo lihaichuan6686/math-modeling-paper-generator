@@ -161,6 +161,7 @@ E-route family split:
 - new atlas index: `knowledge/cumcm/cumcm-atlas.md` now links problem types, algorithm cards, LaTeX rules, quality gates, and next-step iteration planning.
 - new algorithm doorway: `knowledge/algorithms/README.md` now gives the generator a stable path from problem signal to route family to detailed method cards.
 - new LaTeX doorway: `knowledge/latex/README.md` now gives the generator a stable path from section contract to writing patterns to figure/table/equation style.
+- new prompt doorway: `prompts/README.md` now gives the generator a stable path from intake through quality audit.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
 - `docs/v1-runbook.md` now points the fresh-run path at the atlas and next-iteration plan before the old step-by-step scaffold.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.

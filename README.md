@@ -65,6 +65,7 @@ docs/v1-runbook.md
 4. Claude Code should work through:
 
 ```text
+prompts/README.md
 prompts/00_intake.md
 prompts/01_ideation.md
 prompts/02_model_plan.md
@@ -102,6 +103,7 @@ A completed v1.0 run should contain:
 Read these before generation or review:
 
 - `knowledge/README.md`
+- `prompts/README.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/algorithms/model-chain-patterns.md`

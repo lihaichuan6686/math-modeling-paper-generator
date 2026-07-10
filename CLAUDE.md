@@ -19,6 +19,7 @@ For every generation or review run, read these files first:
 - `docs/v1-runbook.md`
 - `docs/continuation-state.md`
 - `knowledge/README.md`
+- `prompts/README.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/cumcm/problem-type-paper-archetypes.md`

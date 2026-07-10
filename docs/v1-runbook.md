@@ -31,15 +31,16 @@ Optional:
 Read first:
 
 1. `knowledge/README.md`
-2. `knowledge/cumcm/cumcm-atlas.md`
-3. `knowledge/cumcm/next-iteration-plan.md`
-4. `knowledge/cumcm/paper-generation-playbook.md`
-5. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-6. `knowledge/algorithms/model-chain-patterns.md`
-7. `knowledge/algorithms/cards/README.md`
-8. relevant detailed algorithm cards under `knowledge/algorithms/cards/`
-9. `docs/visual-generation-pipeline.md`
-10. `knowledge/quality/quality-rubric-v2.md`
+2. `prompts/README.md`
+3. `knowledge/cumcm/cumcm-atlas.md`
+4. `knowledge/cumcm/next-iteration-plan.md`
+5. `knowledge/cumcm/paper-generation-playbook.md`
+6. `knowledge/cumcm/20-30-page-paper-blueprint.md`
+7. `knowledge/algorithms/model-chain-patterns.md`
+8. `knowledge/algorithms/cards/README.md`
+9. relevant detailed algorithm cards under `knowledge/algorithms/cards/`
+10. `docs/visual-generation-pipeline.md`
+11. `knowledge/quality/quality-rubric-v2.md`
 
 For train, metro, bus, OD-flow, headway, running-diagram, or timetable problems, also read:
 
