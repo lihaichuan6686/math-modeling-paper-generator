@@ -47,18 +47,19 @@ Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now f
 Read these first for generation/review tasks:
 
 1. `knowledge/README.md`
-2. `docs/project-audit-2026-07-06.md`
-3. `knowledge/cumcm/paper-generation-playbook.md`
-4. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-5. `knowledge/cumcm/problem-type-paper-archetypes.md`
-6. `knowledge/algorithms/model-chain-patterns.md`
-7. `knowledge/algorithms/cards/README.md`
-8. `docs/visual-generation-pipeline.md`
-9. `knowledge/latex/section-writing-patterns.md`
-10. `prompts/06_quality_review.md`
-11. `knowledge/quality/quality-rubric-v2.md`
-12. `knowledge/quality/mathorcup-2023B-v1-test-review.md`
-13. `docs/current-state-matrix-2026-07-07.md`
+2. `knowledge/learning-status.md`
+3. `docs/project-audit-2026-07-06.md`
+4. `knowledge/cumcm/paper-generation-playbook.md`
+5. `knowledge/cumcm/20-30-page-paper-blueprint.md`
+6. `knowledge/cumcm/problem-type-paper-archetypes.md`
+7. `knowledge/algorithms/model-chain-patterns.md`
+8. `knowledge/algorithms/cards/README.md`
+9. `docs/visual-generation-pipeline.md`
+10. `knowledge/latex/section-writing-patterns.md`
+11. `prompts/06_quality_review.md`
+12. `knowledge/quality/quality-rubric-v2.md`
+13. `knowledge/quality/mathorcup-2023B-v1-test-review.md`
+14. `docs/current-state-matrix-2026-07-07.md`
 
 ## Next Reading Queue
 
@@ -156,6 +157,7 @@ E-route family split:
 - newest E-route lesson: traffic-control papers need road-network figures, a stable question map, method-to-output linkage, before-after policy evaluation, and code coverage beyond preprocessing screenshots.
 - new synthesis note: `knowledge/cumcm/official-style-vs-modern-draft-risk.md`.
 - new synthesis note: `knowledge/cumcm/official-paper-paradigms.md`.
+- new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
 - review standards updated: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` now explicitly check stable question mapping, effective body length, object-first figures, and the difference between reproducible results and screenshot-only evidence.
 - new atlas index: `knowledge/cumcm/cumcm-atlas.md` now links problem types, algorithm cards, LaTeX rules, quality gates, and next-step iteration planning.
@@ -174,7 +176,7 @@ E-route family split:
 - `docs/architecture.md` now gives the project a short architecture map for the closed-loop paper-generation system.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
 - `docs/v1-runbook.md` now points the fresh-run path at the atlas and next-iteration plan before the old step-by-step scaffold.
-- new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
+- `knowledge/learning-status.md` now gives the project a compact absorb/queue panel for long-term maintenance.
 
 ## Git State Rule
 

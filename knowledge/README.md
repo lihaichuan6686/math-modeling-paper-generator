@@ -25,6 +25,7 @@ For any CUMCM paper-generation or review run, read in this order:
 17. `quality/README.md`
 18. `quality/quality-rubric-v2.md`
 19. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
+20. `learning-status.md`
 
 ## Directory Map
 
@@ -33,6 +34,7 @@ For any CUMCM paper-generation or review run, read in this order:
 - `algorithms/`: routing rules, algorithm doorway, model-chain patterns, algorithm cards, and problem-type method mappings.
 - `latex/`: paper structure, LaTeX doorway, section contracts, figure/table/equation style, and reusable LaTeX snippets.
 - `quality/`: quality doorway, paper review rubrics, reproducibility checks, and human-AI difference research framework.
+- `learning-status.md`: compact view of what the knowledge base has already absorbed and what still needs deeper reading.
 - `_generated/`: temporary rendered pages, screenshots, and machine-generated inspection artifacts. This directory is not committed.
 
 ## Current Strong Entry Points
@@ -69,6 +71,10 @@ Quality review:
 - `../docs/review-checklist.md`
 - `quality/reproducibility-and-ai-difference-framework.md`
 - `../docs/current-state-matrix-2026-07-07.md`
+
+Maintenance status:
+
+- `learning-status.md`
 
 ## Absorption Rules
 

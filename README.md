@@ -107,6 +107,7 @@ Read these before generation or review:
 - `prompts/README.md`
 - `docs/README.md`
 - `inventory/README.md`
+- `knowledge/learning-status.md`
 - `knowledge/quality/README.md`
 - `docs/architecture.md`
 - `inventory/source-map.md`

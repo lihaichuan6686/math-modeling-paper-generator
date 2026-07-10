@@ -10,12 +10,13 @@ If you are just getting oriented, read these in order:
 2. `CLAUDE.md`
 3. `docs/README.md`
 4. `knowledge/README.md`
-5. `knowledge/cumcm/README.md`
-6. `knowledge/algorithms/README.md`
-7. `knowledge/latex/README.md`
-8. `knowledge/quality/README.md`
-9. `prompts/README.md`
-10. `docs/v1-runbook.md`
+5. `knowledge/learning-status.md`
+6. `knowledge/cumcm/README.md`
+7. `knowledge/algorithms/README.md`
+8. `knowledge/latex/README.md`
+9. `knowledge/quality/README.md`
+10. `prompts/README.md`
+11. `docs/v1-runbook.md`
 
 ## Fastest Demo
 
