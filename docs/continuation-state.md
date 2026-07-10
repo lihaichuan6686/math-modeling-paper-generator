@@ -165,6 +165,7 @@ E-route family split:
 - new CUMCM doorway: `knowledge/cumcm/README.md` now gives the generator a stable path from atlas to paradigms to risk notes.
 - new docs doorway: `docs/README.md` now gives the project a stable path from runbook to review, state, and roadmap files.
 - new quality doorway: `knowledge/quality/README.md` now gives the generator a stable path from rubric to reproducibility to review notes.
+- classification route anchor: `knowledge/cumcm/deep-reading-2021E014.md` now sits in the top route list for spectral and high-dimensional signal classification.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
 - `docs/v1-runbook.md` now points the fresh-run path at the atlas and next-iteration plan before the old step-by-step scaffold.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.

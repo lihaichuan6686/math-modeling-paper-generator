@@ -254,6 +254,10 @@ Signals:
 - samples, spectra, images, texts, or high-dimensional indicators must be classified;
 - labels, categories, or authenticity decisions matter.
 
+Route anchors:
+
+- `deep-reading-2021E014.md` for spectral preprocessing, feature reduction, and class-level evaluation.
+
 Paper rhythm:
 
 ```text

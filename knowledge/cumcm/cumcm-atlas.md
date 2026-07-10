@@ -110,6 +110,7 @@ Typical signs:
 
 Core artifacts:
 
+- [deep-reading-2021E014.md](deep-reading-2021E014.md)
 - algorithm cards: `random-forest.md`, `svm.md`, `pca-lda.md`
 - routing rules: `model-chain-patterns.md`, `problem-type-to-method.md`
 
