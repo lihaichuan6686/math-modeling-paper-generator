@@ -33,8 +33,9 @@ For any CUMCM paper-generation or review run, read in this order:
 25. `latex/visual-family-index.md`
 26. `latex/table-family-index.md`
 27. `latex/equation-family-index.md`
-28. `roadmap.md`
-29. `../prompts/flow-map.md`
+28. `quality/evidence-family-index.md`
+29. `roadmap.md`
+30. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -88,6 +89,7 @@ Quality review:
 - `quality/README.md`
 - `quality/quality-rubric-v2.md`
 - `quality/completion-gate.md`
+- `quality/evidence-family-index.md`
 - `../docs/review-checklist.md`
 - `quality/reproducibility-and-ai-difference-framework.md`
 - `../docs/current-state-matrix-2026-07-07.md`
@@ -101,6 +103,7 @@ Maintenance status:
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`
 - `latex/equation-family-index.md`
+- `quality/evidence-family-index.md`
 - `../prompts/flow-map.md`
 
 ## Absorption Rules
