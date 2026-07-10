@@ -44,7 +44,7 @@ Recommended batches:
 
 - 2023 C problem: compare dynamic pricing papers.
 - 2023 E problem: compare monitoring/data-analysis papers.
-- 2024 recent complete drafts: extend risk reading across D/E, then compare against official concise styles.
+- 2024 recent complete drafts: extend risk reading across E, then compare against official concise styles.
 
 Extraction focus:
 
@@ -64,7 +64,7 @@ Targets:
 - 2024 A complete paper drafts
 - 2024 B complete paper drafts
 - 2024 C complete paper drafts
-- 2024 D complete paper drafts
+- 2024 D complete paper drafts: risk note added for physics-probability closure, effective page count, watermark/title residue, and code provenance.
 - 2024 E complete paper drafts
 - any attached code or idea documents
 

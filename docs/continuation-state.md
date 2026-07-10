@@ -150,6 +150,8 @@ E-route family split:
 - new same-problem comparison note: `knowledge/cumcm/2021D-comparison-D017-D026-D034.md`.
 - new modern-draft risk note: `knowledge/cumcm/2024B-modern-draft-risk-reading.md`.
 - new modern-draft risk note: `knowledge/cumcm/2024C-modern-draft-risk-reading.md`.
+- new modern-draft risk note: `knowledge/cumcm/2024D-modern-draft-risk-reading.md`.
+- newest D-route lesson: physics/probability papers need geometry diagrams, distribution traceability, numeric closure, code provenance, effective body-page counting, and reference relevance checks.
 
 ## Git State Rule
 
