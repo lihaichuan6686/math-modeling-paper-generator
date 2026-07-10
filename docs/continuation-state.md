@@ -157,6 +157,7 @@ E-route family split:
 - new synthesis note: `knowledge/cumcm/official-style-vs-modern-draft-risk.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
 - review standards updated: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` now explicitly check stable question mapping, effective body length, object-first figures, and the difference between reproducible results and screenshot-only evidence.
+- new atlas index: `knowledge/cumcm/cumcm-atlas.md` now links problem types, algorithm cards, LaTeX rules, quality gates, and next-step iteration planning.
 
 ## Git State Rule
 

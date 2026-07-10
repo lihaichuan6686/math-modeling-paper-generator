@@ -36,6 +36,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The new `knowledge/cumcm/2024E-modern-draft-risk-reading.md` note adds traffic-control E checks: road-network visualization, stable question mapping, method-to-output linkage, before-after policy evaluation, and code coverage beyond screenshots.
 - The new `knowledge/cumcm/official-style-vs-modern-draft-risk.md` synthesis note connects the official excellent-paper readings to the 2024 draft-risk notes, clarifying which signals should be imitated and which should be rejected by the generator.
 - The quality standards layer now reflects those lessons too: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` explicitly audit question-map stability, effective body length, object-first figures, and screenshot-versus-evidence risks.
+- The new `knowledge/cumcm/cumcm-atlas.md` file acts as the top-level navigation layer for routes, algorithms, LaTeX, risk gates, and next-step iteration planning.
 
 ## Still Open
 
