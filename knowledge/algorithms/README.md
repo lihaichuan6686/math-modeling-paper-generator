@@ -7,9 +7,10 @@ Purpose: give the generator one stable entry point for moving from a problem sig
 1. `cumcm-routing-rules.md`
 2. `problem-type-to-method.md`
 3. `model-chain-patterns.md`
-4. `method-family-index.md`
-5. `cards/README.md`
-6. the detailed cards under `cards/`
+4. `route-method-matrix.md`
+5. `method-family-index.md`
+6. `cards/README.md`
+7. the detailed cards under `cards/`
 
 ## What This Layer Does
 
@@ -18,6 +19,7 @@ This layer answers three questions:
 1. What route family does the problem belong to?
 2. What model chain should be built?
 3. Which method family and method cards should be read first?
+4. Which artifact and validation pattern should the route produce?
 
 The goal is not to collect algorithm names. The goal is to produce a route that can survive review.
 
@@ -37,7 +39,7 @@ The goal is not to collect algorithm names. The goal is to produce a route that 
 Use this rule when selecting a method:
 
 ```text
-problem signal -> route family -> model chain -> method card -> expected figure/table -> validation check
+problem signal -> route family -> route-method matrix -> method card -> expected figure/table -> validation check
 ```
 
 If a card cannot produce a visible artifact or a reviewable validation step, it is not the right card yet.
@@ -51,6 +53,16 @@ Every method choice should be able to answer:
 - what output it produces;
 - how the output enters the paper;
 - how the result is checked.
+
+## Best Use
+
+Read this note together with:
+
+- `cumcm-routing-rules.md`
+- `problem-type-to-method.md`
+- `route-method-matrix.md`
+- `method-family-index.md`
+- `cards/README.md`
 
 ## Status
 

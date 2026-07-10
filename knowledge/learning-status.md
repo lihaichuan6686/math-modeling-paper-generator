@@ -19,6 +19,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
 - CUMCM official paper index for positive template retrieval.
 - CUMCM algorithm method-family index for faster route-to-card selection.
+- CUMCM route-method matrix for faster route-to-card bridging.
 - Prompt flow map for the staged generation loop.
 - Run-start checklist for the first actionable run entry.
 - Launch prompt for direct Claude Code execution.
@@ -84,7 +85,8 @@ For the next round of work, prioritize:
 17. an official paper index that groups positive templates by route family.
 18. a deep-reading index that groups absorbed examples by route family.
 19. a route example matrix that pairs each route with the fastest next sample set.
-20. a LaTeX section family index that makes section drafting more concrete.
-21. a run-start checklist that turns the docs layer into an actionable entry.
-22. a launch prompt that directly starts the staged workflow.
-23. a run artifact index that maps stages to standard outputs.
+20. a route-method matrix that bridges route choice to concrete cards.
+21. a LaTeX section family index that makes section drafting more concrete.
+22. a run-start checklist that turns the docs layer into an actionable entry.
+23. a launch prompt that directly starts the staged workflow.
+24. a run artifact index that maps stages to standard outputs.

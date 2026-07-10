@@ -36,6 +36,8 @@ Newest prompt-layer progress: `prompts/07_launch.md` now gives a single copy-pas
 
 Newest LaTeX-layer progress: `knowledge/latex/section-family-index.md` now gives a section-by-section writing and repair index so thin or generic sections can be expanded with the right kind of artifact.
 
+Newest algorithm-layer progress: `knowledge/algorithms/route-method-matrix.md` now bridges route families to first method families, expected artifacts, and validation focus so the generator can move from route selection to card selection with less guesswork.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -184,6 +186,7 @@ E-route family split:
 - new run-start checklist: `docs/run-start-checklist.md`.
 - new launch prompt: `prompts/07_launch.md`.
 - new section family index: `knowledge/latex/section-family-index.md`.
+- new route-method matrix: `knowledge/algorithms/route-method-matrix.md`.
 - new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
