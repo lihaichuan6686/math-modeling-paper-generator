@@ -284,6 +284,10 @@ Trigger terms:
 - clustering
 - sample
 
+Route anchor:
+
+- `knowledge/cumcm/deep-reading-2021E014.md` shows the preprocessing-first route for spectral and high-dimensional classification.
+
 Model chain:
 
 ```text
