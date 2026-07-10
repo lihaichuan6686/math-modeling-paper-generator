@@ -38,7 +38,8 @@ For any CUMCM paper-generation or review run, read in this order:
 30. `cumcm/official-paper-index.md`
 31. `cumcm/deep-reading-index.md`
 32. `roadmap.md`
-33. `../prompts/flow-map.md`
+33. `../docs/run-artifact-index.md`
+34. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -86,6 +87,7 @@ Visuals and artifacts:
 
 - `../docs/figure-plan-template.md`
 - `../docs/artifact-ledger-template.md`
+- `../docs/run-artifact-index.md`
 - `../docs/visual-generation-pipeline.md`
 - `latex/figures-tables-equations-style.md`
 
@@ -108,6 +110,7 @@ Maintenance status:
 - `cumcm/comparison-index.md`
 - `cumcm/official-paper-index.md`
 - `cumcm/deep-reading-index.md`
+- `../docs/run-artifact-index.md`
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`
 - `latex/equation-family-index.md`

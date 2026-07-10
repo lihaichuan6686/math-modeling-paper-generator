@@ -12,10 +12,11 @@ Purpose: give the project one stable entry point for workflow, run state, review
 6. `visual-generation-pipeline.md`
 7. `artifact-ledger-template.md`
 8. `figure-plan-template.md`
-9. `project-audit-2026-07-06.md`
-10. `architecture.md`
-11. `long-term-roadmap.md`
-12. `research-agenda.md`
+9. `run-artifact-index.md`
+10. `project-audit-2026-07-06.md`
+11. `architecture.md`
+12. `long-term-roadmap.md`
+13. `research-agenda.md`
 
 ## What This Layer Does
 

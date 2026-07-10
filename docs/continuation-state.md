@@ -172,6 +172,7 @@ E-route family split:
 - new review finding index: `knowledge/quality/review-finding-index.md`.
 - new official paper index: `knowledge/cumcm/official-paper-index.md`.
 - new deep-reading index: `knowledge/cumcm/deep-reading-index.md`.
+- new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
 - review standards updated: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` now explicitly check stable question mapping, effective body length, object-first figures, and the difference between reproducible results and screenshot-only evidence.
