@@ -32,6 +32,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM visual family index for figure and table role planning.
 - LaTeX section family index for section-by-section writing and repair cues.
 - LaTeX style variant index for choosing the right paper voice and density.
+- Local template variant index for choosing the right local template shell.
 - CUMCM table family index for table role planning and pairings.
 - CUMCM equation family index for equation role planning and pairings.
 - Official-paper style versus risky modern-draft failure patterns.
@@ -43,7 +44,7 @@ This is a maintenance panel, not a reading log.
 
 ## What Is Partially Absorbed
 
-- Local awarded-paper examples and template variants.
+- Local awarded-paper examples and template variants, now anchored by a local template variant index.
 - More contest-specific style polish from high-quality example papers.
 - Stronger real-data variants for the production-route and monitoring-route demos.
 - More algorithm cards for niche but recurring CUMCM problem families.
@@ -102,3 +103,4 @@ For the next round of work, prioritize:
 28. a launch prompt that directly starts the staged workflow.
 29. a run artifact index that maps stages to standard outputs.
 30. an objective coverage matrix that tracks goal-to-evidence completion.
+31. a local template variant index that captures local template shell cues.

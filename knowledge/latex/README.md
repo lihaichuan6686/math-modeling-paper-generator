@@ -14,8 +14,9 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 8. `table-family-index.md`
 9. `equation-family-index.md`
 10. `style-variant-index.md`
-11. `paper-style-plan.md`
-12. `long-paper-blueprint.md`
+11. `local-template-variant-index.md`
+12. `paper-style-plan.md`
+13. `long-paper-blueprint.md`
 
 ## What This Layer Does
 

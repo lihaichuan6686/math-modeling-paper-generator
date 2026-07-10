@@ -33,20 +33,21 @@ For any CUMCM paper-generation or review run, read in this order:
 25. `algorithms/route-method-matrix.md`
 26. `latex/visual-family-index.md`
 27. `latex/section-family-index.md`
-28. `latex/table-family-index.md`
-29. `latex/equation-family-index.md`
-30. `quality/evidence-family-index.md`
-31. `quality/review-finding-index.md`
-32. `quality/finding-gate-matrix.md`
-33. `cumcm/official-paper-index.md`
-34. `cumcm/deep-reading-index.md`
-35. `cumcm/route-example-matrix.md`
-36. `cumcm/archetype-section-matrix.md`
-37. `full-stack-execution-map.md`
-38. `roadmap.md`
-39. `../docs/run-artifact-index.md`
-40. `../prompts/07_launch.md`
-41. `../prompts/flow-map.md`
+28. `latex/local-template-variant-index.md`
+29. `latex/table-family-index.md`
+30. `latex/equation-family-index.md`
+31. `quality/evidence-family-index.md`
+32. `quality/review-finding-index.md`
+33. `quality/finding-gate-matrix.md`
+34. `cumcm/official-paper-index.md`
+35. `cumcm/deep-reading-index.md`
+36. `cumcm/route-example-matrix.md`
+37. `cumcm/archetype-section-matrix.md`
+38. `full-stack-execution-map.md`
+39. `roadmap.md`
+40. `../docs/run-artifact-index.md`
+41. `../prompts/07_launch.md`
+42. `../prompts/flow-map.md`
 42. `../docs/objective-coverage-matrix.md`
 
 ## Directory Map

@@ -46,6 +46,8 @@ Newest page-layer progress: `knowledge/cumcm/archetype-page-density-matrix.md` n
 
 Newest style-layer progress: `knowledge/latex/style-variant-index.md` now turns the old style-plan idea into a usable choice between official concise closure, local awarded-paper style, route-heavy analytical style, and evidence-dense research style.
 
+Newest local-template progress: `knowledge/latex/local-template-variant-index.md` now turns the `LATEX/` sample family into a concrete decision aid for template shell choice, density, and compile workflow.
+
 Newest synthesis-layer progress: `knowledge/full-stack-execution-map.md` now ties the route, archetype, method, section, and quality bridges into one shortest path from problem signal to review-ready draft.
 
 Newest source-layer progress: `inventory/source-absorption-matrix.md` now maps raw source buckets to the structured notes they have already become and the next conversion targets that are still thin.
@@ -217,6 +219,7 @@ E-route family split:
 - new atlas index: `knowledge/cumcm/cumcm-atlas.md` now links problem types, algorithm cards, LaTeX rules, quality gates, and next-step iteration planning.
 - new algorithm doorway: `knowledge/algorithms/README.md` now gives the generator a stable path from problem signal to route family to detailed method cards.
 - new LaTeX doorway: `knowledge/latex/README.md` now gives the generator a stable path from section contract to writing patterns to figure/table/equation style.
+- new LaTeX local-template bridge: `knowledge/latex/local-template-variant-index.md` now captures the local template family cues from `model1.tex`, `document.tex`, and the adjacent 2024 template bucket.
 - new prompt doorway: `prompts/README.md` now gives the generator a stable path from intake through quality audit.
 - new CUMCM doorway: `knowledge/cumcm/README.md` now gives the generator a stable path from atlas to paradigms to risk notes.
 - new docs doorway: `docs/README.md` now gives the project a stable path from runbook to review, state, and roadmap files.

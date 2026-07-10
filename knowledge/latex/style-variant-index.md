@@ -56,6 +56,7 @@ Prefer the least ornate style that still satisfies:
 Read this note together with:
 
 - `paper-style-plan.md`
+- `local-template-variant-index.md`
 - `cumcm-section-contract.md`
 - `section-family-index.md`
 - `archetype-page-density-matrix.md`
