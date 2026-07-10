@@ -37,13 +37,14 @@ For any CUMCM paper-generation or review run, read in this order:
 29. `latex/equation-family-index.md`
 30. `quality/evidence-family-index.md`
 31. `quality/review-finding-index.md`
-32. `cumcm/official-paper-index.md`
-33. `cumcm/deep-reading-index.md`
-34. `cumcm/route-example-matrix.md`
-35. `roadmap.md`
-36. `../docs/run-artifact-index.md`
-37. `../prompts/07_launch.md`
-38. `../prompts/flow-map.md`
+32. `quality/finding-gate-matrix.md`
+33. `cumcm/official-paper-index.md`
+34. `cumcm/deep-reading-index.md`
+35. `cumcm/route-example-matrix.md`
+36. `roadmap.md`
+37. `../docs/run-artifact-index.md`
+38. `../prompts/07_launch.md`
+39. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -107,6 +108,7 @@ Quality review:
 - `quality/completion-gate.md`
 - `quality/evidence-family-index.md`
 - `quality/review-finding-index.md`
+- `quality/finding-gate-matrix.md`
 - `../docs/review-checklist.md`
 - `quality/reproducibility-and-ai-difference-framework.md`
 - `../docs/current-state-matrix-2026-07-07.md`
@@ -120,6 +122,7 @@ Maintenance status:
 - `cumcm/official-paper-index.md`
 - `cumcm/deep-reading-index.md`
 - `cumcm/route-example-matrix.md`
+- `quality/finding-gate-matrix.md`
 - `../docs/run-artifact-index.md`
 - `../prompts/07_launch.md`
 - `latex/visual-family-index.md`

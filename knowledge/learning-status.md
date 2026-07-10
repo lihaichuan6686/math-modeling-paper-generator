@@ -14,6 +14,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM roadmap for what remains to be strengthened next.
 - CUMCM evidence family index for review-proof classification.
 - CUMCM review finding index for classifying weaknesses and repairs.
+- CUMCM finding gate matrix for turning findings into gate-triggered repairs.
 - CUMCM deep-reading index for route-based sample retrieval.
 - CUMCM route example matrix for pairing routes with the next best sample set.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
@@ -86,7 +87,8 @@ For the next round of work, prioritize:
 18. a deep-reading index that groups absorbed examples by route family.
 19. a route example matrix that pairs each route with the fastest next sample set.
 20. a route-method matrix that bridges route choice to concrete cards.
-21. a LaTeX section family index that makes section drafting more concrete.
-22. a run-start checklist that turns the docs layer into an actionable entry.
-23. a launch prompt that directly starts the staged workflow.
-24. a run artifact index that maps stages to standard outputs.
+21. a finding-gate matrix that turns findings into gate-triggered repairs.
+22. a LaTeX section family index that makes section drafting more concrete.
+23. a run-start checklist that turns the docs layer into an actionable entry.
+24. a launch prompt that directly starts the staged workflow.
+25. a run artifact index that maps stages to standard outputs.

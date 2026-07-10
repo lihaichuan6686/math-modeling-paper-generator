@@ -11,7 +11,8 @@ Purpose: give the generator one stable entry point for review, reproducibility, 
 5. `completion-gate.md`
 6. `evidence-family-index.md`
 7. `review-finding-index.md`
-8. `../docs/review-checklist.md`
+8. `finding-gate-matrix.md`
+9. `../docs/review-checklist.md`
 
 ## What This Layer Does
 
@@ -33,6 +34,8 @@ Use the completion gate when deciding whether a generated draft is ready to hand
 Use the evidence family index when you need to decide what kind of artifact should count as proof.
 
 Use the review finding index when you need to classify a weakness and decide which gate it should trigger.
+
+Use the finding-gate matrix when you want the shortest path from a review finding to the missing evidence and repair.
 
 ## Status
 

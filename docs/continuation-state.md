@@ -38,6 +38,8 @@ Newest LaTeX-layer progress: `knowledge/latex/section-family-index.md` now gives
 
 Newest algorithm-layer progress: `knowledge/algorithms/route-method-matrix.md` now bridges route families to first method families, expected artifacts, and validation focus so the generator can move from route selection to card selection with less guesswork.
 
+Newest quality-layer progress: `knowledge/quality/finding-gate-matrix.md` now bridges review findings to the gate they should trigger and the evidence that usually repairs them.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -187,6 +189,7 @@ E-route family split:
 - new launch prompt: `prompts/07_launch.md`.
 - new section family index: `knowledge/latex/section-family-index.md`.
 - new route-method matrix: `knowledge/algorithms/route-method-matrix.md`.
+- new finding-gate matrix: `knowledge/quality/finding-gate-matrix.md`.
 - new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
