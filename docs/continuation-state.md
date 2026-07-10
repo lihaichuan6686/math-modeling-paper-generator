@@ -50,6 +50,8 @@ Newest synthesis-layer progress: `knowledge/full-stack-execution-map.md` now tie
 
 Newest source-layer progress: `inventory/source-absorption-matrix.md` now maps raw source buckets to the structured notes they have already become and the next conversion targets that are still thin.
 
+Newest iteration-layer progress: `knowledge/cumcm/next-iteration-action-matrix.md` now turns roadmap items into concrete work items with evidence and follow-up decisions.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -205,6 +207,7 @@ E-route family split:
 - new style-variant index: `knowledge/latex/style-variant-index.md`.
 - new full-stack execution map: `knowledge/full-stack-execution-map.md`.
 - new source absorption matrix: `inventory/source-absorption-matrix.md`.
+- new next-iteration action matrix: `knowledge/cumcm/next-iteration-action-matrix.md`.
 - new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.

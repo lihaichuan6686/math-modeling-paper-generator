@@ -23,6 +23,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM official paper index for positive template retrieval.
 - CUMCM algorithm method-family index for faster route-to-card selection.
 - CUMCM route-method matrix for faster route-to-card bridging.
+- CUMCM next-iteration action matrix for turning roadmap items into work items.
 - Prompt flow map for the staged generation loop.
 - Run-start checklist for the first actionable run entry.
 - Launch prompt for direct Claude Code execution.

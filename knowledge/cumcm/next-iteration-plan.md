@@ -13,6 +13,10 @@ Already in place:
 - same-problem comparisons: `2021C`, `2021D`
 - route and review gates: prompts, blueprint, rubric, checklist
 
+## Next Action Matrix
+
+Use `next-iteration-action-matrix.md` when you want to convert the plan into an actual work item.
+
 ## Next Experiments
 
 ### Experiment 1: Fresh Real Problem Run

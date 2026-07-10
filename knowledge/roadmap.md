@@ -20,6 +20,8 @@ The current knowledge stack already covers:
 
 The next useful work is to make those rules more contest-real through better examples and better route coverage.
 
+If you need an action-level next step, read `cumcm/next-iteration-action-matrix.md`.
+
 ## Next
 
 Priority order:
@@ -62,4 +64,3 @@ Read this note together with:
 - `master-map.md`
 - `cumcm/next-iteration-plan.md`
 - `docs/continuation-state.md`
-
