@@ -40,7 +40,8 @@ For any CUMCM paper-generation or review run, read in this order:
 32. `cumcm/route-example-matrix.md`
 33. `roadmap.md`
 34. `../docs/run-artifact-index.md`
-35. `../prompts/flow-map.md`
+35. `../prompts/07_launch.md`
+36. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -114,6 +115,7 @@ Maintenance status:
 - `cumcm/deep-reading-index.md`
 - `cumcm/route-example-matrix.md`
 - `../docs/run-artifact-index.md`
+- `../prompts/07_launch.md`
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`
 - `latex/equation-family-index.md`

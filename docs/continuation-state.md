@@ -32,6 +32,8 @@ Newest retrieval-layer progress: `knowledge/cumcm/route-example-matrix.md` now p
 
 Newest start-layer progress: `docs/run-start-checklist.md` now gives Claude Code a compact first-pass sequence for a new run, including route selection, sample pairing, and the first required outputs.
 
+Newest prompt-layer progress: `prompts/07_launch.md` now gives a single copy-paste launch prompt that ties the start checklist, route matrix, and phase prompts into one execution entry.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -178,6 +180,7 @@ E-route family split:
 - new deep-reading index: `knowledge/cumcm/deep-reading-index.md`.
 - new route example matrix: `knowledge/cumcm/route-example-matrix.md`.
 - new run-start checklist: `docs/run-start-checklist.md`.
+- new launch prompt: `prompts/07_launch.md`.
 - new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.

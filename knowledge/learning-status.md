@@ -20,6 +20,8 @@ This is a maintenance panel, not a reading log.
 - CUMCM official paper index for positive template retrieval.
 - CUMCM algorithm method-family index for faster route-to-card selection.
 - Prompt flow map for the staged generation loop.
+- Run-start checklist for the first actionable run entry.
+- Launch prompt for direct Claude Code execution.
 - Run artifact index for standard v1.0 outputs.
 - CUMCM visual family index for figure and table role planning.
 - CUMCM table family index for table role planning and pairings.
@@ -81,4 +83,6 @@ For the next round of work, prioritize:
 17. an official paper index that groups positive templates by route family.
 18. a deep-reading index that groups absorbed examples by route family.
 19. a route example matrix that pairs each route with the fastest next sample set.
-20. a run artifact index that maps stages to standard outputs.
+20. a run-start checklist that turns the docs layer into an actionable entry.
+21. a launch prompt that directly starts the staged workflow.
+22. a run artifact index that maps stages to standard outputs.

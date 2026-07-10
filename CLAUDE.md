@@ -17,10 +17,12 @@ The demo is intentionally small, but it proves the chain works. Do not restart b
 For every generation or review run, read these files first:
 
 - `docs/v1-runbook.md`
+- `docs/run-start-checklist.md`
 - `docs/continuation-state.md`
 - `knowledge/README.md`
 - `knowledge/cumcm/README.md`
 - `prompts/README.md`
+- `prompts/07_launch.md`
 - `docs/README.md`
 - `inventory/README.md`
 - `docs/architecture.md`
