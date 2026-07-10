@@ -11,6 +11,7 @@ This is not a text template. It is a structure contract for a generated draft.
 3. List required tables and figures before writing results.
 4. Reject any paper draft that lacks the validation artifact required by its type.
 5. Use `knowledge/cumcm/20-30-page-paper-blueprint.md` for page budgeting.
+6. Use `knowledge/cumcm/official-style-vs-modern-draft-risk.md` to check stable question maps, effective body length, object-first figures, and screenshot-versus-evidence risks.
 
 ## Type A: Evaluation And Ranking
 

@@ -27,6 +27,8 @@ Every important statement in the final paper should be traceable to one of:
 - a rendered figure/table
 - a stated assumption
 
+Use `knowledge/cumcm/official-style-vs-modern-draft-risk.md` as the cross-cutting standard for judging whether a draft is closing loops like an official paper or inflating length like a risky modern draft.
+
 ## Phase 0: Intake
 
 Inputs:
@@ -87,6 +89,7 @@ Special route rule for E-type problems:
   - `production-route E`: forecast to inventory, service-level, batching, or production decisions;
   - `monitoring-route E`: diagnosis and forecast to monitoring, sampling, or policy decisions.
 - Use `knowledge/cumcm/problem-type-paper-archetypes.md` to select `Type C1` or `Type C2` explicitly and record that choice in `runs/current/model-candidates.md`.
+- Also consult `knowledge/cumcm/official-style-vs-modern-draft-risk.md` so the selected route inherits the correct evidence chain and fake-completion guards.
 
 ## Phase 2: Model Plan
 
