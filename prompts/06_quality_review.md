@@ -10,11 +10,12 @@ Read these first:
 2. `knowledge/quality/quality-rubric-v2.md`
 3. `knowledge/cumcm/problem-type-paper-archetypes.md`
 4. `knowledge/latex/section-writing-patterns.md`
-5. `runs/current/artifact-ledger.md` or the active run ledger
-6. `paper/main.tex`
-7. all included files under `paper/sections/`
-8. available generated tables and figures under `paper/tables/` and `paper/figures/`
-9. latest compile result or rendered PDF pages when available
+5. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
+6. `runs/current/artifact-ledger.md` or the active run ledger
+7. `paper/main.tex`
+8. all included files under `paper/sections/`
+9. available generated tables and figures under `paper/tables/` and `paper/figures/`
+10. latest compile result or rendered PDF pages when available
 
 If the run is not `current`, replace `runs/current` with the active run directory.
 
@@ -57,6 +58,7 @@ Treat missing evidence as `Unknown`, not as `Pass`.
 Check:
 
 - all subquestions are listed;
+- subquestion numbering stays stable from abstract to conclusion;
 - each subquestion has a model;
 - each subquestion has a result;
 - each subquestion has validation or a stated reason validation is unavailable;
@@ -71,6 +73,7 @@ Check:
 - paper follows a recognizable CUMCM structure;
 - sections have distinct roles;
 - page length comes from equations, figures, tables, validation, and appendix evidence;
+- effective body length is not inflated by blank pages, code screenshots, or promotional residue;
 - abstract numbers are supported later.
 
 Warn if the paper is long because of filler background.
@@ -107,6 +110,8 @@ Check:
 - code entry points are named;
 - synthetic data are marked.
 
+Fail if the paper relies on code screenshots or appendix-only material where a main-text result artifact should exist.
+
 Fail if important values cannot be traced.
 
 ### Step 5: Figure and Table Quality
@@ -115,6 +120,7 @@ Check:
 
 - every figure/table is cited in text;
 - captions explain modeling purpose;
+- the earliest explanatory figures identify the modeled object clearly;
 - axes, units, legends, and precision are adequate;
 - rendered PDF pages show no clipping or unreadable labels;
 - AI-generated schematic figures are not presented as data evidence.
@@ -161,6 +167,8 @@ Check:
 - no missing figures;
 - no unresolved references;
 - no stale identity fields for research copies;
+- no placeholder title text, `xx`, `xxxx`, or generic `paper title` residue;
+- no promotional watermark/header/footer residue in delivered research copies;
 - tables and figures fit pages;
 - references are real and human-readable.
 

@@ -12,6 +12,14 @@ problem restatement -> route analysis -> assumptions/symbols -> data evidence ->
 
 For a 20-30 page paper, do not ask "how do we add pages?" Ask "which required evidence is still missing?"
 
+Also ask:
+
+```text
+Is this body really complete, or only long?
+```
+
+Count effective body pages separately from appendix-heavy, blank, or residue-heavy pages.
+
 ## Page Budget
 
 | Section | Target pages | Minimum artifacts | Main job |
@@ -69,6 +77,16 @@ Every subquestion should appear in four places:
 | Validation | feasibility, error, sensitivity, baseline, or consistency check |
 
 If a subquestion appears in only one or two places, the paper is structurally weak.
+
+Subquestion numbering and naming should stay stable across:
+
+- abstract
+- problem analysis
+- section titles
+- result tables/figures
+- conclusion
+
+If the paper silently renumbers the tasks, treat that as a structural defect.
 
 ## E-Route Expansion Guide
 
@@ -149,6 +167,13 @@ Figure roles:
 
 AI-generated or hand-drawn figures may be used only for route or explanatory roles unless their inputs are reproducible data. They must be labeled and recorded in the artifact ledger.
 
+The first explanatory figure should usually identify the modeled object, such as:
+
+- a network or route map;
+- a geometry or coordinate schematic;
+- a process/system diagram;
+- a mechanism or layout view.
+
 ## Anti-Filler Checks
 
 Remove or rewrite a paragraph if:
@@ -180,6 +205,7 @@ Before calling the paper complete:
 - Symbols used in formulas appear in the symbol table.
 - Results in abstract, conclusion, tables, and code outputs agree.
 - Appendix lists code files and output artifacts by subquestion.
+- Effective body length is credible after excluding blank filler, promotional residue, and screenshot-only inflation.
 
 ## Route-Specific Completion Checks
 

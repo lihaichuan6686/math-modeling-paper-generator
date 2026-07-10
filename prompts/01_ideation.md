@@ -9,6 +9,7 @@ Read:
 - `knowledge/algorithms/model-chain-patterns.md`
 - relevant files under `knowledge/algorithms/cards/`
 - `knowledge/cumcm/paper-generation-playbook.md`
+- `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
 - recent CUMCM first-pass notes under `knowledge/cumcm/`
 
 Create:
@@ -90,3 +91,23 @@ Expected section structure:
 Expected figure/table set:
 Main open risks:
 ```
+
+## Mandatory Candidate Checks
+
+Before recommending a route, explicitly record:
+
+```text
+Question map:
+Object-first figure:
+Decision closure:
+Effective body-length risk:
+Fake-completion risks to avoid:
+```
+
+Rules:
+
+- `Question map` means the subquestion numbering and role assignment that must stay stable from abstract to conclusion.
+- `Object-first figure` means the earliest explanatory figure that identifies the modeled object, such as network, geometry, process, or system.
+- `Decision closure` means the concrete decision artifact the route will produce, not only an intermediate forecast or diagnosis.
+- `Effective body-length risk` means where the route may become too short because evidence is missing, or look long only because of appendix/code inflation.
+- `Fake-completion risks to avoid` should borrow from the recent 2024 risk notes: placeholders, residue, unstable numbering, unsupported claims, or method stacking.
