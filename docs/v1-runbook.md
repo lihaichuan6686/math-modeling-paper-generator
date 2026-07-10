@@ -31,13 +31,15 @@ Optional:
 Read first:
 
 1. `knowledge/README.md`
-2. `knowledge/cumcm/paper-generation-playbook.md`
-3. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-4. `knowledge/algorithms/model-chain-patterns.md`
-5. `knowledge/algorithms/cards/README.md`
-6. relevant detailed algorithm cards under `knowledge/algorithms/cards/`
-7. `docs/visual-generation-pipeline.md`
-8. `knowledge/quality/quality-rubric-v2.md`
+2. `knowledge/cumcm/cumcm-atlas.md`
+3. `knowledge/cumcm/next-iteration-plan.md`
+4. `knowledge/cumcm/paper-generation-playbook.md`
+5. `knowledge/cumcm/20-30-page-paper-blueprint.md`
+6. `knowledge/algorithms/model-chain-patterns.md`
+7. `knowledge/algorithms/cards/README.md`
+8. relevant detailed algorithm cards under `knowledge/algorithms/cards/`
+9. `docs/visual-generation-pipeline.md`
+10. `knowledge/quality/quality-rubric-v2.md`
 
 For train, metro, bus, OD-flow, headway, running-diagram, or timetable problems, also read:
 
@@ -84,6 +86,25 @@ To compile the rail-timetable demo paper, run:
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1 -Main rail_demo.tex
 ```
+
+## Fresh-Run Protocol
+
+When starting a new real problem, follow this order:
+
+```text
+atlas route selection
+-> next-iteration-plan check
+-> run scaffold
+-> intake
+-> ideation
+-> model plan
+-> implementation
+-> writing
+-> build
+-> review
+```
+
+Use the atlas to choose the route family, then use the next-iteration plan to decide whether the run is meant to validate a fresh problem, expand a same-problem comparison, or drill a LaTeX weak spot.
 
 ## Step 2: Intake
 
