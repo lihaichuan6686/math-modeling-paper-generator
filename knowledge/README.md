@@ -15,18 +15,19 @@ For any CUMCM paper-generation or review run, read in this order:
 7. `algorithms/model-chain-patterns.md`
 8. relevant detailed algorithm cards under `algorithms/cards/`
 9. `latex/cumcm-section-contract.md`
-10. `latex/section-writing-patterns.md`
-11. `latex/figures-tables-equations-style.md`
-12. `latex/snippets.md`
-13. `quality/quality-rubric-v2.md`
-14. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
+10. `latex/README.md`
+11. `latex/section-writing-patterns.md`
+12. `latex/figures-tables-equations-style.md`
+13. `latex/snippets.md`
+14. `quality/quality-rubric-v2.md`
+15. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
 
 ## Directory Map
 
 - `inventory/`: source file inventories, extension statistics, and priority queues for later reading.
 - `cumcm/`: CUMCM problem types, official paper observations, deep-reading notes, paper-generation workflows, and structure blueprints.
 - `algorithms/`: routing rules, algorithm doorway, model-chain patterns, algorithm cards, and problem-type method mappings.
-- `latex/`: paper structure, section contracts, figure/table/equation style, and reusable LaTeX snippets.
+- `latex/`: paper structure, LaTeX doorway, section contracts, figure/table/equation style, and reusable LaTeX snippets.
 - `quality/`: paper review rubrics, reproducibility checks, and human-AI difference research framework.
 - `_generated/`: temporary rendered pages, screenshots, and machine-generated inspection artifacts. This directory is not committed.
 
@@ -38,6 +39,7 @@ Structure and writing:
 - `cumcm/20-30-page-paper-blueprint.md`
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
+- `latex/README.md`
 - `latex/section-writing-patterns.md`
 
 Algorithms and model routes:
