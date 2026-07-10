@@ -8,8 +8,9 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 2. `section-writing-patterns.md`
 3. `figures-tables-equations-style.md`
 4. `snippets.md`
-5. `paper-style-plan.md`
-6. `long-paper-blueprint.md`
+5. `section-map.md`
+6. `paper-style-plan.md`
+7. `long-paper-blueprint.md`
 
 ## What This Layer Does
 

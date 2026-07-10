@@ -48,6 +48,7 @@ Structure and writing:
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
 - `latex/README.md`
+- `latex/section-map.md`
 - `latex/section-writing-patterns.md`
 
 Algorithms and model routes:
