@@ -185,6 +185,7 @@ Use these documents when checking whether a draft is truly complete:
 - `knowledge/quality/quality-rubric-v2.md`
 - `docs/review-checklist.md`
 - `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
+- `knowledge/cumcm/official-paper-paradigms.md`
 - `knowledge/cumcm/2024B-modern-draft-risk-reading.md`
 - `knowledge/cumcm/2024C-modern-draft-risk-reading.md`
 - `knowledge/cumcm/2024D-modern-draft-risk-reading.md`
