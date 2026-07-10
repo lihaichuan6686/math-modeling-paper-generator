@@ -14,6 +14,8 @@ Local source material currently falls into these broad buckets:
 4. CUMCM experience notes and model libraries.
 5. Generated run artifacts and review evidence.
 
+See also: `source-map.md` for the current coverage ledger.
+
 ## Current Coverage
 
 Already absorbed into structured notes:

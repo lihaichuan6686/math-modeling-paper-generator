@@ -39,6 +39,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The E-route family now also has route-level and card-level anchors in `knowledge/algorithms/cumcm-routing-rules.md`, `knowledge/cumcm/problem-type-paper-archetypes.md`, and `knowledge/algorithms/cards/README.md`, separating production-route E from monitoring-route E.
 - `START_HERE.md` now includes a compact navigation map that points directly to the six doorway files and the runbook.
 - `inventory/README.md` now provides a lightweight source-coverage ledger for absorbed material and remaining reading priorities.
+- `inventory/source-map.md` now provides a bucket-to-note coverage map for the local source material.
 - `docs/architecture.md` now provides a compact architecture map for how the repository layers connect.
 - The new `knowledge/cumcm/official-style-vs-modern-draft-risk.md` synthesis note connects the official excellent-paper readings to the 2024 draft-risk notes, clarifying which signals should be imitated and which should be rejected by the generator.
 - The new `knowledge/cumcm/official-paper-paradigms.md` synthesis note turns the official excellent-paper readings into route-family tables, abstract patterns, and generator rules that can be reused directly in prompts and reviews.
