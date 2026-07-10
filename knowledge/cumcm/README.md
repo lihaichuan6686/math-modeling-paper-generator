@@ -19,7 +19,8 @@ Purpose: give the generator one stable entry point for the contest-specific know
 13. `deep-reading-index.md`
 14. `route-example-matrix.md`
 15. `archetype-section-matrix.md`
-16. relevant deep-reading and comparison notes under `cumcm/`
+16. `archetype-page-density-matrix.md`
+17. relevant deep-reading and comparison notes under `cumcm/`
 
 ## What This Layer Does
 
@@ -37,7 +38,8 @@ This layer answers five questions:
 10. Which deep-reading note should be read first?
 11. Which sample pair should be opened next?
 12. Which section emphasis should the archetype use?
-13. What should be tested next?
+13. How should page density and validation weight be distributed?
+14. What should be tested next?
 
 ## Navigation Rule
 

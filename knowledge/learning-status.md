@@ -18,6 +18,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM deep-reading index for route-based sample retrieval.
 - CUMCM route example matrix for pairing routes with the next best sample set.
 - CUMCM archetype section matrix for mapping problem types to section emphasis.
+- CUMCM archetype page density matrix for mapping problem types to page emphasis and validation weight.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
 - CUMCM official paper index for positive template retrieval.
 - CUMCM algorithm method-family index for faster route-to-card selection.
@@ -90,8 +91,9 @@ For the next round of work, prioritize:
 20. a route-method matrix that bridges route choice to concrete cards.
 21. a finding-gate matrix that turns findings into gate-triggered repairs.
 22. a CUMCM archetype section matrix that maps problem types to section emphasis.
-23. a full-stack execution map that ties the main bridges into one route.
-24. a LaTeX section family index that makes section drafting more concrete.
-25. a run-start checklist that turns the docs layer into an actionable entry.
-26. a launch prompt that directly starts the staged workflow.
-27. a run artifact index that maps stages to standard outputs.
+23. a CUMCM archetype page density matrix that maps problem types to page emphasis and validation weight.
+24. a full-stack execution map that ties the main bridges into one route.
+25. a LaTeX section family index that makes section drafting more concrete.
+26. a run-start checklist that turns the docs layer into an actionable entry.
+27. a launch prompt that directly starts the staged workflow.
+28. a run artifact index that maps stages to standard outputs.

@@ -73,6 +73,7 @@ Structure and writing:
 - `cumcm/deep-reading-index.md`
 - `cumcm/route-example-matrix.md`
 - `cumcm/archetype-section-matrix.md`
+- `cumcm/archetype-page-density-matrix.md`
 - `algorithms/route-method-matrix.md`
 - `latex/section-family-index.md`
 - `cumcm/20-30-page-paper-blueprint.md`
