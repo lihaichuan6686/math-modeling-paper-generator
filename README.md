@@ -105,6 +105,7 @@ Read these before generation or review:
 - `knowledge/README.md`
 - `knowledge/cumcm/README.md`
 - `prompts/README.md`
+- `docs/README.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/algorithms/model-chain-patterns.md`

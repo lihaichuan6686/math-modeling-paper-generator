@@ -42,6 +42,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The new `knowledge/latex/README.md` file gives the LaTeX layer a stable doorway from section contract to writing patterns to figure/table/equation style.
 - The new `prompts/README.md` file gives the staged prompt chain a stable doorway from intake through quality audit.
 - The new `knowledge/cumcm/README.md` file gives the contest corpus a stable doorway from atlas to paradigms to risk notes.
+- The new `docs/README.md` file gives the operational docs a stable doorway from runbook to review, state, and roadmap files.
 - The new `knowledge/cumcm/next-iteration-plan.md` file turns the atlas into an operational plan: fresh-run validation, same-problem comparison expansion, and LaTeX weak-spot drills.
 - `docs/v1-runbook.md` now uses the atlas and next-iteration plan as the first decision layer for fresh runs.
 - The new `knowledge/cumcm/next-iteration-plan.md` file turns the atlas into an operational plan: fresh-run validation, same-problem comparison expansion, and LaTeX weak-spot drills.

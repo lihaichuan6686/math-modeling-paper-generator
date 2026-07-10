@@ -163,6 +163,7 @@ E-route family split:
 - new LaTeX doorway: `knowledge/latex/README.md` now gives the generator a stable path from section contract to writing patterns to figure/table/equation style.
 - new prompt doorway: `prompts/README.md` now gives the generator a stable path from intake through quality audit.
 - new CUMCM doorway: `knowledge/cumcm/README.md` now gives the generator a stable path from atlas to paradigms to risk notes.
+- new docs doorway: `docs/README.md` now gives the project a stable path from runbook to review, state, and roadmap files.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
 - `docs/v1-runbook.md` now points the fresh-run path at the atlas and next-iteration plan before the old step-by-step scaffold.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
