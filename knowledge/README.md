@@ -32,7 +32,8 @@ For any CUMCM paper-generation or review run, read in this order:
 24. `algorithms/method-family-index.md`
 25. `latex/visual-family-index.md`
 26. `latex/table-family-index.md`
-27. `../prompts/flow-map.md`
+27. `latex/equation-family-index.md`
+28. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -61,6 +62,7 @@ Structure and writing:
 - `latex/section-map.md`
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`
+- `latex/equation-family-index.md`
 - `latex/section-writing-patterns.md`
 
 Algorithms and model routes:
@@ -95,6 +97,7 @@ Maintenance status:
 - `cumcm/comparison-index.md`
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`
+- `latex/equation-family-index.md`
 - `../prompts/flow-map.md`
 
 ## Absorption Rules

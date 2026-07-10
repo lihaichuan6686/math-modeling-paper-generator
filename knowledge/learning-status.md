@@ -16,6 +16,7 @@ This is a maintenance panel, not a reading log.
 - Prompt flow map for the staged generation loop.
 - CUMCM visual family index for figure and table role planning.
 - CUMCM table family index for table role planning and pairings.
+- CUMCM equation family index for equation role planning and pairings.
 - Official-paper style versus risky modern-draft failure patterns.
 - E-route split between production-route and monitoring-route families.
 - Core LaTeX section structure and section-writing contracts.
@@ -66,3 +67,4 @@ For the next round of work, prioritize:
 10. a prompt flow map that keeps the staged generation loop easy to execute.
 11. a visual family index that clarifies first-job figure and table planning.
 12. a table family index that clarifies first-job table planning and pairings.
+13. an equation family index that clarifies first-job equation planning and pairings.
