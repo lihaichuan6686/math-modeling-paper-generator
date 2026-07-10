@@ -24,6 +24,8 @@ Newest comparison-reading progress on the scheduling side: the repository now al
 
 Newest risk-reading progress: `knowledge/cumcm/2024B-modern-draft-risk-reading.md` records a visual and structural audit of three 2024 B complete-looking drafts. It adds hard gates for placeholder leakage, watermark residue, empty appendices, orphan equations, unsupported claims, and page-count padding.
 
+The risk corpus now also includes `knowledge/cumcm/2024C-modern-draft-risk-reading.md`, which separates partial-paper coverage failure from 69-page code/appendix inflation and adds explicit gates for scenario evidence, code linkage, and printed-page offsets.
+
 Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, review-rubric, playbook, and generation prompts so the generator can distinguish production-route E papers from monitoring-route E papers at ideation, modeling, writing, and review time.
 
 ## Completed Deep Reads
@@ -147,6 +149,7 @@ E-route family split:
 - new same-problem comparison note: `knowledge/cumcm/2021C-comparison-C066-C085-C169-C283.md`.
 - new same-problem comparison note: `knowledge/cumcm/2021D-comparison-D017-D026-D034.md`.
 - new modern-draft risk note: `knowledge/cumcm/2024B-modern-draft-risk-reading.md`.
+- new modern-draft risk note: `knowledge/cumcm/2024C-modern-draft-risk-reading.md`.
 
 ## Git State Rule
 
