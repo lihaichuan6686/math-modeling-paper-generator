@@ -108,6 +108,7 @@ Read these before generation or review:
 - `docs/README.md`
 - `inventory/README.md`
 - `knowledge/quality/README.md`
+- `docs/architecture.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/algorithms/model-chain-patterns.md`

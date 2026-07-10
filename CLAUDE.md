@@ -23,6 +23,7 @@ For every generation or review run, read these files first:
 - `prompts/README.md`
 - `docs/README.md`
 - `inventory/README.md`
+- `docs/architecture.md`
 - `knowledge/quality/README.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
