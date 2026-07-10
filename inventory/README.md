@@ -14,7 +14,7 @@ Local source material currently falls into these broad buckets:
 4. CUMCM experience notes and model libraries.
 5. Generated run artifacts and review evidence.
 
-See also: `source-map.md` for the current coverage ledger.
+See also: `source-map.md` for the current coverage ledger and `source-absorption-matrix.md` for the next conversion targets.
 
 ## Current Coverage
 
@@ -39,6 +39,8 @@ Keep an eye on:
 ## Update Rule
 
 When a new source folder, paper batch, or important route is absorbed, record it in the relevant knowledge note first, then add a short note here only if it changes coverage or reading priority.
+
+Use `source-absorption-matrix.md` when you want the shortest path from a raw source bucket to the next structured note.
 
 ## Status
 

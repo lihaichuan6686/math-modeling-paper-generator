@@ -22,6 +22,10 @@ This file is a coverage ledger, not a paper archive.
 - Experience notes: playbook and blueprint before adding more raw notes.
 - Generated artifacts: artifact ledger and review files before changing implementation.
 
+## Next Conversion Targets
+
+Read `source-absorption-matrix.md` when you want to know which bucket is still thin and what note to build next.
+
 ## Update Rule
 
 If a new source bucket becomes important, record it here only after it has been turned into at least one structured note.
