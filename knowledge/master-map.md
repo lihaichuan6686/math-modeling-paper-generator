@@ -39,6 +39,7 @@ problem signal
 - `quality/quality-rubric-v2.md`: quality dimensions and review risks.
 - `quality/completion-gate.md`: final readiness gate.
 - `learning-status.md`: what is already absorbed and what still needs deeper reading.
+- `roadmap.md`: what remains to be strengthened next.
 
 ## Short Reading Order
 
@@ -72,4 +73,3 @@ Whenever a new rule matters for actual generation, promote it into one of:
 - or learning status.
 
 Do not keep important rules only in raw notes.
-

@@ -11,6 +11,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM paper-family matrix for early artifact and validation planning.
 - CUMCM completion gate for deciding when a generated draft is ready to hand off.
 - CUMCM master map for one-glance navigation across the knowledge stack.
+- CUMCM roadmap for what remains to be strengthened next.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
 - CUMCM algorithm method-family index for faster route-to-card selection.
 - Prompt flow map for the staged generation loop.
@@ -68,3 +69,4 @@ For the next round of work, prioritize:
 11. a visual family index that clarifies first-job figure and table planning.
 12. a table family index that clarifies first-job table planning and pairings.
 13. an equation family index that clarifies first-job equation planning and pairings.
+14. a roadmap that separates now, next, and later work.

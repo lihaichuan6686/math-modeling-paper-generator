@@ -33,7 +33,8 @@ For any CUMCM paper-generation or review run, read in this order:
 25. `latex/visual-family-index.md`
 26. `latex/table-family-index.md`
 27. `latex/equation-family-index.md`
-28. `../prompts/flow-map.md`
+28. `roadmap.md`
+29. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -43,6 +44,7 @@ For any CUMCM paper-generation or review run, read in this order:
 - `latex/`: paper structure, LaTeX doorway, section contracts, figure/table/equation style, and reusable LaTeX snippets.
 - `quality/`: quality doorway, paper review rubrics, reproducibility checks, and human-AI difference research framework.
 - `learning-status.md`: compact view of what the knowledge base has already absorbed and what still needs deeper reading.
+- `roadmap.md`: what still needs to be strengthened next.
 - `_generated/`: temporary rendered pages, screenshots, and machine-generated inspection artifacts. This directory is not committed.
 
 ## Current Strong Entry Points
@@ -94,6 +96,7 @@ Maintenance status:
 
 - `learning-status.md`
 - `master-map.md`
+- `roadmap.md`
 - `cumcm/comparison-index.md`
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`
