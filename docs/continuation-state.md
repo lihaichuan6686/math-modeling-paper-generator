@@ -44,6 +44,8 @@ Newest drafting-layer progress: `knowledge/cumcm/archetype-section-matrix.md` no
 
 Newest page-layer progress: `knowledge/cumcm/archetype-page-density-matrix.md` now maps problem archetypes to page emphasis, visual density, and validation weight so the 20-30 page target can grow from evidence instead of filler.
 
+Newest style-layer progress: `knowledge/latex/style-variant-index.md` now turns the old style-plan idea into a usable choice between official concise closure, local awarded-paper style, route-heavy analytical style, and evidence-dense research style.
+
 Newest synthesis-layer progress: `knowledge/full-stack-execution-map.md` now ties the route, archetype, method, section, and quality bridges into one shortest path from problem signal to review-ready draft.
 
 Newest source-layer progress: `inventory/source-absorption-matrix.md` now maps raw source buckets to the structured notes they have already become and the next conversion targets that are still thin.
@@ -200,6 +202,7 @@ E-route family split:
 - new finding-gate matrix: `knowledge/quality/finding-gate-matrix.md`.
 - new archetype-section matrix: `knowledge/cumcm/archetype-section-matrix.md`.
 - new archetype-page-density matrix: `knowledge/cumcm/archetype-page-density-matrix.md`.
+- new style-variant index: `knowledge/latex/style-variant-index.md`.
 - new full-stack execution map: `knowledge/full-stack-execution-map.md`.
 - new source absorption matrix: `inventory/source-absorption-matrix.md`.
 - new run artifact index: `docs/run-artifact-index.md`.

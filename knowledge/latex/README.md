@@ -13,8 +13,9 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 7. `visual-family-index.md`
 8. `table-family-index.md`
 9. `equation-family-index.md`
-10. `paper-style-plan.md`
-11. `long-paper-blueprint.md`
+10. `style-variant-index.md`
+11. `paper-style-plan.md`
+12. `long-paper-blueprint.md`
 
 ## What This Layer Does
 
@@ -33,6 +34,13 @@ Best use of the section-family layer:
 - use the section-family index when a section feels thin or generic;
 - use the style guide when figures, tables, or equations need cleanup;
 - use the page blueprint when the paper needs structural length, not filler.
+
+Best use of the style-variant layer:
+
+- start from the route and archetype;
+- use the style variant when you need a paper voice or density decision;
+- use the model1 case study as a local comparison point;
+- use the official-paper paradigms as the default completion shape.
 
 ## Section Chain
 

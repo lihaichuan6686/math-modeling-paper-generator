@@ -29,6 +29,7 @@ This is a maintenance panel, not a reading log.
 - Run artifact index for standard v1.0 outputs.
 - CUMCM visual family index for figure and table role planning.
 - LaTeX section family index for section-by-section writing and repair cues.
+- LaTeX style variant index for choosing the right paper voice and density.
 - CUMCM table family index for table role planning and pairings.
 - CUMCM equation family index for equation role planning and pairings.
 - Official-paper style versus risky modern-draft failure patterns.
@@ -94,6 +95,7 @@ For the next round of work, prioritize:
 23. a CUMCM archetype page density matrix that maps problem types to page emphasis and validation weight.
 24. a full-stack execution map that ties the main bridges into one route.
 25. a LaTeX section family index that makes section drafting more concrete.
-26. a run-start checklist that turns the docs layer into an actionable entry.
-27. a launch prompt that directly starts the staged workflow.
-28. a run artifact index that maps stages to standard outputs.
+26. a LaTeX style variant index that helps choose the paper voice and density.
+27. a run-start checklist that turns the docs layer into an actionable entry.
+28. a launch prompt that directly starts the staged workflow.
+29. a run artifact index that maps stages to standard outputs.

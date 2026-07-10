@@ -83,6 +83,7 @@ Structure and writing:
 - `latex/section-map.md`
 - `latex/visual-family-index.md`
 - `latex/section-family-index.md`
+- `latex/style-variant-index.md`
 - `latex/table-family-index.md`
 - `latex/equation-family-index.md`
 - `latex/section-writing-patterns.md`
