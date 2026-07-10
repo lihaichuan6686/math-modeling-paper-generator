@@ -15,6 +15,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM evidence family index for review-proof classification.
 - CUMCM review finding index for classifying weaknesses and repairs.
 - CUMCM deep-reading index for route-based sample retrieval.
+- CUMCM route example matrix for pairing routes with the next best sample set.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
 - CUMCM official paper index for positive template retrieval.
 - CUMCM algorithm method-family index for faster route-to-card selection.
@@ -79,4 +80,5 @@ For the next round of work, prioritize:
 16. a review finding index that classifies weaknesses and their gate triggers.
 17. an official paper index that groups positive templates by route family.
 18. a deep-reading index that groups absorbed examples by route family.
-19. a run artifact index that maps stages to standard outputs.
+19. a route example matrix that pairs each route with the fastest next sample set.
+20. a run artifact index that maps stages to standard outputs.

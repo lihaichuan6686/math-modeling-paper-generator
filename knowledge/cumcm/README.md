@@ -17,7 +17,8 @@ Purpose: give the generator one stable entry point for the contest-specific know
 11. `official-style-vs-modern-draft-risk.md`
 12. `next-iteration-plan.md`
 13. `deep-reading-index.md`
-14. relevant deep-reading and comparison notes under `cumcm/`
+14. `route-example-matrix.md`
+15. relevant deep-reading and comparison notes under `cumcm/`
 
 ## What This Layer Does
 
@@ -33,7 +34,8 @@ This layer answers five questions:
 8. Which comparison notes matter for this family?
 9. Which official paper note should be read first?
 10. Which deep-reading note should be read first?
-11. What should be tested next?
+11. Which sample pair should be opened next?
+12. What should be tested next?
 
 ## Navigation Rule
 

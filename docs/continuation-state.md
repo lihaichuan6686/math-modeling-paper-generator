@@ -28,6 +28,8 @@ The risk corpus now also includes `knowledge/cumcm/2024C-modern-draft-risk-readi
 
 Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, review-rubric, playbook, and generation prompts so the generator can distinguish production-route E papers from monitoring-route E papers at ideation, modeling, writing, and review time.
 
+Newest retrieval-layer progress: `knowledge/cumcm/route-example-matrix.md` now pairs each route family with its fastest positive sample, comparison note, deep-reading anchor, and risk gate so future runs can jump from problem signal to sample stack without guesswork.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -172,6 +174,7 @@ E-route family split:
 - new review finding index: `knowledge/quality/review-finding-index.md`.
 - new official paper index: `knowledge/cumcm/official-paper-index.md`.
 - new deep-reading index: `knowledge/cumcm/deep-reading-index.md`.
+- new route example matrix: `knowledge/cumcm/route-example-matrix.md`.
 - new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
