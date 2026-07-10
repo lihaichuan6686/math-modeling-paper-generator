@@ -157,6 +157,7 @@ E-route family split:
 - newest E-route lesson: traffic-control papers need road-network figures, a stable question map, method-to-output linkage, before-after policy evaluation, and code coverage beyond preprocessing screenshots.
 - new synthesis note: `knowledge/cumcm/official-style-vs-modern-draft-risk.md`.
 - new synthesis note: `knowledge/cumcm/official-paper-paradigms.md`.
+- new synthesis bridge: `knowledge/cumcm/generation-loop.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
 - review standards updated: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` now explicitly check stable question mapping, effective body length, object-first figures, and the difference between reproducible results and screenshot-only evidence.

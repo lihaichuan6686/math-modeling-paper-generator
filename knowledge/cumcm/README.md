@@ -9,10 +9,11 @@ Purpose: give the generator one stable entry point for the contest-specific know
 3. `20-30-page-paper-blueprint.md`
 4. `problem-type-paper-archetypes.md`
 5. `route-index.md`
-6. `official-paper-paradigms.md`
-7. `official-style-vs-modern-draft-risk.md`
-8. `next-iteration-plan.md`
-9. relevant deep-reading and comparison notes under `cumcm/`
+6. `generation-loop.md`
+7. `official-paper-paradigms.md`
+8. `official-style-vs-modern-draft-risk.md`
+9. `next-iteration-plan.md`
+10. relevant deep-reading and comparison notes under `cumcm/`
 
 ## What This Layer Does
 
@@ -23,7 +24,8 @@ This layer answers five questions:
 3. What positive official-paper pattern should the generator imitate?
 4. What fake-completion risks should it reject?
 5. What route family and evidence pattern should be read first?
-6. What should be tested next?
+6. How do the route, section map, and artifact plan become a paper?
+7. What should be tested next?
 
 ## Navigation Rule
 

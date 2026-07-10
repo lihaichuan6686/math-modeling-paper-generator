@@ -44,6 +44,7 @@ Structure and writing:
 - `cumcm/paper-generation-playbook.md`
 - `cumcm/README.md`
 - `cumcm/route-index.md`
+- `cumcm/generation-loop.md`
 - `cumcm/20-30-page-paper-blueprint.md`
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`

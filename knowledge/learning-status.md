@@ -7,6 +7,7 @@ This is a maintenance panel, not a reading log.
 ## What Is Already Well Absorbed
 
 - CUMCM route selection and paper archetypes.
+- CUMCM generation loop that connects route selection, section mapping, artifact planning, and iteration decisions.
 - Official-paper style versus risky modern-draft failure patterns.
 - E-route split between production-route and monitoring-route families.
 - Core LaTeX section structure and section-writing contracts.
@@ -47,5 +48,5 @@ For the next round of work, prioritize:
 
 1. more direct comparison notes for excellent CUMCM papers;
 2. stronger route examples for the current demos;
-3. tighter LaTeX polish and figure/table presentation rules.
-
+3. tighter LaTeX polish and figure/table presentation rules;
+4. more concrete generation-loop examples for common problem families.
