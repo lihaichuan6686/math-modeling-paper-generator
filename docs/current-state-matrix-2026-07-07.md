@@ -33,6 +33,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The new `knowledge/cumcm/2024B-modern-draft-risk-reading.md` note shows that 20-30 rendered pages can still hide template placeholders, watermarks, empty code appendices, and unsupported claims; page count must therefore be coupled to evidence and risk gates.
 - The new `knowledge/cumcm/2024C-modern-draft-risk-reading.md` note adds a partial-versus-overlong comparison: question coverage, paper-body length, code linkage, and scenario evidence must be audited separately.
 - The new `knowledge/cumcm/2024D-modern-draft-risk-reading.md` note adds D-type physics/probability risk checks: coordinate-frame evidence, distribution traceability, formula-to-number closure, code provenance, effective page count, and reference relevance.
+- The new `knowledge/cumcm/2024E-modern-draft-risk-reading.md` note adds traffic-control E checks: road-network visualization, stable question mapping, method-to-output linkage, before-after policy evaluation, and code coverage beyond screenshots.
 
 ## Still Open
 
@@ -40,7 +41,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 |---|---|---|---|
 | Real contest attachment parsing for rail-timetable cases | Open | Current rail demo uses synthetic data, so it is only a structure exemplar. | Replace synthetic inputs with parsed problem attachments when working on a real rail problem. |
 | OD assignment and fleet/turnback realism | Open | The current rail demo checks the route chain but simplifies operational realism. | Add OD passenger assignment and vehicle circulation constraints. |
-| More problem routes | Open | The knowledge base still benefits from additional deep reads and comparison reading. | Extend 2024 modern-draft risk reading to E and add more same-problem comparisons. |
+| More problem routes | Open | The knowledge base still benefits from additional deep reads and comparison reading. | Compare 2024 modern-draft risk notes against official concise styles and add more same-problem comparisons. |
 | 20-30 page rail-quality expansion | Open | The current rail demo is a compact paper, not a full contest-quality draft. | Expand only after real-data parsing and richer validation are added. |
 
 ## Current Judgment
