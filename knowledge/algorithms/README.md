@@ -7,8 +7,9 @@ Purpose: give the generator one stable entry point for moving from a problem sig
 1. `cumcm-routing-rules.md`
 2. `problem-type-to-method.md`
 3. `model-chain-patterns.md`
-4. `cards/README.md`
-5. the detailed cards under `cards/`
+4. `method-family-index.md`
+5. `cards/README.md`
+6. the detailed cards under `cards/`
 
 ## What This Layer Does
 
@@ -16,7 +17,7 @@ This layer answers three questions:
 
 1. What route family does the problem belong to?
 2. What model chain should be built?
-3. Which method cards should be read first?
+3. Which method family and method cards should be read first?
 
 The goal is not to collect algorithm names. The goal is to produce a route that can survive review.
 

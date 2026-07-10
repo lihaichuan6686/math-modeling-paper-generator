@@ -12,6 +12,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM completion gate for deciding when a generated draft is ready to hand off.
 - CUMCM master map for one-glance navigation across the knowledge stack.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
+- CUMCM algorithm method-family index for faster route-to-card selection.
 - Official-paper style versus risky modern-draft failure patterns.
 - E-route split between production-route and monitoring-route families.
 - Core LaTeX section structure and section-writing contracts.
@@ -58,3 +59,4 @@ For the next round of work, prioritize:
 6. more concise completion gates for research-review handoff.
 7. a one-glance master map that keeps the knowledge stack easy to navigate.
 8. a comparison index that makes same-problem and contrast reading reusable.
+9. a method-family index that maps route families to first method cards.

@@ -29,6 +29,7 @@ For any CUMCM paper-generation or review run, read in this order:
 21. `quality/completion-gate.md`
 22. `master-map.md`
 23. `cumcm/comparison-index.md`
+24. `algorithms/method-family-index.md`
 
 ## Directory Map
 
@@ -62,6 +63,7 @@ Algorithms and model routes:
 - `inventory/README.md`
 - `algorithms/cumcm-routing-rules.md`
 - `algorithms/README.md`
+- `algorithms/method-family-index.md`
 - `algorithms/cards/README.md`
 - `algorithms/model-chain-patterns.md`
 
