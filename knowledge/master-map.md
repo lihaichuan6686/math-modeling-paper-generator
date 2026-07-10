@@ -10,6 +10,7 @@ Use this when you want the shortest path from problem statement to a handoff-rea
 problem signal
 -> route index
 -> archetype-section matrix
+-> archetype-page-density matrix
 -> route-method matrix
 -> paper family matrix
 -> generation loop
@@ -24,6 +25,7 @@ problem signal
 |---|---|---|
 | Route selection | identify the route family and evidence pattern | `cumcm/route-index.md` |
 | Archetype drafting | decide the section emphasis, first artifact, and validation habit | `cumcm/archetype-section-matrix.md` |
+| Page planning | decide page emphasis, visual density, and validation weight | `cumcm/archetype-page-density-matrix.md` |
 | Method selection | choose the first method family and validation focus | `algorithms/route-method-matrix.md` |
 | Paper family planning | decide the paper family, section emphasis, and first artifacts | `cumcm/paper-family-matrix.md` |
 | Sample pairing | pick the fastest positive sample, contrast note, and risk gate | `cumcm/route-example-matrix.md` |
@@ -38,6 +40,7 @@ problem signal
 - `cumcm/20-30-page-paper-blueprint.md`: page logic and body-length planning.
 - `cumcm/problem-type-paper-archetypes.md`: the family-level structure contract.
 - `cumcm/archetype-section-matrix.md`: the route-to-section drafting bridge.
+- `cumcm/archetype-page-density-matrix.md`: the route-to-page-density drafting bridge.
 - `cumcm/official-paper-paradigms.md`: positive templates from excellent papers.
 - `cumcm/official-style-vs-modern-draft-risk.md`: fake-completion and residue risks.
 - `cumcm/route-example-matrix.md`: the fastest positive sample and contrast pair for each route.
@@ -60,11 +63,12 @@ If time is tight, read these five in order:
 
 1. `cumcm/route-index.md`
 2. `cumcm/archetype-section-matrix.md`
-3. `algorithms/route-method-matrix.md`
-4. `latex/section-family-index.md`
-5. `cumcm/generation-loop.md`
-6. `quality/finding-gate-matrix.md`
-7. `quality/completion-gate.md`
+3. `cumcm/archetype-page-density-matrix.md`
+4. `algorithms/route-method-matrix.md`
+5. `latex/section-family-index.md`
+6. `cumcm/generation-loop.md`
+7. `quality/finding-gate-matrix.md`
+8. `quality/completion-gate.md`
 
 ## Current Focus
 

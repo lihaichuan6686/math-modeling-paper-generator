@@ -10,6 +10,7 @@ This is the top synthesis layer above the route, archetype, method, section, and
 problem signal
 -> route index
 -> archetype-section matrix
+-> archetype-page-density matrix
 -> route-method matrix
 -> section-family index
 -> generation loop
@@ -23,6 +24,7 @@ problem signal
 |---|---|---|
 | Route index | What route family does the problem belong to? | `cumcm/route-index.md` |
 | Archetype section matrix | What section emphasis and first artifact does the archetype need? | `cumcm/archetype-section-matrix.md` |
+| Archetype page density matrix | How should page emphasis, visual density, and validation weight be distributed? | `cumcm/archetype-page-density-matrix.md` |
 | Route-method matrix | Which method family and first cards should be read? | `algorithms/route-method-matrix.md` |
 | Section family index | What should each section do and what is the first artifact? | `latex/section-family-index.md` |
 | Generation loop | How do route, section, artifacts, and writing connect? | `cumcm/generation-loop.md` |
@@ -35,11 +37,12 @@ If time is tight, read these first:
 
 1. `cumcm/route-index.md`
 2. `cumcm/archetype-section-matrix.md`
-3. `algorithms/route-method-matrix.md`
-4. `latex/section-family-index.md`
-5. `cumcm/generation-loop.md`
-6. `quality/finding-gate-matrix.md`
-7. `quality/completion-gate.md`
+3. `cumcm/archetype-page-density-matrix.md`
+4. `algorithms/route-method-matrix.md`
+5. `latex/section-family-index.md`
+6. `cumcm/generation-loop.md`
+7. `quality/finding-gate-matrix.md`
+8. `quality/completion-gate.md`
 
 ## Output Ladder
 
