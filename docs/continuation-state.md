@@ -167,6 +167,7 @@ E-route family split:
 - new quality doorway: `knowledge/quality/README.md` now gives the generator a stable path from rubric to reproducibility to review notes.
 - classification route anchor: `knowledge/cumcm/deep-reading-2021E014.md` now sits in the top route list for spectral and high-dimensional signal classification.
 - classification method anchor: `knowledge/algorithms/cumcm-routing-rules.md` and `knowledge/algorithms/problem-type-to-method.md` now point spectral classification work toward preprocessing, feature reduction, and classifier comparison.
+- E-route method anchors: `knowledge/algorithms/cumcm-routing-rules.md`, `knowledge/cumcm/problem-type-paper-archetypes.md`, and `knowledge/algorithms/cards/README.md` now distinguish production-route E from monitoring-route E at the route and card level.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
 - `docs/v1-runbook.md` now points the fresh-run path at the atlas and next-iteration plan before the old step-by-step scaffold.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.

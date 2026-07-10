@@ -345,6 +345,12 @@ Trigger terms:
 - production plan
 - replenishment
 
+Route anchors:
+
+- `knowledge/cumcm/deep-reading-2022E014.md` for conservative production-route E;
+- `knowledge/cumcm/deep-reading-2022E029.md` for dynamic production-route E;
+- `knowledge/cumcm/deep-reading-2023E176.md` for monitoring-route E.
+
 Model chain:
 
 ```text

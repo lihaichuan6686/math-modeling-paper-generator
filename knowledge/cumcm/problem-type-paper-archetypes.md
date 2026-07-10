@@ -155,6 +155,11 @@ Signals:
 - historical demand drives short-term production decisions;
 - the problem usually asks for executable production quantities or support strategies.
 
+Route anchors:
+
+- `deep-reading-2022E014.md` for conservative service-level-first rolling production;
+- `deep-reading-2022E029.md` for dynamic forecasting-to-production planning.
+
 Paper rhythm:
 
 ```text
@@ -203,6 +208,10 @@ Signals:
 
 - monitoring scheme, sampling frequency, hydrology, reservoir, abruptness, periodicity, information value, or intervention effect;
 - the problem asks for both future trend judgment and monitoring or policy design.
+
+Route anchors:
+
+- `deep-reading-2023E176.md`
 
 Paper rhythm:
 
