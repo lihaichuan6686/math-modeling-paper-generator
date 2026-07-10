@@ -7,25 +7,26 @@ Purpose: store structured knowledge extracted from local mathematical-modeling r
 For any CUMCM paper-generation or review run, read in this order:
 
 1. `cumcm/paper-generation-playbook.md`
-2. `cumcm/20-30-page-paper-blueprint.md`
-3. `cumcm/problem-type-paper-archetypes.md`
-4. `algorithms/cumcm-routing-rules.md`
-5. `algorithms/README.md`
-6. `algorithms/cards/README.md`
-7. `algorithms/model-chain-patterns.md`
-8. relevant detailed algorithm cards under `algorithms/cards/`
-9. `latex/cumcm-section-contract.md`
-10. `latex/README.md`
-11. `latex/section-writing-patterns.md`
-12. `latex/figures-tables-equations-style.md`
-13. `latex/snippets.md`
-14. `quality/quality-rubric-v2.md`
-15. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
+2. `cumcm/README.md`
+3. `cumcm/20-30-page-paper-blueprint.md`
+4. `cumcm/problem-type-paper-archetypes.md`
+5. `algorithms/cumcm-routing-rules.md`
+6. `algorithms/README.md`
+7. `algorithms/cards/README.md`
+8. `algorithms/model-chain-patterns.md`
+9. relevant detailed algorithm cards under `algorithms/cards/`
+10. `latex/cumcm-section-contract.md`
+11. `latex/README.md`
+12. `latex/section-writing-patterns.md`
+13. `latex/figures-tables-equations-style.md`
+14. `latex/snippets.md`
+15. `quality/quality-rubric-v2.md`
+16. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
 
 ## Directory Map
 
 - `inventory/`: source file inventories, extension statistics, and priority queues for later reading.
-- `cumcm/`: CUMCM problem types, official paper observations, deep-reading notes, paper-generation workflows, and structure blueprints.
+- `cumcm/`: CUMCM doorway, problem types, official paper observations, deep-reading notes, paper-generation workflows, and structure blueprints.
 - `algorithms/`: routing rules, algorithm doorway, model-chain patterns, algorithm cards, and problem-type method mappings.
 - `latex/`: paper structure, LaTeX doorway, section contracts, figure/table/equation style, and reusable LaTeX snippets.
 - `quality/`: paper review rubrics, reproducibility checks, and human-AI difference research framework.
@@ -36,6 +37,7 @@ For any CUMCM paper-generation or review run, read in this order:
 Structure and writing:
 
 - `cumcm/paper-generation-playbook.md`
+- `cumcm/README.md`
 - `cumcm/20-30-page-paper-blueprint.md`
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
