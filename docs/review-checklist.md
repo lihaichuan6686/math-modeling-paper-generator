@@ -16,6 +16,7 @@ Unknown: evidence is missing.
 | Item | Status | Evidence |
 |---|---|---|
 | All subquestions are listed explicitly. | Unknown | |
+| Subquestion numbering and naming stay consistent from abstract to conclusion. | Unknown | |
 | Each subquestion has a corresponding model or method. | Unknown | |
 | Each subquestion has at least one result. | Unknown | |
 | Each subquestion has validation or sanity checking. | Unknown | |
@@ -24,6 +25,7 @@ Unknown: evidence is missing.
 Fail conditions:
 
 - A subquestion is skipped.
+- The paper silently renumbers or relabels subquestions mid-draft.
 - A result is asserted without a model, computation, or clear reasoning.
 - The paper solves a different problem from the given statement.
 
@@ -36,6 +38,7 @@ Fail conditions:
 | Objective functions match the problem goals. | Unknown | |
 | Constraints match real-world or problem-stated limits. | Unknown | |
 | Solution algorithms fit the data size and problem type. | Unknown | |
+| Each named method leads to a visible result artifact and decision statement. | Unknown | |
 | Model limitations are acknowledged. | Unknown | |
 
 Fail conditions:
@@ -44,6 +47,7 @@ Fail conditions:
 - Constraints are missing for a decision model.
 - The chosen method is not suitable for the data or task.
 - The model chain is a list of algorithms without mathematical connection.
+- Methods are named, but no table, figure, or final decision output is tied to them.
 
 ## 3. Data and Code Reproducibility
 
@@ -56,6 +60,7 @@ Fail conditions:
 | Tables in the paper are traceable to code or calculations. | Unknown | |
 | Figures are generated from known scripts or documented sources. | Unknown | |
 | Abstract numbers match final result files. | Unknown | |
+| Main-text result evidence does not rely on appendix-only screenshots. | Unknown | |
 
 Fail conditions:
 
@@ -63,6 +68,7 @@ Fail conditions:
 - Code and paper use different parameter values.
 - Static images replace actual generated figures without explanation.
 - Data columns or units are ambiguous.
+- Code screenshots stand in for missing reproducible outputs.
 
 ## 4. Figures and Tables
 
@@ -74,6 +80,7 @@ Fail conditions:
 | Every figure/table is cited in the text. | Unknown | |
 | Figure/table numbering is consistent. | Unknown | |
 | Tables are readable after PDF rendering. | Unknown | |
+| Early explanatory figures identify the modeled object clearly. | Unknown | |
 
 Fail conditions:
 
@@ -81,6 +88,7 @@ Fail conditions:
 - A table is too wide or clipped.
 - Units or labels are missing for quantitative axes.
 - The same result appears with conflicting values.
+- The paper skips network/geometry/process explanation and jumps straight into methods or outputs.
 
 ## 5. Validation and Robustness
 
@@ -113,6 +121,7 @@ Fail conditions:
 | Sections are ordered logically. | Unknown | |
 | Claims distinguish evidence, assumption, and inference. | Unknown | |
 | Limitations are concrete rather than generic. | Unknown | |
+| Effective body length comes from argument and evidence rather than filler or screenshot inflation. | Unknown | |
 
 Fail conditions:
 
@@ -120,6 +129,7 @@ Fail conditions:
 - Conclusion repeats abstract without decision value.
 - Writing uses generic template filler.
 - The paper overclaims beyond data support.
+- PDF length looks strong only because of appendix-heavy screenshots, blank tail pages, or residue pages.
 
 ## 7. LaTeX and PDF Quality
 
@@ -132,6 +142,7 @@ Fail conditions:
 | Equations are readable and numbered when referenced. | Unknown | |
 | References render correctly. | Unknown | |
 | Research copy removes team identity and stale template metadata when required. | Unknown | |
+| Research copy removes watermark/header/footer residue and placeholder title text. | Unknown | |
 
 Fail conditions:
 
@@ -139,6 +150,7 @@ Fail conditions:
 - Font missing or unreadable text appears.
 - Cover/number page appears in a research copy when it should not.
 - Template default names, dates, or school fields remain.
+- Promotional watermark, public-account residue, `paper title`, `论文题目`, `xx`, or `xxxx` remain in the delivered copy.
 
 ## 8. Responsible-Use Review
 

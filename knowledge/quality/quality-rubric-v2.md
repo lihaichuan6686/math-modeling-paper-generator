@@ -30,6 +30,7 @@ Pass indicators:
 Fail indicators:
 
 - Any subquestion is skipped.
+- Subquestion numbering or naming drifts between abstract, body, and conclusion.
 - A result is asserted without evidence.
 - The paper solves a different or easier problem.
 
@@ -47,6 +48,7 @@ Pass indicators:
 - The paper follows a recognizable CUMCM structure.
 - Page count comes from equations, figures, tables, validation, and appendix evidence.
 - Method overview, problem analysis, model establishment, result, and validation sections have distinct roles.
+- Effective body length remains credible after excluding blank pages, watermark-only pages, and screenshot-only inflation.
 
 Fail indicators:
 
@@ -54,6 +56,7 @@ Fail indicators:
 - Problem restatement copies the statement without analysis.
 - Sections repeat each other.
 - Abstract or conclusion contains unsupported numbers.
+- PDF length looks complete only because of code screenshots, blank tail pages, or promotional residue.
 
 Required evidence:
 
@@ -68,6 +71,7 @@ Pass indicators:
 - Variables, parameters, objective, constraints, and algorithms are defined.
 - Method choice matches data size, problem type, and required outputs.
 - Assumptions are used later and have stated impact.
+- Every named method closes into a result artifact and a decision consequence.
 
 Fail indicators:
 
@@ -75,6 +79,7 @@ Fail indicators:
 - Optimization models lack constraints or feasibility checks.
 - Prediction/classification models lack validation.
 - A complex method is used without data support.
+- The model chain becomes a method list with no visible output or decision closure.
 
 Required evidence:
 
@@ -96,6 +101,7 @@ Pass indicators:
 - Every important number in abstract and conclusion appears in the artifact ledger.
 - Figures and tables map to code outputs, data files, equations, or documented schematic prompts.
 - Paper values and code outputs agree.
+- Main-text result claims are not outsourced to appendix-only screenshots.
 
 Fail indicators:
 
@@ -103,6 +109,7 @@ Fail indicators:
 - Figure/table values conflict with text.
 - Static images replace evidence plots without source.
 - Appendix code does not support the main paper.
+- Code screenshots are used where the paper should provide a reproducible result table, figure, or output file.
 
 Required evidence:
 
@@ -119,6 +126,7 @@ Pass indicators:
 - Evidence and validation figures are reproducible from code.
 - Schematic or AI-generated figures are disclosed as schematic.
 - Captions explain what the reader should learn.
+- Early explanatory figures identify the modeled object clearly before late-stage comparison graphics dominate the paper.
 
 Fail indicators:
 
@@ -126,6 +134,7 @@ Fail indicators:
 - Figure is included but never interpreted.
 - Tables overflow or are unreadable.
 - Units, legends, or labels are missing.
+- The paper jumps into algorithms or results without first showing the network, geometry, process, or system being modeled.
 
 Required evidence:
 
@@ -194,6 +203,7 @@ Pass indicators:
 - Chinese fonts, equations, references, and cross-references render correctly.
 - Tables and figures fit final pages.
 - Research copy removes unnecessary team identity, stale dates, and default template fields.
+- Research copy removes promotional watermark, public-account header/footer residue, and generic placeholder title text.
 
 Fail indicators:
 
@@ -201,6 +211,7 @@ Fail indicators:
 - Missing figures or broken references.
 - Tables overflow or equations are unreadable.
 - Stale contest year, team, school, or member metadata remains.
+- Watermarks, public-account residue, `paper title`, `论文题目`, `xx`, or `xxxx` remain in the delivered research copy.
 
 Required evidence:
 
