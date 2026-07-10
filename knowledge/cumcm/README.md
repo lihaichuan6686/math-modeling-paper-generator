@@ -18,7 +18,8 @@ Purpose: give the generator one stable entry point for the contest-specific know
 12. `next-iteration-plan.md`
 13. `deep-reading-index.md`
 14. `route-example-matrix.md`
-15. relevant deep-reading and comparison notes under `cumcm/`
+15. `archetype-section-matrix.md`
+16. relevant deep-reading and comparison notes under `cumcm/`
 
 ## What This Layer Does
 
@@ -35,7 +36,8 @@ This layer answers five questions:
 9. Which official paper note should be read first?
 10. Which deep-reading note should be read first?
 11. Which sample pair should be opened next?
-12. What should be tested next?
+12. Which section emphasis should the archetype use?
+13. What should be tested next?
 
 ## Navigation Rule
 
