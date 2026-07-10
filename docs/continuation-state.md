@@ -169,6 +169,7 @@ E-route family split:
 - classification method anchor: `knowledge/algorithms/cumcm-routing-rules.md` and `knowledge/algorithms/problem-type-to-method.md` now point spectral classification work toward preprocessing, feature reduction, and classifier comparison.
 - E-route method anchors: `knowledge/algorithms/cumcm-routing-rules.md`, `knowledge/cumcm/problem-type-paper-archetypes.md`, and `knowledge/algorithms/cards/README.md` now distinguish production-route E from monitoring-route E at the route and card level.
 - `START_HERE.md` now has a one-screen navigation map for the six doorway files and the runbook.
+- `inventory/README.md` now gives the project a compact source-coverage ledger for what has been absorbed and what still needs tracking.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
 - `docs/v1-runbook.md` now points the fresh-run path at the atlas and next-iteration plan before the old step-by-step scaffold.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.

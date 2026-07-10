@@ -38,6 +38,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The classification route now also has a method-level anchor in `knowledge/algorithms/cumcm-routing-rules.md` and `knowledge/algorithms/problem-type-to-method.md`, pointing the generator toward preprocessing, feature reduction, and classifier comparison.
 - The E-route family now also has route-level and card-level anchors in `knowledge/algorithms/cumcm-routing-rules.md`, `knowledge/cumcm/problem-type-paper-archetypes.md`, and `knowledge/algorithms/cards/README.md`, separating production-route E from monitoring-route E.
 - `START_HERE.md` now includes a compact navigation map that points directly to the six doorway files and the runbook.
+- `inventory/README.md` now provides a lightweight source-coverage ledger for absorbed material and remaining reading priorities.
 - The new `knowledge/cumcm/official-style-vs-modern-draft-risk.md` synthesis note connects the official excellent-paper readings to the 2024 draft-risk notes, clarifying which signals should be imitated and which should be rejected by the generator.
 - The new `knowledge/cumcm/official-paper-paradigms.md` synthesis note turns the official excellent-paper readings into route-family tables, abstract patterns, and generator rules that can be reused directly in prompts and reviews.
 - The quality standards layer now reflects those lessons too: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` explicitly audit question-map stability, effective body length, object-first figures, and screenshot-versus-evidence risks.
@@ -47,6 +48,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The new `prompts/README.md` file gives the staged prompt chain a stable doorway from intake through quality audit.
 - The new `knowledge/cumcm/README.md` file gives the contest corpus a stable doorway from atlas to paradigms to risk notes.
 - The new `docs/README.md` file gives the operational docs a stable doorway from runbook to review, state, and roadmap files.
+- The new `inventory/README.md` file gives the source ledger a compact record of what has been absorbed and what still needs tracking.
 - The new `knowledge/quality/README.md` file gives the quality corpus a stable doorway from rubric to reproducibility to review notes.
 - The new `knowledge/cumcm/next-iteration-plan.md` file turns the atlas into an operational plan: fresh-run validation, same-problem comparison expansion, and LaTeX weak-spot drills.
 - `docs/v1-runbook.md` now uses the atlas and next-iteration plan as the first decision layer for fresh runs.

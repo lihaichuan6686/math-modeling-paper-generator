@@ -15,14 +15,15 @@ For any CUMCM paper-generation or review run, read in this order:
 7. `algorithms/cards/README.md`
 8. `algorithms/model-chain-patterns.md`
 9. relevant detailed algorithm cards under `algorithms/cards/`
-10. `latex/cumcm-section-contract.md`
-11. `latex/README.md`
-12. `latex/section-writing-patterns.md`
-13. `latex/figures-tables-equations-style.md`
-14. `latex/snippets.md`
-15. `quality/README.md`
-16. `quality/quality-rubric-v2.md`
-17. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
+10. `inventory/README.md`
+11. `latex/cumcm-section-contract.md`
+12. `latex/README.md`
+13. `latex/section-writing-patterns.md`
+14. `latex/figures-tables-equations-style.md`
+15. `latex/snippets.md`
+16. `quality/README.md`
+17. `quality/quality-rubric-v2.md`
+18. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
 
 ## Directory Map
 
@@ -47,6 +48,7 @@ Structure and writing:
 
 Algorithms and model routes:
 
+- `inventory/README.md`
 - `algorithms/cumcm-routing-rules.md`
 - `algorithms/README.md`
 - `algorithms/cards/README.md`

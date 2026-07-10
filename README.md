@@ -106,6 +106,7 @@ Read these before generation or review:
 - `knowledge/cumcm/README.md`
 - `prompts/README.md`
 - `docs/README.md`
+- `inventory/README.md`
 - `knowledge/quality/README.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
