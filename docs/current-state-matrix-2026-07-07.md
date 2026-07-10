@@ -37,6 +37,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The new `knowledge/cumcm/official-style-vs-modern-draft-risk.md` synthesis note connects the official excellent-paper readings to the 2024 draft-risk notes, clarifying which signals should be imitated and which should be rejected by the generator.
 - The quality standards layer now reflects those lessons too: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` explicitly audit question-map stability, effective body length, object-first figures, and screenshot-versus-evidence risks.
 - The new `knowledge/cumcm/cumcm-atlas.md` file acts as the top-level navigation layer for routes, algorithms, LaTeX, risk gates, and next-step iteration planning.
+- The new `knowledge/cumcm/next-iteration-plan.md` file turns the atlas into an operational plan: fresh-run validation, same-problem comparison expansion, and LaTeX weak-spot drills.
 
 ## Still Open
 

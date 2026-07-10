@@ -218,6 +218,10 @@ Current risk gates to remember:
 4. Extend the LaTeX side with more concrete section-writing patterns if a draft reveals a recurring weakness.
 5. Once a fresh run exists, compare its artifact ledger against this atlas and tighten any missing gate.
 
+## Companion Plan
+
+- [next-iteration-plan.md](next-iteration-plan.md)
+
 ## Status
 
 This atlas is a navigation layer, not a final paper artifact. It should be updated whenever a new route anchor, comparison note, or quality gate becomes important enough to change how the generator is used.
