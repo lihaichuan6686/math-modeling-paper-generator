@@ -31,17 +31,18 @@ For any CUMCM paper-generation or review run, read in this order:
 23. `cumcm/comparison-index.md`
 24. `algorithms/method-family-index.md`
 25. `latex/visual-family-index.md`
-26. `latex/table-family-index.md`
-27. `latex/equation-family-index.md`
-28. `quality/evidence-family-index.md`
-29. `quality/review-finding-index.md`
-30. `cumcm/official-paper-index.md`
-31. `cumcm/deep-reading-index.md`
-32. `cumcm/route-example-matrix.md`
-33. `roadmap.md`
-34. `../docs/run-artifact-index.md`
-35. `../prompts/07_launch.md`
-36. `../prompts/flow-map.md`
+26. `latex/section-family-index.md`
+27. `latex/table-family-index.md`
+28. `latex/equation-family-index.md`
+29. `quality/evidence-family-index.md`
+30. `quality/review-finding-index.md`
+31. `cumcm/official-paper-index.md`
+32. `cumcm/deep-reading-index.md`
+33. `cumcm/route-example-matrix.md`
+34. `roadmap.md`
+35. `../docs/run-artifact-index.md`
+36. `../prompts/07_launch.md`
+37. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -67,12 +68,14 @@ Structure and writing:
 - `cumcm/official-paper-index.md`
 - `cumcm/deep-reading-index.md`
 - `cumcm/route-example-matrix.md`
+- `latex/section-family-index.md`
 - `cumcm/20-30-page-paper-blueprint.md`
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
 - `latex/README.md`
 - `latex/section-map.md`
 - `latex/visual-family-index.md`
+- `latex/section-family-index.md`
 - `latex/table-family-index.md`
 - `latex/equation-family-index.md`
 - `latex/section-writing-patterns.md`

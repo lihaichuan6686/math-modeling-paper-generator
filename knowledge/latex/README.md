@@ -9,11 +9,12 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 3. `figures-tables-equations-style.md`
 4. `snippets.md`
 5. `section-map.md`
-6. `visual-family-index.md`
-7. `table-family-index.md`
-8. `equation-family-index.md`
-9. `paper-style-plan.md`
-10. `long-paper-blueprint.md`
+6. `section-family-index.md`
+7. `visual-family-index.md`
+8. `table-family-index.md`
+9. `equation-family-index.md`
+10. `paper-style-plan.md`
+11. `long-paper-blueprint.md`
 
 ## What This Layer Does
 
@@ -25,6 +26,13 @@ This layer answers four questions:
 4. How do we keep the paper structurally credible while it grows to 20-30 pages?
 
 The goal is not decorative formatting. The goal is a paper that reads like a complete modeling result.
+
+Best use of the section-family layer:
+
+- start from the section contract;
+- use the section-family index when a section feels thin or generic;
+- use the style guide when figures, tables, or equations need cleanup;
+- use the page blueprint when the paper needs structural length, not filler.
 
 ## Section Chain
 
