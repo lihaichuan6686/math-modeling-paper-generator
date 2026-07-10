@@ -16,7 +16,8 @@ If you are just getting oriented, read these in order:
 8. `knowledge/latex/README.md`
 9. `knowledge/quality/README.md`
 10. `prompts/README.md`
-11. `docs/v1-runbook.md`
+11. `docs/run-start-checklist.md`
+12. `docs/v1-runbook.md`
 
 ## Fastest Demo
 

@@ -30,6 +30,8 @@ Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now f
 
 Newest retrieval-layer progress: `knowledge/cumcm/route-example-matrix.md` now pairs each route family with its fastest positive sample, comparison note, deep-reading anchor, and risk gate so future runs can jump from problem signal to sample stack without guesswork.
 
+Newest start-layer progress: `docs/run-start-checklist.md` now gives Claude Code a compact first-pass sequence for a new run, including route selection, sample pairing, and the first required outputs.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
@@ -175,6 +177,7 @@ E-route family split:
 - new official paper index: `knowledge/cumcm/official-paper-index.md`.
 - new deep-reading index: `knowledge/cumcm/deep-reading-index.md`.
 - new route example matrix: `knowledge/cumcm/route-example-matrix.md`.
+- new run-start checklist: `docs/run-start-checklist.md`.
 - new run artifact index: `docs/run-artifact-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
