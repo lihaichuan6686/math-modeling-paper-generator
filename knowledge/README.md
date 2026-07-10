@@ -47,6 +47,7 @@ For any CUMCM paper-generation or review run, read in this order:
 39. `../docs/run-artifact-index.md`
 40. `../prompts/07_launch.md`
 41. `../prompts/flow-map.md`
+42. `../docs/objective-coverage-matrix.md`
 
 ## Directory Map
 

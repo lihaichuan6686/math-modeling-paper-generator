@@ -7,6 +7,7 @@ This is a maintenance panel, not a reading log.
 ## What Is Already Well Absorbed
 
 - CUMCM route selection and paper archetypes.
+- Objective coverage matrix for tracking the original long-term goal against current evidence.
 - CUMCM generation loop that connects route selection, section mapping, artifact planning, and iteration decisions.
 - CUMCM paper-family matrix for early artifact and validation planning.
 - CUMCM completion gate for deciding when a generated draft is ready to hand off.
@@ -100,3 +101,4 @@ For the next round of work, prioritize:
 27. a run-start checklist that turns the docs layer into an actionable entry.
 28. a launch prompt that directly starts the staged workflow.
 29. a run artifact index that maps stages to standard outputs.
+30. an objective coverage matrix that tracks goal-to-evidence completion.

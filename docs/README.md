@@ -18,6 +18,7 @@ Purpose: give the project one stable entry point for workflow, run state, review
 12. `architecture.md`
 13. `long-term-roadmap.md`
 14. `research-agenda.md`
+15. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 

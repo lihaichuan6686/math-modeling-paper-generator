@@ -52,6 +52,8 @@ Newest source-layer progress: `inventory/source-absorption-matrix.md` now maps r
 
 Newest iteration-layer progress: `knowledge/cumcm/next-iteration-action-matrix.md` now turns roadmap items into concrete work items with evidence and follow-up decisions.
 
+Newest objective-layer progress: `docs/objective-coverage-matrix.md` now maps the original long-term goal to the evidence already present in the repo and the gaps that still deserve work.
+
 ## Completed Deep Reads
 
 | Sample | Route learned | Output |
