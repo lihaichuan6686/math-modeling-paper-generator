@@ -14,6 +14,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM roadmap for what remains to be strengthened next.
 - CUMCM evidence family index for review-proof classification.
 - CUMCM review finding index for classifying weaknesses and repairs.
+- CUMCM deep-reading index for route-based sample retrieval.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
 - CUMCM algorithm method-family index for faster route-to-card selection.
 - Prompt flow map for the staged generation loop.
@@ -74,3 +75,4 @@ For the next round of work, prioritize:
 14. a roadmap that separates now, next, and later work.
 15. an evidence family index that clarifies what counts as proof in review.
 16. a review finding index that classifies weaknesses and their gate triggers.
+17. a deep-reading index that groups absorbed examples by route family.
