@@ -30,6 +30,7 @@ For any CUMCM paper-generation or review run, read in this order:
 22. `master-map.md`
 23. `cumcm/comparison-index.md`
 24. `algorithms/method-family-index.md`
+25. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -88,6 +89,7 @@ Maintenance status:
 - `learning-status.md`
 - `master-map.md`
 - `cumcm/comparison-index.md`
+- `../prompts/flow-map.md`
 
 ## Absorption Rules
 

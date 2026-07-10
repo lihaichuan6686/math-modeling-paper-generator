@@ -11,6 +11,7 @@ Purpose: give Claude Code one stable path through the v1.0 generation loop.
 5. `04_writing.md`
 6. `05_review.md`
 7. `06_quality_review.md`
+8. `flow-map.md`
 
 ## What The Prompt Chain Does
 
@@ -21,6 +22,8 @@ intake -> ideation -> model plan -> implementation -> writing -> review -> quali
 ```
 
 Each stage should leave a file under `runs/current/` or the active run directory.
+
+Use `flow-map.md` when you want the shortest path from stage to stage and need a quick reminder of what each step must leave behind.
 
 ## Stage Roles
 

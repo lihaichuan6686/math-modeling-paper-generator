@@ -13,6 +13,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM master map for one-glance navigation across the knowledge stack.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
 - CUMCM algorithm method-family index for faster route-to-card selection.
+- Prompt flow map for the staged generation loop.
 - Official-paper style versus risky modern-draft failure patterns.
 - E-route split between production-route and monitoring-route families.
 - Core LaTeX section structure and section-writing contracts.
@@ -60,3 +61,4 @@ For the next round of work, prioritize:
 7. a one-glance master map that keeps the knowledge stack easy to navigate.
 8. a comparison index that makes same-problem and contrast reading reusable.
 9. a method-family index that maps route families to first method cards.
+10. a prompt flow map that keeps the staged generation loop easy to execute.
