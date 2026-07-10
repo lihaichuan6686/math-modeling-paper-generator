@@ -28,6 +28,7 @@ For any CUMCM paper-generation or review run, read in this order:
 20. `learning-status.md`
 21. `quality/completion-gate.md`
 22. `master-map.md`
+23. `cumcm/comparison-index.md`
 
 ## Directory Map
 
@@ -48,6 +49,7 @@ Structure and writing:
 - `cumcm/route-index.md`
 - `cumcm/generation-loop.md`
 - `cumcm/paper-family-matrix.md`
+- `cumcm/comparison-index.md`
 - `cumcm/20-30-page-paper-blueprint.md`
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
@@ -83,6 +85,7 @@ Maintenance status:
 
 - `learning-status.md`
 - `master-map.md`
+- `cumcm/comparison-index.md`
 
 ## Absorption Rules
 

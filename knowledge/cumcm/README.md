@@ -11,10 +11,11 @@ Purpose: give the generator one stable entry point for the contest-specific know
 5. `route-index.md`
 6. `generation-loop.md`
 7. `paper-family-matrix.md`
-8. `official-paper-paradigms.md`
-9. `official-style-vs-modern-draft-risk.md`
-10. `next-iteration-plan.md`
-11. relevant deep-reading and comparison notes under `cumcm/`
+8. `comparison-index.md`
+9. `official-paper-paradigms.md`
+10. `official-style-vs-modern-draft-risk.md`
+11. `next-iteration-plan.md`
+12. relevant deep-reading and comparison notes under `cumcm/`
 
 ## What This Layer Does
 
@@ -27,7 +28,8 @@ This layer answers five questions:
 5. What route family and evidence pattern should be read first?
 6. How do the route, section map, and artifact plan become a paper?
 7. What paper family needs which early artifacts and validation habits?
-8. What should be tested next?
+8. Which comparison notes matter for this family?
+9. What should be tested next?
 
 ## Navigation Rule
 
