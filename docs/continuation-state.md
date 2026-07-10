@@ -20,6 +20,8 @@ Newest runnable-demo progress: the old supply toy has now been replaced by a syn
 
 Newest comparison-reading progress: the repository now has a same-problem comparison note for the 2021 C supply-chain cluster (`C066`, `C085`, `C169`, `C283`). That note isolates the stable route contract for supplier-evaluation-plus-planning papers from the variable rhetorical choices such as uncertainty-led, optimization-led, or heuristic-led framing.
 
+Newest comparison-reading progress on the scheduling side: the repository now also has a same-problem comparison note for the 2021 D continuous-cutting cluster (`D017`, `D026`, `D034`). That note separates the stable online-optimization backbone from three valid writing voices: theorem-led, multiobjective-planning-led, and implementation-led.
+
 Newest knowledge-layer progress: `2022 E014`, `2022 E029`, and `2023 E176` now form an explicit E-route family set, and that split has been written into the shared archetype, paper-blueprint, review-rubric, playbook, and generation prompts so the generator can distinguish production-route E papers from monitoring-route E papers at ideation, modeling, writing, and review time.
 
 ## Completed Deep Reads
@@ -60,7 +62,7 @@ Next P0 papers:
 
 1. `monitoring-route demo scaffold`: prepare a future demo path for hydrology/monitoring style E papers.
 2. `production-route realism lift`: replace more synthetic assumptions in the current production-route demo with stronger scenario tension or attachment-like inputs.
-3. `2021 D same-problem comparison`: learn how online scheduling papers vary while keeping a stable route backbone.
+3. `recent-draft risk reading`: compare 2024 complete drafts against official concise styles to extract generator-risk patterns.
 
 ## v1.0 Demo Baseline
 
@@ -141,6 +143,7 @@ E-route family split:
 - shared generator docs updated: `knowledge/cumcm/problem-type-paper-archetypes.md`, `knowledge/cumcm/20-30-page-paper-blueprint.md`, and `knowledge/quality/quality-rubric-v2.md`.
 - shared entry docs updated: `knowledge/cumcm/paper-generation-playbook.md`, `prompts/01_ideation.md`, `prompts/02_model_plan.md`, `prompts/04_writing.md`, and `prompts/06_quality_review.md`.
 - new same-problem comparison note: `knowledge/cumcm/2021C-comparison-C066-C085-C169-C283.md`.
+- new same-problem comparison note: `knowledge/cumcm/2021D-comparison-D017-D026-D034.md`.
 
 ## Git State Rule
 
