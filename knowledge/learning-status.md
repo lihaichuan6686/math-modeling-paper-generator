@@ -15,6 +15,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM algorithm method-family index for faster route-to-card selection.
 - Prompt flow map for the staged generation loop.
 - CUMCM visual family index for figure and table role planning.
+- CUMCM table family index for table role planning and pairings.
 - Official-paper style versus risky modern-draft failure patterns.
 - E-route split between production-route and monitoring-route families.
 - Core LaTeX section structure and section-writing contracts.
@@ -64,3 +65,4 @@ For the next round of work, prioritize:
 9. a method-family index that maps route families to first method cards.
 10. a prompt flow map that keeps the staged generation loop easy to execute.
 11. a visual family index that clarifies first-job figure and table planning.
+12. a table family index that clarifies first-job table planning and pairings.
