@@ -1,0 +1,56 @@
+# Algorithms
+
+Purpose: give the generator one stable entry point for moving from a problem signal to a usable modeling route and then to detailed method cards.
+
+## Read This Layer In Order
+
+1. `cumcm-routing-rules.md`
+2. `problem-type-to-method.md`
+3. `model-chain-patterns.md`
+4. `cards/README.md`
+5. the detailed cards under `cards/`
+
+## What This Layer Does
+
+This layer answers three questions:
+
+1. What route family does the problem belong to?
+2. What model chain should be built?
+3. Which method cards should be read first?
+
+The goal is not to collect algorithm names. The goal is to produce a route that can survive review.
+
+## Route Families
+
+| Route family | Typical signals | First cards |
+|---|---|---|
+| Evaluation and ranking | indicators, alternatives, scheme selection | `entropy-weight.md`, `ahp.md`, `topsis.md` |
+| Evaluation to planning | ranking plus executable decision | `linear-integer-programming.md`, `dynamic-programming.md`, `simulation.md` |
+| Forecast to decision | historical data, trend, uncertainty | `time-series.md`, `regression.md`, `simulation.md` |
+| Classification and recognition | labels, spectra, many features | `pca-lda.md`, `random-forest.md`, `svm.md` |
+| Geometry and engineering mechanics | coordinates, surfaces, physical constraints | `nonlinear-programming.md`, `simulation.md`, `response-surface.md` |
+| Online optimization and update | baseline plan, abnormal event, rolling adjustment | `linear-integer-programming.md`, `dynamic-programming.md`, `simulation.md` |
+
+## Route To Card Rule
+
+Use this rule when selecting a method:
+
+```text
+problem signal -> route family -> model chain -> method card -> expected figure/table -> validation check
+```
+
+If a card cannot produce a visible artifact or a reviewable validation step, it is not the right card yet.
+
+## Minimum Evidence Contract
+
+Every method choice should be able to answer:
+
+- why this method fits the route;
+- what input it expects;
+- what output it produces;
+- how the output enters the paper;
+- how the result is checked.
+
+## Status
+
+This file is the top-level doorway for the algorithm knowledge base. It should stay short, stable, and easy to scan.

@@ -38,6 +38,7 @@ Purpose: keep the long-running paper-generator project honest about what is actu
 - The new `knowledge/cumcm/official-paper-paradigms.md` synthesis note turns the official excellent-paper readings into route-family tables, abstract patterns, and generator rules that can be reused directly in prompts and reviews.
 - The quality standards layer now reflects those lessons too: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` explicitly audit question-map stability, effective body length, object-first figures, and screenshot-versus-evidence risks.
 - The new `knowledge/cumcm/cumcm-atlas.md` file acts as the top-level navigation layer for routes, algorithms, LaTeX, risk gates, and next-step iteration planning.
+- The new `knowledge/algorithms/README.md` file gives the algorithm layer a stable doorway from problem signal to route family to method cards.
 - The new `knowledge/cumcm/next-iteration-plan.md` file turns the atlas into an operational plan: fresh-run validation, same-problem comparison expansion, and LaTeX weak-spot drills.
 - `docs/v1-runbook.md` now uses the atlas and next-iteration plan as the first decision layer for fresh runs.
 - The new `knowledge/cumcm/next-iteration-plan.md` file turns the atlas into an operational plan: fresh-run validation, same-problem comparison expansion, and LaTeX weak-spot drills.
