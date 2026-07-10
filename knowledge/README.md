@@ -26,6 +26,7 @@ For any CUMCM paper-generation or review run, read in this order:
 18. `quality/quality-rubric-v2.md`
 19. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
 20. `learning-status.md`
+21. `quality/completion-gate.md`
 
 ## Directory Map
 
@@ -72,6 +73,7 @@ Quality review:
 
 - `quality/README.md`
 - `quality/quality-rubric-v2.md`
+- `quality/completion-gate.md`
 - `../docs/review-checklist.md`
 - `quality/reproducibility-and-ai-difference-framework.md`
 - `../docs/current-state-matrix-2026-07-07.md`
