@@ -35,9 +35,10 @@ For any CUMCM paper-generation or review run, read in this order:
 27. `latex/equation-family-index.md`
 28. `quality/evidence-family-index.md`
 29. `quality/review-finding-index.md`
-30. `cumcm/deep-reading-index.md`
-31. `roadmap.md`
-32. `../prompts/flow-map.md`
+30. `cumcm/official-paper-index.md`
+31. `cumcm/deep-reading-index.md`
+32. `roadmap.md`
+33. `../prompts/flow-map.md`
 
 ## Directory Map
 
@@ -60,6 +61,7 @@ Structure and writing:
 - `cumcm/generation-loop.md`
 - `cumcm/paper-family-matrix.md`
 - `cumcm/comparison-index.md`
+- `cumcm/official-paper-index.md`
 - `cumcm/deep-reading-index.md`
 - `cumcm/20-30-page-paper-blueprint.md`
 - `cumcm/problem-type-paper-archetypes.md`
@@ -104,6 +106,7 @@ Maintenance status:
 - `master-map.md`
 - `roadmap.md`
 - `cumcm/comparison-index.md`
+- `cumcm/official-paper-index.md`
 - `cumcm/deep-reading-index.md`
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`

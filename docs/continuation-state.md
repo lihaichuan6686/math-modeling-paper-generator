@@ -170,6 +170,7 @@ E-route family split:
 - new roadmap: `knowledge/roadmap.md`.
 - new evidence family index: `knowledge/quality/evidence-family-index.md`.
 - new review finding index: `knowledge/quality/review-finding-index.md`.
+- new official paper index: `knowledge/cumcm/official-paper-index.md`.
 - new deep-reading index: `knowledge/cumcm/deep-reading-index.md`.
 - new learning-status panel: `knowledge/learning-status.md`.
 - newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
