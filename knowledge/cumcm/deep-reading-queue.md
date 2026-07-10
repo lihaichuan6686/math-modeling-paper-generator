@@ -66,6 +66,7 @@ Targets:
 - 2024 C complete paper drafts
 - 2024 D complete paper drafts: risk note added for physics-probability closure, effective page count, watermark/title residue, and code provenance.
 - 2024 E complete paper drafts: risk note added for traffic-control decision closure, question-map consistency, network figures, and code coverage.
+- official concise-style synthesis against 2024 risky drafts: added as a bridge note for generator review design.
 - any attached code or idea documents
 
 Extraction focus:

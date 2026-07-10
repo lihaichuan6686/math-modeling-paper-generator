@@ -154,6 +154,8 @@ E-route family split:
 - newest D-route lesson: physics/probability papers need geometry diagrams, distribution traceability, numeric closure, code provenance, effective body-page counting, and reference relevance checks.
 - new modern-draft risk note: `knowledge/cumcm/2024E-modern-draft-risk-reading.md`.
 - newest E-route lesson: traffic-control papers need road-network figures, a stable question map, method-to-output linkage, before-after policy evaluation, and code coverage beyond preprocessing screenshots.
+- new synthesis note: `knowledge/cumcm/official-style-vs-modern-draft-risk.md`.
+- newest cross-cutting lesson: the generator should imitate official concise closure and use 2024 draft readings mainly as fake-completion risk gates.
 
 ## Git State Rule
 
