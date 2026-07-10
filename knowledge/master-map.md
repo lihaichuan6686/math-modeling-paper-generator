@@ -21,6 +21,7 @@ problem signal
 |---|---|---|
 | Route selection | identify the route family and evidence pattern | `cumcm/route-index.md` |
 | Paper family planning | decide the paper family, section emphasis, and first artifacts | `cumcm/paper-family-matrix.md` |
+| Sample pairing | pick the fastest positive sample, contrast note, and risk gate | `cumcm/route-example-matrix.md` |
 | Generation flow | connect route, section map, artifact plan, and iteration decisions | `cumcm/generation-loop.md` |
 | Writing order | map sections to their required artifacts | `latex/section-map.md` |
 | Quality handoff | decide when a draft is ready for review | `quality/completion-gate.md` |
@@ -32,6 +33,7 @@ problem signal
 - `cumcm/problem-type-paper-archetypes.md`: the family-level structure contract.
 - `cumcm/official-paper-paradigms.md`: positive templates from excellent papers.
 - `cumcm/official-style-vs-modern-draft-risk.md`: fake-completion and residue risks.
+- `cumcm/route-example-matrix.md`: the fastest positive sample and contrast pair for each route.
 - `algorithms/model-chain-patterns.md`: reusable model chains.
 - `latex/cumcm-section-contract.md`: section responsibilities.
 - `latex/section-writing-patterns.md`: paragraph and artifact patterns.
@@ -47,9 +49,10 @@ If time is tight, read these five in order:
 
 1. `cumcm/route-index.md`
 2. `cumcm/paper-family-matrix.md`
-3. `cumcm/generation-loop.md`
-4. `latex/section-map.md`
-5. `quality/completion-gate.md`
+3. `cumcm/route-example-matrix.md`
+4. `cumcm/generation-loop.md`
+5. `latex/section-map.md`
+6. `quality/completion-gate.md`
 
 ## Current Focus
 

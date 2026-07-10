@@ -12,6 +12,7 @@ Use this order when generating a paper draft:
 problem statement
 -> route index
 -> problem archetype
+-> route example matrix
 -> model chain pattern
 -> section map
 -> figure/table plan
@@ -42,7 +43,7 @@ problem statement
 Do not write LaTeX from route notes alone. Route notes decide the backbone; the section map decides the order of exposition.
 
 ```text
-route family -> archetype -> section order -> artifact plan -> writing
+route family -> archetype -> route example matrix -> section order -> artifact plan -> writing
 ```
 
 ## Artifact Closure Rule
@@ -77,8 +78,8 @@ Read this note together with:
 
 - `route-index.md`
 - `problem-type-paper-archetypes.md`
+- `route-example-matrix.md`
 - `model-chain-patterns.md`
 - `latex/section-map.md`
 - `../docs/v1-runbook.md`
 - `../knowledge/learning-status.md`
-
