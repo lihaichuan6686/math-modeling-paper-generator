@@ -159,6 +159,7 @@ E-route family split:
 - review standards updated: `knowledge/quality/quality-rubric-v2.md` and `docs/review-checklist.md` now explicitly check stable question mapping, effective body length, object-first figures, and the difference between reproducible results and screenshot-only evidence.
 - new atlas index: `knowledge/cumcm/cumcm-atlas.md` now links problem types, algorithm cards, LaTeX rules, quality gates, and next-step iteration planning.
 - new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
+- new execution plan: `knowledge/cumcm/next-iteration-plan.md` now names the next experiments and their success criteria.
 
 ## Git State Rule
 
