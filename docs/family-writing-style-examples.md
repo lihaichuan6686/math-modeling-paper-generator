@@ -185,3 +185,93 @@ These are examples meant to make the draft sound more like a deliberate team pap
 - sections likely to become too bullet-heavy: `problem analysis`
 - sections likely to overuse generic prose: `recommendation section`
 - subquestions most likely to end without a real close-out sentence: `service-pattern subsection`
+
+## Example 5: Dynamic Scheduling / Update
+
+### Style Target
+
+- target version: `v1.2`
+- route family: `dynamic scheduling / update`
+- selected style variant: `local awarded-paper dense style + evidence-dense research style`
+- positive sample: `deep-reading-2021D017.md`
+- contrast sample: `official-style-vs-modern-draft-risk.md`
+
+### Core Writing Choices
+
+- abstract density target: `one dense page with baseline -> update -> after-update effect closure`
+- paragraph-driven vs bullet-driven balance: `paragraph-driven, with schedules and scenario details carried by tables and figures`
+- tone target: `operational, comparative, disturbance-aware`
+- how results will be interpreted in prose: `every schedule artifact should say what changed and why it matters`
+- how limitations will be stated: `state disturbance scope, rolling-window assumptions, and scenario boundaries directly`
+- family-specific abstract skeleton: `baseline plan -> update method -> adjusted result -> comparison or audit`
+- preferred subquestion close-out pattern: `baseline/update result -> operational meaning -> audit confirmation -> next-step trigger`
+
+### Section Notes
+
+| Section | Intended feel | What must not happen |
+| --- | --- | --- |
+| Abstract | names both the baseline and the revised outcome | static-plan summary only |
+| Problem analysis | separates normal and abnormal tasks clearly | mixed task narration |
+| Model establishment | baseline and update logic are both explicit | update rule hidden in prose |
+| Results | before/after comparison is visible and interpreted | single schedule dump |
+| Validation | feasibility and stress language both appear | generic robustness sentence |
+| Conclusion | states operational improvement or preservation | vague “good performance” claim |
+
+### Human-Team Soft Rules
+
+- the update trigger should feel concrete, not ceremonial;
+- the adjusted plan should sound like a response to disturbance, not a second unrelated plan;
+- each subquestion ending should say what was preserved, improved, or sacrificed;
+- comparison language should be practical and numeric.
+
+### Thinness Risks
+
+- sections likely to become too short: `abnormal-scenario comparison`
+- sections likely to become too bullet-heavy: `solution process`
+- sections likely to overuse generic prose: `strengths and limitations`
+- subquestions most likely to end without a real close-out sentence: `baseline schedule subsection`
+
+## Example 6: Classification / Recognition
+
+### Style Target
+
+- target version: `v1.2`
+- route family: `classification / recognition`
+- selected style variant: `official concise closure + evidence-dense research style`
+- positive sample: `deep-reading-2021E014.md`
+- contrast sample: `official-style-vs-modern-draft-risk.md`
+
+### Core Writing Choices
+
+- abstract density target: `dense page with preprocessing -> classifier -> class-level validation closure`
+- paragraph-driven vs bullet-driven balance: `paragraph-driven, with feature and metric detail carried by tables`
+- tone target: `careful, diagnostic, class-aware`
+- how results will be interpreted in prose: `each metric artifact should say what it means at class level`
+- how limitations will be stated: `state sample limitations, class imbalance, and generalization boundaries directly`
+- family-specific abstract skeleton: `preprocessing / feature route -> classifier result -> confusion/error validation`
+- preferred subquestion close-out pattern: `feature/classifier result -> recognition meaning -> error check -> next-step selection`
+
+### Section Notes
+
+| Section | Intended feel | What must not happen |
+| --- | --- | --- |
+| Abstract | names recognition meaning, not just metrics | accuracy-only summary |
+| Problem analysis | explains why preprocessing and class-level evidence matter | generic ML wording |
+| Model establishment | model comparison criteria are explicit | one-model shortcut |
+| Results | confusion-level interpretation is visible | metrics dumped without prose |
+| Validation | split policy, leakage, and error analysis all appear | validation by one score |
+| Conclusion | closes with diagnostic implication and caveat | only repeating best accuracy |
+
+### Human-Team Soft Rules
+
+- preprocessing should sound like part of the model, not setup trivia;
+- the chosen classifier should be justified in terms of class behavior, not only one global score;
+- each subquestion ending should state what recognition conclusion is now defensible;
+- limitations should sound like honest sample or feature boundaries.
+
+### Thinness Risks
+
+- sections likely to become too short: `error interpretation`
+- sections likely to become too bullet-heavy: `data processing`
+- sections likely to overuse generic prose: `conclusion`
+- subquestions most likely to end without a real close-out sentence: `classifier comparison subsection`

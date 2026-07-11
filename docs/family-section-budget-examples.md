@@ -204,3 +204,103 @@ Typical fit:
 - section most likely to stay thin: `operation-to-timetable bridge`
 - artifacts that prevent filler growth: `section-flow figure`, `operation-plan table`, `timetable artifact`, `audit tables`
 - family-specific abstract closure pattern: `flow -> service pattern -> timetable -> feasibility`
+
+## Example 5: Dynamic Scheduling / Update
+
+Typical fit:
+
+- production scheduling, rolling planning, abnormal event response, cutting, batching, or disruption handling;
+- the plan must change after a disturbance or update trigger.
+
+### Target
+
+- target paper tier: `v1.2`
+- target total body length: `20-23 pages`
+- target appendix length: `4-6 pages`
+- route family: `dynamic scheduling / update`
+- paper family: `baseline plan -> update rule -> adjusted plan -> comparison`
+
+### Section Budget
+
+| Section | Target pages | Why this section deserves the space | Main planned artifacts | Thinness risk |
+| --- | ---: | --- | --- | --- |
+| Abstract | 1.0 | must close baseline plan, update rule, and after-update result | abstract-level result sentences | mentioning baseline only |
+| Problem restatement | 1.0 | static and dynamic tasks should be separated clearly | task decomposition table | mixed task description |
+| Method overview | 0.8 | baseline-to-update route should be visible early | workflow figure | route ambiguity |
+| Problem analysis | 2.2 | disturbance logic and update trigger need justification | dependency table, scenario note | weak update motivation |
+| Assumptions | 0.8 | resource and disturbance assumptions matter to feasibility | assumption-impact table | hidden scenario assumptions |
+| Symbols | 0.8 | baseline and update variables must stay consistent | symbol table | variable drift |
+| Data processing | 2.0 | job/resource/scenario setup deserves real space | task-resource table, scenario table | underdescribed setup |
+| Model establishment | 6.0 | baseline model and update logic both need mathematical body | baseline equations, update constraints | update layer too short |
+| Solution process | 2.4 | rolling logic or solver flow needs explanation | algorithm steps, parameter table | black-box scheduling |
+| Results | 3.0 | baseline and adjusted plans must both appear and be compared | baseline schedule, adjusted schedule, loss table | one-sided presentation |
+| Validation and sensitivity | 2.8 | before/after audit and stress scenarios are central | constraint audit, scenario stress table | token robustness |
+| Strengths and limitations | 0.8 | should say what type of disturbance is really covered | limitation-remedy table | overclaiming adaptability |
+| Conclusion | 0.7 | must summarize update value and operational meaning | conclusion summary | abstract repetition |
+| References | 0.5 | methods and domain background | bibliography | placeholder refs |
+| Appendix | 4.5 | extra scenarios and run logs support reproducibility | file inventory, extra schedules | appendix replacing argument |
+
+### Per-Subquestion Closure
+
+| Subquestion | Analysis | Model | Result artifact | Validation artifact |
+| --- | --- | --- | --- | --- |
+| Q1 baseline schedule | resource/task logic | baseline scheduling model | baseline schedule table | feasibility audit |
+| Q2 update rule | disturbance and trigger logic | update or rolling model | adjusted schedule table | before/after loss comparison |
+| Q3 strategy recommendation | scenario interpretation | recommendation logic | strategy summary table | stress-test summary |
+
+### Final Check
+
+- strongest mathematical density expected: `model establishment`
+- section most likely to stay thin: `abnormal-scenario comparison`
+- artifacts that prevent filler growth: `baseline schedule`, `adjusted schedule`, `loss comparison`, `stress table`
+- family-specific abstract closure pattern: `baseline -> update -> comparison`
+
+## Example 6: Classification / Recognition
+
+Typical fit:
+
+- spectra, diagnosis, sample recognition, authenticity testing, high-dimensional feature classification;
+- the final answer depends on preprocessing, feature extraction, and class-level evaluation.
+
+### Target
+
+- target paper tier: `v1.2`
+- target total body length: `18-21 pages`
+- target appendix length: `4-5 pages`
+- route family: `classification / recognition`
+- paper family: `preprocessing -> feature extraction -> classifier comparison -> error interpretation`
+
+### Section Budget
+
+| Section | Target pages | Why this section deserves the space | Main planned artifacts | Thinness risk |
+| --- | ---: | --- | --- | --- |
+| Abstract | 0.9-1.0 | must close preprocessing, recognition result, and class-level validation | abstract-level result sentences | accuracy-only summary |
+| Problem restatement | 1.0 | task decomposition is usually compact | task decomposition table | copying the prompt |
+| Method overview | 0.7 | preprocessing-to-classifier route should appear early | workflow figure | weak route visibility |
+| Problem analysis | 1.8 | data type and recognition burden need explanation | route note, task table | superficial analysis |
+| Assumptions | 0.7 | sampling and label assumptions should be explicit | assumption-impact table | hidden data assumptions |
+| Symbols | 0.7 | lighter than optimization families but still needed | symbol table | undefined metrics |
+| Data processing | 3.5 | cleaning, normalization, and feature construction earn major space | preprocessing table, feature table, exploratory figure | skipping preprocessing details |
+| Model establishment | 4.8 | classifier comparison and final model selection need technical body | model comparison setup, metric definitions | one-model shortcut |
+| Solution process | 1.8 | train/test or cross-validation flow should be visible | algorithm steps, split table | black-box training |
+| Results | 2.5 | class-level findings need interpretation | classifier comparison table, confusion matrix | metric dumping |
+| Validation and sensitivity | 2.5 | leakage check, split policy, and error analysis are central | confusion matrix, error-case figure, robustness note | weak class-level validation |
+| Strengths and limitations | 0.8 | should state sample and generalization scope honestly | limitation-remedy table | inflated accuracy claims |
+| Conclusion | 0.7 | must summarize recognition meaning, not just score | conclusion summary | repeating metrics only |
+| References | 0.5 | methods and domain background | bibliography | placeholder refs |
+| Appendix | 4.0 | extra metrics and support outputs belong here | file inventory, extra plots | appendix-only evidence |
+
+### Per-Subquestion Closure
+
+| Subquestion | Analysis | Model | Result artifact | Validation artifact |
+| --- | --- | --- | --- | --- |
+| Q1 preprocessing and features | data quality and feature burden | preprocessing/feature route | preprocessing table, feature artifact | split/leakage note |
+| Q2 classifier selection | comparison rationale | classifier comparison model | model comparison table | confusion matrix |
+| Q3 recognition conclusion | error interpretation | recommendation logic | recognition summary table | error-case or robustness summary |
+
+### Final Check
+
+- strongest mathematical density expected: `data processing + model establishment`
+- section most likely to stay thin: `error interpretation`
+- artifacts that prevent filler growth: `preprocessing table`, `feature artifact`, `classifier comparison`, `confusion matrix`
+- family-specific abstract closure pattern: `preprocessing -> classifier -> class-level result`
