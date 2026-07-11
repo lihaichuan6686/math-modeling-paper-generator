@@ -6,9 +6,9 @@ Purpose: give the generator one stable entry point for moving from a problem sig
 
 1. `cumcm-routing-rules.md`
 2. `problem-type-to-method.md`
-3. `model-chain-patterns.md`
-4. `method-depth-ladder.md`
-5. `route-method-matrix.md`
+3. `route-method-matrix.md`
+4. `model-chain-patterns.md`
+5. `method-depth-ladder.md`
 6. `method-family-index.md`
 7. `cards/README.md`
 8. the detailed cards under `cards/`
@@ -63,6 +63,7 @@ Read this note together with:
 - `problem-type-to-method.md`
 - `route-method-matrix.md`
 - `method-family-index.md`
+- `../cumcm/national-priority-problem-playbook.md`
 - `cards/README.md`
 
 ## Status

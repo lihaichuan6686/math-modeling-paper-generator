@@ -22,6 +22,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM archetype page density matrix for mapping problem types to page emphasis and validation weight.
 - CUMCM comparison index for same-problem and contrast-reading reuse.
 - CUMCM official paper index for positive template retrieval.
+- CUMCM national-priority problem playbook for fast family-level paper tactics on new contest problems.
 - CUMCM algorithm method-family index for faster route-to-card selection.
 - CUMCM route-method matrix for faster route-to-card bridging.
 - CUMCM next-iteration action matrix for turning roadmap items into work items.

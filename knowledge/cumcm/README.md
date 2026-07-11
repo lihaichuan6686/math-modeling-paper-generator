@@ -8,19 +8,20 @@ Purpose: give the generator one stable entry point for the contest-specific know
 2. `paper-generation-playbook.md`
 3. `20-30-page-paper-blueprint.md`
 4. `problem-type-paper-archetypes.md`
-5. `route-index.md`
-6. `generation-loop.md`
-7. `paper-family-matrix.md`
-8. `comparison-index.md`
-9. `official-paper-index.md`
-10. `official-paper-paradigms.md`
-11. `official-style-vs-modern-draft-risk.md`
-12. `next-iteration-plan.md`
-13. `deep-reading-index.md`
-14. `route-example-matrix.md`
-15. `archetype-section-matrix.md`
-16. `archetype-page-density-matrix.md`
-17. relevant deep-reading and comparison notes under `cumcm/`
+5. `national-priority-problem-playbook.md`
+6. `route-index.md`
+7. `generation-loop.md`
+8. `paper-family-matrix.md`
+9. `comparison-index.md`
+10. `official-paper-index.md`
+11. `official-paper-paradigms.md`
+12. `official-style-vs-modern-draft-risk.md`
+13. `next-iteration-plan.md`
+14. `deep-reading-index.md`
+15. `route-example-matrix.md`
+16. `archetype-section-matrix.md`
+17. `archetype-page-density-matrix.md`
+18. relevant deep-reading and comparison notes under `cumcm/`
 
 ## What This Layer Does
 
@@ -44,6 +45,8 @@ This layer answers five questions:
 ## Navigation Rule
 
 Use the atlas for route selection, the blueprint for structure, the paradigms note for positive templates, and the risk notes for review gates.
+
+Use the national-priority playbook when a new CUMCM-style problem arrives and you need the shortest paper-strategy shortcut before diving into deep notes.
 
 The deep-reading notes are supporting evidence. They should be read when a route family needs more detail, not as the first and only entry point.
 

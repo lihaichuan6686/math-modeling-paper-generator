@@ -39,6 +39,7 @@ problem signal
 - `cumcm/paper-generation-playbook.md`: the operational workflow.
 - `cumcm/20-30-page-paper-blueprint.md`: page logic and body-length planning.
 - `cumcm/problem-type-paper-archetypes.md`: the family-level structure contract.
+- `cumcm/national-priority-problem-playbook.md`: the fastest CUMCM-first shortcut from problem signal to paper tactics.
 - `cumcm/archetype-section-matrix.md`: the route-to-section drafting bridge.
 - `cumcm/archetype-page-density-matrix.md`: the route-to-page-density drafting bridge.
 - `cumcm/official-paper-paradigms.md`: positive templates from excellent papers.
