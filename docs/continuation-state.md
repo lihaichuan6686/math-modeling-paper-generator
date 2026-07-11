@@ -57,6 +57,7 @@ Newest source-layer progress: `inventory/source-absorption-matrix.md` now maps r
 Newest iteration-layer progress: `knowledge/cumcm/next-iteration-action-matrix.md` now turns roadmap items into concrete work items with evidence and follow-up decisions.
 
 Newest objective-layer progress: `docs/objective-coverage-matrix.md` now maps the original long-term goal to the evidence already present in the repo and the gaps that still deserve work.
+Newest v1.2-guidance progress: the repository now has route-specific `demo-bundles`, `claim-map` notes, `caption-map` notes, and `review-case-examples`. Together these turn the v1.2 path from a rule stack into a stronger route package covering planning shape, section drafting, paper assembly, abstract/conclusion evidence boundaries, caption/interpretation patterns, and realistic `Needs revision` review tone.
 
 ## Completed Deep Reads
 
@@ -127,6 +128,7 @@ Do not treat this as final paper quality. It proves the loop; the next work is e
 4. Expand the compact rail demo toward a 20-30 page example only after adding real attachment parsing, OD assignment, and fleet/turnback constraints.
 5. Expand generated papers toward 20-30 pages by requiring each subproblem to include model construction, algorithm, result table/figure, and validation.
 6. Improve Chinese figure/table polish: Chinese labels, readable axes, richer captions, and method-specific references.
+7. Build one fuller v1.2 example run package that ties a realistic run scaffold to a near-complete paper draft and review output.
 
 ## Operating Rules
 
