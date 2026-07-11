@@ -49,6 +49,7 @@ problem signal
 - `algorithms/model-chain-patterns.md`: reusable model chains.
 - `latex/cumcm-section-contract.md`: section responsibilities.
 - `latex/section-family-index.md`: section-by-section writing and repair cues.
+- `latex/national-family-section-budget-playbook.md`: family-specific page rhythm and abstract-closure guidance.
 - `latex/section-writing-patterns.md`: paragraph and artifact patterns.
 - `latex/figures-tables-equations-style.md`: visual and equation formatting.
 - `quality/quality-rubric-v2.md`: quality dimensions and review risks.

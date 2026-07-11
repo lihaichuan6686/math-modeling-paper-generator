@@ -35,6 +35,7 @@ This is a maintenance panel, not a reading log.
 - LaTeX style variant index for choosing the right paper voice and density.
 - Local template variant index and local awarded-paper structure rules for choosing the right local template shell and page rhythm.
 - Human-style soft rules for making the paper read more like a strong team draft.
+- National family section-budget playbook for turning high-frequency CUMCM families into family-specific page rhythm and abstract closure rules.
 - Local figure/table conventions for separating contest-style evidence habits from one-off local formatting habits.
 - Final polish and appendix rules for separating strong paper closure from appendix-only page inflation.
 - A dedicated v1.2 final-pass guide for turning accumulated writing and review rules into one last handoff sequence.

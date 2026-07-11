@@ -2,6 +2,12 @@
 
 Use this file as the starting shape for `runs/current/section-budget.md`.
 
+Before filling it in, read:
+
+- `knowledge/cumcm/20-30-page-paper-blueprint.md`
+- `knowledge/latex/human-style-soft-rules.md`
+- `knowledge/latex/national-family-section-budget-playbook.md`
+
 ## Target
 
 - target paper tier: `v1.2`
@@ -45,3 +51,4 @@ For each subquestion, record where these will appear:
 - Where is the strongest mathematical density expected? Unknown
 - Which section is most likely to stay too thin? Unknown
 - What artifacts will prevent filler growth? Unknown
+- Which family-specific abstract closure pattern should be used? Unknown

@@ -19,8 +19,9 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 13. `local-figure-table-conventions.md`
 14. `final-polish-and-appendix-rules.md`
 15. `human-style-soft-rules.md`
-16. `paper-style-plan.md`
-17. `long-paper-blueprint.md`
+16. `national-family-section-budget-playbook.md`
+17. `paper-style-plan.md`
+18. `long-paper-blueprint.md`
 
 ## What This Layer Does
 
@@ -41,6 +42,7 @@ Best use of the section-family layer:
 - use the local awarded-paper structure note when the draft needs stronger page feel or subquestion rhythm;
 - use the local figure/table note when the paper needs more contest-style evidence presentation;
 - use the final-polish note when the ending still feels abrupt, over-appendixed, or weakly closed;
+- use the national-family section-budget playbook when the draft needs family-specific page rhythm or abstract closure cues;
 - use the page blueprint when the paper needs structural length, not filler.
 
 Best use of the style-variant layer:

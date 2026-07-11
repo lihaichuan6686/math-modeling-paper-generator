@@ -12,11 +12,12 @@ Read these first:
 4. `runs/current/writing-style-plan.md`
 5. `runs/current/artifact-ledger.md`
 6. `knowledge/latex/human-style-soft-rules.md`
-7. `knowledge/latex/local-awarded-paper-structure-rules.md`
-8. `knowledge/algorithms/method-depth-ladder.md`
-9. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-10. `paper/main.tex`
-11. all included files under `paper/sections/`
+7. `knowledge/latex/national-family-section-budget-playbook.md`
+8. `knowledge/latex/local-awarded-paper-structure-rules.md`
+9. `knowledge/algorithms/method-depth-ladder.md`
+10. `knowledge/cumcm/20-30-page-paper-blueprint.md`
+11. `paper/main.tex`
+12. all included files under `paper/sections/`
 
 If the run is not `current`, replace the paths accordingly.
 
@@ -33,6 +34,7 @@ Repair the paper in the smallest set of changes that meaningfully improves:
 - validation visibility;
 - abstract closure;
 - subquestion-loop completeness.
+- family-level page rhythm.
 
 ## Repair Priorities
 
@@ -41,9 +43,10 @@ Fix in this order:
 1. missing subquestion loops
 2. shallow method chains
 3. thin abstract
-4. thin model / results / validation sections
-5. bullet-heavy or scaffold-like prose
-6. weak interpretation after figures and tables
+4. wrong family-level page rhythm
+5. thin model / results / validation sections
+6. bullet-heavy or scaffold-like prose
+7. weak interpretation after figures and tables
 
 ## Typical Repairs
 
@@ -79,7 +82,16 @@ Possible upgrades:
 - add baseline comparison or sensitivity check.
 - add one missing analysis-to-model bridge when later questions change variable scope or difficulty.
 
-### C. Thin Results
+### C. Wrong Family-Level Page Rhythm
+
+Repair by:
+
+- expanding the true center section for the active family;
+- shrinking decorative background that steals pages from model/results/validation;
+- making the abstract match the family-specific closure pattern;
+- making sure high-value artifact chains appear in the sections where that family normally earns length.
+
+### D. Thin Results
 
 Repair by adding:
 
@@ -88,7 +100,7 @@ Repair by adding:
 - one connection from the artifact to the original task.
 - one explicit subquestion close-out sentence before moving to the next question.
 
-### D. Thin Validation
+### E. Thin Validation
 
 Repair by adding:
 
@@ -98,7 +110,7 @@ Repair by adding:
 - residual/error artifact;
 - scenario stress table.
 
-### E. Machine-Like Prose
+### F. Machine-Like Prose
 
 Repair by:
 
