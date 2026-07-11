@@ -67,6 +67,7 @@ problem signal
 - `../docs/demo-bundles/README.md`: nearest-to-end-to-end route reference bundles that combine planning, writing, and assembly examples.
 - claim maps inside `../docs/demo-bundles/`: route-family controls for keeping abstract and conclusion claims within artifact-backed evidence.
 - caption maps inside `../docs/demo-bundles/`: route-family controls for keeping figure/table captions and nearby prose specific and evidence-aware.
+- `../docs/review-case-examples/README.md`: route-specific review-output examples that teach how to diagnose weak drafts with evidence and repair directions.
 - `roadmap.md`: what remains to be strengthened next.
 - `full-stack-execution-map.md`: the shortest path from problem to review-ready draft.
 
