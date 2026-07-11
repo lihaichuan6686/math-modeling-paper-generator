@@ -46,6 +46,7 @@ This is a maintenance panel, not a reading log.
 - Claim maps for evaluation-to-planning and rail/timetable routes, tying abstract/conclusion sentences to artifact-ledger-backed evidence.
 - Caption maps for evaluation-to-planning and rail/timetable routes, tying figure/table titles and nearby interpretation paragraphs to route-specific evidence roles.
 - Review case examples for evaluation-to-planning and rail/timetable routes, showing how to write a concrete `Needs revision` review against common v1.2 failure patterns.
+- Sample run packages for evaluation-to-planning and rail/timetable routes, turning the strongest route materials into one shortest-path reading list before a real run.
 - Local figure/table conventions for separating contest-style evidence habits from one-off local formatting habits.
 - Final polish and appendix rules for separating strong paper closure from appendix-only page inflation.
 - A dedicated v1.2 final-pass guide for turning accumulated writing and review rules into one last handoff sequence.

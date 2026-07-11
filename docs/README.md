@@ -26,12 +26,13 @@ Purpose: give the project one stable entry point for workflow, run state, review
 20. `paper-assembly-examples/README.md`
 21. `demo-bundles/README.md`
 22. `review-case-examples/README.md`
-23. `run-artifact-index.md`
-24. `project-audit-2026-07-06.md`
-25. `architecture.md`
-26. `long-term-roadmap.md`
-27. `research-agenda.md`
-28. `objective-coverage-matrix.md`
+23. `sample-run-packages/README.md`
+24. `run-artifact-index.md`
+25. `project-audit-2026-07-06.md`
+26. `architecture.md`
+27. `long-term-roadmap.md`
+28. `research-agenda.md`
+29. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 
@@ -55,6 +56,7 @@ Use the demo bundles when Claude needs one nearest-thing-to-end-to-end reference
 Use the claim maps inside the demo bundles when abstract or conclusion wording starts to outrun the actual evidence.
 Use the caption maps inside the demo bundles when figure/table titles or nearby interpretation start sounding generic.
 Use the review case examples when Claude is self-reviewing and needs to see what a sharp, evidence-based `Needs revision` review should sound like.
+Use the sample run packages when Claude needs one shortest-path reading list for a route family before starting a real v1.2 attempt.
 
 The roadmap and research agenda explain why the project exists and what still deserves attention.
 

@@ -21,6 +21,7 @@ If you are just getting oriented, read these in order:
 13. `docs/v1.2-runbook.md`
 14. `docs/v1.2-draft-contract.md`
 15. `docs/v1.2-quickstart.md`
+16. `docs/sample-run-packages/README.md`
 
 ## Fastest Demo
 
