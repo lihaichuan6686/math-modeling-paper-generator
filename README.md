@@ -2,7 +2,7 @@
 
 A research-only Claude Code workspace for generating and reviewing CUMCM-style mathematical modeling paper drafts.
 
-The near-term goal is a usable **v1.0 closed loop**:
+The near-term goal is a usable **v1.2 closed loop** built on top of the earlier v1.0 prototype:
 
 ```text
 problem statement
@@ -16,7 +16,7 @@ problem statement
 -> self-review report
 ```
 
-This v1.0 is intentionally small but complete. It should produce a full-length, plausible research draft that can be inspected and improved, even if later versions are stronger.
+The repository already has a working v1.0 loop. The current target is v1.2: stronger section density, deeper method chains, more human-team writing feel, and stricter self-review.
 
 ## Responsible Use
 
@@ -59,7 +59,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start-current.ps1 -Name curre
 3. Ask Claude Code to follow:
 
 ```text
-docs/v1-runbook.md
+docs/v1.2-runbook.md
 ```
 
 4. Claude Code should work through:
@@ -81,16 +81,19 @@ prompts/06_quality_review.md
 powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1
 ```
 
-## v1.0 Expected Outputs
+## v1.2 Expected Outputs
 
-A completed v1.0 run should contain:
+A completed v1.2 run should contain:
 
 - `runs/current/problem-analysis.md`
 - `runs/current/data-inventory.md`
 - `runs/current/model-candidates.md`
 - `runs/current/model-plan.md`
+- `runs/current/method-depth-plan.md`
 - `runs/current/verification-plan.md`
 - `runs/current/figure-plan.md`
+- `runs/current/section-budget.md`
+- `runs/current/writing-style-plan.md`
 - `runs/current/artifact-ledger.md`
 - generated figures under `paper/figures/`
 - generated tables under `paper/tables/`
@@ -135,10 +138,10 @@ src/                      data processing, modeling, plotting code
 
 ## Development Priority
 
-The next major step is not more reading. It is to prove the v1.0 loop by running a small demo:
+The next major step is not more reading. It is to prove the v1.2 loop by running stronger demos and real problem trials:
 
 ```text
-toy problem -> scaffold -> code figure/table -> LaTeX draft -> PDF -> review
+problem -> section budget and method depth plan -> code figure/table -> LaTeX draft -> PDF -> review
 ```
 
-After the demo works, continue deep-reading more official papers and use the findings to improve the v1.0 pipeline.
+After each trial works, continue deep-reading more official papers and use the findings to improve the v1.2 pipeline.
