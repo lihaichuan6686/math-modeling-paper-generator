@@ -6,14 +6,15 @@ Purpose: give the generator one stable entry point for review, reproducibility, 
 
 1. `quality-rubric-v2.md`
 2. `v1-2-review-addendum.md`
-3. `reproducibility-and-ai-difference-framework.md`
-4. `quality-rubric-plan.md`
-5. `mathorcup-2023B-v1-test-review.md`
-6. `completion-gate.md`
-7. `evidence-family-index.md`
-8. `review-finding-index.md`
-9. `finding-gate-matrix.md`
-10. `../docs/review-checklist.md`
+3. `v1-2-quality-matrix.md`
+4. `reproducibility-and-ai-difference-framework.md`
+5. `quality-rubric-plan.md`
+6. `mathorcup-2023B-v1-test-review.md`
+7. `completion-gate.md`
+8. `evidence-family-index.md`
+9. `review-finding-index.md`
+10. `finding-gate-matrix.md`
+11. `../docs/review-checklist.md`
 
 ## What This Layer Does
 
@@ -26,7 +27,9 @@ This layer answers four questions:
 
 ## Review Rule
 
-Use the rubric for dimension-level evaluation, the checklist for run-level checking, and the reproducibility framework when the task is about human-AI comparison or evidence traceability.
+Use the rubric for dimension-level evaluation, the checklist for run-level checking, and the v1.2 quality matrix when you need the shortest path from weak paper signal to the right repair layer.
+
+Use the reproducibility framework when the task is about human-AI comparison or evidence traceability.
 
 The MathorCup 2023 B review note is the route-specific example for timetable/service-planning cases.
 

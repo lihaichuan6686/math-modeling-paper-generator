@@ -17,8 +17,9 @@ Use this skill inside the cloned `math-modeling-paper-generator` repository.
 6. Read `docs/visual-generation-pipeline.md`.
 7. Read `knowledge/algorithms/method-depth-ladder.md`.
 8. Read `knowledge/latex/human-style-soft-rules.md`.
-9. Read `problems/problem.md` unless the user specifies another problem file.
-10. Create or refresh a run scaffold:
+9. Read `knowledge/quality/v1-2-quality-matrix.md`.
+10. Read `problems/problem.md` unless the user specifies another problem file.
+11. Create or refresh a run scaffold:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\start-current.ps1 -Name current
@@ -67,7 +68,9 @@ Load these as needed:
 - Algorithm cards: `knowledge/algorithms/cards/README.md`
 - Rail/timetable route: `knowledge/algorithms/cards/rail-timetable-operation.md` when the problem involves trains, timetables, headways, OD flow, or large/small routes
 - Visual rules: `docs/visual-generation-pipeline.md`
+- Final pass control: `docs/v1.2-final-pass-guide.md`
 - Review rules: `knowledge/quality/quality-rubric-v2.md`
+- Short repair map: `knowledge/quality/v1-2-quality-matrix.md`
 - LaTeX style: `knowledge/latex/cumcm-section-contract.md`
 - Section writing patterns: `knowledge/latex/section-writing-patterns.md`
 - Human-style writing rules: `knowledge/latex/human-style-soft-rules.md`

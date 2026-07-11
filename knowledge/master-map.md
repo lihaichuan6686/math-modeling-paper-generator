@@ -51,6 +51,7 @@ problem signal
 - `latex/section-writing-patterns.md`: paragraph and artifact patterns.
 - `latex/figures-tables-equations-style.md`: visual and equation formatting.
 - `quality/quality-rubric-v2.md`: quality dimensions and review risks.
+- `quality/v1-2-quality-matrix.md`: the shortest v1.2 paper-quality snapshot and repair-direction map.
 - `quality/completion-gate.md`: final readiness gate.
 - `quality/finding-gate-matrix.md`: finding-to-gate repair bridge.
 - `learning-status.md`: what is already absorbed and what still needs deeper reading.

@@ -66,6 +66,7 @@ docs/v1.2-runbook.md
 
 ```text
 prompts/README.md
+prompts/08_launch_v1_2.md
 prompts/00_intake.md
 prompts/01_ideation.md
 prompts/02_model_plan.md
@@ -73,6 +74,7 @@ prompts/03_implementation.md
 prompts/04_writing.md
 prompts/05_review.md
 prompts/06_quality_review.md
+prompts/09_revision_v1_2.md
 ```
 
 5. Compile the paper:
@@ -112,6 +114,7 @@ Read these before generation or review:
 - `inventory/README.md`
 - `knowledge/learning-status.md`
 - `knowledge/quality/README.md`
+- `knowledge/quality/v1-2-quality-matrix.md`
 - `docs/architecture.md`
 - `inventory/source-map.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
@@ -119,6 +122,7 @@ Read these before generation or review:
 - `knowledge/algorithms/model-chain-patterns.md`
 - `knowledge/algorithms/cards/README.md`
 - `docs/visual-generation-pipeline.md`
+- `docs/v1.2-final-pass-guide.md`
 - `knowledge/quality/quality-rubric-v2.md`
 
 ## Project Structure

@@ -86,6 +86,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start-v1.2-current.ps1 -Name 
 Use the repository skill at .codex/skills/cumcm-paper-generator/SKILL.md.
 Read START_HERE.md and CLAUDE.md.
 Then use problems/problem.md to produce a v1.2 mathematical modeling paper draft with stronger section density, deeper method chains, code-generated tables and figures, LaTeX, PDF build, and review.
+Use prompts/08_launch_v1_2.md as the main launch instruction, then run prompts/09_revision_v1_2.md if the review still says the paper is thin, shallow, or too machine-like.
 ```
 
 ## Current Reality
