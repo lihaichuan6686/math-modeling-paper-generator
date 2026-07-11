@@ -24,6 +24,7 @@ What it teaches the generator:
 - formulas should be explained in words, not dropped in alone;
 - figures and tables are part of the argument, not decoration;
 - symbols should be defined where they first matter and then reused.
+- support-file and code appendices can strengthen trust when the body has already completed the reasoning loop.
 
 ### `document.tex`
 
@@ -63,6 +64,7 @@ This bucket gives us an adjacent template family, including a Word standard temp
 - More direct mapping from local template family to page-density targets.
 - More concrete examples of how the same template shell produces different route voices.
 - More polished guidance for dense Chinese academic phrasing at the paragraph level.
+- More explicit page-feel rules for abstract density, early object figures, and subquestion-loop rhythm.
 
 ## Next Use
 
@@ -77,8 +79,8 @@ Read this note when you need to decide:
 Read this note together with:
 
 - `style-variant-index.md`
+- `local-awarded-paper-structure-rules.md`
 - `cumcm-section-contract.md`
 - `section-family-index.md`
 - `archetype-page-density-matrix.md`
 - `paper-style-plan.md`
-

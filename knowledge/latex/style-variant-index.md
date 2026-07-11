@@ -34,6 +34,7 @@ The local `model1` case study suggests:
 - explicit section hierarchy;
 - appendix-oriented reproducibility support;
 - frequent direct explanation of core formulas and algorithm logic.
+- page growth through repeated subquestion loops rather than one flat global exposition.
 
 The official-paper notes suggest:
 
@@ -57,6 +58,7 @@ Read this note together with:
 
 - `paper-style-plan.md`
 - `local-template-variant-index.md`
+- `local-awarded-paper-structure-rules.md`
 - `cumcm-section-contract.md`
 - `section-family-index.md`
 - `archetype-page-density-matrix.md`

@@ -13,6 +13,7 @@ Read:
 - `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/human-style-soft-rules.md`
+- `knowledge/latex/local-awarded-paper-structure-rules.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `docs/visual-generation-pipeline.md`
 
@@ -72,6 +73,7 @@ For all routes, also check:
 - paragraphs are carrying explanation, not just stacked bullet fragments;
 - each major subquestion closes a full loop before the next one starts;
 - the strongest method section is longer because it contains real equations, interpretation, and validation, not just prestige algorithm names.
+- when the problem has many numbered tasks, length should usually come from repeating the full subquestion loop rather than one oversized global model block.
 
 ## Figure and Table Rule
 

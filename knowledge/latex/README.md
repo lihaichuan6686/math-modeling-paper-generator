@@ -15,9 +15,10 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 9. `equation-family-index.md`
 10. `style-variant-index.md`
 11. `local-template-variant-index.md`
-12. `human-style-soft-rules.md`
-13. `paper-style-plan.md`
-14. `long-paper-blueprint.md`
+12. `local-awarded-paper-structure-rules.md`
+13. `human-style-soft-rules.md`
+14. `paper-style-plan.md`
+15. `long-paper-blueprint.md`
 
 ## What This Layer Does
 
@@ -35,6 +36,7 @@ Best use of the section-family layer:
 - start from the section contract;
 - use the section-family index when a section feels thin or generic;
 - use the style guide when figures, tables, or equations need cleanup;
+- use the local awarded-paper structure note when the draft needs stronger page feel or subquestion rhythm;
 - use the page blueprint when the paper needs structural length, not filler.
 
 Best use of the style-variant layer:

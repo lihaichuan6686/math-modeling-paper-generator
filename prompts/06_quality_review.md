@@ -12,13 +12,14 @@ Read these first:
 4. `knowledge/cumcm/problem-type-paper-archetypes.md`
 5. `knowledge/latex/section-writing-patterns.md`
 6. `knowledge/latex/human-style-soft-rules.md`
-7. `knowledge/algorithms/method-depth-ladder.md`
-8. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
-9. `runs/current/artifact-ledger.md` or the active run ledger
-10. `paper/main.tex`
-11. all included files under `paper/sections/`
-12. available generated tables and figures under `paper/tables/` and `paper/figures/`
-13. latest compile result or rendered PDF pages when available
+7. `knowledge/latex/local-awarded-paper-structure-rules.md`
+8. `knowledge/algorithms/method-depth-ladder.md`
+9. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
+10. `runs/current/artifact-ledger.md` or the active run ledger
+11. `paper/main.tex`
+12. all included files under `paper/sections/`
+13. available generated tables and figures under `paper/tables/` and `paper/figures/`
+14. latest compile result or rendered PDF pages when available
 
 If the run is not `current`, replace `runs/current` with the active run directory.
 
@@ -91,6 +92,7 @@ For v1.2, also warn if:
 - the model section is too short for the claimed route;
 - validation exists only as a token paragraph;
 - section proportions do not resemble a serious team paper.
+- multi-question papers do not grow through visible subquestion loops.
 
 ### Step 3: Model Credibility
 
@@ -207,6 +209,7 @@ Check:
 - whether each major subquestion closes a full argument loop;
 - whether prose explains why the method fits before showing equations;
 - whether results are interpreted instead of only listed.
+- whether the paper earns length through repeated analysis/model/result loops instead of one flat oversized method block.
 
 Warn if the draft still reads like a staged scaffold rather than a team paper.
 

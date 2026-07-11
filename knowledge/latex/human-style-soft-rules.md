@@ -24,6 +24,7 @@ does the section feel like the amount a serious team would naturally write here?
 4. Results and validation should both be visible; validation should not be hidden in one sentence.
 5. Conclusion should be shorter than results but still answer every task.
 6. Appendix should support reproducibility, not rescue a thin body.
+7. Multi-question papers should usually grow by repeating full subquestion loops rather than by writing one oversized generic model section.
 
 ## Abstract Soft Rules
 
@@ -41,6 +42,7 @@ Signs the abstract is too thin:
 - it lists methods without results;
 - it gives background but not subquestion closure;
 - it promises a conclusion that never appears in the paper body.
+- it reads shorter than the actual number of subquestions would naturally require.
 
 ## Problem Analysis Soft Rules
 
@@ -56,6 +58,7 @@ Signs the section is too weak:
 - it repeats the problem statement with light paraphrase;
 - it jumps to formulas before explaining why the route fits;
 - it has no route table, dependency diagram, or artifact preview.
+- it never explains why later subquestions need wider variable ranges, different algorithms, or decomposition.
 
 ## Model Section Soft Rules
 
@@ -130,6 +133,7 @@ Avoid:
 - repeated "first/second/third" lists where prose would be more natural;
 - generic praise of the method;
 - announcing that a figure exists without saying what it proves.
+- appendix-like code detail leaking into the body before the model logic is clear.
 
 ## Human-Team Voice Rules
 
@@ -157,6 +161,6 @@ Read this note together with:
 - `section-writing-patterns.md`
 - `style-variant-index.md`
 - `local-template-variant-index.md`
+- `local-awarded-paper-structure-rules.md`
 - `../cumcm/20-30-page-paper-blueprint.md`
 - `../../docs/v1.2-runbook.md`
-

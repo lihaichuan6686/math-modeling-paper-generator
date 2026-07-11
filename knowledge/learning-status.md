@@ -32,7 +32,7 @@ This is a maintenance panel, not a reading log.
 - CUMCM visual family index for figure and table role planning.
 - LaTeX section family index for section-by-section writing and repair cues.
 - LaTeX style variant index for choosing the right paper voice and density.
-- Local template variant index for choosing the right local template shell.
+- Local template variant index and local awarded-paper structure rules for choosing the right local template shell and page rhythm.
 - Human-style soft rules for making the paper read more like a strong team draft.
 - Method depth ladder for keeping subquestions above shallow single-method chains.
 - CUMCM table family index for table role planning and pairings.
@@ -46,7 +46,7 @@ This is a maintenance panel, not a reading log.
 
 ## What Is Partially Absorbed
 
-- Local awarded-paper examples and template variants, now anchored by a local template variant index.
+- Local awarded-paper examples and template variants, now anchored by a local template variant index and a dedicated awarded-paper structure note.
 - More contest-specific style polish from high-quality example papers.
 - Stronger real-data variants for the production-route and monitoring-route demos.
 - More algorithm cards for niche but recurring CUMCM problem families.

@@ -12,10 +12,11 @@ Read these first:
 4. `runs/current/writing-style-plan.md`
 5. `runs/current/artifact-ledger.md`
 6. `knowledge/latex/human-style-soft-rules.md`
-7. `knowledge/algorithms/method-depth-ladder.md`
-8. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-9. `paper/main.tex`
-10. all included files under `paper/sections/`
+7. `knowledge/latex/local-awarded-paper-structure-rules.md`
+8. `knowledge/algorithms/method-depth-ladder.md`
+9. `knowledge/cumcm/20-30-page-paper-blueprint.md`
+10. `paper/main.tex`
+11. all included files under `paper/sections/`
 
 If the run is not `current`, replace the paths accordingly.
 
@@ -30,7 +31,8 @@ Repair the paper in the smallest set of changes that meaningfully improves:
 - method depth;
 - result interpretation;
 - validation visibility;
-- abstract closure.
+- abstract closure;
+- subquestion-loop completeness.
 
 ## Repair Priorities
 
@@ -75,6 +77,7 @@ Possible upgrades:
 - add executable plan layer after evaluation;
 - add scenario comparison after forecast-driven decision;
 - add baseline comparison or sensitivity check.
+- add one missing analysis-to-model bridge when later questions change variable scope or difficulty.
 
 ### C. Thin Results
 
@@ -83,6 +86,7 @@ Repair by adding:
 - one missing table or figure;
 - one interpretive paragraph that says what the artifact proves;
 - one connection from the artifact to the original task.
+- one explicit subquestion close-out sentence before moving to the next question.
 
 ### D. Thin Validation
 
@@ -102,6 +106,7 @@ Repair by:
 - moving repeated "first/second/third" language into table structure when appropriate;
 - writing transitions that explain why the next model step is needed;
 - replacing generic praise with evidence-based interpretation.
+- restoring the full subquestion loop when the body jumped from analysis to result too quickly.
 
 ## Required Outputs
 
@@ -132,5 +137,5 @@ Read this together with:
 - `08_launch_v1_2.md`
 - `../docs/v1.2-runbook.md`
 - `../knowledge/latex/human-style-soft-rules.md`
+- `../knowledge/latex/local-awarded-paper-structure-rules.md`
 - `../knowledge/algorithms/method-depth-ladder.md`
-
