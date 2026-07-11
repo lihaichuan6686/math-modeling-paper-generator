@@ -116,18 +116,24 @@ Fail conditions:
 | Item | Status | Evidence |
 |---|---|---|
 | Abstract follows problem-by-problem structure. | Unknown | |
+| Abstract is dense enough to plausibly occupy one full page when the task is not tiny. | Unknown | |
 | Abstract includes verified results. | Unknown | |
 | Problem analysis explains why each model is chosen. | Unknown | |
 | Sections are ordered logically. | Unknown | |
 | Claims distinguish evidence, assumption, and inference. | Unknown | |
 | Limitations are concrete rather than generic. | Unknown | |
 | Effective body length comes from argument and evidence rather than filler or screenshot inflation. | Unknown | |
+| Main body is paragraph-driven rather than bullet-driven. | Unknown | |
+| Each major subquestion closes a full loop of model, result, and validation. | Unknown | |
+| Important figures and tables are interpreted immediately after citation. | Unknown | |
 
 Fail conditions:
 
 - Abstract is only background and method names.
+- Abstract is too short to close the full task.
 - Conclusion repeats abstract without decision value.
 - Writing uses generic template filler.
+- The main body reads like a scaffold or checklist rather than a team paper.
 - The paper overclaims beyond data support.
 - PDF length looks strong only because of appendix-heavy screenshots, blank tail pages, or residue pages.
 

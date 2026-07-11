@@ -5,14 +5,15 @@ Purpose: give the generator one stable entry point for review, reproducibility, 
 ## Read This Layer In Order
 
 1. `quality-rubric-v2.md`
-2. `reproducibility-and-ai-difference-framework.md`
-3. `quality-rubric-plan.md`
-4. `mathorcup-2023B-v1-test-review.md`
-5. `completion-gate.md`
-6. `evidence-family-index.md`
-7. `review-finding-index.md`
-8. `finding-gate-matrix.md`
-9. `../docs/review-checklist.md`
+2. `v1-2-review-addendum.md`
+3. `reproducibility-and-ai-difference-framework.md`
+4. `quality-rubric-plan.md`
+5. `mathorcup-2023B-v1-test-review.md`
+6. `completion-gate.md`
+7. `evidence-family-index.md`
+8. `review-finding-index.md`
+9. `finding-gate-matrix.md`
+10. `../docs/review-checklist.md`
 
 ## What This Layer Does
 

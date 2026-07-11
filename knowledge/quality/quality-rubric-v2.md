@@ -58,6 +58,13 @@ Fail indicators:
 - Abstract or conclusion contains unsupported numbers.
 - PDF length looks complete only because of code screenshots, blank tail pages, or promotional residue.
 
+Additional v1.2 warning indicators:
+
+- the abstract is too short to close the subquestions properly;
+- the model section is not the real technical center of the paper;
+- validation is present only as a token add-on;
+- section proportions still feel demo-sized instead of team-sized.
+
 Required evidence:
 
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
@@ -80,6 +87,12 @@ Fail indicators:
 - Prediction/classification models lack validation.
 - A complex method is used without data support.
 - The model chain becomes a method list with no visible output or decision closure.
+
+Additional v1.2 warning indicators:
+
+- a major subquestion stays at `method -> result` depth;
+- a complex method is named but support or comparison layers are missing;
+- the paper looks algorithm-rich but route-thin.
 
 Required evidence:
 
@@ -159,6 +172,12 @@ Fail indicators:
 - Sensitivity analysis has no perturbation range.
 - A single stochastic run is treated as final truth.
 - Baselines are missing when model performance matters.
+
+Additional v1.2 warning indicators:
+
+- validation exists, but is too brief to support the claimed confidence;
+- sensitivity ranges are named but barely interpreted;
+- a baseline is present only in passing and not compared explicitly.
 
 Required evidence:
 

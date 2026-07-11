@@ -8,14 +8,17 @@ Read these first:
 
 1. `docs/review-checklist.md`
 2. `knowledge/quality/quality-rubric-v2.md`
-3. `knowledge/cumcm/problem-type-paper-archetypes.md`
-4. `knowledge/latex/section-writing-patterns.md`
-5. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
-6. `runs/current/artifact-ledger.md` or the active run ledger
-7. `paper/main.tex`
-8. all included files under `paper/sections/`
-9. available generated tables and figures under `paper/tables/` and `paper/figures/`
-10. latest compile result or rendered PDF pages when available
+3. `knowledge/quality/v1-2-review-addendum.md`
+4. `knowledge/cumcm/problem-type-paper-archetypes.md`
+5. `knowledge/latex/section-writing-patterns.md`
+6. `knowledge/latex/human-style-soft-rules.md`
+7. `knowledge/algorithms/method-depth-ladder.md`
+8. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
+9. `runs/current/artifact-ledger.md` or the active run ledger
+10. `paper/main.tex`
+11. all included files under `paper/sections/`
+12. available generated tables and figures under `paper/tables/` and `paper/figures/`
+13. latest compile result or rendered PDF pages when available
 
 If the run is not `current`, replace `runs/current` with the active run directory.
 
@@ -29,6 +32,9 @@ Act as a paper-quality reviewer. Prioritize:
 - model-result inconsistency;
 - unreproducible figures or tables;
 - weak validation;
+- abstract and section thinness;
+- shallow method chains;
+- machine-like paragraph rhythm;
 - LaTeX/PDF rendering issues;
 - responsible-use and provenance risks.
 
@@ -79,6 +85,13 @@ Check:
 Warn if the paper is long because of filler background.
 Warn if the paper is short because required evidence sections are missing.
 
+For v1.2, also warn if:
+
+- the abstract is far below one dense page without a genuine reason;
+- the model section is too short for the claimed route;
+- validation exists only as a token paragraph;
+- section proportions do not resemble a serious team paper.
+
 ### Step 3: Model Credibility
 
 Check:
@@ -93,6 +106,14 @@ Check:
 Fail if a decision model has no constraints.
 Fail if a classifier lacks data split and confusion-level evaluation.
 Fail if a forecast drives decisions but no forecast error is propagated.
+
+For v1.2, also warn if a major subquestion stays at a shallow chain such as:
+
+```text
+method -> result
+```
+
+without a support layer or a comparison/validation layer.
 
 For E-type papers:
 
@@ -127,6 +148,8 @@ Check:
 
 Warn if a figure is visually readable but weak as evidence.
 
+Also warn if important figures or tables are cited but not interpreted in prose.
+
 ### Step 6: Validation and Robustness
 
 Check validation according to model type:
@@ -142,6 +165,8 @@ Check validation according to model type:
 | simulation | repeated runs, seed, uncertainty summary |
 
 Fail if the paper reports final results with no validation path.
+
+For v1.2, also warn if validation exists but is too thin to look contest-grade.
 
 For rail-timetable/service-planning drafts, fail if:
 
@@ -173,6 +198,17 @@ Check:
 - references are real and human-readable.
 
 If PDF was not compiled or rendered, mark layout evidence as `Unknown`.
+
+### Step 7.5: Human-Team Style Review
+
+Check:
+
+- whether the main body is paragraph-driven rather than bullet-driven;
+- whether each major subquestion closes a full argument loop;
+- whether prose explains why the method fits before showing equations;
+- whether results are interpreted instead of only listed.
+
+Warn if the draft still reads like a staged scaffold rather than a team paper.
 
 ### Step 8: Responsible Use
 
