@@ -7,32 +7,33 @@ Purpose: give the project one stable entry point for workflow, run state, review
 1. `v1.2-runbook.md`
 2. `v1.2-final-pass-guide.md`
 3. `v1.2-draft-contract.md`
-4. `v1.2-quickstart.md`
-5. `v1-runbook.md`
-6. `workflow.md`
-7. `continuation-state.md`
-8. `current-state-matrix-2026-07-07.md`
-9. `review-checklist.md`
-10. `visual-generation-pipeline.md`
-11. `run-start-checklist.md`
-12. `artifact-ledger-template.md`
-13. `figure-plan-template.md`
-14. `section-budget-template.md`
-15. `writing-style-plan-template.md`
-16. `family-section-budget-examples.md`
-17. `family-writing-style-examples.md`
-18. `run-file-examples/README.md`
-19. `paper-section-examples/README.md`
-20. `paper-assembly-examples/README.md`
-21. `demo-bundles/README.md`
-22. `review-case-examples/README.md`
-23. `sample-run-packages/README.md`
-24. `run-artifact-index.md`
-25. `project-audit-2026-07-06.md`
-26. `architecture.md`
-27. `long-term-roadmap.md`
-28. `research-agenda.md`
-29. `objective-coverage-matrix.md`
+4. `v1.2-definition.md`
+5. `v1.2-quickstart.md`
+6. `v1-runbook.md`
+7. `workflow.md`
+8. `continuation-state.md`
+9. `current-state-matrix-2026-07-07.md`
+10. `review-checklist.md`
+11. `visual-generation-pipeline.md`
+12. `run-start-checklist.md`
+13. `artifact-ledger-template.md`
+14. `figure-plan-template.md`
+15. `section-budget-template.md`
+16. `writing-style-plan-template.md`
+17. `family-section-budget-examples.md`
+18. `family-writing-style-examples.md`
+19. `run-file-examples/README.md`
+20. `paper-section-examples/README.md`
+21. `paper-assembly-examples/README.md`
+22. `demo-bundles/README.md`
+23. `review-case-examples/README.md`
+24. `sample-run-packages/README.md`
+25. `run-artifact-index.md`
+26. `project-audit-2026-07-06.md`
+27. `architecture.md`
+28. `long-term-roadmap.md`
+29. `research-agenda.md`
+30. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 
@@ -49,6 +50,7 @@ Use the runbook for execution, the workflow for staged output, the continuation 
 
 Use the family example notes when the run files still feel too blank and Claude needs a concrete target shape for `section-budget.md` or `writing-style-plan.md`.
 Use the draft contract when Claude needs a stricter v1.2 bar than the general runbook provides.
+Use the v1.2 definition when deciding whether the version is ready for user testing or whether a task should be deferred to a later version.
 Use the run-file examples when Claude needs to see what a non-placeholder `problem-analysis.md`, `model-plan.md`, or `verification-plan.md` should look like in practice.
 Use the paper-section examples when Claude needs to see how route-aware prose, equations, and result interpretation should actually sound inside `paper/sections/`.
 Use the paper-assembly examples when Claude has decent sections already, but still needs help stitching them into a complete paper with stable question mapping, evidence order, and abstract/conclusion control.

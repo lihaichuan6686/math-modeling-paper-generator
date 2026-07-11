@@ -35,6 +35,14 @@ problem signal -> route selection -> method selection -> section planning -> fig
 
 The main remaining work is not to invent another spine, but to keep feeding this one with better papers, better demos, and better failure cases.
 
+The new control question for the next stage is no longer only "what else could be improved?"
+
+It is also:
+
+```text
+is v1.2 already test-ready under its own definition?
+```
+
 ## Near-Term Gaps
 
 1. More route-specific comparison notes for excellent papers.
