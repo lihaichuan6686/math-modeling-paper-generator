@@ -41,6 +41,7 @@ For every generation or review run, read these files first:
 - `docs/figure-plan-template.md`
 - `knowledge/quality/reproducibility-and-ai-difference-framework.md`
 - `knowledge/quality/quality-rubric-v2.md`
+- `docs/v1.2-draft-contract.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/section-writing-patterns.md`
 - `knowledge/latex/human-style-soft-rules.md`

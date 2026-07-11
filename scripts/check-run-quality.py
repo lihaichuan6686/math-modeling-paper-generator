@@ -34,6 +34,15 @@ V12_PLAN_FILES = [
 ]
 
 
+PLACEHOLDER_SNIPPETS = [
+    "Unknown",
+    "fill this before drafting",
+    "| Q1 | fill | fill | fill | fill | fill |",
+    "| Q2 | fill | fill | fill | fill | fill |",
+    "| Q3 | fill | fill | fill | fill | fill |",
+]
+
+
 def read_text(path: Path) -> str:
     if not path.exists():
         return ""
@@ -66,6 +75,14 @@ def overall_status_block(review: str) -> str:
         return ""
     tail = review.split("## Overall Status", 1)[1]
     return tail.split("##", 1)[0].strip()
+
+
+def placeholder_hits(text: str) -> list[str]:
+    hits: list[str] = []
+    for snippet in PLACEHOLDER_SNIPPETS:
+        if snippet in text:
+            hits.append(snippet)
+    return hits
 
 
 def main() -> int:
@@ -147,13 +164,43 @@ def main() -> int:
             )
             if path.exists():
                 text = read_text(path)
+                hits = placeholder_hits(text)
                 add(
                     ok,
                     issues,
-                    "Unknown" not in text,
+                    not hits,
                     f"{name} no longer looks untouched.",
-                    f"{name} still contains untouched placeholder values.",
+                    f"{name} still contains untouched placeholder values: {hits}",
                 )
+
+        section_budget_path = run_dir / "section-budget.md"
+        if section_budget_path.exists():
+            budget_text = read_text(section_budget_path)
+            add(
+                ok,
+                issues,
+                "Evidence Distribution" in budget_text and "Family Rhythm Check" in budget_text,
+                "section-budget.md contains v1.2 evidence distribution checks.",
+                "section-budget.md is missing v1.2 evidence distribution or family rhythm checks.",
+            )
+            add(
+                ok,
+                issues,
+                "Abstract | 1 dense page" in budget_text,
+                "section-budget.md carries the dense abstract target.",
+                "section-budget.md does not carry the dense abstract target.",
+            )
+
+        writing_style_path = run_dir / "writing-style-plan.md"
+        if writing_style_path.exists():
+            style_text = read_text(writing_style_path)
+            add(
+                ok,
+                issues,
+                "Paragraph Rhythm" in style_text and "Human-Team Signals To Deliberately Include" in style_text,
+                "writing-style-plan.md contains paragraph-rhythm and human-team signal controls.",
+                "writing-style-plan.md is missing paragraph-rhythm or human-team signal controls.",
+            )
 
     if args.paper:
         paper_path = ROOT / "paper" / args.paper

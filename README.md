@@ -119,6 +119,7 @@ Read these before generation or review:
 - `inventory/source-map.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
+- `docs/v1.2-draft-contract.md`
 - `knowledge/algorithms/model-chain-patterns.md`
 - `knowledge/algorithms/cards/README.md`
 - `docs/visual-generation-pipeline.md`

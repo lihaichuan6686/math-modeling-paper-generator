@@ -58,6 +58,7 @@ problem signal
 - `quality/completion-gate.md`: final readiness gate.
 - `quality/finding-gate-matrix.md`: finding-to-gate repair bridge.
 - `learning-status.md`: what is already absorbed and what still needs deeper reading.
+- `../docs/v1.2-draft-contract.md`: the concrete v1.2 drafting contract for section density, evidence distribution, and subquestion closure.
 - `../docs/family-section-budget-examples.md`: ready-to-adapt section-budget shapes for high-frequency families.
 - `../docs/family-writing-style-examples.md`: ready-to-adapt writing-style shapes for high-frequency families.
 - `../docs/run-file-examples/README.md`: realistic run-file examples that show what filled-out planning artifacts should look like.

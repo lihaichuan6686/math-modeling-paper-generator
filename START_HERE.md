@@ -19,7 +19,8 @@ If you are just getting oriented, read these in order:
 11. `docs/run-start-checklist.md`
 12. `docs/v1-runbook.md`
 13. `docs/v1.2-runbook.md`
-14. `docs/v1.2-quickstart.md`
+14. `docs/v1.2-draft-contract.md`
+15. `docs/v1.2-quickstart.md`
 
 ## Fastest Demo
 
@@ -87,6 +88,7 @@ Use the repository skill at .codex/skills/cumcm-paper-generator/SKILL.md.
 Read START_HERE.md and CLAUDE.md.
 Then use problems/problem.md to produce a v1.2 mathematical modeling paper draft with stronger section density, deeper method chains, code-generated tables and figures, LaTeX, PDF build, and review.
 Use prompts/08_launch_v1_2.md as the main launch instruction, then run prompts/09_revision_v1_2.md if the review still says the paper is thin, shallow, or too machine-like.
+Use docs/v1.2-draft-contract.md to keep abstract length, section rhythm, and evidence distribution at v1.2 level.
 ```
 
 ## Current Reality

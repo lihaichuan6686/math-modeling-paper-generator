@@ -18,6 +18,7 @@ Read:
 - `knowledge/latex/local-awarded-paper-structure-rules.md`
 - `knowledge/latex/local-figure-table-conventions.md`
 - `knowledge/latex/figures-tables-equations-style.md`
+- `docs/v1.2-draft-contract.md`
 - `docs/visual-generation-pipeline.md`
 
 Write:
@@ -47,6 +48,7 @@ problem restatement
 The abstract is written last.
 
 For v1.2, the abstract should usually be written to one dense page unless the problem itself is unusually small.
+Use `docs/v1.2-draft-contract.md` as the default drafting contract when section density, per-subquestion closure, or visual distribution still feel underspecified.
 
 ## Structure Rule
 
@@ -80,6 +82,7 @@ For all routes, also check:
 - the strongest method section is longer because it contains real equations, interpretation, and validation, not just prestige algorithm names.
 - when the problem has many numbered tasks, length should usually come from repeating the full subquestion loop rather than one oversized global model block.
 - figures and tables should make each subquestion visibly concrete instead of clustering all visuals in one late result section.
+- each major subquestion should end with a close-out paragraph that states the finding, the supporting evidence, and why the next step is needed.
 
 ## Figure and Table Rule
 
@@ -116,6 +119,13 @@ For E-route drafts:
 
 - production-route key results must include at least one service-level, support-rate, inventory, or production quantity artifact;
 - monitoring-route key results must include at least one monitoring/policy decision artifact and, when relevant, one intervention-effect or consequence artifact.
+
+For all v1.2 drafts:
+
+- the abstract should contain one method-result closure per major subquestion;
+- the body should have an early figure or table that identifies the modeled object or route;
+- every major subquestion should have at least one explicit validation or comparison artifact unless the paper states why that evidence is unavailable;
+- long sections should be long because they contain equations, artifacts, and interpretation, not because they repeat setup prose.
 
 ## Citation Rule
 

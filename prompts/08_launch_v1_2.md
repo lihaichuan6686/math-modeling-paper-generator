@@ -22,6 +22,7 @@ First read:
 - knowledge/latex/README.md
 - knowledge/latex/section-writing-patterns.md
 - knowledge/latex/human-style-soft-rules.md
+- docs/v1.2-draft-contract.md
 - knowledge/quality/completion-gate.md
 
 Then inspect problems/problem.md and any attachments.
@@ -60,8 +61,11 @@ Hard rules:
 - keep the question map stable from abstract to conclusion;
 - make the abstract close each subquestion with method plus result;
 - do not let the abstract stop at half a page unless the task is genuinely tiny;
+- make `runs/current/section-budget.md` concrete enough that a reviewer can predict where 20-30 pages will come from before drafting;
+- make `runs/current/writing-style-plan.md` concrete enough that a reviewer can predict paragraph rhythm, close-out style, and thinness risks before drafting;
 - for each major subquestion, use a method chain with a support layer and a check layer;
 - require at least one visible figure and one visible table for every major subquestion when the route reasonably allows it;
+- make every major subquestion close a full loop: analysis -> model -> artifact -> interpretation -> validation -> close-out;
 - interpret every important table and figure in prose;
 - keep the paper body paragraph-driven rather than bullet-driven;
 - let paper length come from evidence, validation, comparison, and explanation, not filler;

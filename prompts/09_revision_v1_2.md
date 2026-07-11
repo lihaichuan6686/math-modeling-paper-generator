@@ -17,8 +17,9 @@ Read these first:
 9. `knowledge/latex/local-awarded-paper-structure-rules.md`
 10. `knowledge/algorithms/method-depth-ladder.md`
 11. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-12. `paper/main.tex`
-13. all included files under `paper/sections/`
+12. `docs/v1.2-draft-contract.md`
+13. `paper/main.tex`
+14. all included files under `paper/sections/`
 
 If the run is not `current`, replace the paths accordingly.
 
@@ -37,6 +38,7 @@ Repair the paper in the smallest set of changes that meaningfully improves:
 - subquestion-loop completeness.
 - family-level page rhythm.
 - subquestion ending quality.
+- evidence distribution across the whole paper.
 
 ## Repair Priorities
 
@@ -50,6 +52,7 @@ Fix in this order:
 6. bullet-heavy or scaffold-like prose
 7. weak interpretation after figures and tables
 8. abrupt subquestion endings and transitions
+9. weak evidence distribution across subquestions
 
 ## Typical Repairs
 
@@ -131,6 +134,15 @@ Repair by:
 - naming what conclusion the artifact supports;
 - stating what validation confirms it;
 - writing the next-step transition in route-aware language instead of `next we solve...`.
+
+### H. Weak Evidence Distribution
+
+Repair by:
+
+- moving at least one figure or table earlier so the modeled object appears before late results;
+- adding one missing evidence artifact to a thin subquestion;
+- splitting overloaded result sections so each major subquestion owns visible evidence;
+- adding a nearby interpretation paragraph after each recovered artifact.
 
 ## Required Outputs
 

@@ -17,8 +17,9 @@ Use this skill inside the cloned `math-modeling-paper-generator` repository.
 6. Read `docs/visual-generation-pipeline.md`.
 7. Read `knowledge/algorithms/method-depth-ladder.md`.
 8. Read `knowledge/latex/human-style-soft-rules.md`.
-9. Read `knowledge/quality/v1-2-quality-matrix.md`.
-10. Read `problems/problem.md` unless the user specifies another problem file.
+9. Read `docs/v1.2-draft-contract.md`.
+10. Read `knowledge/quality/v1-2-quality-matrix.md`.
+11. Read `problems/problem.md` unless the user specifies another problem file.
 11. Create or refresh a run scaffold:
 
 ```powershell
@@ -61,6 +62,7 @@ Load these as needed:
 
 - Paper structure: `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - v1.2 execution standard: `docs/v1.2-runbook.md`
+- v1.2 drafting contract: `docs/v1.2-draft-contract.md`
 - Problem-type paper archetypes: `knowledge/cumcm/problem-type-paper-archetypes.md`
 - Generation workflow: `knowledge/cumcm/paper-generation-playbook.md`
 - Route selection: `knowledge/algorithms/cumcm-routing-rules.md`
