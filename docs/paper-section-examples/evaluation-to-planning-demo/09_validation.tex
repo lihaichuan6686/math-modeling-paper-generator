@@ -1,0 +1,9 @@
+\section{Validation and Sensitivity Analysis}
+
+The first validation layer concerns the stability of the evaluation result. Since the candidate set is obtained from a weighted score, the paper must check whether small weight perturbations would lead to a materially different supplier set. If the top-ranked suppliers remain largely unchanged, then the evaluation layer can be regarded as sufficiently stable to support the downstream planning model.
+
+The second validation layer concerns the feasibility of the executable plan. Once the period-by-period allocation table is generated, the decision should be audited against the demand and supplier-capacity constraints rather than accepted by inspection alone. A feasibility table therefore plays a more important role than a generic statement such as “the model is effective”, because it shows whether the recommendation is operationally admissible under the stated assumptions.
+
+The third validation layer is scenario comparison. The baseline plan should be recomputed under perturbed demand, loss, or capacity assumptions, and the resulting cost-service change should be recorded explicitly. The purpose of this comparison is not to prove universal robustness, but to reveal whether the selected plan structure is fragile. If the plan remains feasible and its main recommendation does not change substantially across the tested range, then the final strategy is credible enough for research review.
+
+Taken together, these three layers validate different parts of the route: the score layer, the decision layer, and the recommendation layer. Therefore, the validation section does not merely decorate the paper after the result table; it closes the logic of why the proposed evaluation-to-planning route can be trusted.

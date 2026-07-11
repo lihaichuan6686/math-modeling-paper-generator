@@ -15,6 +15,8 @@ Each example folder currently focuses on the most reusable high-value writing la
 - `02_analysis.tex`
 - `06_model.tex`
 - `08_results.tex`
+- `09_validation.tex`
+- `11_conclusion.tex`
 
 ## Best Use
 
