@@ -19,6 +19,7 @@ If you are just getting oriented, read these in order:
 11. `docs/run-start-checklist.md`
 12. `docs/v1-runbook.md`
 13. `docs/v1.2-runbook.md`
+14. `docs/v1.2-quickstart.md`
 
 ## Fastest Demo
 
@@ -76,7 +77,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\check-run-quality.ps1 -Run ra
 2. Create the active run scaffold:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\start-current.ps1 -Name current -Force
+powershell -ExecutionPolicy Bypass -File .\scripts\start-v1.2-current.ps1 -Name current -Force
 ```
 
 3. Ask Claude Code:
