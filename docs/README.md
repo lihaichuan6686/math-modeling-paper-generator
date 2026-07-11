@@ -5,24 +5,25 @@ Purpose: give the project one stable entry point for workflow, run state, review
 ## Read This Layer In Order
 
 1. `v1.2-runbook.md`
-2. `v1.2-quickstart.md`
-3. `v1-runbook.md`
-4. `workflow.md`
-5. `continuation-state.md`
-6. `current-state-matrix-2026-07-07.md`
-7. `review-checklist.md`
-8. `visual-generation-pipeline.md`
-9. `run-start-checklist.md`
-10. `artifact-ledger-template.md`
-11. `figure-plan-template.md`
-12. `section-budget-template.md`
-13. `writing-style-plan-template.md`
-14. `run-artifact-index.md`
-15. `project-audit-2026-07-06.md`
-16. `architecture.md`
-17. `long-term-roadmap.md`
-18. `research-agenda.md`
-19. `objective-coverage-matrix.md`
+2. `v1.2-final-pass-guide.md`
+3. `v1.2-quickstart.md`
+4. `v1-runbook.md`
+5. `workflow.md`
+6. `continuation-state.md`
+7. `current-state-matrix-2026-07-07.md`
+8. `review-checklist.md`
+9. `visual-generation-pipeline.md`
+10. `run-start-checklist.md`
+11. `artifact-ledger-template.md`
+12. `figure-plan-template.md`
+13. `section-budget-template.md`
+14. `writing-style-plan-template.md`
+15. `run-artifact-index.md`
+16. `project-audit-2026-07-06.md`
+17. `architecture.md`
+18. `long-term-roadmap.md`
+19. `research-agenda.md`
+20. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 
@@ -38,6 +39,8 @@ This layer answers four questions:
 Use the runbook for execution, the workflow for staged output, the continuation state for handoff, the current-state matrix for evidence status, and the review checklist plus visual/ledger templates for quality control.
 
 The roadmap and research agenda explain why the project exists and what still deserves attention.
+
+For late-stage tightening, prefer `v1.2-final-pass-guide.md` over re-reading the whole stack.
 
 ## Status
 

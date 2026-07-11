@@ -66,6 +66,7 @@ Hard rules:
 - keep the paper body paragraph-driven rather than bullet-driven;
 - let paper length come from evidence, validation, comparison, and explanation, not filler;
 - if the review still says `Needs revision`, follow prompts/09_revision_v1_2.md and repair the draft before finalizing;
+- before final handoff, follow docs/v1.2-final-pass-guide.md to check question-map stability, evidence distribution, appendix boundary, and PDF finish;
 - stop only when the draft is complete enough to plausibly look human-team written and the machine gate has been checked.
 ```
 

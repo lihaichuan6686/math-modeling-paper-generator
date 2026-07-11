@@ -25,6 +25,7 @@ This is the artifact map for the run lifecycle.
 | `paper/main.tex` | writing | the paper has a single main LaTeX entry point |
 | `paper/main.pdf` | build | the paper has been compiled and rendered |
 | `reviews/review-current.md` | review | the paper has been evaluated as a research artifact |
+| `docs/v1.2-final-pass-guide.md` | final pass | the draft can be checked against one shorter handoff sequence before claiming readiness |
 
 ## Folder Roles
 
