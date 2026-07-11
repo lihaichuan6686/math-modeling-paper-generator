@@ -13,11 +13,12 @@ Read these first:
 5. `runs/current/artifact-ledger.md`
 6. `knowledge/latex/human-style-soft-rules.md`
 7. `knowledge/latex/national-family-section-budget-playbook.md`
-8. `knowledge/latex/local-awarded-paper-structure-rules.md`
-9. `knowledge/algorithms/method-depth-ladder.md`
-10. `knowledge/cumcm/20-30-page-paper-blueprint.md`
-11. `paper/main.tex`
-12. all included files under `paper/sections/`
+8. `knowledge/latex/national-abstract-and-closeout-playbook.md`
+9. `knowledge/latex/local-awarded-paper-structure-rules.md`
+10. `knowledge/algorithms/method-depth-ladder.md`
+11. `knowledge/cumcm/20-30-page-paper-blueprint.md`
+12. `paper/main.tex`
+13. all included files under `paper/sections/`
 
 If the run is not `current`, replace the paths accordingly.
 
@@ -35,6 +36,7 @@ Repair the paper in the smallest set of changes that meaningfully improves:
 - abstract closure;
 - subquestion-loop completeness.
 - family-level page rhythm.
+- subquestion ending quality.
 
 ## Repair Priorities
 
@@ -47,6 +49,7 @@ Fix in this order:
 5. thin model / results / validation sections
 6. bullet-heavy or scaffold-like prose
 7. weak interpretation after figures and tables
+8. abrupt subquestion endings and transitions
 
 ## Typical Repairs
 
@@ -119,6 +122,15 @@ Repair by:
 - writing transitions that explain why the next model step is needed;
 - replacing generic praise with evidence-based interpretation.
 - restoring the full subquestion loop when the body jumped from analysis to result too quickly.
+
+### G. Abrupt Subquestion Endings And Transitions
+
+Repair by:
+
+- adding one explicit close-out paragraph after the main artifact;
+- naming what conclusion the artifact supports;
+- stating what validation confirms it;
+- writing the next-step transition in route-aware language instead of `next we solve...`.
 
 ## Required Outputs
 

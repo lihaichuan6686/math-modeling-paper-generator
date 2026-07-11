@@ -2,6 +2,12 @@
 
 Use this file as the starting shape for `runs/current/writing-style-plan.md`.
 
+Before filling it in, read:
+
+- `knowledge/latex/paper-style-plan.md`
+- `knowledge/latex/human-style-soft-rules.md`
+- `knowledge/latex/national-abstract-and-closeout-playbook.md`
+
 ## Style Target
 
 - target version: `v1.2`
@@ -17,6 +23,8 @@ Use this file as the starting shape for `runs/current/writing-style-plan.md`.
 - tone target: Unknown
 - how results will be interpreted in prose: Unknown
 - how limitations will be stated: Unknown
+- family-specific abstract skeleton: Unknown
+- preferred subquestion close-out pattern: Unknown
 
 ## Section Notes
 
@@ -41,3 +49,4 @@ Use this file as the starting shape for `runs/current/writing-style-plan.md`.
 - sections likely to become too short: Unknown
 - sections likely to become too bullet-heavy: Unknown
 - sections likely to overuse generic prose: Unknown
+- subquestions most likely to end without a real close-out sentence: Unknown

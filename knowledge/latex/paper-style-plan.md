@@ -1,45 +1,108 @@
 # LaTeX Paper Style Plan
 
-目标：把优秀数模论文的 LaTeX 写法沉淀为可复用模板，使生成结果接近 20-30 页完整论文，而不是短草稿。
+Purpose: turn absorbed CUMCM paper-style knowledge into a reusable planning note for `runs/current/writing-style-plan.md`.
 
-## 需要学习的维度
+Use this file when deciding how the draft should sound, how dense the abstract should be, and how subquestion loops should feel in prose.
 
-- 论文总体页数和章节比例
-- 摘要长度和信息密度
-- 问题重述写法
-- 假设与符号表布局
-- 公式编号和交叉引用
-- 图表排版密度
-- 多模型章节组织方式
-- 结果分析语言
-- 灵敏度分析和误差分析写法
-- 附录代码组织方式
+This is a planning bridge, not a formatting guide.
 
-## 来自用户样例的重点
+## What This Plan Should Decide
 
-优先学习：
+- overall page feel and section density;
+- abstract density and closure style;
+- whether the draft should lean more official-concise, local-awarded dense, route-heavy, or evidence-dense;
+- what kind of paragraph rhythm should dominate;
+- where the paper is most likely to become thin, mechanical, or over-ornate.
 
-```text
-D:\2-各比赛Word模板及LaTeX模板\LATEX\model1.tex
-D:\2-各比赛Word模板及LaTeX模板\LATEX\model1.pdf
-```
+## Core Dimensions
 
-需要抽取：
+### 1. Page Feel
 
-- 章节树
-- 宏包使用
-- 图片插入方式
-- 表格写法
-- 公式环境
-- 参考文献方式
-- 附录结构
-- 编译方式
+Decide:
 
-## 已形成的结构规范
+- whether the paper should feel compact and official;
+- or denser and more derivation-heavy;
+- or strongly route-explanatory;
+- or especially evidence-heavy with more tables and figures.
 
-详见：
+### 2. Abstract Density
 
-```text
-knowledge/latex/long-paper-blueprint.md
-knowledge/latex/model1-case-study.md
-```
+Decide:
+
+- whether the abstract should be closer to one full dense page;
+- how many subquestion closures need explicit method-result sentences;
+- whether validation needs to be named directly in the abstract.
+
+### 3. Problem Analysis Voice
+
+Decide:
+
+- how much route comparison is needed;
+- whether rejected routes should be mentioned explicitly;
+- how early the first object or workflow figure should appear.
+
+### 4. Model Exposition Style
+
+Decide:
+
+- how much derivation detail belongs in the main body;
+- whether formulas need more inline interpretation;
+- whether the route needs more constraints, solver settings, or parameter discussion to feel human-written.
+
+### 5. Results And Validation Voice
+
+Decide:
+
+- how much interpretation should follow each table or figure;
+- whether the route needs more feasibility language, more scenario language, or more residual/error language;
+- whether each subquestion needs a clearly written close-out sentence before moving on.
+
+### 6. Appendix Role
+
+Decide:
+
+- how much support-file inventory is needed;
+- whether the appendix should mainly prove reproducibility, method traceability, or artifact completeness.
+
+## Style Variants
+
+| Style variant | Best use | Main gain | Main risk |
+|---|---|---|---|
+| Official concise closure | papers with clean route and moderate complexity | compact and stable question-map feel | model body may become too thin |
+| Local awarded-paper dense style | hard multi-question papers needing more technical body | stronger derivation and subquestion-loop density | can become heavy if evidence is weak |
+| Route-heavy analytical style | papers where route justification is part of the real value | makes the paper feel deliberate and thoughtful | route analysis may overgrow |
+| Evidence-dense research style | papers that earn length through many artifacts and checks | strong traceability and research feel | page growth becomes harder to control |
+
+## Family Hints
+
+Use these defaults unless the problem strongly suggests otherwise:
+
+| Family | Default style leaning |
+|---|---|
+| Evaluation to planning | official concise closure + evidence-dense |
+| Forecast to decision | route-heavy analytical + evidence-dense |
+| Geometry / spatial design | local awarded-paper dense style + route-heavy analytical |
+| Dynamic scheduling / update | local awarded-paper dense style + evidence-dense |
+| Classification / recognition | official concise closure + evidence-dense |
+| Rail / timetable service planning | route-heavy analytical + evidence-dense |
+
+## Good Planning Questions
+
+Before writing `runs/current/writing-style-plan.md`, answer:
+
+1. What should make this paper feel human-written: route explanation, derivation density, or artifact density?
+2. Which section deserves the most page weight?
+3. Which section is most likely to become thin?
+4. Which family-specific abstract closure pattern should be used?
+5. What is the first figure supposed to prove?
+6. What kind of validation language should dominate?
+
+## Best Use
+
+Read this note together with:
+
+- `style-variant-index.md`
+- `human-style-soft-rules.md`
+- `national-family-section-budget-playbook.md`
+- `local-awarded-paper-structure-rules.md`
+- `../../docs/writing-style-plan-template.md`

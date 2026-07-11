@@ -14,6 +14,7 @@ Read:
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/national-family-section-budget-playbook.md`
+- `knowledge/latex/national-abstract-and-closeout-playbook.md`
 - `knowledge/latex/local-awarded-paper-structure-rules.md`
 - `knowledge/latex/local-figure-table-conventions.md`
 - `knowledge/latex/figures-tables-equations-style.md`
@@ -59,6 +60,7 @@ A full CUMCM paper reaches 20-30 pages through structure:
 Do not pad with generic background.
 Use `knowledge/cumcm/20-30-page-paper-blueprint.md` to check page budget, visual density, per-subquestion coverage, and anti-filler rules before finalizing section drafts.
 Use `knowledge/latex/national-family-section-budget-playbook.md` to tune section-page emphasis and abstract closure to the active problem family instead of relying only on generic long-paper rules.
+Use `knowledge/latex/national-abstract-and-closeout-playbook.md` when abstract sentences, subquestion endings, or transitions still read like scaffolding instead of a human team draft.
 Use `knowledge/latex/human-style-soft-rules.md` to check whether sections feel proportioned like a human-team paper rather than a thin generated draft.
 
 If the chosen route is E-type, also check:

@@ -1,120 +1,153 @@
 # Long Paper Blueprint
 
-目标：生成接近国赛优秀论文风格的 20-30 页完整论文，而不是短报告。
+Purpose: summarize how a strong 20-30 page CUMCM-style paper grows through structure, evidence, and repeated subquestion closure rather than filler.
 
-依据：
+Use this as the LaTeX-layer counterpart to the broader CUMCM page blueprint.
 
-- 用户一等奖样例 `LATEX/model1.pdf`：38 页
-- 2023 官方优秀论文：约 27-50 页
-- 2022 官方优秀论文：约 24-42 页
-- 2024 成品论文：多在 21-31 页
+## Main Lesson
 
-## 建议页数分配
+A long paper should not feel padded. It should feel like the route naturally required:
 
-| 部分 | 建议页数 | 说明 |
+```text
+question restatement
+-> route analysis
+-> assumptions and symbols
+-> data or scene setup
+-> model establishment
+-> solution process
+-> results
+-> validation
+-> conclusion
+-> reproducibility appendix
+```
+
+## Recommended Length Logic
+
+| Part | Typical pages | Why it earns space |
 |---|---:|---|
-| 摘要 | 1 | 逐问题写方法与结果 |
-| 问题重述 | 1-2 | 背景简写，重点转化问题 |
-| 问题分析 | 2-4 | 每个子问题单独分析模型路径 |
-| 模型假设 | 0.5-1 | 5-8 条，有合理性解释 |
-| 符号说明 | 0.5-1 | 表格化，避免符号未闭合 |
-| 数据处理 | 2-4 | 清洗、统计、可视化、特征构造 |
-| 模型建立与求解 | 8-14 | 按子问题展开，是主体 |
-| 结果分析与验证 | 3-5 | 误差、敏感性、对比、稳定性 |
-| 模型评价与推广 | 1-2 | 优点、不足、改进 |
-| 参考文献 | 0.5-1 | 真实可核验 |
-| 附录 | 3-8 | 代码、额外结果、数据说明 |
+| Abstract | 1 | closes the whole paper in compressed form |
+| Problem restatement | 1-2 | rewrites the contest statement into model tasks |
+| Problem analysis | 2-4 | justifies route choice and subquestion decomposition |
+| Assumptions | 0.5-1 | makes the model auditable |
+| Symbols | 0.5-1 | stabilizes formulas and code language |
+| Data / scene setup | 2-4 | turns raw input into model-ready structure |
+| Model establishment and solving | 8-14 | usually the technical center |
+| Results and validation | 3-5 | converts computation into defended conclusions |
+| Strengths / limitations / extension | 1-2 | shows scope control |
+| References | 0.5-1 | ties methods to real sources |
+| Appendix | 3-8 | supports reproducibility and traceability |
 
-## 主体章节推荐结构
+## Strong Body Shape
 
-```text
-1 问题重述
-2 问题分析
-  2.1 问题一分析
-  2.2 问题二分析
-  ...
-3 模型假设
-4 符号说明
-5 数据处理与探索性分析
-6 模型的建立与求解
-  6.1 问题一模型
-    6.1.1 建模思路
-    6.1.2 公式推导
-    6.1.3 求解算法
-    6.1.4 结果与解释
-  6.2 问题二模型
-  ...
-7 模型检验与灵敏度分析
-8 模型评价与推广
-9 结论
-附录
-```
-
-## 摘要规则
-
-摘要最后写，必须包含：
-
-- 总体建模目标。
-- 每个子问题的模型链。
-- 每个子问题的关键结果。
-- 关键词 4-6 个，优先选核心算法和题型。
-
-避免：
-
-- 只写背景意义。
-- 只列算法不列结果。
-- 结果与正文最终数值不一致。
-
-## 图表密度
-
-建议每篇完整论文至少包含：
-
-- 3-6 张过程或结果图。
-- 3-8 个结果表或参数表。
-- 1 张模型流程图或求解流程图。
-- 至少 1 个敏感性/误差/稳定性图表。
-
-图表类型与题型对应：
-
-- 几何/工程题：示意图、坐标图、参数敏感表。
-- 数据题：分布图、相关矩阵、聚类图、预测曲线、残差图。
-- 优化题：收敛曲线、方案对比表、变量取值表。
-- 调度题：甘特图、时间轴、资源占用图。
-
-## 公式与算法表达
-
-公式不追求数量，而追求闭合：
-
-- 每个符号在符号表或公式附近定义。
-- 目标函数和约束必须能对应题面。
-- 推导中出现的中间变量不能凭空消失。
-- 高级算法需要解释输入、输出和参数。
-
-算法描述建议：
+Recommended body structure:
 
 ```text
-变量定义 -> 目标函数 -> 约束条件 -> 求解步骤 -> 参数设置 -> 结果验证
+1 problem restatement
+2 problem analysis
+  2.1 question 1 analysis
+  2.2 question 2 analysis
+3 assumptions
+4 symbols
+5 data processing or scene setup
+6 model establishment and solving
+  6.1 question 1 model
+    6.1.1 modeling idea
+    6.1.2 equations / derivation
+    6.1.3 solver / algorithm
+    6.1.4 result interpretation
+  6.2 question 2 model
+7 validation and sensitivity
+8 strengths, limitations, and extension
+9 conclusion
+appendix
 ```
 
-## 附录规则
+## Abstract Rule
 
-附录应包含：
+Write the abstract last.
 
-- 支撑文件目录。
-- 运行环境。
-- 核心代码片段。
-- 重要中间结果。
-- 数据字段说明。
+It should usually include:
 
-但完整可运行代码必须保存在仓库 `src/` 或对应运行目录中，不能只出现在 PDF 附录。
+- one overall problem sentence;
+- one method-result closure per major subquestion;
+- one validation or comparison sentence;
+- one final recommendation or summary sentence;
+- 4-6 keywords that match the true route.
 
-## 质量门槛
+Avoid:
 
-生成器输出前必须检查：
+- background-only openings that consume half the abstract;
+- method lists without results;
+- abstract numbers that do not match the body.
 
-- 每个问题是否有模型、结果和验证。
-- 摘要是否逐问题闭合。
-- 图表是否都在正文中被引用。
-- 代码结果是否能复现论文数值。
-- 是否存在公式装饰化、算法堆砌或结论越界。
+## Figure And Table Density
 
+For a full paper, expect at least:
+
+- 1 route or workflow figure;
+- 1 early object/scene/mechanism figure when the route needs it;
+- 3-6 evidence or result figures;
+- 3-8 parameter/result tables;
+- 1 validation or sensitivity figure/table;
+- 1 appendix inventory table.
+
+Different families earn this density differently:
+
+- geometry and engineering: scene, coordinate, residual, sensitivity;
+- data/forecast: trend, fit, forecast, residual, scenario;
+- optimization/scheduling: workflow, result comparison, capacity or schedule artifact;
+- classification: preprocessing, feature, confusion, error analysis.
+
+## Formula And Algorithm Rule
+
+Do not chase formula count for its own sake.
+
+Good formula density means:
+
+- symbols are defined;
+- the objective/constraints match the task;
+- intermediate variables do not appear and vanish unexplained;
+- advanced algorithms explain inputs, outputs, and parameters.
+
+Good algorithm rhythm:
+
+```text
+variable definition
+-> objective / prediction target
+-> constraints or mechanism
+-> solving steps
+-> parameter settings
+-> validation
+```
+
+## Appendix Rule
+
+The appendix should contain:
+
+- support-file or artifact inventory;
+- environment or run notes;
+- selected code excerpts;
+- extra tables/figures;
+- data-field explanation when needed.
+
+But the runnable source should still live in the repository, not only inside the PDF.
+
+## Quality Gate
+
+Before treating the paper as complete, check:
+
+- every subquestion has model, result, and validation presence;
+- the abstract closes each subquestion;
+- figures and tables are cited and interpreted;
+- body numbers can be traced to outputs;
+- there is no equation decoration, algorithm stacking, or conclusion overreach.
+
+## Best Use
+
+Read this note together with:
+
+- `human-style-soft-rules.md`
+- `local-awarded-paper-structure-rules.md`
+- `national-family-section-budget-playbook.md`
+- `section-writing-patterns.md`
+- `../cumcm/20-30-page-paper-blueprint.md`
