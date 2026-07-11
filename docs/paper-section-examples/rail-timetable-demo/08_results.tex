@@ -1,0 +1,20 @@
+\section{Results}
+
+The first key result is the selected operation plan. Table~\ref{tab:rail-selected-plan} gives the service pattern that minimizes the combined cost-service burden while preserving the required overlap-zone capacity. Its role is not only to identify the number of large-route and small-route trains, but also to make the timetable generation layer interpretable: once the selected pattern is fixed, the reader can understand why the later timetable looks the way it does.
+
+\input{tables/rail_selected_plan.tex}
+
+After the operation plan is fixed, the timetable recurrence model generates the station-by-station departure and arrival structure. Table~\ref{tab:rail-timetable-sample} reports a representative extract of the timetable, while the full timetable remains available as a machine-readable artifact. This split is important. The table shown in the paper gives the reader a legible summary, whereas the machine-readable artifact preserves full auditability.
+
+\input{tables/rail_timetable_sample.tex}
+
+Figure~\ref{fig:rail-timetable-output} presents the timetable consequence under the selected service pattern. The key interpretation is not merely that a running diagram exists, but that the large-route and small-route services occupy different functional roles: the large route preserves corridor continuity, whereas the small route strengthens the overlap zone where the passenger burden is highest.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.90\textwidth]{figures/rail_timetable_or_tradeoff.png}
+\caption{Timetable consequence of the selected large-small-route service pattern.}
+\label{fig:rail-timetable-output}
+\end{figure}
+
+Taken together, the selected-plan table, the timetable sample, and the running-diagram-style figure show that the route now closes the full operational chain. The result layer therefore answers not only which service pattern is preferred, but also how that choice materializes into a timetable that can be audited in the following section.

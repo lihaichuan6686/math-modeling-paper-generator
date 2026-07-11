@@ -1,0 +1,12 @@
+\section{Problem Analysis}
+
+The present task is not equivalent to drawing a timetable directly. Before any arrival-departure recurrence is written, the paper must first answer where the effective demand is concentrated and whether a large-small-route service mode is justified. Therefore, the natural route begins with passenger-flow analysis rather than timetable generation.
+
+From a structural viewpoint, the problem contains three tightly connected layers. The first layer identifies the overlap zone in which additional short-turn service is likely to be useful. The second layer chooses the operation plan, including the short-turn interval and the train allocation between the large route and the small route. The third layer converts that operation plan into a station-by-station timetable and audits whether the resulting service is feasible under capacity, tracking, and dwell-time constraints. Consequently, the appropriate route is
+\[
+\text{flow audit} \rightarrow \text{service-pattern design} \rightarrow \text{operation-plan selection} \rightarrow \text{timetable recurrence} \rightarrow \text{feasibility audit}.
+\]
+
+This route is preferable to a timetable-first route for two reasons. First, a timetable generated without a clearly selected service pattern is difficult to interpret, because the reader cannot judge whether the train structure matches the passenger burden. Second, a service-pattern comparison without timetable generation is also incomplete, because it still leaves the operational feasibility question unanswered. The operation plan and the timetable must therefore be treated as two linked but distinct layers.
+
+Accordingly, the paper should make the evidence chain visible. The data section should present the section-flow profile or OD structure that motivates the overlap zone. The model section should separate the service-pattern selection logic from the timetable recurrence logic. The result section should then present both the selected operation plan and the generated timetable artifact. Finally, the validation section should keep the capacity, tracking, and dwell audits separate, so that the paper does not collapse multiple feasibility burdens into one vague statement.

@@ -21,12 +21,13 @@ Purpose: give the project one stable entry point for workflow, run state, review
 15. `family-section-budget-examples.md`
 16. `family-writing-style-examples.md`
 17. `run-file-examples/README.md`
-18. `run-artifact-index.md`
-19. `project-audit-2026-07-06.md`
-20. `architecture.md`
-21. `long-term-roadmap.md`
-22. `research-agenda.md`
-23. `objective-coverage-matrix.md`
+18. `paper-section-examples/README.md`
+19. `run-artifact-index.md`
+20. `project-audit-2026-07-06.md`
+21. `architecture.md`
+22. `long-term-roadmap.md`
+23. `research-agenda.md`
+24. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 
@@ -43,6 +44,7 @@ Use the runbook for execution, the workflow for staged output, the continuation 
 
 Use the family example notes when the run files still feel too blank and Claude needs a concrete target shape for `section-budget.md` or `writing-style-plan.md`.
 Use the run-file examples when Claude needs to see what a non-placeholder `problem-analysis.md`, `model-plan.md`, or `verification-plan.md` should look like in practice.
+Use the paper-section examples when Claude needs to see how route-aware prose, equations, and result interpretation should actually sound inside `paper/sections/`.
 
 The roadmap and research agenda explain why the project exists and what still deserves attention.
 

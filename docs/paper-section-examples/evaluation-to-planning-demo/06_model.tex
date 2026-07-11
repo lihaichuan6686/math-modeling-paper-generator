@@ -1,0 +1,39 @@
+\section{Model Establishment}
+
+\subsection{Supplier Evaluation Model}
+
+To compare suppliers with heterogeneous indicators, the raw variables are first converted into dimensionless quantities. Let $x_{ij}$ denote the value of supplier $i$ on indicator $j$, and let $\tilde{x}_{ij}$ denote the normalized indicator. The purpose of this normalization is not only numerical convenience, but also conceptual alignment: after normalization, the supplier score becomes an interpretable planning signal rather than a collection of incomparable attributes.
+
+For positive indicators and negative indicators, different normalization rules are used so that larger normalized values always correspond to better supplier performance. The normalized indicators are then aggregated through a weighting rule. If $w_j$ denotes the weight of indicator $j$, the comprehensive score of supplier $i$ can be written as
+\begin{equation}
+S_i=\sum_{j=1}^{m} w_j \tilde{x}_{ij}.
+\label{eq:eval-score}
+\end{equation}
+Equation~\eqref{eq:eval-score} is not treated as the final answer. Its role is to identify the candidate set for the downstream planning model. Therefore, the evaluation layer is judged by whether it produces a stable candidate structure, rather than by whether it gives an aesthetically pleasing ranking.
+
+\subsection{Executable Planning Model}
+
+After the candidate suppliers are fixed, the second layer determines the executable plan. Let $q_{i,t}$ denote the decision quantity assigned to supplier $i$ in period $t$, and let $d_t$ denote the required demand in period $t$. The core objective is to minimize the total operating burden while preserving feasibility:
+\begin{equation}
+\min Z=\sum_{t}\sum_{i} c_i q_{i,t},
+\label{eq:plan-objective}
+\end{equation}
+where $c_i$ is the effective unit cost after incorporating the main loss or service factors.
+
+The objective in Equation~\eqref{eq:plan-objective} is subject to demand, capacity, and nonnegativity constraints. A typical demand-balance constraint is
+\begin{equation}
+\sum_{i} q_{i,t} \ge d_t,\qquad \forall t,
+\label{eq:demand-balance}
+\end{equation}
+while the supplier-capacity constraint is written as
+\begin{equation}
+0 \le q_{i,t} \le C_{i,t},\qquad \forall i,t,
+\label{eq:capacity-bound}
+\end{equation}
+where $C_{i,t}$ denotes the available capacity of supplier $i$ in period $t$.
+
+The essential modeling idea is that the evaluation model reduces the search space, whereas the planning model generates the actual decision. In other words, the ranking table answers which suppliers are worth keeping in the candidate set, while the planning model answers how much should actually be assigned to each retained supplier under the period constraints.
+
+\subsection{Scenario Comparison Layer}
+
+The final recommendation should not be accepted without a disturbance check. Therefore, the baseline plan is rerun under perturbed demand, loss, or capacity assumptions. The purpose of this layer is not to claim universal robustness, but to identify whether the recommendation is structurally fragile. If the selected candidate set and the total decision pattern remain stable within a reasonable perturbation range, then the route can be regarded as sufficiently credible for a research-style paper.

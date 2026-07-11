@@ -61,6 +61,7 @@ problem signal
 - `../docs/family-section-budget-examples.md`: ready-to-adapt section-budget shapes for high-frequency families.
 - `../docs/family-writing-style-examples.md`: ready-to-adapt writing-style shapes for high-frequency families.
 - `../docs/run-file-examples/README.md`: realistic run-file examples that show what filled-out planning artifacts should look like.
+- `../docs/paper-section-examples/README.md`: realistic section-level prose examples for abstract, analysis, model, and results writing.
 - `roadmap.md`: what remains to be strengthened next.
 - `full-stack-execution-map.md`: the shortest path from problem to review-ready draft.
 

@@ -1,0 +1,12 @@
+\section{Problem Analysis}
+
+The problem is not a pure evaluation task. Although the first layer requires the comparison of several candidate suppliers, the final output must still be an executable plan under explicit operational constraints. Therefore, the paper cannot end with a ranking table. Instead, the ranking result must be converted into a planning signal that supports later quantity or allocation decisions.
+
+From the perspective of route selection, the task contains three connected subquestions. The first subquestion concerns how to build a credible indicator system and identify a stable candidate set. The second subquestion concerns how to transform that candidate set into a decision model with explicit feasibility constraints. The third subquestion concerns whether the recommended plan remains acceptable when the external environment changes. Consequently, the appropriate route is
+\[
+\text{evaluation} \rightarrow \text{candidate selection} \rightarrow \text{planning} \rightarrow \text{feasibility audit} \rightarrow \text{scenario comparison}.
+\]
+
+This route is preferable to a ranking-only route for two reasons. First, if the paper only reports comprehensive scores, then it still leaves the core operational question unanswered. Second, a planning-only route is also insufficient, because it would hide the evidence burden behind candidate screening and make the final recommendation harder to justify. The evaluation layer and the planning layer therefore play different but complementary roles: the former reduces the candidate space, while the latter produces the final executable outcome.
+
+Accordingly, the main evidence chain of the paper is arranged as follows. In the data-processing section, the indicator cleaning and normalization logic are used to support the evaluation model. In the model section, the score-generation equations and the planning constraints are presented in separate but connected subsections. In the result section, the supplier ranking table, the selected-candidate table, and the final plan table are interpreted jointly rather than independently. Finally, the validation section uses feasibility audits and scenario comparisons to show whether the recommendation is stable enough for research review.

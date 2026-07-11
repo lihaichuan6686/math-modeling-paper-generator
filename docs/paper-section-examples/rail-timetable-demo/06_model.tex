@@ -1,0 +1,43 @@
+\section{Model Establishment}
+
+\subsection{Candidate Service-Pattern Design}
+
+Let $q_i$ denote the section passenger-flow on section $i$, and let $C$ denote the capacity provided by one train under the adopted service standard. The service-pattern design problem begins by identifying the overlap zone where the flow is high enough to justify short-turn reinforcement. If the small route starts at station $s$ and ends at station $e$, then the overlap zone is the section set contained in $[s,e)$.
+
+For each candidate service pattern, the train counts on the large route and the small route are denoted by $n_B$ and $n_S$, respectively. The non-overlap sections are served only by the large route, while the overlap sections are served by both routes. Therefore, the capacity requirement is split into two levels:
+\begin{equation}
+n_B C \ge \max_{i \notin [s,e)} q_i,
+\label{eq:big-route-capacity}
+\end{equation}
+\begin{equation}
+(n_B+n_S) C \ge \max_{i \in [s,e)} q_i.
+\label{eq:overlap-capacity}
+\end{equation}
+Equations~\eqref{eq:big-route-capacity} and~\eqref{eq:overlap-capacity} clarify why the overlap zone is the key modeling object: it is exactly the region in which the short-turn service changes the effective carrying capacity.
+
+\subsection{Operation-Plan Selection}
+
+After the candidate service patterns are enumerated, the paper evaluates them through a combined operating-cost and service-level criterion. Let $Z_1$ denote the operating burden and $Z_2$ denote the passenger-service burden. After normalization, the final comparison score may be written as
+\begin{equation}
+S = \omega_1 \hat Z_1 + \omega_2 \hat Z_2,
+\label{eq:route-score}
+\end{equation}
+where $\omega_1$ and $\omega_2$ represent the relative preference for cost and service.
+
+Equation~\eqref{eq:route-score} should not be interpreted as a decorative weighted sum. Its purpose is to keep the raw operating burden and the raw service burden visible before selecting a final pattern. In a strong timetable paper, the route-selection table therefore records not only the final score, but also the cost-service components that make the chosen solution defensible.
+
+\subsection{Timetable Recurrence Model}
+
+Once the operation plan is fixed, the timetable generation layer converts the chosen service pattern into station-by-station times. Let $a_{k,i}$ and $d_{k,i}$ denote the arrival and departure times of train $k$ at station $i$, and let $r_i$ denote the running time on section $i$. The basic recurrence relation is
+\begin{equation}
+a_{k,i} = d_{k,i-1} + r_{i-1},
+\label{eq:arrival-recurrence}
+\end{equation}
+while the departure time is
+\begin{equation}
+d_{k,i} = a_{k,i} + \tau_{k,i},
+\label{eq:departure-recurrence}
+\end{equation}
+where $\tau_{k,i}$ is the dwell time constrained by the admissible lower and upper bounds.
+
+The timetable layer is meaningful only if the generated output can be audited. Therefore, the recurrence structure is supplemented by tracking and dwell constraints, and its outputs are sent directly into the capacity, tracking, and dwell checks rather than being treated as a purely visual running diagram.

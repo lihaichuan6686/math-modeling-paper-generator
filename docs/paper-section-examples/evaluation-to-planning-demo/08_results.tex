@@ -1,0 +1,13 @@
+\section{Results}
+
+Table~\ref{tab:eval-ranking} first reports the comprehensive scores and ranking order of the candidate suppliers. The role of this table is not to end the paper, but to show which suppliers remain plausible after the multi-indicator comparison. In particular, the top-ranked suppliers combine higher reliability and lower effective loss, so they are retained as the candidate set for the later planning model.
+
+\input{tables/eval_ranking_table.tex}
+
+After the candidate set is fixed, the planning model produces the executable decision table shown in Table~\ref{tab:eval-plan}. Each row records the period demand and the assigned quantities to the selected suppliers. This table is the main operational artifact of the paper, because it converts the earlier ranking result into a decision that can actually be executed and audited.
+
+\input{tables/eval_plan_table.tex}
+
+The most important interpretation is that the evaluation result and the planning result are now visibly connected. The supplier ranking is not treated as a self-contained conclusion; instead, it is used to control the planning space. This design allows the paper to answer both the screening question and the operational decision question in one coherent route.
+
+To check whether the recommendation is only locally valid, the baseline plan is further compared with several disturbed scenarios. If the scenario table shows that the selected plan structure remains feasible and its total burden changes only within an acceptable range, then the recommendation can be regarded as stable enough for a research-style handoff. Therefore, the result layer should always be read together with the feasibility and scenario evidence rather than in isolation.
