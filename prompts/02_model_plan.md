@@ -7,22 +7,35 @@ Read:
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
 - `knowledge/algorithms/model-chain-patterns.md`
+- `knowledge/algorithms/method-depth-ladder.md`
 - relevant files under `knowledge/algorithms/cards/`
 - if the problem involves trains, timetables, headways, OD flow, or large/small routes, also read `knowledge/algorithms/cards/rail-timetable-operation.md`
 - `knowledge/latex/cumcm-section-contract.md`
+- `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `docs/visual-generation-pipeline.md`
 - `docs/figure-plan-template.md`
+- `docs/section-budget-template.md`
+- `docs/writing-style-plan-template.md`
 - `docs/artifact-ledger-template.md`
 
 Create:
 
 - `runs/current/model-plan.md`
+- `runs/current/method-depth-plan.md`
 - `runs/current/verification-plan.md`
 - `runs/current/figure-plan.md` from `docs/figure-plan-template.md`
+- `runs/current/section-budget.md` from `docs/section-budget-template.md`
+- `runs/current/writing-style-plan.md` from `docs/writing-style-plan-template.md`
 - update `runs/current/artifact-ledger.md`
 
 ## Model Plan Requirements
+
+For v1.2, every major subquestion should target at least a Level 3 chain from `knowledge/algorithms/method-depth-ladder.md`:
+
+```text
+support layer -> main model -> result -> validation/comparison
+```
 
 For each subquestion, define:
 
@@ -41,6 +54,15 @@ Expected figures:
 Expected tables:
 Validation:
 Failure modes:
+```
+
+Also define:
+
+```text
+Support layer:
+Comparison or baseline:
+Validation artifact:
+Expected human-style explanation burden:
 ```
 
 If the problem matches `Type I: Rail Transit Timetable And Service Planning`, the model plan must also define:
@@ -128,6 +150,12 @@ Do not use filler text to reach length. Page count must come from structure, equ
 
 For E-type problems, use the E-route expansion guidance in `knowledge/cumcm/20-30-page-paper-blueprint.md` instead of generic time-series page planning.
 
+For v1.2, `runs/current/section-budget.md` should also record:
+
+- which section is expected to be dense;
+- which section risks being too thin;
+- how abstract, analysis, model, results, and validation will earn their pages.
+
 ## Verification Plan
 
 Define:
@@ -156,3 +184,13 @@ Update the artifact ledger with planned:
 - tables
 - key results
 - validation evidence
+
+## Writing-Style Plan
+
+`runs/current/writing-style-plan.md` should lock these choices before drafting:
+
+- target style variant;
+- paragraph-driven vs bullet-driven balance;
+- abstract density target;
+- which sections need team-like explanatory prose rather than formula stacking;
+- which figures and tables need immediate interpretation in text.

@@ -1,6 +1,6 @@
 # Start Here
 
-This repository is ready for a simple Claude Code trial.
+This repository is ready for both a simple Claude Code trial and a stronger v1.2 paper run.
 
 ## Navigation Map
 
@@ -18,6 +18,7 @@ If you are just getting oriented, read these in order:
 10. `prompts/README.md`
 11. `docs/run-start-checklist.md`
 12. `docs/v1-runbook.md`
+13. `docs/v1.2-runbook.md`
 
 ## Fastest Demo
 
@@ -83,11 +84,11 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start-current.ps1 -Name curre
 ```text
 Use the repository skill at .codex/skills/cumcm-paper-generator/SKILL.md.
 Read START_HERE.md and CLAUDE.md.
-Then use problems/problem.md to produce a v1.0 mathematical modeling paper draft with code-generated tables, figures, LaTeX, PDF build, and review.
+Then use problems/problem.md to produce a v1.2 mathematical modeling paper draft with stronger section density, deeper method chains, code-generated tables and figures, LaTeX, PDF build, and review.
 ```
 
 ## Current Reality
 
-This is a v1.0 research prototype. It can produce a small closed-loop draft today. It is not yet a polished 20-30 page production system.
+This repository has a working v1.0 closed loop and is now being upgraded toward a v1.2 human-team-style paper generator. It is not yet a polished 2.0 production system.
 
 Use only for learning, post-contest review, authorized research, and quality-checking experiments.

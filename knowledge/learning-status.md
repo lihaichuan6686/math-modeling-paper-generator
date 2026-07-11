@@ -33,6 +33,8 @@ This is a maintenance panel, not a reading log.
 - LaTeX section family index for section-by-section writing and repair cues.
 - LaTeX style variant index for choosing the right paper voice and density.
 - Local template variant index for choosing the right local template shell.
+- Human-style soft rules for making the paper read more like a strong team draft.
+- Method depth ladder for keeping subquestions above shallow single-method chains.
 - CUMCM table family index for table role planning and pairings.
 - CUMCM equation family index for equation role planning and pairings.
 - Official-paper style versus risky modern-draft failure patterns.
@@ -48,6 +50,7 @@ This is a maintenance panel, not a reading log.
 - More contest-specific style polish from high-quality example papers.
 - Stronger real-data variants for the production-route and monitoring-route demos.
 - More algorithm cards for niche but recurring CUMCM problem families.
+- More direct v1.2 run evidence from real problem trials.
 
 ## What Still Needs Deep Reading
 
@@ -104,3 +107,5 @@ For the next round of work, prioritize:
 29. a run artifact index that maps stages to standard outputs.
 30. an objective coverage matrix that tracks goal-to-evidence completion.
 31. a local template variant index that captures local template shell cues.
+32. a human-style soft-rules note that captures section-density and prose soft rules.
+33. a method-depth ladder that upgrades shallow method chains into stronger paper routes.

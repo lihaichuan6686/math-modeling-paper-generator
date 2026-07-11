@@ -14,6 +14,7 @@ This is the first working checklist, not the full workflow manual.
 6. Read `knowledge/cumcm/paper-family-matrix.md`.
 7. Read `knowledge/cumcm/generation-loop.md`.
 8. Read `knowledge/quality/completion-gate.md`.
+9. If the user wants a stronger human-like paper, read `docs/v1.2-runbook.md`.
 
 ## First Decisions
 
@@ -40,6 +41,9 @@ For a fresh run, produce these before polishing prose:
 - `runs/current/verification-plan.md`
 - `runs/current/figure-plan.md`
 - `runs/current/artifact-ledger.md`
+- `runs/current/method-depth-plan.md`
+- `runs/current/section-budget.md`
+- `runs/current/writing-style-plan.md`
 
 ## First Paper Shape
 
@@ -69,6 +73,7 @@ Before treating the run as usable, confirm that:
 - claims can be tied to a file, equation, code output, figure, table, or review note;
 - the chosen route matches the problem type;
 - the review gate has evidence, not just prose.
+- if the target is v1.2, the method chain and section budget are written down before polishing.
 
 ## Route-Specific Reminder
 

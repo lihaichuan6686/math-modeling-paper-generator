@@ -4,7 +4,7 @@ This repository is a research-only mathematical modeling paper generator and pap
 
 ## Current Project State
 
-The project now has a v1.0 closed-loop demo:
+The project now has a working v1.0 closed-loop demo and is actively upgrading toward a v1.2 human-team-style paper workflow:
 
 ```text
 problem -> run scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF -> review
@@ -16,6 +16,7 @@ The demo is intentionally small, but it proves the chain works. Do not restart b
 
 For every generation or review run, read these files first:
 
+- `docs/v1.2-runbook.md`
 - `docs/v1-runbook.md`
 - `docs/run-start-checklist.md`
 - `docs/continuation-state.md`
@@ -33,6 +34,7 @@ For every generation or review run, read these files first:
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
 - `knowledge/algorithms/model-chain-patterns.md`
+- `knowledge/algorithms/method-depth-ladder.md`
 - `docs/visual-generation-pipeline.md`
 - `docs/review-checklist.md`
 - `docs/artifact-ledger-template.md`
@@ -41,6 +43,7 @@ For every generation or review run, read these files first:
 - `knowledge/quality/quality-rubric-v2.md`
 - `knowledge/latex/cumcm-section-contract.md`
 - `knowledge/latex/section-writing-patterns.md`
+- `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `knowledge/latex/snippets.md`
 
@@ -130,8 +133,8 @@ A run is not complete until:
 
 ## Near-Term Priorities
 
-1. Expand the v1-demo from a 6-page smoke test toward a full-length 20-30 page research draft.
-2. Package the runbook into a Claude Code skill-style workflow.
-3. Add a stronger CUMCM-style optimization/classification example.
-4. Resume deep reading, starting with `2021 E014` for the spectral/classification route.
+1. Deliver a v1.2 paper path that repairs thin prose, weak section density, and shallow method chains.
+2. Expand the active draft path from small-demo shape toward a full-length 20-30 page research draft.
+3. Add stronger route-specific comparison notes and contest-style writing soft rules.
+4. Add a stronger CUMCM-style optimization/classification example.
 5. Convert the review checklist into a stricter reusable review prompt or script.

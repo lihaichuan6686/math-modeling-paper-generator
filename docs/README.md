@@ -4,21 +4,24 @@ Purpose: give the project one stable entry point for workflow, run state, review
 
 ## Read This Layer In Order
 
-1. `v1-runbook.md`
-2. `workflow.md`
-3. `continuation-state.md`
-4. `current-state-matrix-2026-07-07.md`
-5. `review-checklist.md`
-6. `visual-generation-pipeline.md`
-7. `run-start-checklist.md`
-8. `artifact-ledger-template.md`
-9. `figure-plan-template.md`
-10. `run-artifact-index.md`
-11. `project-audit-2026-07-06.md`
-12. `architecture.md`
-13. `long-term-roadmap.md`
-14. `research-agenda.md`
-15. `objective-coverage-matrix.md`
+1. `v1.2-runbook.md`
+2. `v1-runbook.md`
+3. `workflow.md`
+4. `continuation-state.md`
+5. `current-state-matrix-2026-07-07.md`
+6. `review-checklist.md`
+7. `visual-generation-pipeline.md`
+8. `run-start-checklist.md`
+9. `artifact-ledger-template.md`
+10. `figure-plan-template.md`
+11. `section-budget-template.md`
+12. `writing-style-plan-template.md`
+13. `run-artifact-index.md`
+14. `project-audit-2026-07-06.md`
+15. `architecture.md`
+16. `long-term-roadmap.md`
+17. `research-agenda.md`
+18. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 

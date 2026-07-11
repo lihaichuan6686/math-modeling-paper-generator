@@ -1,16 +1,18 @@
 # Continuation State
 
-Last updated: 2026-07-08.
+Last updated: 2026-07-11.
 
 Purpose: make long-running unattended work resumable without rereading the entire conversation.
 
 ## Current Focus
 
-The project has shifted from "read more first" to improving the v1.0 closed-loop toolchain through real generated-paper reviews:
+The project has shifted again from "prove the v1.0 loop" to delivering a v1.2 paper path that repairs thin prose, weak section density, and shallow method chains:
 
 ```text
-problem -> scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF/review
+problem -> scaffold -> deeper model plan -> section budget -> code/table/figure -> LaTeX draft -> PDF/review
 ```
+
+Newest 1.2-upgrade progress: the repository now has `docs/v1.2-runbook.md`, `knowledge/latex/human-style-soft-rules.md`, `knowledge/algorithms/method-depth-ladder.md`, and `prompts/08_launch_v1_2.md`. These files move the execution standard from "small but complete" toward "human-team style with stronger method depth and section density".
 
 The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real MathorCup 2023 B test run showed that the tool can produce a complete draft and attachments, but the next priority is stronger contest-grade modeling, especially for rail-timetable optimization.
 

@@ -7,10 +7,11 @@ Purpose: give the generator one stable entry point for moving from a problem sig
 1. `cumcm-routing-rules.md`
 2. `problem-type-to-method.md`
 3. `model-chain-patterns.md`
-4. `route-method-matrix.md`
-5. `method-family-index.md`
-6. `cards/README.md`
-7. the detailed cards under `cards/`
+4. `method-depth-ladder.md`
+5. `route-method-matrix.md`
+6. `method-family-index.md`
+7. `cards/README.md`
+8. the detailed cards under `cards/`
 
 ## What This Layer Does
 

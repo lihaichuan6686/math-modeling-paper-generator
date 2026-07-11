@@ -12,7 +12,8 @@ Purpose: give Claude Code one stable path through the v1.0 generation loop.
 6. `05_review.md`
 7. `06_quality_review.md`
 8. `07_launch.md`
-9. `flow-map.md`
+9. `08_launch_v1_2.md`
+10. `flow-map.md`
 
 ## What The Prompt Chain Does
 

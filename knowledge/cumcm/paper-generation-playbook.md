@@ -29,6 +29,8 @@ Every important statement in the final paper should be traceable to one of:
 
 Use `knowledge/cumcm/official-style-vs-modern-draft-risk.md` as the cross-cutting standard for judging whether a draft is closing loops like an official paper or inflating length like a risky modern draft.
 
+For the current upgrade path, also treat `docs/v1.2-runbook.md`, `knowledge/algorithms/method-depth-ladder.md`, and `knowledge/latex/human-style-soft-rules.md` as the three main repairs for the old "small but thin" failure mode.
+
 ## Phase 0: Intake
 
 Inputs:
