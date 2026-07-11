@@ -42,6 +42,7 @@ This is a maintenance panel, not a reading log.
 - Realistic figure-plan and artifact-ledger examples for evaluation-to-planning and rail/timetable routes, covering output planning and traceability expectations.
 - Realistic paper-section examples for evaluation-to-planning and rail/timetable routes, covering problem restatement, data, solution, abstract, analysis, model, results, validation, strengths/limitations, and conclusion prose.
 - Realistic paper-assembly examples for evaluation-to-planning and rail/timetable routes, showing how run files, section drafts, evidence order, and abstract/conclusion closure are stitched into one coherent v1.2 paper.
+- Demo bundles for evaluation-to-planning and rail/timetable routes, packaging run files, section examples, and assembly logic into one nearest-to-end-to-end route reference.
 - Local figure/table conventions for separating contest-style evidence habits from one-off local formatting habits.
 - Final polish and appendix rules for separating strong paper closure from appendix-only page inflation.
 - A dedicated v1.2 final-pass guide for turning accumulated writing and review rules into one last handoff sequence.
