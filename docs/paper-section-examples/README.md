@@ -9,13 +9,17 @@ These are not full papers. They are half-finished but credible section examples 
 1. `evaluation-to-planning-demo/`
 2. `rail-timetable-demo/`
 
-Each example folder currently focuses on the most reusable high-value writing layers:
+Each example folder currently covers a fuller reusable skeleton:
 
+- `01_problem.tex`
 - `abstract.tex`
 - `02_analysis.tex`
+- `05_data.tex`
 - `06_model.tex`
+- `07_solution.tex`
 - `08_results.tex`
 - `09_validation.tex`
+- `10_strengths_limitations.tex`
 - `11_conclusion.tex`
 
 ## Best Use

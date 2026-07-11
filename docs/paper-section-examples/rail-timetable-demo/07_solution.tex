@@ -1,0 +1,9 @@
+\section{Solution Process}
+
+The solution process should be written as a sequence of linked computations rather than as one oversized optimization block. The first computational layer uses the processed passenger-flow information to compare candidate service patterns. Its goal is to determine whether a large-small-route structure is justified and, if so, which overlap-zone service frequency or train allocation produces the best cost-service tradeoff under the required capacity burden.
+
+The second computational layer generates the selected operation plan. Once the preferred pattern is chosen, the paper should explain how the number of large-route and small-route trains, the interval setting, and the overlap coverage are fixed. This layer is where the paper moves from passenger-flow interpretation to an operational recommendation, so the selected-plan artifact must be treated as a central output rather than as a side table.
+
+The third computational layer converts the selected service pattern into a timetable recurrence. Here the paper should state how departure sequences are generated, how arrival times are propagated between stations, and how turn-back or headway constraints are enforced. The key writing task is to make clear that the timetable is not decorative: it is the concrete form in which the operation plan becomes auditable.
+
+The fourth computational layer performs the feasibility and scenario checks. Capacity audit, tracking audit, and dwell audit should either be produced as separate artifacts or be clearly distinguishable in the validation record. If the study includes demand or interval perturbation, the solution route should also show how the baseline timetable or selected plan changes across scenarios. This is what transforms the recommendation from a single best-looking plan into a research-grade operational proposal.
