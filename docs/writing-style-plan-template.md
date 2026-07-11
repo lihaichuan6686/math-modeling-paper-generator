@@ -5,18 +5,18 @@ Use this file as the starting shape for `runs/current/writing-style-plan.md`.
 ## Style Target
 
 - target version: `v1.2`
-- route family:
-- selected style variant:
-- positive sample:
-- contrast sample:
+- route family: Unknown
+- selected style variant: Unknown
+- positive sample: Unknown
+- contrast sample: Unknown
 
 ## Core Writing Choices
 
-- abstract density target:
-- paragraph-driven vs bullet-driven balance:
-- tone target:
-- how results will be interpreted in prose:
-- how limitations will be stated:
+- abstract density target: Unknown
+- paragraph-driven vs bullet-driven balance: Unknown
+- tone target: Unknown
+- how results will be interpreted in prose: Unknown
+- how limitations will be stated: Unknown
 
 ## Section Notes
 
@@ -38,7 +38,6 @@ Use this file as the starting shape for `runs/current/writing-style-plan.md`.
 
 ## Thinness Risks
 
-- sections likely to become too short:
-- sections likely to become too bullet-heavy:
-- sections likely to overuse generic prose:
-
+- sections likely to become too short: Unknown
+- sections likely to become too bullet-heavy: Unknown
+- sections likely to overuse generic prose: Unknown
