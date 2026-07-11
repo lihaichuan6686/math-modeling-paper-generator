@@ -39,6 +39,7 @@ This is a maintenance panel, not a reading log.
 - National abstract-and-closeout playbook for turning high-frequency CUMCM families into reusable abstract skeletons and subquestion ending patterns.
 - Family section-budget examples and family writing-style examples for turning high-frequency CUMCM families into ready-to-adapt run-file shapes.
 - Realistic run-file examples for evaluation-to-planning and rail/timetable routes, showing non-placeholder problem analysis, model planning, budget, style, and verification notes.
+- Realistic figure-plan and artifact-ledger examples for evaluation-to-planning and rail/timetable routes, covering output planning and traceability expectations.
 - Local figure/table conventions for separating contest-style evidence habits from one-off local formatting habits.
 - Final polish and appendix rules for separating strong paper closure from appendix-only page inflation.
 - A dedicated v1.2 final-pass guide for turning accumulated writing and review rules into one last handoff sequence.

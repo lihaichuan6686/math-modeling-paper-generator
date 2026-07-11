@@ -16,6 +16,8 @@ Each example folder contains:
 - `section-budget.md`
 - `writing-style-plan.md`
 - `verification-plan.md`
+- `figure-plan.md`
+- `artifact-ledger.md`
 
 ## Best Use
 
