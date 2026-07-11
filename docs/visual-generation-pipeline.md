@@ -130,6 +130,10 @@ Good caption pattern:
 Figure 3: Sensitivity of total transport loss to carrier capacity. The curve is generated from the integer-planning model under five capacity scenarios and supports the robustness check for Problem 2.
 ```
 
+Contest-style upgrade note:
+
+- local awarded samples often use shorter captions, but the generator should usually prefer more explicit captions when the paper is intended for `v1.2` review and later research use.
+
 ## Review Checklist
 
 Before accepting a figure:

@@ -34,6 +34,7 @@ This is a maintenance panel, not a reading log.
 - LaTeX style variant index for choosing the right paper voice and density.
 - Local template variant index and local awarded-paper structure rules for choosing the right local template shell and page rhythm.
 - Human-style soft rules for making the paper read more like a strong team draft.
+- Local figure/table conventions for separating contest-style evidence habits from one-off local formatting habits.
 - Method depth ladder for keeping subquestions above shallow single-method chains.
 - CUMCM table family index for table role planning and pairings.
 - CUMCM equation family index for equation role planning and pairings.

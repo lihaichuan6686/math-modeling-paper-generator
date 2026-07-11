@@ -13,13 +13,14 @@ Read these first:
 5. `knowledge/latex/section-writing-patterns.md`
 6. `knowledge/latex/human-style-soft-rules.md`
 7. `knowledge/latex/local-awarded-paper-structure-rules.md`
-8. `knowledge/algorithms/method-depth-ladder.md`
-9. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
-10. `runs/current/artifact-ledger.md` or the active run ledger
-11. `paper/main.tex`
-12. all included files under `paper/sections/`
-13. available generated tables and figures under `paper/tables/` and `paper/figures/`
-14. latest compile result or rendered PDF pages when available
+8. `knowledge/latex/local-figure-table-conventions.md`
+9. `knowledge/algorithms/method-depth-ladder.md`
+10. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
+11. `runs/current/artifact-ledger.md` or the active run ledger
+12. `paper/main.tex`
+13. all included files under `paper/sections/`
+14. available generated tables and figures under `paper/tables/` and `paper/figures/`
+15. latest compile result or rendered PDF pages when available
 
 If the run is not `current`, replace `runs/current` with the active run directory.
 
@@ -147,10 +148,12 @@ Check:
 - axes, units, legends, and precision are adequate;
 - rendered PDF pages show no clipping or unreadable labels;
 - AI-generated schematic figures are not presented as data evidence.
+- filenames and captions do not still read like raw one-off local shorthand.
 
 Warn if a figure is visually readable but weak as evidence.
 
 Also warn if important figures or tables are cited but not interpreted in prose.
+Warn if most visuals are postponed to late result pages and earlier subquestions stay visually thin.
 
 ### Step 6: Validation and Robustness
 

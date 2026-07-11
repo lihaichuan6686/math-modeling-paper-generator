@@ -57,7 +57,7 @@ task -> assumption -> symbol -> data -> parameter -> result -> validation -> com
 Read this note together with:
 
 - `figures-tables-equations-style.md`
+- `local-figure-table-conventions.md`
 - `section-map.md`
 - `visual-family-index.md`
 - `../docs/artifact-ledger-template.md`
-

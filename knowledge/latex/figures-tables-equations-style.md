@@ -85,6 +85,7 @@ Do not:
 - insert a figure without discussion
 - use low-resolution images for charts
 - claim an AI-generated schematic is measured data
+- borrow raw one-off local filenames such as `output3.png` or `5-2.png` into generator output naming
 
 ## Subfigure Rules
 
@@ -154,6 +155,10 @@ Rules:
 - Put units in headers.
 - For long tables, use `longtable` or move details to appendix.
 - For wide tables, reduce columns or rotate/move to appendix; do not let the PDF clip.
+
+Local contest note:
+
+- awarded local samples may still use bordered tables with vertical rules; treat that as a tolerated local habit, not as the default generator style.
 
 ## Equation Rules
 

@@ -61,7 +61,7 @@ route -> object -> data -> result -> validation -> comparison -> review
 Read this note together with:
 
 - `figures-tables-equations-style.md`
+- `local-figure-table-conventions.md`
 - `../docs/figure-plan-template.md`
 - `../docs/visual-generation-pipeline.md`
 - `../knowledge/cumcm/paper-family-matrix.md`
-
