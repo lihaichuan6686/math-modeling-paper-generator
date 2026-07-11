@@ -12,7 +12,7 @@ The project has shifted again from "prove the v1.0 loop" to delivering a v1.2 pa
 problem -> scaffold -> deeper model plan -> section budget -> code/table/figure -> LaTeX draft -> PDF/review
 ```
 
-Newest 1.2-upgrade progress: the repository now has `docs/v1.2-runbook.md`, `knowledge/latex/human-style-soft-rules.md`, `knowledge/algorithms/method-depth-ladder.md`, and `prompts/08_launch_v1_2.md`. These files move the execution standard from "small but complete" toward "human-team style with stronger method depth and section density".
+Newest 1.2-upgrade progress: the repository now has `docs/v1.2-runbook.md`, `knowledge/latex/human-style-soft-rules.md`, `knowledge/algorithms/method-depth-ladder.md`, `prompts/08_launch_v1_2.md`, and `prompts/09_revision_v1_2.md`. These files move the execution standard from "small but complete" toward "human-team style with stronger method depth and section density", and add a dedicated repair loop after review.
 
 The bundled `v1-demo` now compiles and has rendered-PDF review evidence. A real MathorCup 2023 B test run showed that the tool can produce a complete draft and attachments, but the next priority is stronger contest-grade modeling, especially for rail-timetable optimization.
 

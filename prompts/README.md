@@ -13,14 +13,15 @@ Purpose: give Claude Code one stable path through the v1.0 generation loop.
 7. `06_quality_review.md`
 8. `07_launch.md`
 9. `08_launch_v1_2.md`
-10. `flow-map.md`
+10. `09_revision_v1_2.md`
+11. `flow-map.md`
 
 ## What The Prompt Chain Does
 
 The prompt chain turns a problem statement into a paper draft through staged control:
 
 ```text
-intake -> ideation -> model plan -> implementation -> writing -> review -> quality audit
+intake -> ideation -> model plan -> implementation -> writing -> review -> quality audit -> revision if needed
 ```
 
 Each stage should leave a file under `runs/current/` or the active run directory.
@@ -38,6 +39,7 @@ Use `flow-map.md` when you want the shortest path from stage to stage and need a
 | Writing | assemble the LaTeX draft | `paper/sections/`, `paper/main.tex` |
 | Review | audit paper quality | `reviews/review-*.md` |
 | Quality audit | run the machine gate and record status | gate output plus review evidence |
+| Revision | repair thinness, shallow chains, and machine-like phrasing | updated paper plus refreshed run files |
 
 ## Key Rules
 
@@ -45,6 +47,7 @@ Use `flow-map.md` when you want the shortest path from stage to stage and need a
 - Do not write the full paper before the model plan is clear.
 - Do not treat implementation output as complete until it is traced in the artifact ledger.
 - Do not treat a compile success as a final pass without a quality review.
+- If the review still flags thin sections or shallow method chains, run `09_revision_v1_2.md` before treating the draft as a serious v1.2 trial.
 
 ## Status
 

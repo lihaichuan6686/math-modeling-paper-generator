@@ -14,6 +14,7 @@ intake
 -> writing
 -> review
 -> quality audit
+-> revision if needed
 ```
 
 ## What Each Stage Must Leave Behind
@@ -27,6 +28,7 @@ intake
 | Writing | How do we explain it? | sectioned LaTeX draft | section order and evidence references |
 | Review | What is weak or missing? | review file | fixes, warnings, and traceability gaps |
 | Quality audit | Does the run meet the gate? | machine-gate result | pass/fail state and remaining repairs |
+| Revision | How do we repair the flagged weak points? | updated draft and refreshed planning files | stronger density, method depth, and closure |
 
 ## Route To Prompt Rule
 
@@ -50,6 +52,7 @@ route index
 - Writing should follow the section map rather than freestyle order.
 - Review should name concrete risks, not vague praise.
 - Quality audit should decide whether the run is ready for research review.
+- Revision should repair the highest-value weaknesses first rather than rewriting the whole paper.
 
 ## Best Use
 
@@ -63,6 +66,6 @@ Read this note together with:
 - `04_writing.md`
 - `05_review.md`
 - `06_quality_review.md`
+- `09_revision_v1_2.md`
 - `../knowledge/cumcm/generation-loop.md`
 - `../knowledge/master-map.md`
-

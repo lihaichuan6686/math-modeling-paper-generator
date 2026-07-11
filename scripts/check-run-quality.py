@@ -61,6 +61,13 @@ def add(ok: list[str], issues: list[str], condition: bool, pass_msg: str, fail_m
         issues.append(fail_msg)
 
 
+def overall_status_block(review: str) -> str:
+    if "## Overall Status" not in review:
+        return ""
+    tail = review.split("## Overall Status", 1)[1]
+    return tail.split("##", 1)[0].strip()
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check minimum generated-run quality gates.")
     parser.add_argument("--run", default="current", help="Run name under runs/.")
@@ -84,6 +91,7 @@ def main() -> int:
     review = read_text(review_path)
     is_type_i = "Type I" in ledger or "Rail Transit Timetable" in ledger or "rail timetable" in ledger.lower()
     has_any_v12_file = any((run_dir / name).exists() for name in V12_PLAN_FILES)
+    review_status = overall_status_block(review)
 
     if review:
         add(
@@ -100,6 +108,14 @@ def main() -> int:
             "Review does not look like an untouched placeholder.",
             "Review appears to contain placeholder or empty evidence fields.",
         )
+        if has_any_v12_file:
+            add(
+                ok,
+                issues,
+                "Needs revision" not in review_status,
+                "Review Overall Status is not blocking.",
+                "Review Overall Status still says Needs revision.",
+            )
 
     if ledger:
         add(
@@ -113,7 +129,7 @@ def main() -> int:
             add(
                 ok,
                 issues,
-                review and "Needs revision" not in review.split("## Overall Status", 1)[-1].split("##", 1)[0],
+                review and "Needs revision" not in review_status,
                 "Ledger final pass is not contradicted by review Overall Status.",
                 "Ledger says final status is Pass while review Overall Status is Needs revision.",
             )

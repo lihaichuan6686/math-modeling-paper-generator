@@ -31,7 +31,7 @@ Use `-Force` only when the user wants to overwrite current run placeholders.
 Work through this loop:
 
 ```text
-problem -> analysis -> candidate model routes -> selected model plan -> code -> figures/tables -> LaTeX -> PDF -> review
+problem -> analysis -> candidate model routes -> selected model plan -> code -> figures/tables -> LaTeX -> PDF -> review -> revision if needed
 ```
 
 Do not wait for complete reading before producing the first usable draft. But when the user wants a stronger paper, default to the v1.2 standard rather than the old small-demo standard.
@@ -72,6 +72,7 @@ Load these as needed:
 - Section writing patterns: `knowledge/latex/section-writing-patterns.md`
 - Human-style writing rules: `knowledge/latex/human-style-soft-rules.md`
 - Executable review prompt: `prompts/06_quality_review.md`
+- v1.2 repair prompt: `prompts/09_revision_v1_2.md`
 
 ## v1.2 Acceptance Gate
 
@@ -114,6 +115,7 @@ For E-type problems, split early into:
 Record that choice in the run files and make the evidence chain visible in the paper.
 
 For the review step, use `prompts/06_quality_review.md` rather than writing a free-form summary.
+If the review still flags thin sections, shallow method chains, weak abstract closure, or scaffold-like prose, run `prompts/09_revision_v1_2.md` before handing off the draft.
 
 If the problem is a timetable/service-planning problem, the output must also include machine-readable operation-plan, timetable, capacity-audit, tracking/dwell-audit, and scenario-analysis artifacts, or the review must mark the run `Needs revision`.
 
