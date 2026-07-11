@@ -12,6 +12,7 @@ Read this package in the following order:
 8. `docs/demo-bundles/rail-timetable-demo/claim-map.md`
 9. `docs/demo-bundles/rail-timetable-demo/caption-map.md`
 10. `docs/review-case-examples/rail-timetable-demo/review-case.md`
+11. `docs/sample-run-packages/rail-timetable-demo/run-package-manifest.md`
 
 ## What This Package Gives Claude
 

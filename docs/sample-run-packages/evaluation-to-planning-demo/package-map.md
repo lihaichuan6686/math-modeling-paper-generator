@@ -12,6 +12,7 @@ Read this package in the following order:
 8. `docs/demo-bundles/evaluation-to-planning-demo/claim-map.md`
 9. `docs/demo-bundles/evaluation-to-planning-demo/caption-map.md`
 10. `docs/review-case-examples/evaluation-to-planning-demo/review-case.md`
+11. `docs/sample-run-packages/evaluation-to-planning-demo/run-package-manifest.md`
 
 ## What This Package Gives Claude
 

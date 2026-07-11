@@ -20,6 +20,7 @@ Each package points Claude to:
 Each package contains:
 
 - `package-map.md`
+- `run-package-manifest.md`
 
 ## How To Use
 
