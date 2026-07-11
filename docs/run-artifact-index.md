@@ -19,8 +19,8 @@ This is the artifact map for the run lifecycle.
 | `runs/current/writing-style-plan.md` | v1.2 writing prep | the target human-team voice and paragraph density are fixed before drafting |
 | `runs/current/artifact-ledger.md` | intake through implementation | the paper claims are connected to outputs and sources |
 | `src/` outputs | implementation | the computation exists in runnable or reproducible form |
-| `paper/figures/` | implementation | the paper’s visual evidence has been generated |
-| `paper/tables/` | implementation | the paper’s table evidence has been generated |
+| `paper/figures/` | implementation | the paper's visual evidence has been generated |
+| `paper/tables/` | implementation | the paper's table evidence has been generated |
 | `paper/sections/` | writing | the paper body has been assembled by section |
 | `paper/main.tex` | writing | the paper has a single main LaTeX entry point |
 | `paper/main.pdf` | build | the paper has been compiled and rendered |

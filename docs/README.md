@@ -23,12 +23,13 @@ Purpose: give the project one stable entry point for workflow, run state, review
 17. `family-writing-style-examples.md`
 18. `run-file-examples/README.md`
 19. `paper-section-examples/README.md`
-20. `run-artifact-index.md`
-21. `project-audit-2026-07-06.md`
-22. `architecture.md`
-23. `long-term-roadmap.md`
-24. `research-agenda.md`
-25. `objective-coverage-matrix.md`
+20. `paper-assembly-examples/README.md`
+21. `run-artifact-index.md`
+22. `project-audit-2026-07-06.md`
+23. `architecture.md`
+24. `long-term-roadmap.md`
+25. `research-agenda.md`
+26. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 
@@ -47,6 +48,7 @@ Use the family example notes when the run files still feel too blank and Claude 
 Use the draft contract when Claude needs a stricter v1.2 bar than the general runbook provides.
 Use the run-file examples when Claude needs to see what a non-placeholder `problem-analysis.md`, `model-plan.md`, or `verification-plan.md` should look like in practice.
 Use the paper-section examples when Claude needs to see how route-aware prose, equations, and result interpretation should actually sound inside `paper/sections/`.
+Use the paper-assembly examples when Claude has decent sections already, but still needs help stitching them into a complete paper with stable question mapping, evidence order, and abstract/conclusion control.
 
 The roadmap and research agenda explain why the project exists and what still deserves attention.
 
