@@ -45,7 +45,7 @@ Do not choose a method before the route family is clear.
 - evaluation to planning: structurally covered;
 - forecast to decision: structurally covered;
 - classification and recognition: covered by the 2021 E014 deep read;
-- geometry and engineering mechanics: covered by the 2021 A028 deep read;
+- geometry and engineering mechanics: covered by the 2021 A028 deep read, the 2022 B030 deep read, and the spatial-measurement comparison note;
 - online optimization and process update: covered by the 2021 D017 deep read;
 - production-route E: covered by the 2022 E014 and 2022 E029 deep reads;
 - monitoring-route E: covered by the 2023 E176 deep read.
@@ -58,4 +58,3 @@ The next useful additions are:
 2. a broader classification-route deep read set;
 3. more route-specific evidence patterns for real-world contest attachments;
 4. more LaTeX polish notes for dense Chinese tables, captions, and appendices.
-

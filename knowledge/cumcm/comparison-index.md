@@ -11,6 +11,7 @@ This is an evidence index, not a full reading log.
 | `2021C-comparison-C066-C085-C169-C283.md` | supplier evaluation plus planning | keep the supply-chain backbone stable while allowing different lead-model voices | evaluation -> planning -> feasibility audit |
 | `2021D-comparison-D017-D026-D034.md` | online optimization and industrial adjustment | the route backbone is fixed, but theorem-led / planning-led / implementation-led narration can vary | baseline -> update -> comparison |
 | `e-route-comparison-2022-2023.md` | E-route production and monitoring families | production-route and monitoring-route papers need different action layers after forecasting | forecast -> decision, but with different final artifacts |
+| `spatial-measurement-comparison-B030-B086-B311.md` | spatial measurement, positioning, and coverage design | geometry-heavy papers still need object-first figures, per-question closure, and a visible feasibility layer | scene -> derivation -> design/result -> feasibility |
 
 ## Official Versus Risk Comparisons
 
@@ -67,4 +68,3 @@ When preparing a generation run:
 ## Maintenance Rule
 
 If a new comparison note changes how the route should be written or reviewed, add it here and promote the corresponding rule into the route index, generation loop, or completion gate.
-

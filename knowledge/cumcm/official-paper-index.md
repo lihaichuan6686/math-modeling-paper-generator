@@ -21,6 +21,7 @@ The following route anchors are now the strongest specific examples behind the o
 - `deep-reading-2023E176.md`
 - `2021C-comparison-C066-C085-C169-C283.md`
 - `2021D-comparison-D017-D026-D034.md`
+- `spatial-measurement-comparison-B030-B086-B311.md`
 
 ## Reading Rule
 
@@ -52,4 +53,3 @@ Read this note together with:
 - `official-style-vs-modern-draft-risk.md`
 - `comparison-index.md`
 - `deep-reading-index.md`
-

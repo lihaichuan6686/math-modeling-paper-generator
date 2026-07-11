@@ -327,12 +327,14 @@ coordinate model -> physical equations -> nonlinear/linear/integer optimization 
 Required tables:
 
 - coordinate or parameter table;
+- symbol explanation table when angles, coordinates, or indexed objects are dense;
 - objective/constraint summary table;
 - optimal configuration table;
 - residual/performance table.
 
 Required figures:
 
+- object-first scene or mechanism diagram;
 - coordinate or mechanism diagram;
 - geometry/surface/path plot;
 - residual or error map;
@@ -343,10 +345,62 @@ Validation:
 - physical feasibility;
 - residual distribution;
 - engineering-performance metric, such as coverage, error reduction, energy, loss, or safety margin.
+- when the route is measurement, positioning, or coverage design, add a scene-level feasibility or replay check rather than stopping at derived formulas.
 
 Common failure:
 
 - formulas look mathematical but are not grounded in a coordinate frame or physical constraint.
+- later subquestions restart from scratch instead of extending the same symbol world and scene logic.
+
+### Type E1: Spatial Measurement, Positioning, And Coverage Design
+
+Signals:
+
+- pure bearing localization, drone formation positioning, survey line design, seabed coverage, directional measurement, angle-only reconstruction, or measurement-strip overlap;
+- the problem is geometric, but the final answer must still become a positioning, adjustment, or design result.
+
+Route anchors:
+
+- `deep-reading-2022B030.md`
+- `spatial-measurement-comparison-B030-B086-B311.md`
+
+Paper rhythm:
+
+```text
+scene figure -> question restatement -> assumptions and symbols -> per-question geometric derivation -> positioning or coverage result -> feasibility/replay/comparison
+```
+
+Model chain:
+
+```text
+reference frame -> local geometry relations -> case split or extension by subquestion -> computed design/location result -> scene-level validation
+```
+
+Required tables:
+
+- symbol explanation table;
+- known-parameter table;
+- per-question result summary table;
+- comparison or feasibility table when several cases or strategies exist.
+
+Required figures:
+
+- global scene schematic;
+- case or local-geometry figure when equations change by configuration;
+- final arrangement / trajectory / coverage figure;
+- validation or replay figure when simulation or overlap logic is central.
+
+Validation:
+
+- geometric consistency check;
+- coverage or overlap feasibility;
+- replay/simulation confirmation when movement or adjustment is involved;
+- comparison between alternative cases, definitions, or strategies when the route naturally offers them.
+
+Common failure:
+
+- deriving formulas without ever turning them into a visible positioning, adjustment, or design artifact;
+- giving equations and one final number but no scene-level interpretation.
 
 ## Type F: Production Scheduling Or Dynamic Adjustment
 

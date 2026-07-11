@@ -78,8 +78,10 @@ Common methods:
 Expected outputs:
 
 - coordinate-system diagram
+- object or scene schematic on the first strong analysis page
 - core equation set
 - parameter table
+- symbol explanation table when variables are dense
 - before-after comparison figure
 - error or displacement heatmap
 
@@ -98,6 +100,11 @@ Risks:
 - optimization without physical constraints
 - result figures not showing the actual spatial relation
 - stopping at geometric fitting error while omitting the final engineering performance measure
+- multiple subquestions forced into one opaque global model instead of using per-question local closure when the scene extends step by step
+
+Additional route note:
+
+- `knowledge/cumcm/spatial-measurement-comparison-B030-B086-B311.md` shows the CUMCM-style spatial measurement variant of this route: scene figure -> shared symbol world -> per-question derivation -> design/result -> feasibility or replay check.
 
 ## Route: Statistics plus Chemical or Material Optimization
 
