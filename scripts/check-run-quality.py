@@ -27,6 +27,13 @@ PLACEHOLDER_MARKERS = [
 ]
 
 
+V12_PLAN_FILES = [
+    "method-depth-plan.md",
+    "section-budget.md",
+    "writing-style-plan.md",
+]
+
+
 def read_text(path: Path) -> str:
     if not path.exists():
         return ""
@@ -76,6 +83,7 @@ def main() -> int:
     ledger = read_text(ledger_path)
     review = read_text(review_path)
     is_type_i = "Type I" in ledger or "Rail Transit Timetable" in ledger or "rail timetable" in ledger.lower()
+    has_any_v12_file = any((run_dir / name).exists() for name in V12_PLAN_FILES)
 
     if review:
         add(
@@ -109,6 +117,27 @@ def main() -> int:
                 "Ledger final pass is not contradicted by review Overall Status.",
                 "Ledger says final status is Pass while review Overall Status is Needs revision.",
             )
+
+    if has_any_v12_file:
+        ok.append("Detected v1.2-style run planning files.")
+        for name in V12_PLAN_FILES:
+            path = run_dir / name
+            add(
+                ok,
+                issues,
+                path.exists(),
+                f"v1.2 planning file exists: {name}",
+                f"Missing v1.2 planning file: {name}",
+            )
+            if path.exists():
+                text = read_text(path)
+                add(
+                    ok,
+                    issues,
+                    "Unknown" not in text,
+                    f"{name} no longer looks untouched.",
+                    f"{name} still contains untouched placeholder values.",
+                )
 
     if args.paper:
         paper_path = ROOT / "paper" / args.paper

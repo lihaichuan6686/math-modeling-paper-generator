@@ -1,6 +1,6 @@
 # Run Artifact Index
 
-Purpose: show the standard files and folders that a v1.0 generation run should produce.
+Purpose: show the standard files and folders that a generation run should produce, including the stronger v1.2 planning artifacts.
 
 This is the artifact map for the run lifecycle.
 
@@ -12,8 +12,11 @@ This is the artifact map for the run lifecycle.
 | `runs/current/data-inventory.md` | intake | the available files, fields, and units have been recorded |
 | `runs/current/model-candidates.md` | ideation | multiple route-level options have been proposed |
 | `runs/current/model-plan.md` | model plan | one route has been chosen and formalized |
+| `runs/current/method-depth-plan.md` | v1.2 model plan | major subquestions have support, result, and validation depth targets |
 | `runs/current/verification-plan.md` | model plan | the model will be checked with a concrete validation plan |
 | `runs/current/figure-plan.md` | model plan | the expected figure set has been planned before coding |
+| `runs/current/section-budget.md` | v1.2 writing prep | the paper length is allocated by section role rather than filler |
+| `runs/current/writing-style-plan.md` | v1.2 writing prep | the target human-team voice and paragraph density are fixed before drafting |
 | `runs/current/artifact-ledger.md` | intake through implementation | the paper claims are connected to outputs and sources |
 | `src/` outputs | implementation | the computation exists in runnable or reproducible form |
 | `paper/figures/` | implementation | the paper’s visual evidence has been generated |
@@ -41,8 +44,11 @@ problem-analysis
 -> data-inventory
 -> model-candidates
 -> model-plan
+-> method-depth-plan
 -> verification-plan
 -> figure-plan
+-> section-budget
+-> writing-style-plan
 -> artifact-ledger
 -> src outputs
 -> paper/figures and paper/tables
@@ -65,4 +71,3 @@ Read this note together with:
 - `artifact-ledger-template.md`
 - `prompts/flow-map.md`
 - `knowledge/quality/evidence-family-index.md`
-
