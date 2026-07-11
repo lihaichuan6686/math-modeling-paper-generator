@@ -30,6 +30,7 @@ Purpose: show the minimum complete reference package Claude should hold in mind 
 ### Assembly Layer
 
 - `docs/paper-assembly-examples/rail-timetable-demo/paper-assembly.md`
+- `docs/demo-bundles/rail-timetable-demo/claim-map.md`
 
 ## What Claude Should Learn From This Bundle
 
@@ -38,6 +39,7 @@ Purpose: show the minimum complete reference package Claude should hold in mind 
 3. The selected operation plan and timetable are separate but linked artifacts.
 4. Capacity, tracking, dwell, and scenario evidence should stay visibly distinct.
 5. The abstract and conclusion can only report plan/timetable claims backed by generated artifacts.
+6. Every abstract and conclusion sentence should be checkable against the claim map.
 
 ## Minimum Artifact Set For A Real Run
 

@@ -19,6 +19,7 @@ This is the bridge for Claude when it already understands the rules, but still n
 Each bundle contains:
 
 - `bundle-map.md`
+- `claim-map.md`
 
 ## Best Use
 

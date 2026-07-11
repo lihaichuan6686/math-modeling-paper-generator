@@ -65,6 +65,7 @@ problem signal
 - `../docs/paper-section-examples/README.md`: realistic section-level prose examples for fuller v1.2 section drafting, including problem, data, solution, validation, and close-out writing.
 - `../docs/paper-assembly-examples/README.md`: realistic full-paper assembly maps that connect run files, section order, evidence distribution, and abstract/conclusion closure.
 - `../docs/demo-bundles/README.md`: nearest-to-end-to-end route reference bundles that combine planning, writing, and assembly examples.
+- claim maps inside `../docs/demo-bundles/`: route-family controls for keeping abstract and conclusion claims within artifact-backed evidence.
 - `roadmap.md`: what remains to be strengthened next.
 - `full-stack-execution-map.md`: the shortest path from problem to review-ready draft.
 

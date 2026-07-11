@@ -30,6 +30,7 @@ Purpose: show the minimum complete reference package Claude should hold in mind 
 ### Assembly Layer
 
 - `docs/paper-assembly-examples/evaluation-to-planning-demo/paper-assembly.md`
+- `docs/demo-bundles/evaluation-to-planning-demo/claim-map.md`
 
 ## What Claude Should Learn From This Bundle
 
@@ -38,6 +39,7 @@ Purpose: show the minimum complete reference package Claude should hold in mind 
 3. The results section must show both screening evidence and decision evidence.
 4. Validation must include both feasibility and disturbed-scenario logic.
 5. The abstract and conclusion are only allowed to say what the artifact ledger can support.
+6. Every abstract and conclusion sentence should be checkable against the claim map.
 
 ## Minimum Artifact Set For A Real Run
 

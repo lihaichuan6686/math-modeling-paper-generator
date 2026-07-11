@@ -51,6 +51,7 @@ Use the run-file examples when Claude needs to see what a non-placeholder `probl
 Use the paper-section examples when Claude needs to see how route-aware prose, equations, and result interpretation should actually sound inside `paper/sections/`.
 Use the paper-assembly examples when Claude has decent sections already, but still needs help stitching them into a complete paper with stable question mapping, evidence order, and abstract/conclusion control.
 Use the demo bundles when Claude needs one nearest-thing-to-end-to-end reference package for a route family before starting a real run.
+Use the claim maps inside the demo bundles when abstract or conclusion wording starts to outrun the actual evidence.
 
 The roadmap and research agenda explain why the project exists and what still deserves attention.
 
