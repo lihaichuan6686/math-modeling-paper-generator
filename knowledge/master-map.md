@@ -66,6 +66,7 @@ problem signal
 - `../docs/paper-assembly-examples/README.md`: realistic full-paper assembly maps that connect run files, section order, evidence distribution, and abstract/conclusion closure.
 - `../docs/demo-bundles/README.md`: nearest-to-end-to-end route reference bundles that combine planning, writing, and assembly examples.
 - claim maps inside `../docs/demo-bundles/`: route-family controls for keeping abstract and conclusion claims within artifact-backed evidence.
+- caption maps inside `../docs/demo-bundles/`: route-family controls for keeping figure/table captions and nearby prose specific and evidence-aware.
 - `roadmap.md`: what remains to be strengthened next.
 - `full-stack-execution-map.md`: the shortest path from problem to review-ready draft.
 

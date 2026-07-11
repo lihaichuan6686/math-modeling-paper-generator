@@ -31,6 +31,7 @@ Purpose: show the minimum complete reference package Claude should hold in mind 
 
 - `docs/paper-assembly-examples/evaluation-to-planning-demo/paper-assembly.md`
 - `docs/demo-bundles/evaluation-to-planning-demo/claim-map.md`
+- `docs/demo-bundles/evaluation-to-planning-demo/caption-map.md`
 
 ## What Claude Should Learn From This Bundle
 
@@ -40,6 +41,7 @@ Purpose: show the minimum complete reference package Claude should hold in mind 
 4. Validation must include both feasibility and disturbed-scenario logic.
 5. The abstract and conclusion are only allowed to say what the artifact ledger can support.
 6. Every abstract and conclusion sentence should be checkable against the claim map.
+7. Every important figure/table caption and interpretation paragraph should be checkable against the caption map.
 
 ## Minimum Artifact Set For A Real Run
 

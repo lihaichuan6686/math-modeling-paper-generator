@@ -20,6 +20,7 @@ Each bundle contains:
 
 - `bundle-map.md`
 - `claim-map.md`
+- `caption-map.md`
 
 ## Best Use
 

@@ -52,6 +52,7 @@ Use the paper-section examples when Claude needs to see how route-aware prose, e
 Use the paper-assembly examples when Claude has decent sections already, but still needs help stitching them into a complete paper with stable question mapping, evidence order, and abstract/conclusion control.
 Use the demo bundles when Claude needs one nearest-thing-to-end-to-end reference package for a route family before starting a real run.
 Use the claim maps inside the demo bundles when abstract or conclusion wording starts to outrun the actual evidence.
+Use the caption maps inside the demo bundles when figure/table titles or nearby interpretation start sounding generic.
 
 The roadmap and research agenda explain why the project exists and what still deserves attention.
 

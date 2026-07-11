@@ -133,6 +133,7 @@ Figure 3: Sensitivity of total transport loss to carrier capacity. The curve is 
 Contest-style upgrade note:
 
 - local awarded samples often use shorter captions, but the generator should usually prefer more explicit captions when the paper is intended for `v1.2` review and later research use.
+- for route-specific caption and nearby-prose examples, prefer the `caption-map.md` notes inside `docs/demo-bundles/`.
 
 ## Review Checklist
 
