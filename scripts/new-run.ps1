@@ -195,6 +195,31 @@ Solver/algorithm:
 Expected outputs:
 "@
 
+$methodDepthPlan = @"
+# Method Depth Plan
+
+Run: $Name
+
+Read `knowledge/algorithms/method-depth-ladder.md` and `prompts/02_model_plan.md` before completing this file.
+
+## Depth Target
+
+- target version: v1.2
+- minimum target depth for major subquestions: Level 3
+
+## Subquestion Depth Map
+
+| Subquestion | Support layer | Main model | Result artifact | Validation/comparison layer | Current depth |
+|---|---|---|---|---|---|
+| Q1 | Unknown | Unknown | Unknown | Unknown | Unknown |
+| Q2 | Unknown | Unknown | Unknown | Unknown | Unknown |
+| Q3 | Unknown | Unknown | Unknown | Unknown | Unknown |
+
+## Thinness Risks
+
+- Unknown.
+"@
+
 $verificationPlan = @"
 # Verification Plan
 
@@ -266,11 +291,14 @@ New-TextFileIfNeeded -Path (Join-Path $runDir "problem-analysis.md") -Content $p
 New-TextFileIfNeeded -Path (Join-Path $runDir "data-inventory.md") -Content $dataInventory
 New-TextFileIfNeeded -Path (Join-Path $runDir "model-candidates.md") -Content $modelCandidates
 New-TextFileIfNeeded -Path (Join-Path $runDir "model-plan.md") -Content $modelPlan
+New-TextFileIfNeeded -Path (Join-Path $runDir "method-depth-plan.md") -Content $methodDepthPlan
 New-TextFileIfNeeded -Path (Join-Path $runDir "verification-plan.md") -Content $verificationPlan
 
 Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\artifact-ledger-template.md") -Destination (Join-Path $runDir "artifact-ledger.md")
 Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\figure-plan-template.md") -Destination (Join-Path $runDir "figure-plan.md")
+Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\section-budget-template.md") -Destination (Join-Path $runDir "section-budget.md")
+Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\writing-style-plan-template.md") -Destination (Join-Path $runDir "writing-style-plan.md")
 New-TextFileIfNeeded -Path (Join-Path $reviewsDir "review-$Name.md") -Content $reviewCurrent
 
 Write-Host "Created run scaffold: $runDir"
-Write-Host "Next step: follow prompts\00_intake.md"
+Write-Host "Next step: follow prompts\00_intake.md and fill the v1.2 planning files before drafting."
