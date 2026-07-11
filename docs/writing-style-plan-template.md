@@ -7,6 +7,7 @@ Before filling it in, read:
 - `knowledge/latex/paper-style-plan.md`
 - `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/national-abstract-and-closeout-playbook.md`
+- `docs/family-writing-style-examples.md`
 
 ## Style Target
 

@@ -18,12 +18,14 @@ Purpose: give the project one stable entry point for workflow, run state, review
 12. `figure-plan-template.md`
 13. `section-budget-template.md`
 14. `writing-style-plan-template.md`
-15. `run-artifact-index.md`
-16. `project-audit-2026-07-06.md`
-17. `architecture.md`
-18. `long-term-roadmap.md`
-19. `research-agenda.md`
-20. `objective-coverage-matrix.md`
+15. `family-section-budget-examples.md`
+16. `family-writing-style-examples.md`
+17. `run-artifact-index.md`
+18. `project-audit-2026-07-06.md`
+19. `architecture.md`
+20. `long-term-roadmap.md`
+21. `research-agenda.md`
+22. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 
@@ -37,6 +39,8 @@ This layer answers four questions:
 ## Navigation Rule
 
 Use the runbook for execution, the workflow for staged output, the continuation state for handoff, the current-state matrix for evidence status, and the review checklist plus visual/ledger templates for quality control.
+
+Use the family example notes when the run files still feel too blank and Claude needs a concrete target shape for `section-budget.md` or `writing-style-plan.md`.
 
 The roadmap and research agenda explain why the project exists and what still deserves attention.
 

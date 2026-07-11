@@ -58,6 +58,8 @@ problem signal
 - `quality/completion-gate.md`: final readiness gate.
 - `quality/finding-gate-matrix.md`: finding-to-gate repair bridge.
 - `learning-status.md`: what is already absorbed and what still needs deeper reading.
+- `../docs/family-section-budget-examples.md`: ready-to-adapt section-budget shapes for high-frequency families.
+- `../docs/family-writing-style-examples.md`: ready-to-adapt writing-style shapes for high-frequency families.
 - `roadmap.md`: what remains to be strengthened next.
 - `full-stack-execution-map.md`: the shortest path from problem to review-ready draft.
 

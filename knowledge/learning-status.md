@@ -37,6 +37,7 @@ This is a maintenance panel, not a reading log.
 - Human-style soft rules for making the paper read more like a strong team draft.
 - National family section-budget playbook for turning high-frequency CUMCM families into family-specific page rhythm and abstract closure rules.
 - National abstract-and-closeout playbook for turning high-frequency CUMCM families into reusable abstract skeletons and subquestion ending patterns.
+- Family section-budget examples and family writing-style examples for turning high-frequency CUMCM families into ready-to-adapt run-file shapes.
 - Local figure/table conventions for separating contest-style evidence habits from one-off local formatting habits.
 - Final polish and appendix rules for separating strong paper closure from appendix-only page inflation.
 - A dedicated v1.2 final-pass guide for turning accumulated writing and review rules into one last handoff sequence.

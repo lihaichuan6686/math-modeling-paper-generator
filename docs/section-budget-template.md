@@ -7,6 +7,7 @@ Before filling it in, read:
 - `knowledge/cumcm/20-30-page-paper-blueprint.md`
 - `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/national-family-section-budget-playbook.md`
+- `docs/family-section-budget-examples.md`
 
 ## Target
 
