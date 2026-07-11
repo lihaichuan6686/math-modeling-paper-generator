@@ -14,13 +14,14 @@ Read these first:
 6. `knowledge/latex/human-style-soft-rules.md`
 7. `knowledge/latex/local-awarded-paper-structure-rules.md`
 8. `knowledge/latex/local-figure-table-conventions.md`
-9. `knowledge/algorithms/method-depth-ladder.md`
-10. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
-11. `runs/current/artifact-ledger.md` or the active run ledger
-12. `paper/main.tex`
-13. all included files under `paper/sections/`
-14. available generated tables and figures under `paper/tables/` and `paper/figures/`
-15. latest compile result or rendered PDF pages when available
+9. `knowledge/latex/final-polish-and-appendix-rules.md`
+10. `knowledge/algorithms/method-depth-ladder.md`
+11. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
+12. `runs/current/artifact-ledger.md` or the active run ledger
+13. `paper/main.tex`
+14. all included files under `paper/sections/`
+15. available generated tables and figures under `paper/tables/` and `paper/figures/`
+16. latest compile result or rendered PDF pages when available
 
 If the run is not `current`, replace `runs/current` with the active run directory.
 
@@ -201,6 +202,8 @@ Check:
 - no promotional watermark/header/footer residue in delivered research copies;
 - tables and figures fit pages;
 - references are real and human-readable.
+- appendix boundary is explicit when long code excerpts appear;
+- support-file inventory appears before long appendix code when the PDF includes code excerpts.
 
 If PDF was not compiled or rendered, mark layout evidence as `Unknown`.
 

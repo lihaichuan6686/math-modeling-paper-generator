@@ -35,6 +35,7 @@ This is a maintenance panel, not a reading log.
 - Local template variant index and local awarded-paper structure rules for choosing the right local template shell and page rhythm.
 - Human-style soft rules for making the paper read more like a strong team draft.
 - Local figure/table conventions for separating contest-style evidence habits from one-off local formatting habits.
+- Final polish and appendix rules for separating strong paper closure from appendix-only page inflation.
 - Method depth ladder for keeping subquestions above shallow single-method chains.
 - CUMCM table family index for table role planning and pairings.
 - CUMCM equation family index for equation role planning and pairings.

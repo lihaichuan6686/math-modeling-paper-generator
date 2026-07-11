@@ -126,6 +126,7 @@ Fail conditions:
 | Main body is paragraph-driven rather than bullet-driven. | Unknown | |
 | Each major subquestion closes a full loop of model, result, and validation. | Unknown | |
 | Important figures and tables are interpreted immediately after citation. | Unknown | |
+| The paper closes evaluation and references before appendix code takes over. | Unknown | |
 
 Fail conditions:
 
@@ -149,6 +150,7 @@ Fail conditions:
 | References render correctly. | Unknown | |
 | Research copy removes team identity and stale template metadata when required. | Unknown | |
 | Research copy removes watermark/header/footer residue and placeholder title text. | Unknown | |
+| Appendix boundary is clear and support-file inventory is present when long code excerpts appear. | Unknown | |
 
 Fail conditions:
 
