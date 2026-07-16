@@ -47,6 +47,7 @@ For every generation or review run, read these files first:
 - `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/figures-tables-equations-style.md`
 - `knowledge/latex/snippets.md`
+- `docs/playwright-mcp-public-research.md`
 
 ## v1.0 Demo Entry Points
 
@@ -70,27 +71,31 @@ Then compile with:
 powershell -ExecutionPolicy Bypass -File .\scripts\compile.ps1
 ```
 
+## Playwright MCP Public Research
+
+Use Playwright MCP before final paper writing when public online information is needed.
+The project no longer depends on platform-specific Python crawlers, cookies, hidden APIs, ZSE/internal endpoints, or anti-crawling workarounds.
+
+- **Entry**: `docs/playwright-mcp-public-research.md`
+- **Prompt**: `prompts/13_platform_research.md`
+- **Output**: `runs/current/online-consensus-notes.md`
+
+Core principle: browse public pages like a human reviewer, record access limits, do not copy answers, and do not bypass login walls.
+
 ## Operating Boundaries
-
-- Serve only learning, post-contest review, course research, authorized research, and writing-method experiments.
-- Refuse requests for active contest cheating, hidden AI participation, fabricated data, fabricated citations, or disguised AI authorship.
-- Do not invent data sources, citations, experimental results, theorem origins, or certainty.
-- Keep code, figures, tables, and conclusions reproducible.
-- Clearly mark synthetic or demonstration data as synthetic.
-
-## Standard Workflow
 
 1. Read `problems/problem.md` or the specified problem file.
 2. Create or update a run scaffold under `runs/`.
 3. Produce `problem-analysis.md`, `model-candidates.md`, and `model-plan.md`.
 4. Select a model chain from the CUMCM knowledge base and algorithm cards.
-5. Implement reproducible code under `src/`.
-6. Generate tables under `paper/tables/` and figures under `paper/figures/`.
-7. Write or update `paper/sections/`.
-8. Compile `paper/main.tex`.
-9. Render and visually inspect important PDF pages.
-10. Record traceability in the artifact ledger.
-11. Record issues and final status in `reviews/`.
+5. Public research: use Playwright MCP to browse public pages for community signals, common interpretations, traps, and rough result ranges. Write the first public-research draft to `runs/current/online-consensus-notes.md`. Use `prompts/13_platform_research.md`, then use `prompts/11_online_consensus_check.md` to review and complete the same file.
+6. Implement reproducible code under `src/`.
+7. Generate tables under `paper/tables/` and figures under `paper/figures/`.
+8. Write or update `paper/sections/`.
+9. Compile `paper/main.tex`.
+10. Render and visually inspect important PDF pages.
+11. Record traceability in the artifact ledger.
+12. Record issues and final status in `reviews/`.
 
 ## Paper Expectations
 

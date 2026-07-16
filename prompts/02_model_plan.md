@@ -3,7 +3,9 @@
 Read:
 
 - `runs/current/model-candidates.md`
+- `runs/current/route-decision.md`
 - `knowledge/cumcm/paper-generation-playbook.md`
+- `knowledge/algorithms/route-selection-protocol.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
 - `knowledge/algorithms/model-chain-patterns.md`
@@ -11,9 +13,15 @@ Read:
 - relevant files under `knowledge/algorithms/cards/`
 - if the problem involves trains, timetables, headways, OD flow, or large/small routes, also read `knowledge/algorithms/cards/rail-timetable-operation.md`
 - `knowledge/latex/cumcm-section-contract.md`
+- `knowledge/latex/human-team-paper-composition.md`
 - `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/figures-tables-equations-style.md`
+- `knowledge/community/section-duty-soft-rules.md`
+- `knowledge/community/visual-evidence-chain-rules.md`
 - `docs/visual-generation-pipeline.md`
+- `docs/problem-profile-template.md`
+- `docs/route-decision-template.md`
+- `docs/methodology-checklist-template.md`
 - `docs/figure-plan-template.md`
 - `docs/section-budget-template.md`
 - `docs/writing-style-plan-template.md`
@@ -27,6 +35,7 @@ Create:
 - `runs/current/figure-plan.md` from `docs/figure-plan-template.md`
 - `runs/current/section-budget.md` from `docs/section-budget-template.md`
 - `runs/current/writing-style-plan.md` from `docs/writing-style-plan-template.md`
+- `runs/current/methodology-checklist.md` from `docs/methodology-checklist-template.md`
 - update `runs/current/artifact-ledger.md`
 
 ## Model Plan Requirements
@@ -122,11 +131,25 @@ Plan figures before implementation:
 Each planned figure must include:
 
 - type: route, explanatory, evidence, validation
+- subquestion or whole-paper route role
 - paper section
+- whether it is body-critical
 - source/tool
 - input data or prompt
 - output path
 - whether it is reproducible evidence or schematic explanation
+- planned nearby interpretation
+
+Plan tables together with figures. Each planned table must include:
+
+- type: parameter, result, comparison, validation, final answer, or support;
+- subquestion or whole-paper route role;
+- whether it is body-critical;
+- source/tool or manual construction basis;
+- planned paper section;
+- planned nearby interpretation.
+
+Final-answer tables are body-critical unless the answer is purely qualitative.
 
 ## Page-Structure Plan
 
@@ -147,6 +170,8 @@ Use `knowledge/latex/cumcm-section-contract.md` to allocate expected pages:
 - appendix
 
 Do not use filler text to reach length. Page count must come from structure, equations, figures, tables, validation, and appendix material.
+
+For v1.4, `runs/current/section-budget.md` must also record each standard section's duty and the evidence that will prove the duty has been performed.
 
 For E-type problems, use the E-route expansion guidance in `knowledge/cumcm/20-30-page-paper-blueprint.md` instead of generic time-series page planning.
 
@@ -185,6 +210,15 @@ Update the artifact ledger with planned:
 - key results
 - validation evidence
 
+For v1.4, artifact-ledger entries must mark:
+
+- subquestion link;
+- evidence status;
+- body-critical status;
+- source path or prompt;
+- caption or title draft;
+- planned nearby interpretation.
+
 ## Writing-Style Plan
 
 `runs/current/writing-style-plan.md` should lock these choices before drafting:
@@ -194,3 +228,19 @@ Update the artifact ledger with planned:
 - abstract density target;
 - which sections need team-like explanatory prose rather than formula stacking;
 - which figures and tables need immediate interpretation in text.
+
+## Methodology Checklist
+
+`runs/current/methodology-checklist.md` should record:
+
+- stable question map;
+- modeled object;
+- decision object;
+- object-first figure;
+- route chain by subquestion;
+- minimum validation artifact by subquestion;
+- minimum comparison artifact by subquestion;
+- abstract claim boundary;
+- conclusion claim boundary;
+- sections at highest risk of thinness;
+- sections at highest risk of machine-like rhythm.

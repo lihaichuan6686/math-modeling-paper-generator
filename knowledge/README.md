@@ -8,54 +8,83 @@ For any CUMCM paper-generation or review run, read in this order:
 
 1. `cumcm/paper-generation-playbook.md`
 2. `cumcm/README.md`
-3. `cumcm/20-30-page-paper-blueprint.md`
-4. `cumcm/problem-type-paper-archetypes.md`
-5. `algorithms/cumcm-routing-rules.md`
-6. `algorithms/README.md`
-7. `algorithms/cards/README.md`
-8. `algorithms/model-chain-patterns.md`
-9. relevant detailed algorithm cards under `algorithms/cards/`
-10. `inventory/README.md`
-11. `inventory/source-map.md`
-12. `latex/cumcm-section-contract.md`
-13. `latex/README.md`
-14. `latex/section-writing-patterns.md`
-15. `latex/human-style-soft-rules.md`
-16. `latex/figures-tables-equations-style.md`
-17. `latex/snippets.md`
-18. `algorithms/method-depth-ladder.md`
-19. `quality/README.md`
-20. `quality/quality-rubric-v2.md`
-21. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
-22. `learning-status.md`
-23. `quality/completion-gate.md`
-24. `master-map.md`
-25. `cumcm/comparison-index.md`
-26. `algorithms/method-family-index.md`
-27. `algorithms/route-method-matrix.md`
-28. `latex/visual-family-index.md`
-29. `latex/section-family-index.md`
-30. `latex/local-template-variant-index.md`
-31. `latex/table-family-index.md`
-32. `latex/equation-family-index.md`
-33. `quality/evidence-family-index.md`
-34. `quality/review-finding-index.md`
-35. `quality/finding-gate-matrix.md`
-36. `cumcm/official-paper-index.md`
-37. `cumcm/deep-reading-index.md`
-38. `cumcm/route-example-matrix.md`
-39. `cumcm/archetype-section-matrix.md`
-40. `full-stack-execution-map.md`
-41. `roadmap.md`
-42. `../docs/run-artifact-index.md`
-43. `../prompts/07_launch.md`
-44. `../prompts/08_launch_v1_2.md`
-45. `../prompts/flow-map.md`
-42. `../docs/objective-coverage-matrix.md`
+3. `cumcm/problem-understanding-framework.md`
+4. `cumcm/national-problem-family-methodology-matrix.md`
+5. `community/math-modeling-soft-rules.md`
+6. `community/paper-polish-and-feel.md`
+7. `community/contest-workflow-and-team-execution.md`
+8. `community/literature-search-and-citation-rules.md`
+9. `community/section-duty-soft-rules.md`
+10. `community/visual-evidence-chain-rules.md`
+11. `community/award-paper-section-rhythm.md`
+12. `cumcm/recent-award-paper-visual-rhythm.md`
+13. `cumcm/v1-4-section-proportion-and-reference-rules.md`
+14. `community/public-community-source-playbook.md`
+15. `community/common-mistakes-and-taboo-phrases.md`
+16. `community/source-quality-rubric.md`
+17. `community/local-experience-absorption-log.md`
+18. `cumcm/20-30-page-paper-blueprint.md`
+19. `cumcm/problem-type-paper-archetypes.md`
+20. `algorithms/route-selection-protocol.md`
+21. `algorithms/cumcm-routing-rules.md`
+22. `algorithms/README.md`
+23. `algorithms/cards/README.md`
+24. `algorithms/model-chain-patterns.md`
+25. relevant detailed algorithm cards under `algorithms/cards/`
+26. `inventory/README.md`
+27. `inventory/source-map.md`
+28. `latex/cumcm-section-contract.md`
+29. `latex/README.md`
+30. `latex/human-team-paper-composition.md`
+31. `latex/v1-4-paper-composition-rules.md`
+32. `latex/v1-4-abstract-closeout-rules.md`
+33. `latex/national-problem-family-visual-matrix.md`
+34. `latex/national-problem-family-claim-boundary-matrix.md`
+35. `latex/national-problem-family-paragraph-density-playbook.md`
+36. `latex/section-writing-patterns.md`
+37. `latex/human-style-soft-rules.md`
+38. `latex/figures-tables-equations-style.md`
+39. `latex/snippets.md`
+40. `algorithms/method-depth-ladder.md`
+41. `quality/README.md`
+42. `quality/v1-4-human-feel-review-gate.md`
+43. `quality/v1-3-self-review-gate.md`
+44. `quality/national-problem-family-evidence-matrix.md`
+45. `quality/quality-rubric-v2.md`
+46. `quality/mathorcup-2023B-v1-test-review.md` when working on timetable/service-planning cases
+47. `learning-status.md`
+48. `quality/completion-gate.md`
+49. `master-map.md`
+50. `cumcm/comparison-index.md`
+51. `algorithms/method-family-index.md`
+52. `algorithms/route-method-matrix.md`
+53. `latex/visual-family-index.md`
+54. `latex/section-family-index.md`
+55. `latex/local-template-variant-index.md`
+56. `latex/table-family-index.md`
+57. `latex/equation-family-index.md`
+58. `quality/evidence-family-index.md`
+59. `quality/review-finding-index.md`
+60. `quality/finding-gate-matrix.md`
+61. `cumcm/official-paper-index.md`
+62. `cumcm/deep-reading-index.md`
+63. `cumcm/route-example-matrix.md`
+64. `cumcm/archetype-section-matrix.md`
+65. `full-stack-execution-map.md`
+66. `roadmap.md`
+67. `../docs/run-artifact-index.md`
+68. `../prompts/07_launch.md`
+69. `../prompts/08_launch_v1_2.md`
+70. `../prompts/10_launch_v1_3.md`
+71. `../prompts/11_online_consensus_check.md`
+72. `../prompts/flow-map.md`
+73. `../docs/objective-coverage-matrix.md`
+74. `../docs/playwright-mcp-public-research.md`
 
 ## Directory Map
 
 - `inventory/`: source file inventories, extension statistics, and priority queues for later reading.
+- `community/`: contest-circle soft rules, team execution rules, common mistakes, online-source quality rules, and paper-feel guidance. Use `../docs/playwright-mcp-public-research.md` for public browsing guidance.
 - `cumcm/`: CUMCM doorway, problem types, official paper observations, deep-reading notes, paper-generation workflows, and structure blueprints.
 - `algorithms/`: routing rules, algorithm doorway, model-chain patterns, algorithm cards, and problem-type method mappings.
 - `latex/`: paper structure, LaTeX doorway, section contracts, figure/table/equation style, and reusable LaTeX snippets.
@@ -69,6 +98,20 @@ For any CUMCM paper-generation or review run, read in this order:
 Structure and writing:
 
 - `cumcm/paper-generation-playbook.md`
+- `community/math-modeling-soft-rules.md`
+- `community/paper-polish-and-feel.md`
+- `community/contest-workflow-and-team-execution.md`
+- `community/literature-search-and-citation-rules.md`
+- `community/section-duty-soft-rules.md`
+- `community/visual-evidence-chain-rules.md`
+- `community/award-paper-section-rhythm.md`
+- `cumcm/recent-award-paper-visual-rhythm.md`
+- `cumcm/v1-4-section-proportion-and-reference-rules.md`
+- `community/public-community-source-playbook.md`
+- `community/common-mistakes-and-taboo-phrases.md`
+- `community/local-experience-absorption-log.md`
+- `cumcm/problem-understanding-framework.md`
+- `cumcm/national-problem-family-methodology-matrix.md`
 - `cumcm/README.md`
 - `cumcm/route-index.md`
 - `cumcm/generation-loop.md`
@@ -85,6 +128,12 @@ Structure and writing:
 - `cumcm/problem-type-paper-archetypes.md`
 - `latex/cumcm-section-contract.md`
 - `latex/README.md`
+- `latex/human-team-paper-composition.md`
+- `latex/v1-4-paper-composition-rules.md`
+- `latex/v1-4-abstract-closeout-rules.md`
+- `latex/national-problem-family-visual-matrix.md`
+- `latex/national-problem-family-claim-boundary-matrix.md`
+- `latex/national-problem-family-paragraph-density-playbook.md`
 - `latex/section-map.md`
 - `latex/visual-family-index.md`
 - `latex/section-family-index.md`
@@ -96,6 +145,7 @@ Structure and writing:
 Algorithms and model routes:
 
 - `inventory/README.md`
+- `algorithms/route-selection-protocol.md`
 - `algorithms/cumcm-routing-rules.md`
 - `algorithms/README.md`
 - `algorithms/method-family-index.md`
@@ -105,6 +155,7 @@ Algorithms and model routes:
 
 Visuals and artifacts:
 
+- `community/visual-evidence-chain-rules.md`
 - `../docs/figure-plan-template.md`
 - `../docs/artifact-ledger-template.md`
 - `../docs/run-artifact-index.md`
@@ -114,6 +165,11 @@ Visuals and artifacts:
 Quality review:
 
 - `quality/README.md`
+- `quality/v1-4-human-feel-review-gate.md`
+- `quality/v1-3-self-review-gate.md`
+- `quality/national-problem-family-evidence-matrix.md`
+- `latex/national-problem-family-claim-boundary-matrix.md`
+- `latex/national-problem-family-paragraph-density-playbook.md`
 - `quality/quality-rubric-v2.md`
 - `quality/completion-gate.md`
 - `quality/evidence-family-index.md`
@@ -129,6 +185,10 @@ Maintenance status:
 - `master-map.md`
 - `roadmap.md`
 - `cumcm/comparison-index.md`
+- `cumcm/national-problem-family-methodology-matrix.md`
+- `latex/national-problem-family-visual-matrix.md`
+- `latex/national-problem-family-claim-boundary-matrix.md`
+- `latex/national-problem-family-paragraph-density-playbook.md`
 - `cumcm/official-paper-index.md`
 - `cumcm/deep-reading-index.md`
 - `cumcm/route-example-matrix.md`
@@ -137,6 +197,8 @@ Maintenance status:
 - `quality/finding-gate-matrix.md`
 - `../docs/run-artifact-index.md`
 - `../prompts/07_launch.md`
+- `../prompts/10_launch_v1_3.md`
+- `../prompts/11_online_consensus_check.md`
 - `latex/visual-family-index.md`
 - `latex/table-family-index.md`
 - `latex/equation-family-index.md`

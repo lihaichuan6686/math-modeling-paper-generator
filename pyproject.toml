@@ -8,6 +8,7 @@ dependencies = [
     "networkx>=3.2",
     "numpy>=1.26",
     "pandas>=2.2",
+    "pillow>=10.3",
     "pydantic>=2.7",
     "pyyaml>=6.0",
     "scikit-learn>=1.4",
@@ -17,4 +18,3 @@ dependencies = [
 
 [tool.ruff]
 line-length = 100
-

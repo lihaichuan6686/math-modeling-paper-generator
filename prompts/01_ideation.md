@@ -2,8 +2,10 @@
 
 Read:
 
+- `runs/current/problem-profile.md`
 - `runs/current/problem-analysis.md`
 - `runs/current/data-inventory.md`
+- `knowledge/algorithms/route-selection-protocol.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
 - `knowledge/algorithms/model-chain-patterns.md`
@@ -15,6 +17,7 @@ Read:
 Create:
 
 - `runs/current/model-candidates.md`
+- `runs/current/route-decision.md`
 
 ## Goal
 
@@ -111,3 +114,16 @@ Rules:
 - `Decision closure` means the concrete decision artifact the route will produce, not only an intermediate forecast or diagnosis.
 - `Effective body-length risk` means where the route may become too short because evidence is missing, or look long only because of appendix/code inflation.
 - `Fake-completion risks to avoid` should borrow from the recent 2024 risk notes: placeholders, residue, unstable numbering, unsupported claims, or method stacking.
+
+After the recommendation, create `route-decision.md` with:
+
+```text
+Selected route family:
+Question map:
+Route chain by subquestion:
+Why this route fits the decision object:
+Why rejected routes are weaker:
+Required evidence chain:
+Required visuals:
+Expected failure modes:
+```

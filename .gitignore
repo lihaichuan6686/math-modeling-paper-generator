@@ -29,6 +29,7 @@ paper/rail_demo.pdf
 paper/build/
 runs/current/
 knowledge/_generated/
+tmp/
 *.tmp
 
 # Local files

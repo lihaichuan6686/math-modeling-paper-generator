@@ -15,6 +15,9 @@ Read:
 - `knowledge/latex/human-style-soft-rules.md`
 - `knowledge/latex/national-family-section-budget-playbook.md`
 - `knowledge/latex/national-abstract-and-closeout-playbook.md`
+- `knowledge/latex/v1-4-abstract-closeout-rules.md`
+- `knowledge/latex/national-problem-family-claim-boundary-matrix.md`
+- `knowledge/latex/national-problem-family-paragraph-density-playbook.md`
 - `knowledge/latex/local-awarded-paper-structure-rules.md`
 - `knowledge/latex/local-figure-table-conventions.md`
 - `knowledge/latex/figures-tables-equations-style.md`
@@ -48,6 +51,7 @@ problem restatement
 The abstract is written last.
 
 For v1.2, the abstract should usually be written to one dense page unless the problem itself is unusually small.
+For v1.4, the abstract must be checked against `knowledge/latex/v1-4-abstract-closeout-rules.md`: every major subquestion should have method-result closure, key results must match the artifact ledger, and the abstract should plausibly fill most of page one without exceeding one page.
 Use `docs/v1.2-draft-contract.md` as the default drafting contract when section density, per-subquestion closure, or visual distribution still feel underspecified.
 
 ## Structure Rule
@@ -63,6 +67,9 @@ Do not pad with generic background.
 Use `knowledge/cumcm/20-30-page-paper-blueprint.md` to check page budget, visual density, per-subquestion coverage, and anti-filler rules before finalizing section drafts.
 Use `knowledge/latex/national-family-section-budget-playbook.md` to tune section-page emphasis and abstract closure to the active problem family instead of relying only on generic long-paper rules.
 Use `knowledge/latex/national-abstract-and-closeout-playbook.md` when abstract sentences, subquestion endings, or transitions still read like scaffolding instead of a human team draft.
+Use `knowledge/latex/v1-4-abstract-closeout-rules.md` when the abstract is too short, method-only, missing final answers, or inconsistent with the conclusion and artifact ledger.
+Use `knowledge/latex/national-problem-family-claim-boundary-matrix.md` when the abstract or conclusion sounds stronger than the available evidence, especially for claims about optimality, reliability, deployment, or robustness.
+Use `knowledge/latex/national-problem-family-paragraph-density-playbook.md` when the body has the right outline but sections still feel too abrupt, too short-winded in the wrong place, or too dependent on artifact stacking.
 Use `knowledge/latex/human-style-soft-rules.md` to check whether sections feel proportioned like a human-team paper rather than a thin generated draft.
 
 If the chosen route is E-type, also check:
@@ -83,6 +90,8 @@ For all routes, also check:
 - when the problem has many numbered tasks, length should usually come from repeating the full subquestion loop rather than one oversized global model block.
 - figures and tables should make each subquestion visibly concrete instead of clustering all visuals in one late result section.
 - each major subquestion should end with a close-out paragraph that states the finding, the supporting evidence, and why the next step is needed.
+- family-level closeout claims should stay inside the proven boundary of the active problem type rather than defaulting to generic `effective` or `optimal` language.
+- family-level paragraph density should follow the active problem type, especially around model bridges, result interpretation, and validation explanation.
 
 ## Figure and Table Rule
 
@@ -123,6 +132,7 @@ For E-route drafts:
 For all v1.2 drafts:
 
 - the abstract should contain one method-result closure per major subquestion;
+- for v1.4, every abstract and conclusion result should appear in `runs/current/artifact-ledger.md` as a key result or be explicitly qualitative;
 - the body should have an early figure or table that identifies the modeled object or route;
 - every major subquestion should have at least one explicit validation or comparison artifact unless the paper states why that evidence is unavailable;
 - long sections should be long because they contain equations, artifacts, and interpretation, not because they repeat setup prose.

@@ -1,6 +1,6 @@
 # Start Here
 
-This repository is ready for both a simple Claude Code trial and a stronger v1.2 paper run.
+This repository is ready for both a simple Claude Code trial and a stronger methodology-guided paper run.
 
 ## Navigation Map
 
@@ -17,12 +17,29 @@ If you are just getting oriented, read these in order:
 9. `knowledge/quality/README.md`
 10. `prompts/README.md`
 11. `docs/run-start-checklist.md`
-12. `docs/v1-runbook.md`
-13. `docs/v1.2-runbook.md`
-14. `docs/v1.2-draft-contract.md`
-15. `docs/v1.2-definition.md`
-16. `docs/v1.2-quickstart.md`
-17. `docs/sample-run-packages/README.md`
+12. `docs/v1.4-definition.md`
+13. `docs/v1.4-community-learning-plan.md`
+14. `docs/community-signal-to-rule-pipeline.md`
+15. `docs/local-experience-extraction-queue.md`
+16. `docs/local-experience-extraction-status.md`
+17. `docs/v1.4-runbook.md`
+18. `docs/playwright-mcp-public-research.md`
+19. `docs/online-consensus-check-protocol.md`
+20. `prompts/13_platform_research.md`
+21. `prompts/12_launch_v1_4.md`
+22. `docs/v1.4-release-notes.md`
+23. `docs/v1.4-readiness-report.md`
+24. `docs/v1.4-test-handoff.md`
+25. `docs/v1.4-user-test-protocol.md`
+26. `docs/v1.4-user-test-feedback-template.md`
+27. `docs/v1.4-feedback-triage-matrix.md`
+28. `docs/v1.3-methodology-runbook.md`
+29. `docs/v1-runbook.md`
+30. `docs/v1.2-runbook.md`
+31. `docs/v1.2-draft-contract.md`
+32. `docs/v1.2-definition.md`
+33. `docs/v1.2-quickstart.md`
+34. `docs/sample-run-packages/README.md`
 
 ## Fastest Demo
 
@@ -88,13 +105,22 @@ powershell -ExecutionPolicy Bypass -File .\scripts\start-v1.2-current.ps1 -Name 
 ```text
 Use the repository skill at .codex/skills/cumcm-paper-generator/SKILL.md.
 Read START_HERE.md and CLAUDE.md.
-Then use problems/problem.md to produce a v1.2 mathematical modeling paper draft with stronger section density, deeper method chains, code-generated tables and figures, LaTeX, PDF build, and review.
-Use prompts/08_launch_v1_2.md as the main launch instruction, then run prompts/09_revision_v1_2.md if the review still says the paper is thin, shallow, or too machine-like.
-Use docs/v1.2-draft-contract.md to keep abstract length, section rhythm, and evidence distribution at v1.2 level.
+Then use problems/problem.md to produce a v1.4 methodology-guided mathematical modeling paper draft with contest-circle soft rules, stronger section density, deeper method chains, code-generated tables and figures, online consensus reflection before final writing, LaTeX, PDF build, and review.
+Use prompts/12_launch_v1_4.md as the main launch instruction, then run prompts/09_revision_v1_2.md if the review still says the paper is thin, shallow, or too machine-like.
+Use docs/v1.4-runbook.md, docs/playwright-mcp-public-research.md, prompts/13_platform_research.md, docs/community-signal-to-rule-pipeline.md, prompts/11_online_consensus_check.md, docs/v1.3-methodology-runbook.md, and docs/v1.2-draft-contract.md to keep method choice, abstract length, section rhythm, evidence distribution, Playwright MCP public research, external sanity checking, community-signal conversion, and paper feel under control.
+```
+
+For the shortest v1.4 handoff, use `docs/v1.4-test-handoff.md`.
+After the run, evaluate it with `docs/v1.4-user-test-protocol.md`, record feedback with `docs/v1.4-user-test-feedback-template.md`, then map failures to repairs with `docs/v1.4-feedback-triage-matrix.md`.
+
+Before publishing, syncing, or handing off v1.4, run:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-v1.4-static.ps1
 ```
 
 ## Current Reality
 
-This repository has a working v1.0 closed loop and is now being upgraded toward a v1.2 human-team-style paper generator. It is not yet a polished 2.0 production system.
+This repository has a working v1.0 closed loop, a stronger v1.2 drafting path, a v1.3 methodology layer, and an emerging v1.4 contest-feel layer. It is not yet a polished 2.0 production system.
 
 Use only for learning, post-contest review, authorized research, and quality-checking experiments.

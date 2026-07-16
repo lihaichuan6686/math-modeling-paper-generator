@@ -78,6 +78,10 @@ Fail conditions:
 | Every table has a title/caption. | Unknown | |
 | Axes and units are present when applicable. | Unknown | |
 | Every figure/table is cited in the text. | Unknown | |
+| Body-critical figures/tables are listed consistently in `figure-plan.md`, `artifact-ledger.md`, and `paper/main.tex`. | Unknown | |
+| Body-critical figures/tables have subquestion links or whole-paper route roles. | Unknown | |
+| Final-answer tables/figures appear in the body before appendix material. | Unknown | |
+| Important figures/tables are interpreted near first citation. | Unknown | |
 | Figure/table numbering is consistent. | Unknown | |
 | Tables are readable after PDF rendering. | Unknown | |
 | Early explanatory figures identify the modeled object clearly. | Unknown | |
@@ -89,6 +93,8 @@ Fail conditions:
 - Units or labels are missing for quantitative axes.
 - The same result appears with conflicting values.
 - The paper skips network/geometry/process explanation and jumps straight into methods or outputs.
+- A final-answer artifact appears only in appendix or code output.
+- AI-generated schematic images are treated as numeric evidence.
 
 ## 5. Validation and Robustness
 
@@ -111,6 +117,11 @@ Fail conditions:
 - Sensitivity analysis has no perturbation range.
 - A timetable figure is shown but the full timetable artifact or feasibility audit is missing.
 
+Family reminder:
+
+- use `knowledge/quality/national-problem-family-evidence-matrix.md` when it is unclear whether the current family has shown enough proof, decision closure, or comparison evidence.
+- use `knowledge/latex/national-problem-family-claim-boundary-matrix.md` when a conclusion sounds stronger than the artifacts actually justify.
+
 ## 6. Writing Quality
 
 | Item | Status | Evidence |
@@ -118,6 +129,7 @@ Fail conditions:
 | Abstract follows problem-by-problem structure. | Unknown | |
 | Abstract is dense enough to plausibly occupy one full page when the task is not tiny. | Unknown | |
 | Abstract includes verified results. | Unknown | |
+| Abstract and conclusion claims stay within the family-appropriate evidence boundary. | Unknown | |
 | Problem analysis explains why each model is chosen. | Unknown | |
 | Sections are ordered logically. | Unknown | |
 | Claims distinguish evidence, assumption, and inference. | Unknown | |
@@ -176,6 +188,28 @@ Fail conditions:
 - The output fabricates evidence or citations.
 - The user asks to conceal AI authorship in a prohibited setting.
 - The paper is framed as verified when key evidence is missing.
+
+## 9. Online Consensus Review
+
+| Item | Status | Evidence |
+|---|---|---|
+| Online-consensus note exists or skip reason is explicit. | Unknown | |
+| Search attempts or platform limitations are recorded. | Unknown | |
+| Source quality labels are used. | Unknown | |
+| General experience search happened before exact-problem discussion. | Unknown | |
+| Exact-problem signals were used only after initial route-decision. | Unknown | |
+| Useful signals were converted into run-file changes or explicitly rejected. | Unknown | |
+| At least one weak or unsafe signal was rejected or discounted when encountered. | Unknown | |
+| Popularity was not treated as proof. | Unknown | |
+| Remaining uncertainty is recorded. | Unknown | |
+
+Fail conditions:
+
+- Online material is copied into the route or paper.
+- A public final answer is treated as the target result.
+- The note invents consensus when public sources are sparse.
+- Source quality is missing.
+- No route reflection or rejection logic appears.
 
 ## Required Review Output
 

@@ -7,6 +7,8 @@ This layer is lighter than a full demo paper and more practical than reading eve
 Each package points Claude to:
 
 - the filled run files;
+- the literature/citation support example when available;
+- the online-consensus reflection example when available;
 - the section-level writing examples;
 - the paper-assembly map;
 - the bundle claim/caption controls;
@@ -16,6 +18,9 @@ Each package points Claude to:
 
 1. `evaluation-to-planning-demo/`
 2. `rail-timetable-demo/`
+3. `forecast-to-decision-demo/`
+4. `classification-recognition-demo/`
+5. `monitoring-route-e-demo/`
 
 Each package contains:
 
@@ -38,3 +43,5 @@ Read this layer together with:
 - `../v1.2-quickstart.md`
 - `../demo-bundles/README.md`
 - `../review-case-examples/README.md`
+- `../pressure-test-runbook.md`
+- `../calibration-log-template.md`

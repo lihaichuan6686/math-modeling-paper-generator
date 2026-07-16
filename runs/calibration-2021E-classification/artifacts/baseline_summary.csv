@@ -1,0 +1,7 @@
+task,loo_accuracy,notes
+Q2 OP MIR,0.24772036474164133,nearest-centroid baseline
+Q3 OP NIR,0.39591836734693875,nearest-centroid baseline
+Q3 OP MIR,0.3795918367346939,nearest-centroid baseline
+Q3 OP fused,0.5102040816326531,concat NIR+MIR nearest-centroid baseline
+Q4 Class NIR,0.890625,nearest-centroid baseline
+Q4 OP NIR,0.25787965616045844,nearest-centroid baseline

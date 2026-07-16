@@ -2,6 +2,8 @@
 
 Purpose: make figures a controlled part of the mathematical-modeling paper chain. A CUMCM paper needs figures, but each figure must have a role, source, and review status.
 
+For v1.4 runs, read `knowledge/community/visual-evidence-chain-rules.md` together with this file. The core standard is that figures and tables must carry problem structure, data pattern, model object, result, comparison, or validation evidence.
+
 ## Figure Classes
 
 | Class | Source | Allowed tools | Evidence status |
@@ -13,6 +15,7 @@ Purpose: make figures a controlled part of the mathematical-modeling paper chain
 | Review figure | PDF screenshots, layout inspection, comparison image | render tools, screenshots | review evidence |
 
 AI image generation may be used for schematic and explanatory figures, but not to invent data-driven results.
+AI-generated images are schematic only and must not support numeric claims.
 
 ## Pipeline
 

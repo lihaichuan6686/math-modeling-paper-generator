@@ -7,14 +7,16 @@ Purpose: give the generator one stable entry point for review, reproducibility, 
 1. `quality-rubric-v2.md`
 2. `v1-2-review-addendum.md`
 3. `v1-2-quality-matrix.md`
-4. `reproducibility-and-ai-difference-framework.md`
-5. `quality-rubric-plan.md`
-6. `mathorcup-2023B-v1-test-review.md`
-7. `completion-gate.md`
-8. `evidence-family-index.md`
-9. `review-finding-index.md`
-10. `finding-gate-matrix.md`
-11. `../docs/review-checklist.md`
+4. `v1-3-self-review-gate.md`
+5. `v1-4-human-feel-review-gate.md`
+6. `reproducibility-and-ai-difference-framework.md`
+7. `quality-rubric-plan.md`
+8. `mathorcup-2023B-v1-test-review.md`
+9. `completion-gate.md`
+10. `evidence-family-index.md`
+11. `review-finding-index.md`
+12. `finding-gate-matrix.md`
+13. `../docs/review-checklist.md`
 
 ## What This Layer Does
 
@@ -28,6 +30,10 @@ This layer answers four questions:
 ## Review Rule
 
 Use the rubric for dimension-level evaluation, the checklist for run-level checking, and the v1.2 quality matrix when you need the shortest path from weak paper signal to the right repair layer.
+
+Use the v1.3 gate when checking methodology drift, route fit, and fake completion.
+
+Use the v1.4 human-feel gate when the paper is structurally complete but still needs contest-circle feel, answer visibility, visual evidence-chain review, online-consensus reflection, and anti-template review.
 
 Use the reproducibility framework when the task is about human-AI comparison or evidence traceability.
 

@@ -9,19 +9,33 @@ Read these first:
 1. `docs/review-checklist.md`
 2. `knowledge/quality/quality-rubric-v2.md`
 3. `knowledge/quality/v1-2-review-addendum.md`
-4. `knowledge/cumcm/problem-type-paper-archetypes.md`
-5. `knowledge/latex/section-writing-patterns.md`
-6. `knowledge/latex/human-style-soft-rules.md`
-7. `knowledge/latex/local-awarded-paper-structure-rules.md`
-8. `knowledge/latex/local-figure-table-conventions.md`
-9. `knowledge/latex/final-polish-and-appendix-rules.md`
-10. `knowledge/algorithms/method-depth-ladder.md`
-11. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
-12. `runs/current/artifact-ledger.md` or the active run ledger
-13. `paper/main.tex`
-14. all included files under `paper/sections/`
-15. available generated tables and figures under `paper/tables/` and `paper/figures/`
-16. latest compile result or rendered PDF pages when available
+4. `knowledge/quality/v1-3-self-review-gate.md`
+5. `knowledge/quality/v1-4-human-feel-review-gate.md`
+6. `knowledge/community/math-modeling-soft-rules.md`
+7. `knowledge/community/common-mistakes-and-taboo-phrases.md`
+8. `knowledge/community/paper-polish-and-feel.md`
+9. `knowledge/community/award-paper-section-rhythm.md`
+10. `knowledge/community/public-community-source-playbook.md`
+11. `knowledge/cumcm/recent-award-paper-visual-rhythm.md`
+12. `knowledge/cumcm/v1-4-section-proportion-and-reference-rules.md`
+13. `knowledge/community/literature-search-and-citation-rules.md`
+14. `knowledge/cumcm/problem-type-paper-archetypes.md`
+15. `knowledge/latex/section-writing-patterns.md`
+16. `knowledge/latex/human-style-soft-rules.md`
+16. `knowledge/latex/v1-4-paper-composition-rules.md`
+17. `knowledge/latex/v1-4-abstract-closeout-rules.md`
+18. `knowledge/latex/local-awarded-paper-structure-rules.md`
+19. `knowledge/latex/local-figure-table-conventions.md`
+20. `knowledge/latex/final-polish-and-appendix-rules.md`
+21. `knowledge/algorithms/method-depth-ladder.md`
+22. `knowledge/cumcm/official-style-vs-modern-draft-risk.md`
+23. `docs/online-consensus-weak-strong-examples.md`
+24. `runs/current/online-consensus-notes.md` if it exists or the active run consensus note
+25. `runs/current/artifact-ledger.md` or the active run ledger
+26. `paper/main.tex`
+27. all included files under `paper/sections/`
+28. available generated tables and figures under `paper/tables/` and `paper/figures/`
+29. latest compile result or rendered PDF pages when available
 
 If the run is not `current`, replace `runs/current` with the active run directory.
 
@@ -39,7 +53,8 @@ Act as a paper-quality reviewer. Prioritize:
 - shallow method chains;
 - machine-like paragraph rhythm;
 - LaTeX/PDF rendering issues;
-- responsible-use and provenance risks.
+- responsible-use and provenance risks;
+- methodology drift between route selection and final claims.
 
 Do not spend review space on compliments unless they help explain what is already safe.
 
@@ -93,7 +108,7 @@ For v1.2, also warn if:
 - the abstract is far below one dense page without a genuine reason;
 - the model section is too short for the claimed route;
 - validation exists only as a token paragraph;
-- section proportions do not resemble a serious team paper.
+- section proportions do not resemble a serious team paper;
 - multi-question papers do not grow through visible subquestion loops.
 
 ### Step 3: Model Credibility
@@ -144,17 +159,23 @@ Fail if important values cannot be traced.
 Check:
 
 - every figure/table is cited in text;
+- `figure-plan.md`, `artifact-ledger.md`, and `paper/main.tex` agree on body-critical figures and tables;
+- every body-critical figure/table has a subquestion link or whole-paper route role;
+- every body-critical figure/table appears in the body before appendix support;
 - captions explain modeling purpose;
+- captions identify source or model role when needed;
+- important figures/tables have nearby interpretation, not only captions;
 - the earliest explanatory figures identify the modeled object clearly;
 - axes, units, legends, and precision are adequate;
 - rendered PDF pages show no clipping or unreadable labels;
-- AI-generated schematic figures are not presented as data evidence.
+- AI-generated schematic figures are not presented as data evidence;
 - filenames and captions do not still read like raw one-off local shorthand.
 
 Warn if a figure is visually readable but weak as evidence.
 
 Also warn if important figures or tables are cited but not interpreted in prose.
 Warn if most visuals are postponed to late result pages and earlier subquestions stay visually thin.
+Fail if a final-answer artifact exists only in appendix or code output while the body lacks the corresponding result table/figure.
 
 ### Step 6: Validation and Robustness
 
@@ -201,7 +222,7 @@ Check:
 - no placeholder title text, `xx`, `xxxx`, or generic `paper title` residue;
 - no promotional watermark/header/footer residue in delivered research copies;
 - tables and figures fit pages;
-- references are real and human-readable.
+- references are real and human-readable;
 - appendix boundary is explicit when long code excerpts appear;
 - support-file inventory appears before long appendix code when the PDF includes code excerpts.
 
@@ -214,10 +235,58 @@ Check:
 - whether the main body is paragraph-driven rather than bullet-driven;
 - whether each major subquestion closes a full argument loop;
 - whether prose explains why the method fits before showing equations;
-- whether results are interpreted instead of only listed.
+- whether results are interpreted instead of only listed;
 - whether the paper earns length through repeated analysis/model/result loops instead of one flat oversized method block.
 
+### Step 7.6: v1.4 Contest-Feel Review
+
+Check:
+
+- whether the draft follows `knowledge/quality/v1-4-human-feel-review-gate.md`;
+- whether the abstract feels like a compressed solution rather than a method list;
+- whether online consensus was checked or explicitly skipped with a reason;
+- whether public discussion was used only for sanity checking, not copied answers;
+- whether the online-consensus note has source-quality labels, route reflection, rejected signals, and remaining uncertainty;
+- whether the note avoids treating popularity as proof;
+- whether useful online signals were converted into concrete run-file changes or explicitly rejected;
+- whether exact-problem discussion happened only after the initial route-decision existed;
+- whether the paper avoids template forcing and decorative advanced algorithms;
+- whether restatement, analysis, assumptions, symbols, solution, error analysis, evaluation, references, and appendix each perform their expected section duty;
+- whether the PDF opening follows recent award-paper rhythm: dense page-one abstract, page-two problem restatement/analysis, and no delayed modeling start;
+- whether pages 4-6 contain early model evidence such as symbols, tables, diagrams, equations, or formal model setup when the problem supports them;
+- whether pages 8-12 avoid long pure-prose drift by alternating artifacts and interpretation;
+- whether the middle body avoids more than 2-3 consecutive artifact-light pages in model-heavy problems;
+- whether code listings appear after main model/result logic rather than replacing it;
+- whether body result tables and figures appear before appendix code or support files;
+- whether every major subquestion has a body-visible result artifact when the task supports one;
+- whether every important figure/table has source, role, subquestion link, caption, and nearby interpretation;
+- whether AI-generated visuals are schematic only and never support numeric claims;
+- whether long appendix code is mapped to subquestions and supported by an inventory or clear headings;
+- whether references support method, data, and domain claims without uncited padding;
+- whether `literature-notes.md` separates literature support from online consensus and converts useful literature signals into run-file changes or citation duties;
+- whether section proportions match the declared length tier;
+- whether the page count is explained as either a 20-30 page early draft or a 30-45 page stronger award-feel draft;
+- whether every major answer is easy to locate in abstract, body, conclusion, and artifact ledger.
+- whether the abstract plausibly fills most of page one for a multi-question paper without becoming background padding;
+- whether every major subquestion has method-result closure in the abstract;
+- whether every abstract and conclusion result appears in artifact-ledger key results or is explicitly qualitative;
+
+Warn if the paper is technically complete but lacks contest-circle feel.
+Fail if online material appears copied, if final answers are hidden, or if prestigious methods replace evidence.
+
 Warn if the draft still reads like a staged scaffold rather than a team paper.
+
+### Step 7.7: v1.3 Methodology Review
+
+Check:
+
+- whether `problem-profile.md` names the modeled object and decision object clearly;
+- whether `route-decision.md` matches the final paper route;
+- whether the paper solves the real decision task rather than only intermediate calculations;
+- whether the object-first figure actually appears early enough;
+- whether `methodology-checklist.md` matches the final abstract and conclusion boundaries.
+
+Warn if the paper is locally polished but the route logic is still one-off and not reusable.
 
 ### Step 8: Responsible Use
 
@@ -259,64 +328,3 @@ or, for a named run:
 ```text
 reviews/review-<run>.md
 ```
-
-## Required Output Format
-
-```markdown
-# Paper Quality Review
-
-Run:
-Reviewed:
-
-## Overall Status
-
-Pass / Needs revision / Reject for research use
-
-## Critical Findings
-
-| ID | Location | Status | Evidence | Risk | Required repair |
-|---|---|---|---|---|---|
-
-## Important Findings
-
-| ID | Location | Status | Evidence | Risk | Required repair |
-|---|---|---|---|---|---|
-
-## Warnings
-
-| ID | Location | Status | Evidence | Risk | Suggested repair |
-|---|---|---|---|---|---|
-
-## Evidence Checked
-
-- 
-
-## Evidence Missing Or Not Checked
-
-- 
-
-## Required Repairs Before Pass
-
-1. 
-
-## Human Verification Needed
-
-- 
-
-## Responsible-Use Notes
-
-- 
-```
-
-## Pass Criteria
-
-Use `Pass` only when:
-
-- all subquestions are covered;
-- key claims are traceable;
-- generated tables and figures are cited and readable;
-- validation matches the model type;
-- PDF compilation/rendering evidence is present;
-- no responsible-use or provenance failure is present.
-
-Otherwise use `Needs revision` or `Reject for research use`.

@@ -5,12 +5,14 @@ Read:
 - `problems/problem.md`
 - all attachments under `problems/`
 - `knowledge/cumcm/paper-generation-playbook.md`
+- `knowledge/cumcm/problem-understanding-framework.md`
 - `knowledge/algorithms/cumcm-routing-rules.md`
 - `knowledge/algorithms/cards/README.md`
 - relevant files under `knowledge/algorithms/cards/`
 
 Create:
 
+- `runs/current/problem-profile.md`
 - `runs/current/problem-analysis.md`
 - `runs/current/data-inventory.md`
 - `runs/current/artifact-ledger.md` from `docs/artifact-ledger-template.md`
@@ -80,4 +82,18 @@ Units
 Missing values
 Potential cleaning steps
 Data risks
+```
+
+`problem-profile.md` should include:
+
+```text
+Problem image
+Task family and route signals
+Modeled object
+Decision object
+Question map
+Evidence burden
+Visual burden
+Thinness risks
+Fake-completion risks
 ```

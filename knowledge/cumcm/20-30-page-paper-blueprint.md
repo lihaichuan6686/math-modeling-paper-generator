@@ -2,6 +2,8 @@
 
 Purpose: make paper length emerge from structure, figures, tables, formulas, validation, and appendix evidence rather than filler prose.
 
+This file defines the minimum closed-loop v1 paper target. For stronger v1.4 award-paper feel, also read `recent-award-paper-visual-rhythm.md`.
+
 ## Core Rule
 
 A complete CUMCM paper should feel like a chain of deliverables:
@@ -11,6 +13,8 @@ problem restatement -> route analysis -> assumptions/symbols -> data evidence ->
 ```
 
 For a 20-30 page paper, do not ask "how do we add pages?" Ask "which required evidence is still missing?"
+
+For a stronger award-feel paper, allow the target to expand toward 30-45 pages when the problem has enough subquestions, data, figures, validation, and appendix material to justify it.
 
 Also ask:
 

@@ -16,6 +16,8 @@ This manifest is a packaging checklist, not a review checklist.
 | `runs/<name>/model-plan.md` | score model and plan model structure |
 | `runs/<name>/method-depth-plan.md` | support-model-result-validation depth per subquestion |
 | `runs/<name>/verification-plan.md` | feasibility and scenario evidence plan |
+| `runs/<name>/literature-notes.md` | method/data/domain/validation source support and citation duties |
+| `runs/<name>/online-consensus-notes.md` | public interpretation/trap signals and safe route reflection |
 | `runs/<name>/figure-plan.md` | planned route/evidence/validation visuals |
 | `runs/<name>/section-budget.md` | page rhythm and artifact allocation |
 | `runs/<name>/writing-style-plan.md` | paragraph rhythm and close-out style |

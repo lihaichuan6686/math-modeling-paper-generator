@@ -11,7 +11,10 @@ Purpose: plan figures before writing the full CUMCM-style paper. A modeling pape
 For LaTeX placement and caption rules, also follow:
 
 ```text
+knowledge/community/visual-evidence-chain-rules.md
 knowledge/latex/figures-tables-equations-style.md
+knowledge/latex/national-problem-family-visual-matrix.md
+knowledge/cumcm/recent-award-paper-visual-rhythm.md
 docs/visual-generation-pipeline.md
 ```
 
@@ -24,14 +27,61 @@ Target count for a full 20-30 page paper:
 - 3-6 evidence/result figures
 - 1-2 validation or sensitivity figures
 
+For a stronger v1.4 award-feel draft, plan not only total count but placement rhythm:
+
+- page 1: no decorative figure unless the template requires it; preserve dense abstract space;
+- pages 4-6: at least one early model artifact such as symbol table, route/model diagram, data table, parameter table, or equation group;
+- pages 8-12: recurring formulas, tables, figures, or model artifacts with interpretation;
+- middle body: avoid more than 2-3 consecutive artifact-light pages in model-heavy problems.
+
 ## Planned Figures
 
-| ID | Role | Purpose | Paper section | Source type | Tool | Input data/source/prompt | Output path | Caption draft | Status |
-|---|---|---|---|---|---|---|---|---|---|
-| F01 | route | Show overall model chain | Method overview | schematic | Mermaid/Python/TikZ | | paper/figures/ | | planned |
-| F02 | explanatory | Explain key model structure | Model section | schematic | | | paper/figures/ | | planned |
-| F03 | evidence | Show data/result pattern | Results | reproducible code | Python/R/MATLAB | | paper/figures/ | | planned |
-| F04 | validation | Show robustness/error | Validation | reproducible code | Python/R/MATLAB | | paper/figures/ | | planned |
+| ID | Subquestion | Role | Purpose | Body-critical? | Paper section | Source type | Tool | Input data/source/prompt | Output path | Nearby interpretation plan | Caption draft | Status |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| F01 | whole paper | route | Show overall model chain | Yes | Method overview | schematic | Mermaid/Python/TikZ | | paper/figures/ | paragraph after first citation explains route choices | | planned |
+| F02 | Q1 | explanatory | Explain key model structure | Yes/No | Model section | schematic | | | paper/figures/ | | | planned |
+| F03 | Q1 | evidence | Show data/result pattern | Yes | Results | reproducible code | Python/R/MATLAB | | paper/figures/ | | | planned |
+| F04 | Q1 | validation | Show robustness/error | Yes | Validation | reproducible code | Python/R/MATLAB | | paper/figures/ | | | planned |
+
+## Planned Tables
+
+| ID | Subquestion | Role | Purpose | Body-critical? | Paper section | Source type | Input data/source | Output path/source | Nearby interpretation plan | Status |
+|---|---|---|---|---|---|---|---|---|---|---|
+| T01 | whole paper | symbol/parameter | Define variables or parameters before heavy formulas | Yes | Assumptions/Symbols/Model setup | manual + model plan | | paper/tables/ | used later in formulas | planned |
+| T02 | Q1 | result | Show direct answer for the subquestion | Yes | Results | code output | | paper/tables/ | interpret immediately after table | planned |
+| T03 | Q1 | validation/comparison | Support reasonableness or route choice | Yes | Validation | code output/manual audit | | paper/tables/ | explain what passed/failed | planned |
+
+## Placement Rhythm
+
+| Page band | Required visual/evidence role | Planned artifacts | Risk if missing |
+|---|---|---|---|
+| Page 1 | dense abstract, no artifact crowding | | weak abstract surface |
+| Pages 2-3 | problem restatement/analysis, route preview | | delayed modeling start |
+| Pages 4-6 | early model evidence | | paper still looks like prose |
+| Pages 8-12 | recurring model/result artifacts | | weak award-paper rhythm |
+| Middle body | sustained formulas/tables/figures/algorithms | | artifact drought |
+| Final body | validation, comparison, and final answers | | answer hidden in appendix |
+| Appendix | code and supplementary tables | | appendix replaces main evidence |
+
+## Body vs Appendix Boundary
+
+Before drafting, decide which artifacts must stay in the body:
+
+- final answer tables;
+- key result figures;
+- validation/sensitivity evidence;
+- comparison artifacts;
+- route or model diagrams needed to understand the solution.
+
+Appendix may include:
+
+- code excerpts;
+- long intermediate tables;
+- supplementary plots;
+- raw output logs;
+- support-file inventory.
+
+Do not move the only copy of a final answer or validation artifact into the appendix.
 
 ## Figure Types
 
@@ -148,6 +198,11 @@ Before writing:
 3. Are evidence figures reproducible from code?
 4. Are explanatory figures clearly marked as schematic when needed?
 5. Does every planned figure have a paper section?
+6. Does the placement rhythm avoid delaying all artifacts until late pages?
+7. Does every body-critical figure/table have a subquestion link, source, role, and planned nearby interpretation?
+8. Are AI-generated visuals limited to schematic roles and excluded from numeric claims?
+9. Are final-answer tables explicitly marked as body-critical?
+10. Are table-only subquestions intentional, or do they need a figure for interpretation?
 
 Before final PDF:
 
@@ -156,6 +211,8 @@ Before final PDF:
 3. Are captions specific?
 4. Are labels, units, and legends readable?
 5. Are generated schematic prompts or source files recorded in the artifact ledger?
+6. Would the main paper still answer the problem if appendix code were removed?
+7. Do `figure-plan.md`, `artifact-ledger.md`, and `paper/main.tex` agree on body-critical artifacts?
 
 Allowed statuses:
 
