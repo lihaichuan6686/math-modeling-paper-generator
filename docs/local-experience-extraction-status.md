@@ -107,3 +107,23 @@ Additional operational rule:
 
 - PDF sources can be absorbed when text extraction is clean enough to identify reusable signals.
 - Garbled sources stay partial even if the title sounds useful.
+
+## 2026-07-18 v1.5 PDF Re-Read: Practical Paper Surface And Team Execution
+
+Method:
+
+- re-sampled readable PDFs from `9.数学建模经验分享（36篇）`;
+- extracted only general writing, judging, route, appendix, team, and environment signals;
+- did not promote garbled sources into rules.
+
+| Source file | Probe result | Readability | Useful signal found | Converted to | Next action |
+|---|---|---|---|---|---|
+| `如何写好一篇优秀的建模论文（经验谈）.pdf` | sampled | clean | paper is the only judged artifact; assumptions, creativity, result reasonableness, and clear expression are scoring surfaces; body must show main results | `knowledge/community/v1-5-local-experience-soft-rules.md` | absorbed for v1.5 soft rules |
+| `成为一个数学建模“高手”的八大奥秘.pdf` | sampled | clean | simple-first modeling, broad knowledge, communication, programming quality | `knowledge/community/v1-5-local-experience-soft-rules.md` | absorbed for v1.5 soft rules |
+| `数学中国—美赛经验总结.pdf` | sampled | clean excerpt | software, shared files, code preparation, role split, writing environment | `knowledge/community/v1-5-local-experience-soft-rules.md` | revisit later for detailed time allocation |
+| `数学中国美赛培训之经验%28整理版%29.pdf` | sampled | clean | first-day reading, objective/decision variables, cross-question links, practical routes, unified writing | `knowledge/community/v1-5-local-experience-soft-rules.md` | absorbed for v1.5 soft rules |
+
+Current conversion:
+
+- `knowledge/community/v1-5-local-experience-soft-rules.md` records the durable v1.5 rules.
+- Old `.doc` and `.ppt` files remain not fully absorbed until a better converter or manual sampling path is used.

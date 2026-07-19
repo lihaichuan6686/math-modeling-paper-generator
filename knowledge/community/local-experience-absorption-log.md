@@ -187,3 +187,33 @@ Converted files:
 - `knowledge/community/math-modeling-soft-rules.md`
 - `knowledge/community/paper-polish-and-feel.md`
 - `knowledge/latex/v1-4-abstract-closeout-rules.md`
+
+## 2026-07-18 v1.5 PDF Re-Read: Practical Paper Surface And Team Execution
+
+Readable local sources re-sampled:
+
+| Source | Readability | Absorbed signal |
+|---|---|---|
+| `write_good_paper.pdf` (`如何写好一篇优秀的建模论文（经验谈）.pdf`) | clean | the paper is the only judged artifact; judging surfaces include assumptions, creativity, reasonable results, and clear expression; every asked question needs visible numerical/result closure; appendix detail must not replace body results |
+| `eight_secrets.pdf` (`成为一个数学建模“高手”的八大奥秘.pdf`) | clean | broad knowledge, imagination, simple-first modeling, communication, programming quality, and persistence shape modeling strength |
+| `mathchina-mcm-experience-long.pdf` (`数学中国—美赛经验总结.pdf`) | clean | preparation includes software, data, code libraries, shared files, role discipline, and a dedicated writing environment |
+| `mathchina-mcm-training-experience-short.pdf` (`数学中国美赛培训之经验%28整理版%29.pdf`) | clean | first-day reading should identify objective, decision variables, data needs, and cross-question links; practical usable routes beat model piling; unified writing voice is important |
+
+Converted durable rules:
+
+- The submitted paper is the scored surface, so important claims must appear in the paper body or mapped appendix.
+- Every numbered question should close with a visible answer artifact and direct interpretation.
+- Advanced methods must repair a concrete baseline weakness; otherwise they are decorative.
+- Assumptions should remove a named difficulty and be used later in the model.
+- Central results need sanity checks before becoming recommendations.
+- Appendix code supports trust but must not carry the main answer.
+- A team paper needs one voice, consistent terms, and a repeated question map.
+- Environment setup, stable folders, and reusable scripts are quality controls, not convenience extras.
+
+Converted files:
+
+- `knowledge/community/v1-5-local-experience-soft-rules.md`
+- `knowledge/README.md`
+- `prompts/15_launch_v1_5.md`
+- `CLAUDE.md`
+- `.codex/skills/cumcm-paper-generator/SKILL.md`

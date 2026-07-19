@@ -4,50 +4,30 @@ This repository is a research-only mathematical modeling paper generator and pap
 
 ## Current Project State
 
-The project now has a working v1.0 closed-loop demo and is actively upgrading toward a v1.2 human-team-style paper workflow:
+The project has a working v1.0 closed-loop demo, v1.2/v1.3 methodology layers, a v1.4 contest-feel release, and an emerging v1.5 award-paper-feel hard-gate layer:
 
 ```text
-problem -> run scaffold -> model plan -> code/table/figure -> LaTeX draft -> PDF -> review
+problem -> run scaffold -> model plan -> code/table/figure -> v1.5 paper skeleton -> PDF -> hard-gate review
 ```
 
-The demo is intentionally small, but it proves the chain works. Do not restart broad reading before preserving and extending this usable workflow.
+Do not restart broad reading before preserving and extending the usable workflow. For v1.5, read the Level 0 files first and load extra references only when needed.
 
 ## Read First
 
-For every generation or review run, read these files first:
+For v1.5 generation or review runs, read these Level 0 files first:
 
-- `docs/v1.2-runbook.md`
-- `docs/v1-runbook.md`
-- `docs/run-start-checklist.md`
-- `docs/continuation-state.md`
-- `knowledge/README.md`
-- `knowledge/cumcm/README.md`
-- `prompts/README.md`
-- `prompts/07_launch.md`
-- `docs/README.md`
-- `inventory/README.md`
-- `docs/architecture.md`
-- `knowledge/quality/README.md`
-- `knowledge/cumcm/paper-generation-playbook.md`
-- `knowledge/cumcm/20-30-page-paper-blueprint.md`
-- `knowledge/cumcm/problem-type-paper-archetypes.md`
-- `knowledge/algorithms/cumcm-routing-rules.md`
-- `knowledge/algorithms/cards/README.md`
-- `knowledge/algorithms/model-chain-patterns.md`
-- `knowledge/algorithms/method-depth-ladder.md`
-- `docs/visual-generation-pipeline.md`
-- `docs/review-checklist.md`
-- `docs/artifact-ledger-template.md`
-- `docs/figure-plan-template.md`
-- `knowledge/quality/reproducibility-and-ai-difference-framework.md`
-- `knowledge/quality/quality-rubric-v2.md`
-- `docs/v1.2-draft-contract.md`
-- `knowledge/latex/cumcm-section-contract.md`
-- `knowledge/latex/section-writing-patterns.md`
-- `knowledge/latex/human-style-soft-rules.md`
-- `knowledge/latex/figures-tables-equations-style.md`
-- `knowledge/latex/snippets.md`
-- `docs/playwright-mcp-public-research.md`
+- `START_HERE.md`
+- `prompts/15_launch_v1_5.md`
+- `docs/v1.5-paper-template-contract.md`
+- `docs/v1.5-method-route-contract.md`
+- `knowledge/latex/v1-5-front-matter-rhythm-rules.md`
+- `knowledge/latex/v1-5-award-paper-style-rules.md`
+- `knowledge/latex/v1-5-award-paper-visual-fingerprint.md`
+- `knowledge/community/v1-5-local-experience-soft-rules.md`
+- `knowledge/algorithms/v1-5-route-upgrade-atlas.md`
+- `knowledge/quality/v1-5-hard-gates.md`
+
+Then read additional files only when the active problem requires them.
 
 ## v1.0 Demo Entry Points
 
@@ -86,24 +66,30 @@ Core principle: browse public pages like a human reviewer, record access limits,
 
 1. Read `problems/problem.md` or the specified problem file.
 2. Create or update a run scaffold under `runs/`.
-3. Produce `problem-analysis.md`, `model-candidates.md`, and `model-plan.md`.
-4. Select a model chain from the CUMCM knowledge base and algorithm cards.
+3. Produce `problem-analysis.md`, `model-candidates.md`, and `model-plan.md`; include `Data Traps` in the data inventory.
+4. Select a model chain from the CUMCM knowledge base and algorithm cards; for v1.5, use `docs/v1.5-method-route-contract.md` and `knowledge/algorithms/v1-5-route-upgrade-atlas.md` before locking `method-depth-plan.md`.
 5. Public research: use Playwright MCP to browse public pages for community signals, common interpretations, traps, and rough result ranges. Write the first public-research draft to `runs/current/online-consensus-notes.md`. Use `prompts/13_platform_research.md`, then use `prompts/11_online_consensus_check.md` to review and complete the same file.
 6. Implement reproducible code under `src/`.
 7. Generate tables under `paper/tables/` and figures under `paper/figures/`.
-8. Write or update `paper/sections/`.
+8. For v1.5, create `runs/current/title-candidates.md`, then copy or mirror `paper/templates/cumcm_v15_main.tex` before writing `paper/main.tex`.
 9. Compile `paper/main.tex`.
 10. Render and visually inspect important PDF pages.
-11. Record traceability in the artifact ledger.
-12. Record issues and final status in `reviews/`.
+11. For v1.5, run `scripts/check-v1.5-pdf.ps1` after `paper/main.pdf` exists and read `reviews/pdf-v15-check.md`.
+12. Record traceability in the artifact ledger.
+13. Record issues and final status in `reviews/`, including `v1.5 Hard Gate Verdict` for v1.5.
+14. After user-side testing, record visible failures with `docs/v1.5-user-test-feedback-template.md` and map repairs with `docs/v1.5-feedback-triage-matrix.md`.
 
 ## Paper Expectations
 
 A complete CUMCM-style paper should include:
 
-- abstract with method and result highlights;
+- contest-style title rather than a bare task label;
+- recorded title candidates before the final title is selected;
+- route depth plan with result and validation artifacts for each central subquestion;
+- paragraph-structured abstract with method and bold result highlights;
 - problem restatement;
 - problem analysis;
+- early concept/mechanism/model-flow figure when supported;
 - assumptions;
 - symbols;
 - data preprocessing;
@@ -125,6 +111,7 @@ For the eventual 20-30 page target, length must come from real structure: formul
 - AI-generated images are allowed only for explanatory schematics or review artifacts, and the prompt/source must be recorded.
 - Figures must be visually inspected in the rendered PDF.
 - Captions should explain what the reader should learn, not merely repeat the filename.
+- v1.5 figures must be paper-ready: readable axes, Chinese captions, no default notebook titles, and no impossible values used as evidence.
 
 ## Review Rules
 
@@ -136,11 +123,13 @@ A run is not complete until:
 - code outputs match paper claims;
 - review status is `Pass` or `Needs revision with explicit open items`;
 - responsible-use limitations are recorded.
+- for v1.5, every gate in `knowledge/quality/v1-5-hard-gates.md` has a pass/fail verdict and failed gates block handoff.
+- for v1.5, `reviews/review-current.md` includes `Method Route Verdict`.
+- for v1.5, `reviews/pdf-v15-check.md` exists when a PDF exists, and any `FAIL` item blocks handoff.
 
 ## Near-Term Priorities
 
-1. Deliver a v1.2 paper path that repairs thin prose, weak section density, and shallow method chains.
-2. Expand the active draft path from small-demo shape toward a full-length 20-30 page research draft.
-3. Add stronger route-specific comparison notes and contest-style writing soft rules.
-4. Add a stronger CUMCM-style optimization/classification example.
-5. Convert the review checklist into a stricter reusable review prompt or script.
+1. Deliver v1.5 hard gates that prevent AI-report-looking papers from being handed off.
+2. Make the paper skeleton, title, abstract, concept figure, appendix code, and PDF review mandatory.
+3. Use user-side tests to repair specific failed gates instead of broad open-ended polishing.
+4. Route every disappointing generated paper through the v1.5 feedback template and triage matrix before adding new rules.

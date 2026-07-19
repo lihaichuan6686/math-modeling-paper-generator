@@ -317,33 +317,90 @@ $methodDepthPlan = @"
 
 Run: $Name
 
-Read `knowledge/algorithms/method-depth-ladder.md` and `prompts/02_model_plan.md` before completing this file.
+Read `docs/v1.5-method-route-contract.md`, `knowledge/cumcm/national-problem-family-methodology-matrix.md`, `knowledge/algorithms/route-selection-protocol.md`, and `knowledge/algorithms/method-depth-ladder.md` before completing this file.
 
 ## Depth Target
 
-- target version: v1.2
+- target version: v1.5
 - minimum target depth for major subquestions: Level 3
-- preferred target for award-competitive sections: Level 4 when the route supports it
+- preferred target for central decision subquestions: Level 4 when data and time support it
 
 ## Subquestion Depth Map
 
-| Subquestion | Support layer | Main model | Result artifact | Validation/comparison layer | Current depth |
-|---|---|---|---|---|---|
-| Q1 | fill | fill | fill | fill | fill |
-| Q2 | fill | fill | fill | fill | fill |
-| Q3 | fill | fill | fill | fill | fill |
+| Subquestion | Family | Support layer | Main model | Result artifact | Validation artifact | Paper section | Depth |
+|---|---|---|---|---|---|---|---|
+| Q1 | fill | fill | fill | fill | fill | fill | fill |
+| Q2 | fill | fill | fill | fill | fill | fill | fill |
+| Q3 | fill | fill | fill | fill | fill | fill | fill |
+
+## Method Route Verdict Draft
+
+| Subquestion | Depth Pass/Fail | Evidence artifact | Validation artifact | Repair |
+|---|---|---|---|---|
+| Q1 | Unknown | Unknown | Unknown | Unknown |
 
 ## Upgrade Triggers
 
 - If a row still reads like `single method -> single result`, upgrade it.
 - If a decision artifact has no feasibility or scenario check, upgrade it.
 - If a forecast drives a later recommendation, record the propagation path.
+- If a complex algorithm has no route role, remove it or downgrade the claim.
+- If the abstract would claim optimal, stable, accurate, feasible, or robust, point to the validation artifact here first.
 
 ## Thinness Risks
 
 - Which subquestion is most likely to stop too early?
 - Which subquestion most needs a comparison or baseline?
 - Which support layer is easiest to forget?
+"@
+
+$titleCandidates = @"
+# Title Candidates
+
+Run: $Name
+Created: $createdAt
+
+Read `knowledge/latex/v1-5-front-matter-rhythm-rules.md` before completing this file.
+
+Purpose: choose a contest-style paper title before writing `paper/main.tex`.
+
+## Problem Object
+
+- Modeled object:
+- Decision object:
+- Main method or mechanism:
+- Final answer form:
+
+## Candidate Titles
+
+| ID | Candidate title | Pattern | Keep/Reject | Reason |
+|---|---|---|---|---|
+| T1 | Unknown | Unknown | Unknown | Unknown |
+| T2 | Unknown | Unknown | Unknown | Unknown |
+| T3 | Unknown | Unknown | Unknown | Unknown |
+| T4 | Unknown | Unknown | Unknown | Unknown |
+| T5 | Unknown | Unknown | Unknown | Unknown |
+
+## Rejection Checklist
+
+Reject a title if it:
+
+- copies the problem statement;
+- sounds like a section heading;
+- lacks modeled object;
+- lacks modeling action such as prediction, evaluation, optimization, decision, or classification;
+- uses AI/process wording;
+- hides the final decision object.
+
+## Selected Title
+
+Selected title:
+
+Selected pattern:
+
+Why this title fits:
+
+Risk still to check:
 "@
 
 $verificationPlan = @"
@@ -570,6 +627,44 @@ Reviewed: $createdAt
 
 Needs revision
 
+## v1.5 Hard Gate Verdict
+
+Use knowledge/quality/v1-5-hard-gates.md and reviews/pdf-v15-check.md.
+
+| Gate | Pass/Fail | Evidence | Repair |
+|---|---|---|---|
+| Title Gate | Unknown | Check runs/$Name/title-candidates.md and PDF title | Unknown |
+| Abstract Gate | Unknown | Check page 1, paper/main.tex, and bold result highlights | Unknown |
+| Concept Figure Gate | Unknown | Check early problem-analysis/model-flow figure | Unknown |
+| Prompt-Language Leak Gate | Unknown | Check `paper/main.tex` and PDF text | Unknown |
+| Figure Readability Gate | Unknown | Check rendered PDF figures | Unknown |
+| Result Sanity Gate | Unknown | Check result tables, fitted values, sample sizes, and conclusions | Unknown |
+| Method Route Depth Gate | Unknown | Check runs/$Name/method-depth-plan.md | Unknown |
+| Data Trap Gate | Unknown | Check runs/$Name/data-inventory.md | Unknown |
+| Plan-To-Paper Gate | Unknown | Check figure plan, artifact ledger, section budget, and body | Unknown |
+| Appendix Code Gate | Unknown | Check appendix code or script index | Unknown |
+| PDF Density Gate | Unknown | Check reviews/pdf-v15-check.md | Unknown |
+
+## Method Route Verdict
+
+Use docs/v1.5-method-route-contract.md and runs/$Name/method-depth-plan.md.
+
+| Subquestion | Depth Pass/Fail | Evidence artifact | Validation artifact | Repair |
+|---|---|---|---|---|
+| Q1 | Unknown | Unknown | Unknown | Unknown |
+| Q2 | Unknown | Unknown | Unknown | Unknown |
+| Q3 | Unknown | Unknown | Unknown | Unknown |
+
+## PDF / Source Check Evidence
+
+Expected command:
+
+    powershell -ExecutionPolicy Bypass -File ./scripts/check-v1.5-pdf.ps1 -Pdf ./paper/main.pdf -Run ./runs/$Name -Tex ./paper/main.tex -Review ./reviews/review-$Name.md
+
+Expected report:
+
+- reviews/pdf-v15-check.md
+
 ## Critical Findings
 
 | ID | Location | Status | Evidence | Risk | Required repair |
@@ -592,13 +687,17 @@ Needs revision
 ## Evidence Missing Or Not Checked
 
 - PDF compile and rendered-page inspection.
+- reviews/pdf-v15-check.md.
 - Artifact ledger consistency.
 - Problem coverage.
 - Model validation.
 
 ## Required Repairs Before Pass
 
-1. Run `prompts/06_quality_review.md` after paper generation.
+1. Run prompts/06_quality_review.md after paper generation.
+2. Run the v1.5 PDF/source/run-file check and copy failures into this review.
+3. Mark every v1.5 hard gate Pass or Fail with concrete evidence.
+4. Mark every central subquestion in Method Route Verdict.
 
 ## Human Verification Needed
 
@@ -623,9 +722,10 @@ New-TextFileIfNeeded -Path (Join-Path $runDir "literature-notes.md") -Content $l
 
 Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\artifact-ledger-template.md") -Destination (Join-Path $runDir "artifact-ledger.md")
 Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\figure-plan-template.md") -Destination (Join-Path $runDir "figure-plan.md")
+New-TextFileIfNeeded -Path (Join-Path $runDir "title-candidates.md") -Content $titleCandidates
 Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\section-budget-template.md") -Destination (Join-Path $runDir "section-budget.md")
 Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\writing-style-plan-template.md") -Destination (Join-Path $runDir "writing-style-plan.md")
 New-TextFileIfNeeded -Path (Join-Path $reviewsDir "review-$Name.md") -Content $reviewCurrent
 
 Write-Host "Created run scaffold: $runDir"
-Write-Host "Next step: follow prompts\00_intake.md and fill the v1.2/v1.3 planning files before drafting."
+Write-Host "Next step: follow prompts\15_launch_v1_5.md, fill title-candidates.md, and use paper\templates\cumcm_v15_main.tex before drafting."

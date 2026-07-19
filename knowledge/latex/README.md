@@ -25,8 +25,11 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 19. `national-abstract-and-closeout-playbook.md`
 20. `national-problem-family-claim-boundary-matrix.md`
 21. `national-problem-family-paragraph-density-playbook.md`
-22. `paper-style-plan.md`
-23. `long-paper-blueprint.md`
+22. `v1-5-front-matter-rhythm-rules.md`
+23. `v1-5-award-paper-style-rules.md`
+24. `v1-5-award-paper-visual-fingerprint.md`
+25. `paper-style-plan.md`
+26. `long-paper-blueprint.md`
 
 ## What This Layer Does
 
@@ -49,6 +52,9 @@ Best use of the section-family layer:
 - use the final-polish note when the ending still feels abrupt, over-appendixed, or weakly closed;
 - use the v1.4 composition rules when the paper needs stronger contest-circle feel, answer visibility, abstract density, and human-team polish;
 - use the v1.4 abstract and closeout rules when the abstract is too short, method-only, missing final answers, or inconsistent with the conclusion and artifact ledger;
+- use the v1.5 front-matter rhythm rules when title, abstract, first page, second page, or early concept figure still look AI-generated;
+- use the v1.5 award-paper style rules when the paper needs the v1.5 hard-gate surface standard;
+- use the v1.5 award-paper visual fingerprint when the generated PDF has the right files but still lacks the visual rhythm of recent awarded papers;
 - use the visual evidence-chain rules when figures or tables look decorative, unsupported, late, or disconnected from subquestions;
 - use the national-family section-budget playbook when the draft needs family-specific page rhythm or abstract closure cues;
 - use the national abstract-and-closeout playbook when the draft still feels machine-like at sentence level;

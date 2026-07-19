@@ -90,6 +90,7 @@ This is a maintenance panel, not a reading log.
 - A local experience extraction queue for remaining old `.doc` and `.ppt` files, with priority batches, safe temporary-copy extraction protocol, completion markers, and target repository outputs.
 - A local experience extraction status file that records the first old-format probe as partial/blocked rather than pretending the files were fully absorbed.
 - A 2026-07-16 writing-feel absorption batch from readable local TXT/DOCX/PDF experience files, strengthening excellent-paper section-duty transfer, simple-first method upgrades, body-visible answer rules, and abstract answer-form closure.
+- A v1.5 award-paper-feel hard-gate layer, created after the first v1.4 user-side test showed the output was complete but still looked like an AI technical report. This layer adds title patterns, paragraph abstract rules, early concept figure requirements, paper-ready figure rules, appendix-code requirements, result sanity gates, a neutral LaTeX skeleton, and Level 0 reading discipline.
 
 ## What Is Partially Absorbed
 
@@ -143,3 +144,95 @@ Current v1.4 stance:
 - repository work should focus on static learning, abstraction, prompt/control improvements, and paper-feel rules;
 - production validity should be tested by the user in Claude Code on real tasks;
 - avoid spending repository time proving one narrow historical problem or one rare topic family.
+
+Current v1.5 stance:
+
+- stop adding broad soft rules unless a real test failure demands them;
+- prioritize hard gates, paper skeletons, environment setup, and PDF-visible quality;
+- treat "compiled and 20 pages" as insufficient evidence;
+- require user-side tests to drive the next repair.
+
+v1.5 front-matter update:
+
+- local excellent-paper PDF folders were sampled for page-count and text-extraction feasibility;
+- 2023 excellent samples include 27, 31, 41, 50, and 50 page papers, reinforcing that 20 pages is only a lower bound, not an award-paper feel target;
+- 2021 and 2022 PDF text extraction is often blocked by scan/watermark layers, so future exact ratio learning may need OCR or manual page rendering;
+- `knowledge/latex/v1-5-front-matter-rhythm-rules.md` now converts the user's title/abstract/first-page feedback into a Level 0 rule;
+- `docs/title-candidates-template.md` and `runs/current/title-candidates.md` scaffold support were added so title selection becomes a visible pre-writing step;
+- `scripts/check-v1.5-pdf.ps1` now accepts a run directory and checks the title-candidate gate alongside PDF-visible failures.
+
+v1.5 method-route update:
+
+- `docs/v1.5-method-route-contract.md` now connects problem-family routing, method-depth levels, result artifacts, validation artifacts, and paper sections;
+- `prompts/15_launch_v1_5.md` now requires `method-depth-plan.md` before writing and asks the final review to include `Method Route Verdict`;
+- `knowledge/quality/v1-5-hard-gates.md` now has a Method Route Depth Gate to block `method -> result` shallow answers;
+- `scripts/new-run.ps1` now scaffolds a v1.5 method-depth table with family, support layer, main model, result artifact, validation artifact, paper section, and depth;
+- `scripts/check-v1.5-pdf.ps1 -Run .\runs\current` now checks `method-depth-plan.md` for concrete result/validation artifacts and flags placeholder rows;
+- this directly targets the user-side failure where the v1.4/v1.5 draft looked complete but methodologically ordinary and lacked award-paper force.
+
+v1.5 title-candidate gate update:
+
+- `scripts/check-v1.5-pdf.ps1 -Run .\runs\current` now checks whether `title-candidates.md` contains five filled candidate rows;
+- the same check fails when `Selected title:` is empty and warns when title-candidate placeholders such as `Unknown`, `fill`, or `TBD` remain;
+- this turns the user's "AI-like title" complaint into an executable pre-writing gate rather than only a style suggestion.
+
+v1.5 LaTeX-source gate update:
+
+- `scripts/check-v1.5-pdf.ps1 -Tex .\paper\main.tex` now checks the LaTeX source in addition to PDF text;
+- the source gate catches missing abstract problem markers, too few `\textbf{...}` result highlights, internal prompt-language leakage, and unreplaced skeleton placeholders;
+- this directly targets the v1.4/v1.5 failure where a compiled PDF could still contain template-like body prose, unbolded/weak abstract structure, or prompt scaffolding.
+
+v1.5 review scaffold update:
+
+- `scripts/new-run.ps1` now generates `reviews/review-<run>.md` with a `v1.5 Hard Gate Verdict` table;
+- the same review scaffold includes `Method Route Verdict` so method-depth evidence has to be reviewed by subquestion;
+- the scaffold includes the expected PDF/source/run-file check command and `reviews/pdf-v15-check.md` evidence slot;
+- this reduces the chance that Claude Code finishes with a free-form summary instead of a gate-by-gate handoff decision.
+
+v1.5 review-verdict gate update:
+
+- `scripts/check-v1.5-pdf.ps1 -Review .\reviews\review-current.md` now checks the final review file;
+- the review gate fails when `v1.5 Hard Gate Verdict` or `Method Route Verdict` is missing;
+- it also fails when verdict rows still contain `Unknown` or when too few rows contain Pass/Fail decisions;
+- this makes the review scaffold executable: a table with unfilled verdicts no longer counts as a completed handoff.
+
+v1.5 release-readiness update:
+
+- `docs/v1.5-readiness-report.md` now states what v1.5 is ready to test, what its checks prove, and what they do not prove;
+- `docs/v1.5-release-checklist.md` now defines repository checks, scaffold checks, generated-paper checks, human visual checks, and a stop rule;
+- `START_HERE.md`, `README.md`, `docs/README.md`, and `docs/v1.5-test-handoff.md` now point to the readiness and release checklist files;
+- this gives v1.5 a clear handoff boundary so future work can shift from speculative polishing to user-side generated-paper testing.
+
+v1.5 feedback-loop update:
+
+- `docs/v1.5-user-test-feedback-template.md` now gives the user a stable place to record first-look failures, required artifacts, PDF-check output, human visual notes, failure classifications, and responsible-use confirmation after each Claude Code run;
+- `docs/v1.5-feedback-triage-matrix.md` maps user-side failures to the smallest durable repair layer: prompt, template, checker, knowledge note, run scaffold, or later-version backlog;
+- `README.md`, `START_HERE.md`, `docs/README.md`, `docs/v1.5-readiness-report.md`, and `docs/v1.5-release-checklist.md` now route v1.5 tests through this feedback/triage loop;
+- `scripts/check-v1.5-static.ps1` now checks that the feedback template and triage matrix exist and remain wired into the v1.5 entry path;
+- this turns the user's visible-paper disappointment into a repeatable repair loop instead of open-ended polishing.
+
+v1.5 visual-fingerprint learning update:
+
+- five recent local 2023 awarded-paper PDFs were rendered for front-page and tail-page visual sampling: `A0127.pdf`, `B311.pdf`, `C050.pdf`, `D039.pdf`, and `E176.pdf`;
+- text extraction was confirmed unreliable for many local awarded PDFs because watermark, scan, and image layers hide headings and body text, so visual-page sampling is the stronger evidence source for paper feel;
+- the sampled front pages show a stable rhythm: page 1 is dense title/abstract/keywords, page 2 enters restatement or analysis, and pages 3-6 already show formal modeling objects such as symbol tables, route diagrams, assumptions, equations, early figures, data tables, or result charts;
+- the sampled tail pages commonly contain code listings, script fragments, support-file lists, or appendix technical material, reinforcing that appendix code is part of the expected paper shape when the body already carries the answer;
+- `knowledge/latex/v1-5-award-paper-visual-fingerprint.md` now records these observations as v1.5 generation and review rules;
+- `README.md`, `START_HERE.md`, `docs/README.md`, `CLAUDE.md`, `.codex/skills/cumcm-paper-generator/SKILL.md`, `prompts/15_launch_v1_5.md`, `docs/v1.5-test-handoff.md`, and `scripts/check-v1.5-static.ps1` now route v1.5 through this visual-fingerprint rule.
+
+v1.5 local-experience soft-rule update:
+
+- readable PDFs in `9.数学建模经验分享（36篇）` were re-sampled for practical writing and team-execution rules;
+- `如何写好一篇优秀的建模论文（经验谈）.pdf` reinforces that the paper is the scored surface and that assumptions, creativity, reasonable results, and clear expression must be visible;
+- `成为一个数学建模“高手”的八大奥秘.pdf` reinforces simple-first modeling, communication, programming quality, and broad practical knowledge;
+- `数学中国—美赛经验总结.pdf` and `数学中国美赛培训之经验%28整理版%29.pdf` reinforce environment preparation, shared files, role discipline, first-day problem reading, objective/decision-variable identification, practical model choice, and unified writing voice;
+- `knowledge/community/v1-5-local-experience-soft-rules.md` now converts these signals into v1.5 generation and review rules;
+- old `.doc` and `.ppt` files remain not fully absorbed until better conversion or manual sampling is available.
+
+v1.5 route-upgrade atlas update:
+
+- recent CUMCM problem statements were sampled for recurring answer forms: experimental-factor optimization, supplier/material planning, online scheduling, spectra/classification, geometric positioning, communication/network reliability, lifecycle/resource planning, forecast-to-decision, and monitoring/policy design;
+- the shared failure pattern is that a shallow algorithm route usually lacks either a body-level result artifact or a validation artifact;
+- `knowledge/algorithms/v1-5-route-upgrade-atlas.md` now maps problem signals to support layer, main model, result artifact, validation artifact, paper highlight, and common trap;
+- `prompts/15_launch_v1_5.md`, `CLAUDE.md`, `.codex/skills/cumcm-paper-generator/SKILL.md`, `START_HERE.md`, `README.md`, `docs/README.md`, `knowledge/README.md`, and `scripts/check-v1.5-static.ps1` now route v1.5 through this atlas before `method-depth-plan.md` is locked;
+- this targets the user's failure report that previous papers had methods that looked basic, unconvincing, or unable to support award-paper-level claims.

@@ -18,7 +18,8 @@ Purpose: give Claude Code one stable path through the generation loop.
 12. `10_launch_v1_3.md`
 13. `12_launch_v1_4.md`
 14. `13_platform_research.md`
-15. `flow-map.md`
+15. `15_launch_v1_5.md`
+16. `flow-map.md`
 
 ## What The Prompt Chain Does
 
@@ -32,6 +33,7 @@ Each stage should leave a file under `runs/current/` or the active run directory
 
 Use `10_launch_v1_3.md` when the work is not just "finish one stronger paper", but "improve the reusable thinking method behind future papers".
 Use `12_launch_v1_4.md` when the work should produce a contest-feel draft with online consensus, recent award-paper visual rhythm, section proportions, and human-feel review.
+Use `15_launch_v1_5.md` when the work should produce an award-paper-feel draft with method route depth, title candidates, a contest-style title, paragraph abstract with bold results, early concept figure, paper-ready figures/tables, appendix code, and hard-gate review.
 Use `11_online_consensus_check.md` after the first route and model plan exist, before final paper writing, to check public contest-circle discussion without copying answers.
 Use `13_platform_research.md` when the model plan exists and you need Playwright MCP to browse public online sources for community interpretation, traps, and result-range sanity checks before writing the final paper.
 Use `flow-map.md` when you want the shortest path from stage to stage and need a quick reminder of what each step must leave behind.
@@ -50,6 +52,20 @@ Use `flow-map.md` when you want the shortest path from stage to stage and need a
 | Review | audit paper quality | `reviews/review-*.md` |
 | Quality audit | run the machine gate and record status | gate output plus review evidence |
 | Revision | repair thinness, shallow chains, and machine-like phrasing | updated paper plus refreshed run files |
+
+## v1.5 Level 0
+
+For v1.5, do not read the whole repository first. Read only:
+
+- `START_HERE.md`
+- `docs/v1.5-paper-template-contract.md`
+- `docs/v1.5-method-route-contract.md`
+- `knowledge/latex/v1-5-front-matter-rhythm-rules.md`
+- `knowledge/latex/v1-5-award-paper-style-rules.md`
+- `knowledge/quality/v1-5-hard-gates.md`
+- `prompts/15_launch_v1_5.md`
+
+Then load extra files only when the current problem requires them.
 
 ## Key Rules
 

@@ -4,65 +4,79 @@ Purpose: give the project one stable entry point for workflow, run state, review
 
 ## Read This Layer In Order
 
-1. `v1.4-definition.md`
-2. `v1.4-community-learning-plan.md`
-3. `community-signal-to-rule-pipeline.md`
-4. `playwright-mcp-public-research.md`
-5. `local-experience-extraction-queue.md`
-6. `local-experience-extraction-status.md`
-7. `v1.4-runbook.md`
-8. `online-consensus-check-protocol.md`
-9. `online-consensus-example-template.md`
-10. `online-consensus-weak-strong-examples.md`
-11. `v1.4-release-notes.md`
-12. `v1.4-readiness-report.md`
-13. `v1.4-test-handoff.md`
-14. `v1.4-user-test-protocol.md`
-15. `v1.4-user-test-feedback-template.md`
-16. `v1.4-feedback-triage-matrix.md`
-17. `v1.4-sync-manifest.md`
-18. `v1.4-release-checklist.md`
-17. `v1.3-methodology-runbook.md`
-17. `v1.2-runbook.md`
-18. `v1.2-final-pass-guide.md`
-19. `v1.2-draft-contract.md`
-20. `v1.2-definition.md`
-21. `v1.2-quickstart.md`
-22. `v1-runbook.md`
-23. `workflow.md`
-24. `continuation-state.md`
-25. `current-state-matrix-2026-07-07.md`
-26. `review-checklist.md`
-27. `visual-generation-pipeline.md`
-28. `run-start-checklist.md`
-29. `problem-profile-template.md`
-30. `route-decision-template.md`
-31. `methodology-checklist-template.md`
-32. `literature-notes-template.md`
-33. `artifact-ledger-template.md`
-34. `figure-plan-template.md`
-35. `section-budget-template.md`
-36. `writing-style-plan-template.md`
-36. `family-section-budget-examples.md`
-37. `family-writing-style-examples.md`
-38. `run-file-examples/README.md`
-39. `paper-section-examples/README.md`
-40. `paper-assembly-examples/README.md`
-41. `demo-bundles/README.md`
-42. `review-case-examples/README.md`
-43. `sample-run-packages/README.md`
-44. `pressure-test-runbook.md`
-45. `calibration-log-template.md`
-46. `first-calibration-batch-plan.md`
-47. `calibration-run-index.md`
-48. `calibration-candidates/batch1-candidate-selection.md`
-49. `calibration-examples/monitoring-route-e-calibration-example.md`
-50. `run-artifact-index.md`
-51. `project-audit-2026-07-06.md`
-52. `architecture.md`
-53. `long-term-roadmap.md`
-54. `research-agenda.md`
-55. `objective-coverage-matrix.md`
+1. `v1.5-paper-template-contract.md`
+2. `v1.5-method-route-contract.md`
+3. `../prompts/15_launch_v1_5.md`
+4. `../knowledge/latex/v1-5-front-matter-rhythm-rules.md`
+5. `../knowledge/latex/v1-5-award-paper-style-rules.md`
+6. `../knowledge/latex/v1-5-award-paper-visual-fingerprint.md`
+7. `../knowledge/algorithms/v1-5-route-upgrade-atlas.md`
+8. `../knowledge/quality/v1-5-hard-gates.md`
+9. `v1.5-test-handoff.md`
+10. `v1.5-readiness-report.md`
+11. `v1.5-release-checklist.md`
+12. `v1.5-user-test-feedback-template.md`
+13. `v1.5-feedback-triage-matrix.md`
+14. `v1.4-definition.md`
+14. `v1.4-community-learning-plan.md`
+15. `community-signal-to-rule-pipeline.md`
+16. `playwright-mcp-public-research.md`
+17. `local-experience-extraction-queue.md`
+18. `local-experience-extraction-status.md`
+19. `v1.4-runbook.md`
+20. `online-consensus-check-protocol.md`
+21. `online-consensus-example-template.md`
+22. `online-consensus-weak-strong-examples.md`
+23. `v1.4-release-notes.md`
+24. `v1.4-readiness-report.md`
+25. `v1.4-test-handoff.md`
+26. `v1.4-user-test-protocol.md`
+27. `v1.4-user-test-feedback-template.md`
+28. `v1.4-feedback-triage-matrix.md`
+29. `v1.4-sync-manifest.md`
+30. `v1.4-release-checklist.md`
+31. `v1.3-methodology-runbook.md`
+32. `v1.2-runbook.md`
+33. `v1.2-final-pass-guide.md`
+34. `v1.2-draft-contract.md`
+35. `v1.2-definition.md`
+36. `v1.2-quickstart.md`
+37. `v1-runbook.md`
+38. `workflow.md`
+39. `continuation-state.md`
+40. `current-state-matrix-2026-07-07.md`
+41. `review-checklist.md`
+42. `visual-generation-pipeline.md`
+43. `run-start-checklist.md`
+44. `problem-profile-template.md`
+45. `route-decision-template.md`
+46. `methodology-checklist-template.md`
+47. `literature-notes-template.md`
+48. `artifact-ledger-template.md`
+49. `figure-plan-template.md`
+50. `section-budget-template.md`
+51. `writing-style-plan-template.md`
+52. `title-candidates-template.md`
+53. `family-section-budget-examples.md`
+54. `family-writing-style-examples.md`
+55. `run-file-examples/README.md`
+56. `paper-section-examples/README.md`
+57. `paper-assembly-examples/README.md`
+58. `demo-bundles/README.md`
+59. `review-case-examples/README.md`
+60. `sample-run-packages/README.md`
+61. `pressure-test-runbook.md`
+62. `calibration-log-template.md`
+63. `first-calibration-batch-plan.md`
+64. `calibration-run-index.md`
+65. `calibration-candidates/batch1-candidate-selection.md`
+66. `calibration-examples/monitoring-route-e-calibration-example.md`
+67. `run-artifact-index.md`
+68. `project-audit-2026-07-06.md`
+69. `architecture.md`
+70. `long-term-roadmap.md`
+71. `research-agenda.md`
+72. `objective-coverage-matrix.md`
 
 ## What This Layer Does
 
@@ -75,6 +89,15 @@ This layer answers four questions:
 
 ## Navigation Rule
 
+Use the v1.5 template contract, method route contract, front-matter rhythm rules, and hard gates when the goal is to avoid AI-report-looking output and produce an award-paper-feel draft.
+Use the v1.5 award-paper visual fingerprint when judging rendered-page rhythm against recent local awarded-paper samples.
+Use `../knowledge/algorithms/v1-5-route-upgrade-atlas.md` before `method-depth-plan.md` when a route risks becoming a shallow method list.
+Use `../prompts/15_launch_v1_5.md` as the direct launch prompt for v1.5.
+Use `v1.5-test-handoff.md` when the user wants the shortest practical instructions for testing v1.5 in Claude Code.
+Use `v1.5-readiness-report.md` to understand what v1.5 can and cannot prove before a user-side test.
+Use `v1.5-release-checklist.md` before publishing or handing v1.5 to another clone.
+Use `v1.5-user-test-feedback-template.md` after a user-side Claude Code run to record visible paper failures, missing artifacts, and the PDF-check result.
+Use `v1.5-feedback-triage-matrix.md` to turn those failures into the next concrete prompt, template, checker, or knowledge repair.
 Use the v1.4 runbook when the goal is to add contest-circle soft rules, award-paper feel, and online consensus reflection on top of the v1.3 methodology layer.
 Use the community signal pipeline when converting local experience, public posts, videos, or award-paper observations into stable prompts, run files, or review gates.
 Use the Playwright MCP public research entry when public online information is needed; browse normally accessible pages and record access limits instead of using platform-specific crawlers.
@@ -94,6 +117,7 @@ Use the v1.4 feedback triage matrix to turn observed failures into the next conc
 Use the v1.4 sync manifest when preparing to transfer or publish the v1.4 layer into another clone.
 Use the v1.4 release checklist before handing the repository to the user for a v1.4 Claude Code production test.
 Use `../scripts/check-v1.4-static.ps1` as the executable static check for the v1.4 release checklist.
+Use `../scripts/check-v1.5-static.ps1` as the executable static check for the v1.5 hard-gate entry layer.
 Use the workflow for staged output, the continuation state for handoff, the current-state matrix for evidence status, and the review checklist plus visual/ledger templates for quality control.
 Use the three v1.3 templates when the run needs explicit problem profiling, route-decision reasoning, and methodology claim boundaries before implementation starts.
 

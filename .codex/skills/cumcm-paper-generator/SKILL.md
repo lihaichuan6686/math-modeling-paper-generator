@@ -11,38 +11,17 @@ Use this skill inside the cloned `math-modeling-paper-generator` repository.
 
 1. Read `START_HERE.md`.
 2. Read `CLAUDE.md`.
-3. Read `docs/v1.4-definition.md`.
-4. Read `docs/v1.4-community-learning-plan.md`.
-5. Read `docs/community-signal-to-rule-pipeline.md`.
-6. Read `docs/playwright-mcp-public-research.md`.
-7. Read `docs/v1.4-runbook.md`.
-8. Read `docs/v1.3-methodology-runbook.md`.
-9. Read `docs/v1.2-runbook.md`.
-10. Read `knowledge/learning-status.md`.
-11. Read `knowledge/community/math-modeling-soft-rules.md`.
-12. Read `knowledge/community/paper-polish-and-feel.md`.
-13. Read `knowledge/community/contest-workflow-and-team-execution.md`.
-14. Read `knowledge/community/literature-search-and-citation-rules.md`.
-15. Read `knowledge/community/section-duty-soft-rules.md`.
-16. Read `knowledge/community/visual-evidence-chain-rules.md`.
-17. Read `knowledge/community/award-paper-section-rhythm.md`.
-18. Read `knowledge/cumcm/recent-award-paper-visual-rhythm.md`.
-19. Read `knowledge/cumcm/v1-4-section-proportion-and-reference-rules.md`.
-20. Read `knowledge/cumcm/problem-understanding-framework.md`.
-21. Read `knowledge/algorithms/route-selection-protocol.md`.
-22. Read `knowledge/cumcm/20-30-page-paper-blueprint.md`.
-23. Read `docs/visual-generation-pipeline.md`.
-24. Read `knowledge/algorithms/method-depth-ladder.md`.
-25. Read `knowledge/latex/human-style-soft-rules.md`.
-26. Read `knowledge/latex/v1-4-paper-composition-rules.md`.
-27. Read `knowledge/latex/v1-4-abstract-closeout-rules.md`.
-28. Read `knowledge/quality/v1-4-human-feel-review-gate.md`.
-29. Read `knowledge/quality/v1-3-self-review-gate.md`.
-30. Read `docs/v1.2-draft-contract.md`.
-31. Read `knowledge/quality/v1-2-quality-matrix.md`.
-32. Read `prompts/13_platform_research.md`.
-33. Read `problems/problem.md` unless the user specifies another problem file.
-34. Create or refresh a run scaffold:
+3. Read `prompts/15_launch_v1_5.md`.
+4. Read `docs/v1.5-paper-template-contract.md`.
+5. Read `docs/v1.5-method-route-contract.md`.
+6. Read `knowledge/latex/v1-5-front-matter-rhythm-rules.md`.
+7. Read `knowledge/latex/v1-5-award-paper-style-rules.md`.
+8. Read `knowledge/latex/v1-5-award-paper-visual-fingerprint.md`.
+9. Read `knowledge/community/v1-5-local-experience-soft-rules.md`.
+10. Read `knowledge/algorithms/v1-5-route-upgrade-atlas.md`.
+11. Read `knowledge/quality/v1-5-hard-gates.md`.
+12. Read `problems/problem.md` unless the user specifies another problem file.
+13. Create or refresh a run scaffold:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\start-current.ps1 -Name current
@@ -52,13 +31,23 @@ Use `-Force` only when the user wants to overwrite current run placeholders.
 
 ## Required Workflow
 
+Default to v1.5 unless the user explicitly asks for an older version.
+
+For v1.5, do not read the whole repository before acting. Use the Level 0 files above first, then load only task-specific references as needed.
+
 Work through this loop:
 
 ```text
 problem -> problem profile -> analysis -> candidate model routes -> selected route decision -> selected model plan -> code -> figures/tables -> LaTeX -> PDF -> review -> revision if needed
 ```
 
-For v1.4 runs, insert online consensus reflection after the initial model plan and before final paper writing:
+For v1.5, the loop must also enforce:
+
+```text
+method route contract -> title candidates -> title pattern -> paragraph abstract -> early concept figure -> paper-ready figures/tables -> sanity gates -> appendix code -> v1.5 PDF check -> v1.5 hard gate verdict
+```
+
+For v1.4/v1.5 runs, insert online consensus reflection after the initial model plan and before final paper writing when public-web access is available:
 
 ```text
 initial model plan -> Playwright MCP public browsing -> online consensus notes -> route reflection -> implementation/writing
@@ -68,7 +57,7 @@ Use Playwright MCP as the default public-web access route when available. Search
 Do not use cookies, hidden APIs, ZSE/internal endpoints, login bypass, private groups, paid content, or app-only content. Record inaccessible pages and move on.
 Convert useful community or local-experience signals through `docs/community-signal-to-rule-pipeline.md`; adopted signals must alter a run file, review note, prompt, or stable rule, while weak signals must be rejected or downgraded.
 
-Do not wait for complete reading before producing the first usable draft. But when the user wants a stronger reusable method, default to the v1.4 soft-rule layer plus the v1.3 methodology layer and v1.2 paper standard rather than the old small-demo standard.
+Do not wait for complete reading before producing the first usable draft. But when the user wants a stronger reusable method, default to the v1.5 hard-gate layer plus the v1.4 soft-rule layer and v1.3 methodology layer rather than the old small-demo standard.
 
 Produce or update:
 
@@ -81,6 +70,7 @@ Produce or update:
 - `runs/current/method-depth-plan.md`
 - `runs/current/verification-plan.md`
 - `runs/current/figure-plan.md`
+- `runs/current/title-candidates.md`
 - `runs/current/section-budget.md`
 - `runs/current/writing-style-plan.md`
 - `runs/current/methodology-checklist.md`
@@ -90,8 +80,10 @@ Produce or update:
 - code under `src/`
 - figures under `paper/figures/`
 - tables under `paper/tables/`
-- LaTeX under `paper/`
-- review under `reviews/review-current.md`
+- LaTeX under `paper/`, based on `paper/templates/cumcm_v15_main.tex` for v1.5 runs
+- appendix code or script index
+- `reviews/pdf-v15-check.md` after `paper/main.pdf` exists in v1.5 runs
+- review under `reviews/review-current.md`, including `v1.5 Hard Gate Verdict` for v1.5 runs
 
 ## Knowledge Files
 
@@ -135,6 +127,17 @@ Load these as needed:
 - v1.4 launch prompt: `prompts/12_launch_v1_4.md`
 - v1.4 user test protocol: `docs/v1.4-user-test-protocol.md`
 - v1.4 user feedback template: `docs/v1.4-user-test-feedback-template.md`
+- v1.5 paper template contract: `docs/v1.5-paper-template-contract.md`
+- v1.5 method route contract: `docs/v1.5-method-route-contract.md`
+- v1.5 front matter rhythm: `knowledge/latex/v1-5-front-matter-rhythm-rules.md`
+- v1.5 award-paper style: `knowledge/latex/v1-5-award-paper-style-rules.md`
+- v1.5 award-paper visual fingerprint: `knowledge/latex/v1-5-award-paper-visual-fingerprint.md`
+- v1.5 local experience soft rules: `knowledge/community/v1-5-local-experience-soft-rules.md`
+- v1.5 route upgrade atlas: `knowledge/algorithms/v1-5-route-upgrade-atlas.md`
+- v1.5 hard gates: `knowledge/quality/v1-5-hard-gates.md`
+- v1.5 launch prompt: `prompts/15_launch_v1_5.md`
+- v1.5 user feedback template: `docs/v1.5-user-test-feedback-template.md`
+- v1.5 feedback triage matrix: `docs/v1.5-feedback-triage-matrix.md`
 - LaTeX style: `knowledge/latex/cumcm-section-contract.md`
 - Human-team composition: `knowledge/latex/human-team-paper-composition.md`
 - v1.4 paper composition: `knowledge/latex/v1-4-paper-composition-rules.md`

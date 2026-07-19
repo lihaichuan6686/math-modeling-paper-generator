@@ -1,0 +1,167 @@
+% cumcm_v15 neutral paper skeleton
+\documentclass{ctexart}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs,longtable,array}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\captionsetup{font=small,labelsep=quad}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible,
+  numbers=left,
+  numberstyle=\tiny,
+  keywordstyle=\color{blue!70!black},
+  commentstyle=\color{green!40!black}
+}
+
+\newcommand{\keywords}[1]{\par\noindent\textbf{关键词：}#1}
+
+\title{<替换为国赛风格标题：先在 runs/current/title-candidates.md 中选定>}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+<总述段：交代背景、核心矛盾、总体建模路线。不要写成一整块流水账。>
+
+针对问题一，<说明方法>，得到\textbf{<关键数值/关系/结论>}。<补一句结果合理性或验证方式。>
+
+针对问题二，<说明分组/优化/评价方法>，得到\textbf{<关键方案/区间/时点/排序>}。<说明为什么该方案可用，样本不足或风险边界如何处理。>
+
+针对问题三，<说明多因素扩展或改进方法>，得到\textbf{<更优方案或修正结论>}。<说明相比上一问新增了什么证据。>
+
+针对问题四，<说明判定/预测/分类/优化方法>，得到\textbf{<性能指标或最终判定规则>}。<说明误差、稳定性或适用边界。>
+
+综上，<给出整体建议、模型优点与主要限制，不能只说模型有效。>
+
+\keywords{<对象关键词> \quad <方法关键词> \quad <结果关键词>}
+\end{abstract}
+
+\section{问题重述}
+
+\subsection{问题背景}
+<用自己的话压缩背景。不要照抄题面。>
+
+\subsection{问题要求}
+<列出每一问要输出的答案形式：数值、分组、排名、策略、判定规则等。>
+
+\section{问题分析}
+
+\subsection{核心矛盾与建模思路}
+<写成自然段，解释为什么这样拆题。禁止直接使用“问题信号识别”“路线选择理由”等 prompt 语言。>
+
+\begin{figure}[H]
+  \centering
+  \fbox{\parbox{0.82\textwidth}{\centering
+  这里放早期概念图、模型流程图、风险窗口图或变量关系图。\\
+  可由 TikZ、matplotlib、graphviz 或 SVG 生成。
+  }}
+  \caption{问题机理与总体建模流程示意图}
+  \label{fig:concept}
+\end{figure}
+
+\subsection{总体技术路线}
+<用 1-2 段解释模型路线。可以配路线表，但不要让表替代论述。>
+
+\section{模型假设}
+
+<每条假设必须说明作用，并在后文被使用。>
+
+\section{符号说明}
+
+\begin{table}[H]
+  \centering
+  \caption{主要符号说明}
+  \begin{tabular}{lll}
+    \toprule
+    符号 & 含义 & 单位或说明 \\
+    \midrule
+    <symbol> & <meaning> & <unit> \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{数据处理与数据陷阱}
+
+\subsection{数据清洗}
+<说明字段、缺失、重复测量、编码转换和样本筛选。>
+
+\subsection{数据陷阱}
+<列出容易误用的列、标签、异常值、样本量不足或题面提取乱码。>
+
+\section{模型建立与求解}
+
+\subsection{问题一模型}
+<先解释机制，再写公式，再给求解过程。>
+
+\subsection{问题二模型}
+<推荐方案不得包含未处理的小样本惩罚行。若有小样本，必须重分组或降级结论。>
+
+\subsection{问题三模型}
+<必须说明相比问题二新增了哪些因素、证据或约束。>
+
+\subsection{问题四模型}
+<分类/判定问题必须说明样本不平衡、阈值、验证方式和误判代价。>
+
+\section{结果分析}
+
+<每个问题都按“结果表/图 -> 解释 -> 合理性检查 -> 对下一问的作用”组织。>
+
+\section{模型检验、误差与敏感性分析}
+
+<至少包含一类稳定性、误差、灵敏度、交叉验证或合理性检验。>
+
+\section{模型评价与改进}
+
+\subsection{模型优点}
+<写本题具体优点，不写空泛套话。>
+
+\subsection{模型局限}
+<写会影响结论的具体限制。>
+
+\subsection{改进方向}
+<改进方向应和局限对应。>
+
+\section{结论}
+
+<按问题编号复述最终答案，和摘要、正文表格、artifact-ledger 保持一致。>
+
+\begin{thebibliography}{99}
+\bibitem{ref1}<真实参考文献，支持方法、数据、领域或验证。>
+\end{thebibliography}
+
+\appendix
+\section{关键代码与复现说明}
+
+本附录列出与正文关键图表对应的核心代码或脚本索引。完整原始数据不在正文重复堆放。
+
+\subsection{脚本索引}
+\begin{table}[H]
+  \centering
+  \caption{脚本与正文图表对应关系}
+  \begin{tabular}{lll}
+    \toprule
+    脚本 & 生成内容 & 正文位置 \\
+    \midrule
+    <script.py> & <figure/table> & <section> \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\subsection{核心代码片段}
+\begin{lstlisting}[language=Python]
+# Put core reproducible code here.
+\end{lstlisting}
+
+\end{document}

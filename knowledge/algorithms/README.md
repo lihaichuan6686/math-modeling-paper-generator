@@ -9,9 +9,10 @@ Purpose: give the generator one stable entry point for moving from a problem sig
 3. `route-method-matrix.md`
 4. `model-chain-patterns.md`
 5. `method-depth-ladder.md`
-6. `method-family-index.md`
-7. `cards/README.md`
-8. the detailed cards under `cards/`
+6. `v1-5-route-upgrade-atlas.md`
+7. `method-family-index.md`
+8. `cards/README.md`
+9. the detailed cards under `cards/`
 
 ## What This Layer Does
 
@@ -45,6 +46,8 @@ problem signal -> route family -> route-method matrix -> method card -> expected
 
 If a card cannot produce a visible artifact or a reviewable validation step, it is not the right card yet.
 
+For v1.5 runs, use `v1-5-route-upgrade-atlas.md` before filling `method-depth-plan.md`. It maps problem signals to support layers, main models, result artifacts, validation artifacts, paper highlights, and traps.
+
 ## Minimum Evidence Contract
 
 Every method choice should be able to answer:
@@ -62,6 +65,7 @@ Read this note together with:
 - `cumcm-routing-rules.md`
 - `problem-type-to-method.md`
 - `route-method-matrix.md`
+- `v1-5-route-upgrade-atlas.md`
 - `method-family-index.md`
 - `../cumcm/national-priority-problem-playbook.md`
 - `cards/README.md`
