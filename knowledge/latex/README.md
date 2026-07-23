@@ -1,4 +1,4 @@
-# LaTeX
+﻿# LaTeX
 
 Purpose: give the generator one stable entry point for turning a modeling plan into a complete CUMCM-style paper structure.
 
@@ -28,8 +28,13 @@ Purpose: give the generator one stable entry point for turning a modeling plan i
 22. `v1-5-front-matter-rhythm-rules.md`
 23. `v1-5-award-paper-style-rules.md`
 24. `v1-5-award-paper-visual-fingerprint.md`
-25. `paper-style-plan.md`
-26. `long-paper-blueprint.md`
+25. `v1-6-layout-rhythm-rules.md`
+26. `v1-6-section-rhythm-soft-metrics.md`
+27. `v1-6-award-feel-soft-rules.md`
+28. `v1-6-reference-and-citation-rhythm.md`
+29. `v1-6-award-paper-quantity-calibration.md`
+30. `paper-style-plan.md`
+31. `long-paper-blueprint.md`
 
 ## What This Layer Does
 
@@ -55,6 +60,10 @@ Best use of the section-family layer:
 - use the v1.5 front-matter rhythm rules when title, abstract, first page, second page, or early concept figure still look AI-generated;
 - use the v1.5 award-paper style rules when the paper needs the v1.5 hard-gate surface standard;
 - use the v1.5 award-paper visual fingerprint when the generated PDF has the right files but still lacks the visual rhythm of recent awarded papers;
+- use the v1.6 layout rhythm rules when the PDF is too long, too sparse, has blank-page waste, unsafe tables, or needs abstract/page-count control;
+- use the v1.6 section rhythm soft metrics when a draft has correct sections but still lacks human-team density, per-question loops, or plausible first-12-page rhythm;
+- use the v1.6 reference and citation rhythm rules when the bibliography exists but feels decorative, too short, padded, or disconnected from body claims;
+- use the v1.6 award-paper quantity calibration rules when page count, abstract fullness, appendix budget, or excellent-paper length comparisons are being judged;
 - use the visual evidence-chain rules when figures or tables look decorative, unsupported, late, or disconnected from subquestions;
 - use the national-family section-budget playbook when the draft needs family-specific page rhythm or abstract closure cues;
 - use the national abstract-and-closeout playbook when the draft still feels machine-like at sentence level;

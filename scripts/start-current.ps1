@@ -53,4 +53,5 @@ powershell @newRunArgs
 Write-Host ""
 Write-Host "Clone-ready start is prepared."
 Write-Host "Next prompt for Claude Code:"
-Write-Host "Use .codex/skills/cumcm-paper-generator/SKILL.md and problems/problem.md to generate a v1.5 award-paper-feel draft. Follow prompts/15_launch_v1_5.md, complete title-candidates.md, use paper/templates/cumcm_v15_main.tex, compile the PDF, then review with the v1.5 hard gates."
+Write-Host "Use .codex/skills/cumcm-paper-generator/SKILL.md and problems/problem.md to generate a v1.6 layout-and-visual-gated draft. Follow prompts/16_launch_v1_6.md, complete title-candidates.md, section-rhythm-budget.md, figure-style-spec.md, and concept-figure-spec.json, use paper/templates/cumcm_v16_main.tex, compile the PDF, then review with the v1.6 final gate."
+Write-Host "Legacy v1.5 award-paper-feel flow remains available via prompts/15_launch_v1_5.md and paper/templates/cumcm_v15_main.tex when explicitly requested."

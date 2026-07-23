@@ -1,4 +1,4 @@
-# Calibration Run Index
+﻿# Calibration Run Index
 
 Purpose: track pressure-test runs across route families so the project can see which scaffolds have real calibration evidence and which ones are still only planned.
 
@@ -7,6 +7,7 @@ Use this file together with:
 - `first-calibration-batch-plan.md`
 - `pressure-test-runbook.md`
 - `calibration-log-template.md`
+- `v1.6-calibration-log-template.md` for v1.6 generated-paper tests
 
 This file is a tracking ledger, not the calibration log itself.
 

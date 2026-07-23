@@ -91,6 +91,11 @@ This is a maintenance panel, not a reading log.
 - A local experience extraction status file that records the first old-format probe as partial/blocked rather than pretending the files were fully absorbed.
 - A 2026-07-16 writing-feel absorption batch from readable local TXT/DOCX/PDF experience files, strengthening excellent-paper section-duty transfer, simple-first method upgrades, body-visible answer rules, and abstract answer-form closure.
 - A v1.5 award-paper-feel hard-gate layer, created after the first v1.4 user-side test showed the output was complete but still looked like an AI technical report. This layer adds title patterns, paragraph abstract rules, early concept figure requirements, paper-ready figure rules, appendix-code requirements, result sanity gates, a neutral LaTeX skeleton, and Level 0 reading discipline.
+- A v1.6 layout-and-visual gate layer that adds page rhythm targets, section rhythm soft metrics, Nature-style concept figure expectations, safe table patterns, a final check wrapper, route-to-paper structure fields, and method-chain evidence requirements.
+- A v1.6 knowledge coverage audit that maps the long-term objective to current evidence and names what remains unproven.
+- A v1.6 calibration roadmap that turns the next phase into calibration work rather than open-ended feature growth.
+- A v1.6 excellent-paper reader-lens layer that converts a local first-prize paper reading reflection into section-by-section acceptance signals, assumption reuse checks, result/error analysis duties, and appendix-boundary review questions.
+- A v1.6 award-paper quantity calibration layer that uses 79 local PDF page counts, 33 recent excellent-paper counts, and the local `LATEX/model1.pdf` reference to separate early-test drafts, v1.6 handoff drafts, stronger award-feel drafts, heavy-evidence drafts, and non-paper solution notes.
 
 ## What Is Partially Absorbed
 
@@ -104,6 +109,7 @@ This is a maintenance panel, not a reading log.
 - More static reading from the remaining 36 local experience files, now guided by `docs/local-experience-extraction-queue.md` and `docs/local-experience-extraction-status.md`.
 - More public community-source examples from Xiaohongshu, Bilibili, Zhihu, and blogs, recorded as soft-rule signals rather than copied answers.
 - More readable local experience files can still be sampled later, but v1.4 should now stop expanding rules until user-side paper tests reveal specific failures.
+- More excellent-paper reader-lens samples from different problem families, so the current section-duty lens is not anchored to only one older first-prize paper reflection.
 
 ## What Still Needs Deep Reading
 
@@ -151,6 +157,22 @@ Current v1.5 stance:
 - prioritize hard gates, paper skeletons, environment setup, and PDF-visible quality;
 - treat "compiled and 20 pages" as insufficient evidence;
 - require user-side tests to drive the next repair.
+
+Current v1.6 stance:
+
+- treat v1.6 as the current default generation path;
+- require `prompts/16_launch_v1_6.md`, `docs/v1.6-design-plan.md`, `knowledge/algorithms/v1-6-method-chain-evidence-index.md`, `knowledge/latex/v1-6-section-rhythm-soft-metrics.md`, and `knowledge/quality/v1-6-layout-hard-gates.md` before drafting;
+- use `scripts/check-v1.6-final.ps1` as the default generated-paper handoff gate;
+- treat static pass as necessary but not sufficient, because real user-side PDFs still decide whether the rules produce human-team feel;
+- use `docs/knowledge-coverage-audit-v1.6.md` to avoid overstating how much of the long-term objective is proven.
+
+Current v1.6 calibration stance:
+
+- next work should be calibration, not broad rule expansion;
+- run or review at least three different problem families before claiming v1.x maturity;
+- update route, section, visual, or checker rules only when a calibration failure shows why;
+- defer v2.0 until generated papers repeatedly pass first-look human-team checks and v1.6 final checks.
+- keep converting readable local experience into operational gates only when it changes section duty, route evidence, visual layout, citation rhythm, or review behavior.
 
 v1.5 front-matter update:
 
@@ -222,10 +244,10 @@ v1.5 visual-fingerprint learning update:
 
 v1.5 local-experience soft-rule update:
 
-- readable PDFs in `9.数学建模经验分享（36篇）` were re-sampled for practical writing and team-execution rules;
+- readable PDFs in `9.数学建模经验分享�?6篇）` were re-sampled for practical writing and team-execution rules;
 - `如何写好一篇优秀的建模论文（经验谈）.pdf` reinforces that the paper is the scored surface and that assumptions, creativity, reasonable results, and clear expression must be visible;
 - `成为一个数学建模“高手”的八大奥秘.pdf` reinforces simple-first modeling, communication, programming quality, and broad practical knowledge;
-- `数学中国—美赛经验总结.pdf` and `数学中国美赛培训之经验%28整理版%29.pdf` reinforce environment preparation, shared files, role discipline, first-day problem reading, objective/decision-variable identification, practical model choice, and unified writing voice;
+- `数学中国—美赛经验总结.pdf` and `数学中国美赛培训之经�?28整理�?29.pdf` reinforce environment preparation, shared files, role discipline, first-day problem reading, objective/decision-variable identification, practical model choice, and unified writing voice;
 - `knowledge/community/v1-5-local-experience-soft-rules.md` now converts these signals into v1.5 generation and review rules;
 - old `.doc` and `.ppt` files remain not fully absorbed until better conversion or manual sampling is available.
 

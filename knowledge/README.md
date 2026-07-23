@@ -1,4 +1,4 @@
-# Knowledge Base
+﻿# Knowledge Base
 
 Purpose: store structured knowledge extracted from local mathematical-modeling resources without copying full source papers or templates into the repository.
 
@@ -81,7 +81,14 @@ For any CUMCM paper-generation or review run, read in this order:
 72. `../prompts/11_online_consensus_check.md`
 73. `../prompts/flow-map.md`
 74. `../docs/objective-coverage-matrix.md`
-75. `../docs/playwright-mcp-public-research.md`
+75. `../docs/knowledge-coverage-audit-v1.6.md`
+76. `../docs/v1.6-calibration-roadmap.md`
+77. `visuals/v1-6-visual-generation-decision.md`
+78. `cumcm/v1-6-family-calibration-priority.md`
+79. `latex/v1-6-reference-and-citation-rhythm.md`
+80. `latex/v1-6-award-paper-quantity-calibration.md`
+81. `community/v1-6-excellent-paper-reader-lens.md`
+82. `../docs/playwright-mcp-public-research.md`
 
 ## Directory Map
 
@@ -93,6 +100,8 @@ For any CUMCM paper-generation or review run, read in this order:
 - `quality/`: quality doorway, paper review rubrics, reproducibility checks, and human-AI difference research framework.
 - `learning-status.md`: compact view of what the knowledge base has already absorbed and what still needs deeper reading.
 - `roadmap.md`: what still needs to be strengthened next.
+- `../docs/knowledge-coverage-audit-v1.6.md`: current audit of long-term objective coverage.
+- `../docs/v1.6-calibration-roadmap.md`: next calibration release plan after v1.6.
 - `_generated/`: temporary rendered pages, screenshots, and machine-generated inspection artifacts. This directory is not committed.
 
 ## Current Strong Entry Points
@@ -104,6 +113,9 @@ Structure and writing:
 - `community/paper-polish-and-feel.md`
 - `community/contest-workflow-and-team-execution.md`
 - `community/literature-search-and-citation-rules.md`
+- `community/v1-6-excellent-paper-reader-lens.md`
+- `cumcm/v1-6-family-calibration-priority.md`
+- `latex/v1-6-award-paper-quantity-calibration.md`
 - `community/section-duty-soft-rules.md`
 - `community/visual-evidence-chain-rules.md`
 - `community/award-paper-section-rhythm.md`
@@ -160,11 +172,15 @@ Algorithms and model routes:
 Visuals and artifacts:
 
 - `community/visual-evidence-chain-rules.md`
+- `visuals/v1-6-visual-generation-decision.md`
 - `../docs/figure-plan-template.md`
 - `../docs/artifact-ledger-template.md`
 - `../docs/run-artifact-index.md`
 - `../docs/visual-generation-pipeline.md`
 - `latex/figures-tables-equations-style.md`
+- `latex/v1-6-reference-and-citation-rhythm.md`
+- `latex/v1-6-award-paper-quantity-calibration.md`
+- `community/v1-6-excellent-paper-reader-lens.md`
 
 Quality review:
 

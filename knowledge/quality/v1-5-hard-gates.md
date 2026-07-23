@@ -124,6 +124,35 @@ Fail if:
 - consecutive pages are mostly plots with minimal interpretation;
 - the paper reaches length through blank space, oversized plots, or appendix inflation.
 
+## Gate 11: LaTeX Heading Safety Gate
+
+Fail if any `\section`, `\subsection`, `\subsubsection`, `\paragraph`, or `\subparagraph` title contains an ASCII hyphen (`-`).
+
+Reason: headings are written to `.toc`, `.out`, and PDF bookmark metadata. In Chinese XeLaTeX documents with `hyperref`, mixed heading tokens such as `Z-score基线` can trigger runaway bookmark arguments or silent downstream truncation even when the compiler still emits a PDF.
+
+Repair:
+
+- use `Zscore基线判定法`, `Z score基线判定法`, or a Chinese phrase such as `标准分数基线判定法`;
+- keep hyphenated English terms in body text only, not in heading commands;
+- rerun the PDF/source check after repair.
+
+## Gate 12: Section Density Gate
+
+Fail if a normal body section is only a skeleton and does not meet its first-draft minimum density.
+
+Minimum source-level targets:
+
+| Section family | Minimum paragraphs | Minimum formulas | Minimum figure/table evidence |
+|---|---:|---:|---:|
+| Problem restatement / analysis | 3 | 0 | 1 |
+| Data preprocessing | 3 | 1 | 1 |
+| Model construction | 3 | 2 | 1 |
+| Solution / computation | 3 | 1 | 1 |
+| Results analysis | 3 | 0 | 2 |
+| Validation / sensitivity | 3 | 1 | 1 |
+
+These are not page-padding targets. They force the first draft to contain real explanatory prose, mathematical structure, and visible evidence before the paper is compiled. If a section genuinely needs fewer formulas, record the reason in the review and compensate with stronger interpretation and artifact evidence.
+
 Executable support:
 
 ```powershell

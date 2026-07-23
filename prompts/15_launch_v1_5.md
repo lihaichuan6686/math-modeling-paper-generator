@@ -24,6 +24,7 @@ Level 0 required reading only:
 - knowledge/community/v1-5-local-experience-soft-rules.md
 - knowledge/algorithms/v1-5-route-upgrade-atlas.md
 - knowledge/quality/v1-5-hard-gates.md
+- memory/v15-paper-generation-feedback.md
 - prompts/15_launch_v1_5.md
 
 Then read only as needed:
@@ -56,6 +57,8 @@ Execution requirements:
 - Abstract must be paragraph-structured and use 针对问题一/二/三 wording when appropriate.
 - Key results in the abstract must be bolded with \textbf{...}.
 - Page one should visually approach a full abstract page without exceeding one page.
+- Section headings must not contain ASCII hyphens (`-`). Use `Zscore`, `Z score`, or Chinese wording in headings; keep hyphenated English terms only in body text.
+- Do not write a thin skeleton and plan to fill it later. The first complete section draft must satisfy the source-density target in `knowledge/quality/v1-5-hard-gates.md`: normal body sections need at least 3 substantive paragraphs, model/solution/validation sections need formulas, and every central section needs figure/table evidence.
 - Add an early concept figure or record a clear reason if impossible.
 - Do not leak prompt terms such as 问题信号识别, 路线选择理由, 模型链概述 into the paper.
 - Figures must be paper-ready: readable, Chinese-captioned, and not default notebook screenshots.
@@ -64,7 +67,7 @@ Execution requirements:
 - method-depth-plan.md must map each subquestion to a result artifact and validation artifact.
 - If a model produces impossible values or an optimal plan depends on tiny penalty groups, revise the model or downgrade the conclusion.
 - Include appendix code or a script index.
-- After paper/main.pdf exists, run scripts/check-v1.5-pdf.ps1 and read reviews/pdf-v15-check.md.
+- After paper/main.pdf exists, run scripts/check-v1.5-pdf.ps1 and read reviews/pdf-v15-check.md. The executable check reads `paper/main.tex` plus included section files and fails unsafe headings or thin sections.
 
 Hard gate:
 Before handoff, write a review section named v1.5 Hard Gate Verdict using knowledge/quality/v1-5-hard-gates.md.

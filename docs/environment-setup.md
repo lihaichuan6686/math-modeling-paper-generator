@@ -6,7 +6,24 @@ The default recommendation is to use the lightweight environment first. It is in
 
 ## Preferred Options
 
-### Option A: Conda Lightweight Environment
+### Option A: uv / venv Lightweight Environment
+
+Preferred for Claude Code runs because it reuses `.venv` and avoids repeated conda solves:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\setup.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\check-env.ps1
+```
+
+After setup, use:
+
+```text
+.venv\Scripts\python.exe
+```
+
+Do not create a new temporary environment for every script.
+
+### Option B: Conda Lightweight Environment
 
 Use:
 
@@ -15,7 +32,9 @@ conda env create -f environment-lite.yml
 conda activate mm-paper-lite
 ```
 
-### Option B: Existing Python Environment
+Use conda only when the local machine already prefers conda. Do not run a heavy solve during every paper generation.
+
+### Option C: Existing Python Environment
 
 If Python `3.11+` already exists, use:
 
@@ -41,14 +60,27 @@ The lightweight environment currently includes:
 
 - `numpy`
 - `pandas`
+- `openpyxl`
 - `scipy`
 - `statsmodels`
 - `scikit-learn`
 - `matplotlib`
+- `seaborn`
 - `networkx`
+- `pypdf`
 - `pydantic`
 - `pyyaml`
 - `pillow`
+
+## Environment Check Gate
+
+Before a long generation run, use:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\check-env.ps1
+```
+
+If it fails, run `scripts/setup.ps1` once. If it passes, reuse the same `.venv` Python for exploration, plotting, Excel reading, PDF checks, and review helpers.
 
 ## Tooling Boundary
 

@@ -1,4 +1,4 @@
----
+﻿---
 name: cumcm-paper-generator
 description: Generate and review CUMCM-style mathematical modeling research paper drafts from a problem statement. Use when Claude Code is asked to use this repository to solve a mathematical modeling problem, create code-generated figures/tables, assemble a LaTeX paper, compile a PDF, or produce a self-review report. Research-only; not for active contest rule violations or fabricated evidence.
 ---
@@ -7,21 +7,30 @@ description: Generate and review CUMCM-style mathematical modeling research pape
 
 Use this skill inside the cloned `math-modeling-paper-generator` repository.
 
+Use `scripts/setup.ps1` once on a fresh clone, then `scripts/check-env.ps1`. Reuse `.venv\Scripts\python.exe`; do not create a new conda environment or temporary venv for every script.
+
 ## First Actions
 
 1. Read `START_HERE.md`.
 2. Read `CLAUDE.md`.
-3. Read `prompts/15_launch_v1_5.md`.
-4. Read `docs/v1.5-paper-template-contract.md`.
-5. Read `docs/v1.5-method-route-contract.md`.
-6. Read `knowledge/latex/v1-5-front-matter-rhythm-rules.md`.
-7. Read `knowledge/latex/v1-5-award-paper-style-rules.md`.
-8. Read `knowledge/latex/v1-5-award-paper-visual-fingerprint.md`.
-9. Read `knowledge/community/v1-5-local-experience-soft-rules.md`.
-10. Read `knowledge/algorithms/v1-5-route-upgrade-atlas.md`.
-11. Read `knowledge/quality/v1-5-hard-gates.md`.
-12. Read `problems/problem.md` unless the user specifies another problem file.
-13. Create or refresh a run scaffold:
+3. Read `prompts/16_launch_v1_6.md`.
+4. Read `docs/v1.6-design-plan.md`.
+5. Read `docs/v1.6-paper-template-contract.md`.
+6. Read `docs/v1.5-method-route-contract.md`.
+7. Read `knowledge/cumcm/v1-6-route-to-paper-structure-index.md`.
+8. Read `knowledge/cumcm/v1-6-family-calibration-priority.md`.
+9. Read `knowledge/algorithms/v1-6-method-chain-evidence-index.md`.
+10. Read `knowledge/latex/v1-6-layout-rhythm-rules.md`.
+11. Read `knowledge/latex/v1-6-section-rhythm-soft-metrics.md`.
+12. Read `knowledge/latex/v1-6-award-feel-soft-rules.md`.
+13. Read `knowledge/latex/v1-6-reference-and-citation-rhythm.md`.
+14. Read `knowledge/latex/v1-6-award-paper-quantity-calibration.md`.
+15. Read `knowledge/community/v1-6-excellent-paper-reader-lens.md`.
+16. Read `knowledge/visuals/v1-6-nature-style-figure-rules.md`.
+17. Read `knowledge/quality/v1-5-hard-gates.md`.
+18. Read `knowledge/quality/v1-6-layout-hard-gates.md`.
+19. Read `problems/problem.md` unless the user specifies another problem file.
+20. Create or refresh a run scaffold:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\start-current.ps1 -Name current
@@ -31,9 +40,9 @@ Use `-Force` only when the user wants to overwrite current run placeholders.
 
 ## Required Workflow
 
-Default to v1.5 unless the user explicitly asks for an older version.
+Default to v1.6 unless the user explicitly asks for an older version.
 
-For v1.5, do not read the whole repository before acting. Use the Level 0 files above first, then load only task-specific references as needed.
+For v1.6, do not read the whole repository before acting. Use the Level 0 files above first, then load only task-specific references as needed.
 
 Work through this loop:
 
@@ -41,10 +50,10 @@ Work through this loop:
 problem -> problem profile -> analysis -> candidate model routes -> selected route decision -> selected model plan -> code -> figures/tables -> LaTeX -> PDF -> review -> revision if needed
 ```
 
-For v1.5, the loop must also enforce:
+For v1.6, the loop must also enforce:
 
 ```text
-method route contract -> title candidates -> title pattern -> paragraph abstract -> early concept figure -> paper-ready figures/tables -> sanity gates -> appendix code -> v1.5 PDF check -> v1.5 hard gate verdict
+method route contract -> title candidates -> section rhythm budget -> paragraph abstract -> Nature-style concept figure -> safe tables -> appendix code -> v1.5 PDF check -> v1.6 layout check -> final gate verdicts
 ```
 
 For v1.4/v1.5 runs, insert online consensus reflection after the initial model plan and before final paper writing when public-web access is available:
@@ -70,8 +79,10 @@ Produce or update:
 - `runs/current/method-depth-plan.md`
 - `runs/current/verification-plan.md`
 - `runs/current/figure-plan.md`
+- `runs/current/figure-style-spec.md`
 - `runs/current/title-candidates.md`
 - `runs/current/section-budget.md`
+- `runs/current/section-rhythm-budget.md`
 - `runs/current/writing-style-plan.md`
 - `runs/current/methodology-checklist.md`
 - `runs/current/literature-notes.md`
@@ -80,10 +91,12 @@ Produce or update:
 - code under `src/`
 - figures under `paper/figures/`
 - tables under `paper/tables/`
-- LaTeX under `paper/`, based on `paper/templates/cumcm_v15_main.tex` for v1.5 runs
+- LaTeX under `paper/`, based on `paper/templates/cumcm_v16_main.tex` for v1.6 runs or `paper/templates/cumcm_v15_main.tex` for explicit legacy v1.5 runs
 - appendix code or script index
-- `reviews/pdf-v15-check.md` after `paper/main.pdf` exists in v1.5 runs
-- review under `reviews/review-current.md`, including `v1.5 Hard Gate Verdict` for v1.5 runs
+- `reviews/final-v16-check.md` after `paper/main.pdf` exists in v1.6 runs
+- `reviews/pdf-v15-check.md` after `paper/main.pdf` exists in v1.5 or v1.6 runs
+- `reviews/layout-v16-check.md` after `paper/main.pdf` exists in v1.6 runs
+- review under `reviews/review-current.md`, including `v1.5 Hard Gate Verdict` and `v1.6 Layout Gate Verdict` for v1.6 runs
 
 ## Knowledge Files
 
@@ -113,6 +126,7 @@ Load these as needed:
 - Team execution rules: `knowledge/community/contest-workflow-and-team-execution.md`
 - Literature and citation rules: `knowledge/community/literature-search-and-citation-rules.md`
 - Section duty soft rules: `knowledge/community/section-duty-soft-rules.md`
+- Excellent-paper reader lens: `knowledge/community/v1-6-excellent-paper-reader-lens.md`
 - Visual evidence chain rules: `knowledge/community/visual-evidence-chain-rules.md`
 - Common mistakes: `knowledge/community/common-mistakes-and-taboo-phrases.md`
 - Paper polish and feel: `knowledge/community/paper-polish-and-feel.md`
@@ -138,6 +152,19 @@ Load these as needed:
 - v1.5 launch prompt: `prompts/15_launch_v1_5.md`
 - v1.5 user feedback template: `docs/v1.5-user-test-feedback-template.md`
 - v1.5 feedback triage matrix: `docs/v1.5-feedback-triage-matrix.md`
+- v1.6 design plan: `docs/v1.6-design-plan.md`
+- v1.6 route to paper structure: `knowledge/cumcm/v1-6-route-to-paper-structure-index.md`
+- v1.6 family calibration priority: `knowledge/cumcm/v1-6-family-calibration-priority.md`
+- v1.6 method chain evidence index: `knowledge/algorithms/v1-6-method-chain-evidence-index.md`
+- v1.6 layout rhythm: `knowledge/latex/v1-6-layout-rhythm-rules.md`
+- v1.6 section rhythm soft metrics: `knowledge/latex/v1-6-section-rhythm-soft-metrics.md`
+- v1.6 award-feel soft rules: `knowledge/latex/v1-6-award-feel-soft-rules.md`
+- v1.6 reference and citation rhythm: `knowledge/latex/v1-6-reference-and-citation-rhythm.md`
+- v1.6 award-paper quantity calibration: `knowledge/latex/v1-6-award-paper-quantity-calibration.md`
+- v1.6 Nature-style figures: `knowledge/visuals/v1-6-nature-style-figure-rules.md`
+- v1.6 visual generation decision: `knowledge/visuals/v1-6-visual-generation-decision.md`
+- v1.6 layout hard gates: `knowledge/quality/v1-6-layout-hard-gates.md`
+- v1.6 launch prompt: `prompts/16_launch_v1_6.md`
 - LaTeX style: `knowledge/latex/cumcm-section-contract.md`
 - Human-team composition: `knowledge/latex/human-team-paper-composition.md`
 - v1.4 paper composition: `knowledge/latex/v1-4-paper-composition-rules.md`

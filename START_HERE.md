@@ -1,4 +1,4 @@
-# Start Here
+﻿# Start Here
 
 This repository is ready for both a simple Claude Code trial and a stronger methodology-guided paper run.
 
@@ -24,22 +24,36 @@ If you are just getting oriented, read these in order:
 16. `knowledge/latex/v1-5-award-paper-visual-fingerprint.md`
 17. `knowledge/algorithms/v1-5-route-upgrade-atlas.md`
 18. `knowledge/quality/v1-5-hard-gates.md`
-19. `prompts/15_launch_v1_5.md`
-20. `docs/v1.5-test-handoff.md`
-21. `docs/v1.5-readiness-report.md`
-22. `docs/v1.5-release-checklist.md`
-23. `docs/v1.5-user-test-feedback-template.md`
-24. `docs/v1.5-feedback-triage-matrix.md`
-25. `docs/v1.4-definition.md`
-26. `docs/v1.4-runbook.md`
-27. `docs/playwright-mcp-public-research.md`
-28. `prompts/13_platform_research.md`
-29. `prompts/12_launch_v1_4.md`
-30. `docs/v1.4-test-handoff.md`
-31. `docs/v1.4-feedback-triage-matrix.md`
-32. `docs/v1.3-methodology-runbook.md`
-33. `docs/v1.2-draft-contract.md`
-34. `docs/sample-run-packages/README.md`
+19. `docs/v1.6-design-plan.md`
+20. `docs/v1.6-paper-template-contract.md`
+21. `knowledge/cumcm/v1-6-route-to-paper-structure-index.md`
+22. `knowledge/cumcm/v1-6-family-calibration-priority.md`
+23. `knowledge/algorithms/v1-6-method-chain-evidence-index.md`
+24. `knowledge/latex/v1-6-layout-rhythm-rules.md`
+25. `knowledge/latex/v1-6-section-rhythm-soft-metrics.md`
+26. `knowledge/latex/v1-6-award-feel-soft-rules.md`
+27. `knowledge/latex/v1-6-reference-and-citation-rhythm.md`
+28. `knowledge/latex/v1-6-award-paper-quantity-calibration.md`
+29. `knowledge/community/v1-6-excellent-paper-reader-lens.md`
+30. `knowledge/visuals/v1-6-nature-style-figure-rules.md`
+31. `knowledge/quality/v1-6-layout-hard-gates.md`
+32. `prompts/16_launch_v1_6.md`
+33. `prompts/15_launch_v1_5.md`
+33. `docs/v1.5-test-handoff.md`
+34. `docs/v1.5-readiness-report.md`
+35. `docs/v1.5-release-checklist.md`
+36. `docs/v1.5-user-test-feedback-template.md`
+37. `docs/v1.5-feedback-triage-matrix.md`
+38. `docs/v1.4-definition.md`
+39. `docs/v1.4-runbook.md`
+40. `docs/playwright-mcp-public-research.md`
+41. `prompts/13_platform_research.md`
+42. `prompts/12_launch_v1_4.md`
+43. `docs/v1.4-test-handoff.md`
+44. `docs/v1.4-feedback-triage-matrix.md`
+45. `docs/v1.3-methodology-runbook.md`
+46. `docs/v1.2-draft-contract.md`
+47. `docs/sample-run-packages/README.md`
 
 ## Fastest Demo
 
@@ -104,19 +118,22 @@ For a fresh machine or clone, prepare the Python environment once:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\setup.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\check-env.ps1
 ```
+
+After this passes, reuse `.venv\Scripts\python.exe`. Do not create a fresh conda environment or temporary venv for each analysis script.
 
 3. Ask Claude Code:
 
 ```text
 Use the repository skill at .codex/skills/cumcm-paper-generator/SKILL.md.
 Read START_HERE.md and CLAUDE.md.
-Then use problems/problem.md to produce a v1.5 award-paper-feel CUMCM-style mathematical modeling paper draft.
-Use prompts/15_launch_v1_5.md as the main launch instruction.
-Read only the v1.5 Level 0 files first: docs/v1.5-paper-template-contract.md, docs/v1.5-method-route-contract.md, knowledge/latex/v1-5-front-matter-rhythm-rules.md, knowledge/latex/v1-5-award-paper-style-rules.md, knowledge/latex/v1-5-award-paper-visual-fingerprint.md, knowledge/algorithms/v1-5-route-upgrade-atlas.md, and knowledge/quality/v1-5-hard-gates.md.
-Use paper/templates/cumcm_v15_main.tex as the paper skeleton.
+Then use problems/problem.md to produce a v1.6 layout-and-visual-gated CUMCM-style mathematical modeling paper draft.
+Use prompts/16_launch_v1_6.md as the main launch instruction.
+Read only the v1.6 Level 0 files first: docs/v1.6-design-plan.md, docs/v1.6-paper-template-contract.md, docs/v1.5-method-route-contract.md, knowledge/cumcm/v1-6-route-to-paper-structure-index.md, knowledge/cumcm/v1-6-family-calibration-priority.md, knowledge/algorithms/v1-6-method-chain-evidence-index.md, knowledge/latex/v1-6-layout-rhythm-rules.md, knowledge/latex/v1-6-section-rhythm-soft-metrics.md, knowledge/latex/v1-6-award-feel-soft-rules.md, knowledge/latex/v1-6-reference-and-citation-rhythm.md, knowledge/latex/v1-6-award-paper-quantity-calibration.md, knowledge/community/v1-6-excellent-paper-reader-lens.md, knowledge/visuals/v1-6-nature-style-figure-rules.md, knowledge/quality/v1-5-hard-gates.md, and knowledge/quality/v1-6-layout-hard-gates.md.
+Use paper/templates/cumcm_v16_main.tex as the default v1.6 paper skeleton. Use paper/templates/cumcm_v15_main.tex only for explicit legacy v1.5 runs.
 Create runs/current/title-candidates.md before writing paper/main.tex.
-The final review must include a v1.5 Hard Gate Verdict and Method Route Verdict.
+The final review must include v1.5 Hard Gate Verdict, Method Route Verdict, and v1.6 Layout Gate Verdict.
 ```
 
 For the shortest v1.5 handoff, use `docs/v1.5-test-handoff.md`.
@@ -135,20 +152,23 @@ Legacy v1.4 references remain available:
 - `docs/v1.4-readiness-report.md`
 - Playwright MCP public research: `docs/playwright-mcp-public-research.md`
 
-Before publishing, syncing, or handing off v1.5, run:
+Before publishing, syncing, or handing off v1.6, run:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\check-v1.5-static.ps1
+powershell -ExecutionPolicy Bypass -File .\scripts\check-v1.6-static.ps1
 ```
 
 When a v1.5 PDF exists, also run:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\scripts\check-v1.5-pdf.ps1 -Pdf .\paper\main.pdf -Run .\runs\current -Tex .\paper\main.tex -Review .\reviews\review-current.md
+powershell -ExecutionPolicy Bypass -File .\scripts\check-v1.6-final.ps1 -Pdf .\paper\main.pdf -Run .\runs\current -Tex .\paper\main.tex -Log .\paper\main.log -Review .\reviews\review-current.md
 ```
+
+For single-gate debugging, run `scripts\check-v1.5-pdf.ps1` or `scripts\check-v1.6-layout.ps1` directly.
 
 ## Current Reality
 
-This repository has a working v1.0 closed loop, a stronger v1.2 drafting path, a v1.3 methodology layer, a v1.4 contest-feel layer, and an emerging v1.5 award-paper-feel hard-gate layer. It is not yet a polished 2.0 production system.
+This repository has a working v1.0 closed loop, a stronger v1.2 drafting path, a v1.3 methodology layer, a v1.4 contest-feel layer, a v1.5 award-paper-feel hard-gate layer, and an emerging v1.6 layout-and-visual gate layer. It is not yet a polished 2.0 production system.
 
 Use only for learning, post-contest review, authorized research, and quality-checking experiments.

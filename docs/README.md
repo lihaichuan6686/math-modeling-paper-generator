@@ -1,40 +1,64 @@
-# Docs
+﻿# Docs
 
 Purpose: give the project one stable entry point for workflow, run state, review rules, and roadmap material.
 
 ## Read This Layer In Order
 
-1. `v1.5-paper-template-contract.md`
-2. `v1.5-method-route-contract.md`
-3. `../prompts/15_launch_v1_5.md`
-4. `../knowledge/latex/v1-5-front-matter-rhythm-rules.md`
-5. `../knowledge/latex/v1-5-award-paper-style-rules.md`
-6. `../knowledge/latex/v1-5-award-paper-visual-fingerprint.md`
-7. `../knowledge/algorithms/v1-5-route-upgrade-atlas.md`
-8. `../knowledge/quality/v1-5-hard-gates.md`
-9. `v1.5-test-handoff.md`
-10. `v1.5-readiness-report.md`
-11. `v1.5-release-checklist.md`
-12. `v1.5-user-test-feedback-template.md`
-13. `v1.5-feedback-triage-matrix.md`
-14. `v1.4-definition.md`
-14. `v1.4-community-learning-plan.md`
-15. `community-signal-to-rule-pipeline.md`
-16. `playwright-mcp-public-research.md`
-17. `local-experience-extraction-queue.md`
-18. `local-experience-extraction-status.md`
-19. `v1.4-runbook.md`
-20. `online-consensus-check-protocol.md`
-21. `online-consensus-example-template.md`
-22. `online-consensus-weak-strong-examples.md`
-23. `v1.4-release-notes.md`
-24. `v1.4-readiness-report.md`
-25. `v1.4-test-handoff.md`
-26. `v1.4-user-test-protocol.md`
-27. `v1.4-user-test-feedback-template.md`
-28. `v1.4-feedback-triage-matrix.md`
-29. `v1.4-sync-manifest.md`
-30. `v1.4-release-checklist.md`
+1. `v1.6-design-plan.md`
+2. `v1.6-paper-template-contract.md`
+3. `../prompts/16_launch_v1_6.md`
+4. `../knowledge/cumcm/v1-6-route-to-paper-structure-index.md`
+5. `../knowledge/cumcm/v1-6-family-calibration-priority.md`
+6. `../knowledge/algorithms/v1-6-method-chain-evidence-index.md`
+7. `../knowledge/latex/v1-6-layout-rhythm-rules.md`
+8. `../knowledge/latex/v1-6-section-rhythm-soft-metrics.md`
+9. `../knowledge/latex/v1-6-award-feel-soft-rules.md`
+10. `../knowledge/latex/v1-6-reference-and-citation-rhythm.md`
+11. `../knowledge/latex/v1-6-award-paper-quantity-calibration.md`
+12. `../knowledge/community/v1-6-excellent-paper-reader-lens.md`
+13. `../knowledge/visuals/v1-6-nature-style-figure-rules.md`
+14. `../knowledge/visuals/v1-6-visual-generation-decision.md`
+15. `../knowledge/quality/v1-6-layout-hard-gates.md`
+14. `v1.6-test-handoff.md`
+15. `v1.6-readiness-report.md`
+16. `v1.6-release-checklist.md`
+17. `v1.6-user-test-feedback-template.md`
+18. `v1.6-feedback-triage-matrix.md`
+19. `knowledge-coverage-audit-v1.6.md`
+20. `v1.6-calibration-roadmap.md`
+21. `v1.6-calibration-log-template.md`
+22. `concept-figure-helper.md`
+23. `v1.5-paper-template-contract.md`
+23. `v1.5-method-route-contract.md`
+24. `../prompts/15_launch_v1_5.md`
+25. `../knowledge/latex/v1-5-front-matter-rhythm-rules.md`
+26. `../knowledge/latex/v1-5-award-paper-style-rules.md`
+27. `../knowledge/latex/v1-5-award-paper-visual-fingerprint.md`
+28. `../knowledge/algorithms/v1-5-route-upgrade-atlas.md`
+29. `../knowledge/quality/v1-5-hard-gates.md`
+30. `v1.5-test-handoff.md`
+31. `v1.5-readiness-report.md`
+32. `v1.5-release-checklist.md`
+33. `v1.5-user-test-feedback-template.md`
+34. `v1.5-feedback-triage-matrix.md`
+35. `v1.4-definition.md`
+36. `v1.4-community-learning-plan.md`
+37. `community-signal-to-rule-pipeline.md`
+38. `playwright-mcp-public-research.md`
+39. `local-experience-extraction-queue.md`
+40. `local-experience-extraction-status.md`
+41. `v1.4-runbook.md`
+42. `online-consensus-check-protocol.md`
+43. `online-consensus-example-template.md`
+44. `online-consensus-weak-strong-examples.md`
+45. `v1.4-release-notes.md`
+46. `v1.4-readiness-report.md`
+47. `v1.4-test-handoff.md`
+48. `v1.4-user-test-protocol.md`
+49. `v1.4-user-test-feedback-template.md`
+50. `v1.4-feedback-triage-matrix.md`
+51. `v1.4-sync-manifest.md`
+52. `v1.4-release-checklist.md`
 31. `v1.3-methodology-runbook.md`
 32. `v1.2-runbook.md`
 33. `v1.2-final-pass-guide.md`
@@ -89,6 +113,23 @@ This layer answers four questions:
 
 ## Navigation Rule
 
+Use the v1.6 design plan, layout rhythm rules, section rhythm soft metrics, Nature-style figure rules, visual generation decision rules, and layout hard gates when the goal is to avoid overlong, sparse, or visually broken PDFs.
+Use `../knowledge/cumcm/v1-6-family-calibration-priority.md` when route selection needs a broad family calibration lens before methods are named.
+Use `../prompts/16_launch_v1_6.md` as the direct launch prompt for v1.6.
+Use `v1.6-test-handoff.md` when the user wants the shortest practical instructions for testing v1.6 in Claude Code.
+Use `v1.6-readiness-report.md` to understand what v1.6 can and cannot prove before a user-side test.
+Use `v1.6-release-checklist.md` before publishing or handing v1.6 to another clone.
+Use `v1.6-user-test-feedback-template.md` after a user-side Claude Code run to record page rhythm, figure, table, and self-review failures.
+Use `v1.6-feedback-triage-matrix.md` to turn those failures into prompt, template, checker, knowledge, or source-generation repairs.
+Use `knowledge-coverage-audit-v1.6.md` to check whether the long-term learning objective is actually covered by current evidence.
+Use `v1.6-calibration-roadmap.md` when deciding the next calibration batch after v1.6 static work.
+Use `v1.6-calibration-log-template.md` to record each generated-paper calibration run before deciding repository write-backs.
+Use `concept-figure-helper.md` when a v1.6 run needs a reproducible code-native concept figure before any external image polish.
+Use `../knowledge/latex/v1-6-reference-and-citation-rhythm.md` when references exist but do not visibly support method, data, domain, validation, or software claims.
+Use `../knowledge/latex/v1-6-award-paper-quantity-calibration.md` when deciding whether a paper is an early-test draft, v1.6 handoff draft, stronger award-feel draft, or heavy-evidence draft.
+Use `../knowledge/community/v1-6-excellent-paper-reader-lens.md` when sections exist but still feel ceremonial, thin, or unlike a team that has read excellent papers.
+Use `../scripts/check-v1.6-static.ps1` as the executable static check for the v1.6 entry layer.
+Use `../scripts/check-v1.6-final.ps1` after PDF compilation to create `reviews/final-v16-check.md`, `reviews/pdf-v15-check.md`, and `reviews/layout-v16-check.md`.
 Use the v1.5 template contract, method route contract, front-matter rhythm rules, and hard gates when the goal is to avoid AI-report-looking output and produce an award-paper-feel draft.
 Use the v1.5 award-paper visual fingerprint when judging rendered-page rhythm against recent local awarded-paper samples.
 Use `../knowledge/algorithms/v1-5-route-upgrade-atlas.md` before `method-depth-plan.md` when a route risks becoming a shallow method list.

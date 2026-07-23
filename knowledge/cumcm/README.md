@@ -21,7 +21,9 @@ Purpose: give the generator one stable entry point for the contest-specific know
 15. `route-example-matrix.md`
 16. `archetype-section-matrix.md`
 17. `archetype-page-density-matrix.md`
-18. relevant deep-reading and comparison notes under `cumcm/`
+18. `v1-6-route-to-paper-structure-index.md`
+19. `v1-6-family-calibration-priority.md`
+20. relevant deep-reading and comparison notes under `cumcm/`
 
 ## What This Layer Does
 
@@ -40,13 +42,16 @@ This layer answers five questions:
 11. Which sample pair should be opened next?
 12. Which section emphasis should the archetype use?
 13. How should page density and validation weight be distributed?
-14. What should be tested next?
+14. How does the selected route become a title, abstract claim, first-12-page signal, and validation close?
+15. What should be tested next?
 
 ## Navigation Rule
 
 Use the atlas for route selection, the blueprint for structure, the paradigms note for positive templates, and the risk notes for review gates.
 
 Use the national-priority playbook when a new CUMCM-style problem arrives and you need the shortest paper-strategy shortcut before diving into deep notes.
+
+Use `v1-6-family-calibration-priority.md` when the run needs to decide which broad family failure is most dangerous: ranking without plan, forecast without decision, classifier without rule, geometry without object, or network without audit.
 
 The deep-reading notes are supporting evidence. They should be read when a route family needs more detail, not as the first and only entry point.
 

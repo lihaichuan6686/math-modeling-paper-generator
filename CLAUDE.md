@@ -1,31 +1,44 @@
-# Claude Code Instructions
+﻿# Claude Code Instructions
 
 This repository is a research-only mathematical modeling paper generator and paper-quality assistant. It is intended for learning, post-contest review, authorized research, and human-AI writing comparison. Do not use it to support active contest rule violations, hidden AI participation, fabricated experiments, fake citations, or unverifiable claims.
 
 ## Current Project State
 
-The project has a working v1.0 closed-loop demo, v1.2/v1.3 methodology layers, a v1.4 contest-feel release, and an emerging v1.5 award-paper-feel hard-gate layer:
+The project has a working v1.0 closed-loop demo, v1.2/v1.3 methodology layers, a v1.4 contest-feel release, a v1.5 award-paper-feel hard-gate layer, and an emerging v1.6 layout-and-visual gate layer:
 
 ```text
-problem -> run scaffold -> model plan -> code/table/figure -> v1.5 paper skeleton -> PDF -> hard-gate review
+problem -> run scaffold -> model plan -> code/table/figure -> v1.6 paper skeleton -> PDF -> v1.5 hard-gate review -> v1.6 layout review
 ```
 
-Do not restart broad reading before preserving and extending the usable workflow. For v1.5, read the Level 0 files first and load extra references only when needed.
+Do not restart broad reading before preserving and extending the usable workflow. For v1.6, read the Level 0 files first and load extra references only when needed.
+
+Environment rule: for fresh clones, run `scripts/setup.ps1` once and then `scripts/check-env.ps1`. Reuse `.venv\Scripts\python.exe` for data extraction, plotting, Excel reading, PDF checks, and review helpers. Do not build a new conda environment or temporary venv for each script.
 
 ## Read First
 
-For v1.5 generation or review runs, read these Level 0 files first:
+For v1.6 generation or review runs, read these Level 0 files first:
 
 - `START_HERE.md`
+- `prompts/16_launch_v1_6.md`
 - `prompts/15_launch_v1_5.md`
-- `docs/v1.5-paper-template-contract.md`
+- `docs/v1.6-design-plan.md`
+- `docs/v1.6-paper-template-contract.md`
 - `docs/v1.5-method-route-contract.md`
+- `knowledge/cumcm/v1-6-route-to-paper-structure-index.md`
+- `knowledge/cumcm/v1-6-family-calibration-priority.md`
+- `knowledge/algorithms/v1-6-method-chain-evidence-index.md`
+- `knowledge/latex/v1-6-layout-rhythm-rules.md`
+- `knowledge/latex/v1-6-section-rhythm-soft-metrics.md`
+- `knowledge/latex/v1-6-award-feel-soft-rules.md`
+- `knowledge/latex/v1-6-reference-and-citation-rhythm.md`
+- `knowledge/latex/v1-6-award-paper-quantity-calibration.md`
+- `knowledge/community/v1-6-excellent-paper-reader-lens.md`
+- `knowledge/visuals/v1-6-nature-style-figure-rules.md`
 - `knowledge/latex/v1-5-front-matter-rhythm-rules.md`
-- `knowledge/latex/v1-5-award-paper-style-rules.md`
 - `knowledge/latex/v1-5-award-paper-visual-fingerprint.md`
 - `knowledge/community/v1-5-local-experience-soft-rules.md`
-- `knowledge/algorithms/v1-5-route-upgrade-atlas.md`
 - `knowledge/quality/v1-5-hard-gates.md`
+- `knowledge/quality/v1-6-layout-hard-gates.md`
 
 Then read additional files only when the active problem requires them.
 
@@ -67,16 +80,18 @@ Core principle: browse public pages like a human reviewer, record access limits,
 1. Read `problems/problem.md` or the specified problem file.
 2. Create or update a run scaffold under `runs/`.
 3. Produce `problem-analysis.md`, `model-candidates.md`, and `model-plan.md`; include `Data Traps` in the data inventory.
-4. Select a model chain from the CUMCM knowledge base and algorithm cards; for v1.5, use `docs/v1.5-method-route-contract.md` and `knowledge/algorithms/v1-5-route-upgrade-atlas.md` before locking `method-depth-plan.md`.
+4. Select a model chain from the CUMCM knowledge base and algorithm cards; for v1.6, use `docs/v1.5-method-route-contract.md`, `knowledge/cumcm/v1-6-family-calibration-priority.md`, `knowledge/algorithms/v1-5-route-upgrade-atlas.md`, `knowledge/algorithms/v1-6-method-chain-evidence-index.md`, and `docs/v1.6-design-plan.md` before locking `method-depth-plan.md`.
 5. Public research: use Playwright MCP to browse public pages for community signals, common interpretations, traps, and rough result ranges. Write the first public-research draft to `runs/current/online-consensus-notes.md`. Use `prompts/13_platform_research.md`, then use `prompts/11_online_consensus_check.md` to review and complete the same file.
 6. Implement reproducible code under `src/`.
 7. Generate tables under `paper/tables/` and figures under `paper/figures/`.
-8. For v1.5, create `runs/current/title-candidates.md`, then copy or mirror `paper/templates/cumcm_v15_main.tex` before writing `paper/main.tex`.
+   For visual generation decisions, use `knowledge/visuals/v1-6-visual-generation-decision.md` when a figure could be code-generated, schematic, or externally polished.
+8. For v1.6, create `runs/current/title-candidates.md`, `runs/current/award-feel-checklist.md`, `runs/current/section-rhythm-budget.md`, and `runs/current/figure-style-spec.md`, then use `knowledge/latex/v1-6-award-paper-quantity-calibration.md` and `knowledge/community/v1-6-excellent-paper-reader-lens.md` to set the target page band and check every major section's duty before copying or mirroring `paper/templates/cumcm_v16_main.tex` and writing `paper/main.tex`.
+   Use `paper/templates/cumcm_v15_main.tex` only when the user explicitly asks for the legacy v1.5 flow.
 9. Compile `paper/main.tex`.
 10. Render and visually inspect important PDF pages.
-11. For v1.5, run `scripts/check-v1.5-pdf.ps1` after `paper/main.pdf` exists and read `reviews/pdf-v15-check.md`.
+11. For v1.6, run `scripts/check-v1.6-final.ps1` after `paper/main.pdf` exists, then read `reviews/final-v16-check.md`, `reviews/pdf-v15-check.md`, and `reviews/layout-v16-check.md`. For single-gate debugging, run `scripts/check-v1.5-pdf.ps1` or `scripts/check-v1.6-layout.ps1` directly.
 12. Record traceability in the artifact ledger.
-13. Record issues and final status in `reviews/`, including `v1.5 Hard Gate Verdict` for v1.5.
+13. Record issues and final status in `reviews/`, including `v1.5 Hard Gate Verdict` and `v1.6 Layout Gate Verdict` for v1.6.
 14. After user-side testing, record visible failures with `docs/v1.5-user-test-feedback-template.md` and map repairs with `docs/v1.5-feedback-triage-matrix.md`.
 
 ## Paper Expectations
@@ -123,13 +138,13 @@ A run is not complete until:
 - code outputs match paper claims;
 - review status is `Pass` or `Needs revision with explicit open items`;
 - responsible-use limitations are recorded.
-- for v1.5, every gate in `knowledge/quality/v1-5-hard-gates.md` has a pass/fail verdict and failed gates block handoff.
-- for v1.5, `reviews/review-current.md` includes `Method Route Verdict`.
-- for v1.5, `reviews/pdf-v15-check.md` exists when a PDF exists, and any `FAIL` item blocks handoff.
+- for v1.6, every gate in `knowledge/quality/v1-5-hard-gates.md` and `knowledge/quality/v1-6-layout-hard-gates.md` has a pass/fail verdict and failed gates block handoff.
+- for v1.6, `reviews/review-current.md` includes `Method Route Verdict`.
+- for v1.6, `reviews/pdf-v15-check.md` and `reviews/layout-v16-check.md` exist when a PDF exists, and any `FAIL` item blocks handoff.
 
 ## Near-Term Priorities
 
-1. Deliver v1.5 hard gates that prevent AI-report-looking papers from being handed off.
-2. Make the paper skeleton, title, abstract, concept figure, appendix code, and PDF review mandatory.
+1. Deliver v1.6 layout and visual gates that prevent overlong, sparse, or visually broken papers from being handed off.
+2. Make the paper skeleton, title, abstract, concept figure, appendix code, PDF review, and layout review mandatory.
 3. Use user-side tests to repair specific failed gates instead of broad open-ended polishing.
 4. Route every disappointing generated paper through the v1.5 feedback template and triage matrix before adding new rules.

@@ -16,7 +16,9 @@ Purpose: give the generator one stable entry point for review, reproducibility, 
 10. `evidence-family-index.md`
 11. `review-finding-index.md`
 12. `finding-gate-matrix.md`
-13. `../docs/review-checklist.md`
+13. `v1-5-hard-gates.md`
+14. `v1-6-layout-hard-gates.md`
+15. `../docs/review-checklist.md`
 
 ## What This Layer Does
 
@@ -34,6 +36,10 @@ Use the rubric for dimension-level evaluation, the checklist for run-level check
 Use the v1.3 gate when checking methodology drift, route fit, and fake completion.
 
 Use the v1.4 human-feel gate when the paper is structurally complete but still needs contest-circle feel, answer visibility, visual evidence-chain review, online-consensus reflection, and anti-template review.
+
+Use the v1.5 hard gates when title, abstract, route depth, data traps, appendix code, and prompt-language leakage need a strict pass/fail review.
+
+Use the v1.6 layout hard gates when page rhythm, abstract fill, blank space, table width, figure readability, or Nature-style concept figures need a strict pass/fail review.
 
 Use the reproducibility framework when the task is about human-AI comparison or evidence traceability.
 

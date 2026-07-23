@@ -9,7 +9,7 @@ This is not a full extraction of every document. It records durable rules that w
 Local folder:
 
 ```text
-9.数学建模经验分享（36篇）
+9.数学建模经验分享�?6篇）
 ```
 
 For extraction stability, several PDFs were temporarily copied to ASCII aliases:
@@ -24,7 +24,7 @@ For extraction stability, several PDFs were temporarily copied to ASCII aliases:
 | `cumcm-overview.pdf` | CUMCM overview and format guidance | judging emphasizes reasonable assumptions, creative modeling, correct results, and clear writing; the abstract carries high screening weight and should not exceed one page |
 | `beginner-introduction.docx` | contest introduction and workflow note | a contest paper is usually about 30 pages and contains abstract, keywords, restatement, analysis, symbols, model building/solution, evaluation, promotion, references, appendix, and supporting files |
 | `newcomer-tutorial.pdf` | early modeling-community tutorial and experience collection | information search, team alignment, figure-rich expression, and avoiding empty talk are recurring winner-side signals |
-| `大学生数学建模介绍及其入门.docx` | local introduction and paper-writing guide | abstract five-part duty, 3-5 keyword rule, compact restatement, route-aware problem analysis, practical model preference, clear result tables/figures, and body-before-appendix answer visibility |
+| `大学生数学建模介绍及其入�?docx` | local introduction and paper-writing guide | abstract five-part duty, 3-5 keyword rule, compact restatement, route-aware problem analysis, practical model preference, clear result tables/figures, and body-before-appendix answer visibility |
 
 ## Converted Rules
 
@@ -113,11 +113,11 @@ Additional readable PDF sources sampled:
 
 | Source | Readability | Absorbed signal |
 |---|---|---|
-| `contest-purpose-analysis.pdf` (`全国大学生数学建模竞赛作用浅析.pdf`) | clean | contest problems come from simplified real engineering/management settings; judging emphasizes reasonable assumptions, creative modeling, correct results, and clear writing; the paper must show assumptions, model building, solution, computation, result analysis, and improvement |
-| `mathchina-mcm-training-experience-short.pdf` (`数学中国美赛培训之经验%28整理版%29.pdf`) | clean | first-phase reading should identify the problem core, objective, decision variables, data needs, and cross-question dependencies; practical usable methods beat overcomplicated ideas |
+| `contest-purpose-analysis.pdf` (`全国大学生数学建模竞赛作用浅�?pdf`) | clean | contest problems come from simplified real engineering/management settings; judging emphasizes reasonable assumptions, creative modeling, correct results, and clear writing; the paper must show assumptions, model building, solution, computation, result analysis, and improvement |
+| `mathchina-mcm-training-experience-short.pdf` (`数学中国美赛培训之经�?28整理�?29.pdf`) | clean | first-phase reading should identify the problem core, objective, decision variables, data needs, and cross-question dependencies; practical usable methods beat overcomplicated ideas |
 | `mathchina-mcm-experience-long.pdf` (`数学中国—美赛经验总结.pdf`) | clean excerpt | preparation should answer what/where/how/why before the contest-style run; independent problem solving and prepared software/data habits matter |
 | `mcm-format-surface.pdf` (`美国数学建模论文格式.pdf`) | partial | confirms conventional title, author, keywords, abstract, body, and reference-style paper surface; use only as a generic format signal, not as CUMCM layout authority |
-| `personal-modeling-experience.pdf` (`数学建模个人经验谈.pdf`) | garbled/partial | likely contains team and training discussion, but current PDF extraction is too garbled for direct content absorption |
+| `personal-modeling-experience.pdf` (`数学建模个人经验�?pdf`) | garbled/partial | likely contains team and training discussion, but current PDF extraction is too garbled for direct content absorption |
 
 Converted durable rules:
 
@@ -141,7 +141,7 @@ Readable Office sources re-sampled with bundled document libraries:
 
 | Source | Readability | Absorbed signal |
 |---|---|---|
-| `beginner-introduction.docx` (`大学生数学建模介绍及其入门.docx`) | clean | problem families can be introduced as prediction, optimization, and evaluation, but each family must imply answer form, evidence burden, and paper section duties |
+| `beginner-introduction.docx` (`大学生数学建模介绍及其入�?docx`) | clean | problem families can be introduced as prediction, optimization, and evaluation, but each family must imply answer form, evidence burden, and paper section duties |
 | `experience-exchange.pptx` (`数学建模经验交流.pptx`) | clean | preparation includes modeling methods, software, prior problems, and paper-writing practice; strong execution uses modeling/programming/writing roles, shared files, early all-problem screening, figure-rich expression, and repeated abstract revision |
 
 Converted durable rules:
@@ -167,7 +167,7 @@ Readable local sources sampled:
 | Source | Readability | Absorbed signal |
 |---|---|---|
 | `excellent-paper-reading-reflection.txt` (`大学毕业论文心得-研读数学建模优秀论文心得体会.txt`) | clean | read excellent papers by section duty, not by surface wording; abstract must state method and important conclusions; assumptions should simplify the problem and be reused; error analysis should address the most arguable choices |
-| `beginner-introduction.docx` (`大学生数学建模介绍及其入门.docx`) | clean | CUMCM-style papers normally include abstract, keywords, restatement, analysis, assumptions, symbols, model building/solution, evaluation, promotion, references, appendix, and supporting files; prediction/optimization/evaluation are route families with different answer forms |
+| `beginner-introduction.docx` (`大学生数学建模介绍及其入�?docx`) | clean | CUMCM-style papers normally include abstract, keywords, restatement, analysis, assumptions, symbols, model building/solution, evaluation, promotion, references, appendix, and supporting files; prediction/optimization/evaluation are route families with different answer forms |
 | `write_good_paper.pdf` (`如何写好一篇优秀的建模论文（经验谈）.pdf`) | clean excerpt | judging depends on reasonable assumptions, creative modeling, reasonable results, and clear expression; main results must answer every asked question; simple effective models should be preferred over unnecessarily advanced methods |
 | `eight_secrets.pdf` (`成为一个数学建模“高手”的八大奥秘.pdf`) | clean | broad knowledge, imagination, simple-first modeling, communication, programming quality, and persistence are durable preparation signals |
 | `modeling_experience.pdf` (`建模心得.pdf`) | clean | study excellent papers before competition; use online/network discussion for inspiration without copying procedures; keep calm when other teams report different answers; divide modeling, programming, and writing roles while still collaborating |
@@ -197,7 +197,7 @@ Readable local sources re-sampled:
 | `write_good_paper.pdf` (`如何写好一篇优秀的建模论文（经验谈）.pdf`) | clean | the paper is the only judged artifact; judging surfaces include assumptions, creativity, reasonable results, and clear expression; every asked question needs visible numerical/result closure; appendix detail must not replace body results |
 | `eight_secrets.pdf` (`成为一个数学建模“高手”的八大奥秘.pdf`) | clean | broad knowledge, imagination, simple-first modeling, communication, programming quality, and persistence shape modeling strength |
 | `mathchina-mcm-experience-long.pdf` (`数学中国—美赛经验总结.pdf`) | clean | preparation includes software, data, code libraries, shared files, role discipline, and a dedicated writing environment |
-| `mathchina-mcm-training-experience-short.pdf` (`数学中国美赛培训之经验%28整理版%29.pdf`) | clean | first-day reading should identify objective, decision variables, data needs, and cross-question links; practical usable routes beat model piling; unified writing voice is important |
+| `mathchina-mcm-training-experience-short.pdf` (`数学中国美赛培训之经�?28整理�?29.pdf`) | clean | first-day reading should identify objective, decision variables, data needs, and cross-question links; practical usable routes beat model piling; unified writing voice is important |
 
 Converted durable rules:
 
@@ -217,3 +217,50 @@ Converted files:
 - `prompts/15_launch_v1_5.md`
 - `CLAUDE.md`
 - `.codex/skills/cumcm-paper-generator/SKILL.md`
+
+## 2026-07-23 v1.6 calibration Re-Read: Excellent-Paper Reader Lens
+
+Readable local source re-sampled:
+
+| Source | Readability | Absorbed signal |
+|---|---|---|
+| `excellent-paper-reading-reflection.txt` (`大学毕业论文心得-研读数学建模优秀论文心得体会.txt`) | clean | excellent papers are judged through section duties: abstract must state method and conclusions; analysis should expose route and visuals; assumptions must simplify and be reused; solution should connect formulas, software, results, and interpretation; error analysis should confront the most arguable choice; appendix code supports but does not carry the answer |
+
+Converted durable rules:
+
+- An excellent paper is read section by section but judged as one route.
+- Every section should make the next section feel necessary; ceremonial headings should be merged, shortened, or given evidence.
+- Assumptions must leave fingerprints in formulas, preprocessing, constraints, validation, or limitations.
+- Result analysis should state the answer, compare it, interpret it, and confront uncertainty before the conclusion relies on it.
+- Figures and tables should expose the modeled object, comparison relation, or result distribution, not decorate the page.
+- Appendix code and support files should be mapped to body claims while the body remains the first place where the answer is visible.
+
+Converted files:
+
+- `knowledge/community/v1-6-excellent-paper-reader-lens.md`
+- `prompts/16_launch_v1_6.md`
+- `CLAUDE.md`
+- `START_HERE.md`
+- `.codex/skills/cumcm-paper-generator/SKILL.md`
+
+## 2026-07-23 v1.6 calibration Page-Count Calibration Batch
+
+Local PDF metadata sampled:
+
+| Sample group | Count | Page-count signal |
+|---|---:|---|
+| 2021 excellent-paper PDFs | 17 | 21-60 pages, median 39 |
+| 2022 excellent-paper PDFs | 11 | 22-57 pages, median 32 |
+| 2023 excellent-paper PDFs | 5 | 27-50 pages, median 41 |
+| local team LaTeX reference `LATEX/model1.pdf` | 1 | 38 pages |
+
+Converted durable rules:
+
+- Do not mix excellent-paper PDFs, solution notes, template demos, and tutorials when calibrating length.
+- Treat 20-25 pages as an early-test warning band, 26-32 pages as the v1.6 handoff band, and 33-45 pages as stronger award-paper feel when evidence supports it.
+- Do not inflate all papers to 40 pages; require page count to be earned by data, subquestions, validation, figures/tables, and appendix code.
+- For scanned/image-like PDFs, page count is reliable but exact reference, figure, table, and text counts require OCR or visual inspection.
+
+Converted file:
+
+- `knowledge/latex/v1-6-award-paper-quantity-calibration.md`

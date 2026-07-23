@@ -1,0 +1,33 @@
+% v1.6 safe table snippets for CUMCM-style papers.
+% Copy the pattern, then replace column names and rows.
+
+% Wide text/path/script-index table.
+\begin{table}[H]
+  \centering
+  \caption{<表题>}
+  \label{tab:<label>}
+  \small
+  \begin{tabularx}{\textwidth}{p{0.24\textwidth} X p{0.18\textwidth}}
+    \toprule
+    <列一> & <列二> & <列三> \\
+    \midrule
+    <短文本> & <可换行长文本> & <短文本> \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+% Numeric table that may be slightly wide.
+\begin{table}[H]
+  \centering
+  \caption{<表题>}
+  \label{tab:<label>}
+  \begin{adjustbox}{max width=\textwidth}
+  \begin{tabular}{lrrrr}
+    \toprule
+    <项目> & <指标一> & <指标二> & <指标三> & <指标四> \\
+    \midrule
+    <行> & 0.000 & 0.000 & 0.000 & 0.000 \\
+    \bottomrule
+  \end{tabular}
+  \end{adjustbox}
+\end{table}

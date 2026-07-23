@@ -53,6 +53,8 @@ Use Mermaid, TikZ, vector drawing, or image generation for:
 - conceptual mechanism diagrams
 - simplified geometry sketches when exact coordinates are not yet known
 
+For v1.6 calibration concept/mechanism figures, prefer `scripts/generate-concept-figure.py` as the first code-native schematic when the figure can be represented as zones, nodes, and arrows. See `docs/concept-figure-helper.md`.
+
 Use rendered PDF screenshots for:
 
 - layout review

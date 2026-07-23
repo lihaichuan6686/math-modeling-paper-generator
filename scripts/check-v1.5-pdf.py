@@ -84,6 +84,22 @@ TEX_PLACEHOLDER_PATTERNS = [
     "Put core reproducible code here",
 ]
 
+SECTION_COMMAND_RE = re.compile(
+    r"\\(?P<cmd>section|subsection|subsubsection|paragraph|subparagraph)"
+    r"(?:\[[^\]]*\])?\{(?P<title>[^{}]*)\}"
+)
+INPUT_COMMAND_RE = re.compile(r"\\(?:input|include)\{([^{}]+)\}")
+
+SECTION_DENSITY_RULES = [
+    ("01_", 3, 0, 1),
+    ("02_", 3, 0, 1),
+    ("05_", 3, 1, 1),
+    ("06_", 3, 2, 1),
+    ("07_", 3, 1, 1),
+    ("08_", 3, 0, 2),
+    ("09_", 3, 1, 1),
+]
+
 
 def normalize_text(text: str) -> str:
     return re.sub(r"\s+", "", text or "")
@@ -387,6 +403,66 @@ def extract_latex_environment(text: str, env_name: str) -> str:
     return match.group(1) if match else ""
 
 
+def read_tex_with_inputs(tex_path: Path) -> tuple[str, list[tuple[str, str]]]:
+    visited: set[Path] = set()
+    sources: list[tuple[str, str]] = []
+
+    def load(path: Path) -> str:
+        resolved = path.resolve()
+        if resolved in visited or not resolved.exists():
+            return ""
+        visited.add(resolved)
+        text = resolved.read_text(encoding="utf-8", errors="replace")
+        sources.append((str(resolved), text))
+
+        def replace_input(match: re.Match[str]) -> str:
+            raw = match.group(1).strip()
+            child = (resolved.parent / raw).with_suffix(".tex")
+            if not child.exists():
+                child = resolved.parent / raw
+            return "\n" + load(child) + "\n"
+
+        return INPUT_COMMAND_RE.sub(replace_input, text)
+
+    return load(tex_path), sources
+
+
+def strip_latex_commands(text: str) -> str:
+    text = re.sub(r"\\begin\{(?:equation|align|gather|split|table|figure|lstlisting)[*]?\}.*?\\end\{\w+[*]?\}", " ", text, flags=re.DOTALL)
+    text = re.sub(r"\\\[[\s\S]*?\\\]", " ", text)
+    text = re.sub(r"\\[a-zA-Z]+\*?(?:\[[^\]]*\])?(?:\{[^{}]*\})?", " ", text)
+    text = re.sub(r"[%].*", "", text)
+    return text
+
+
+def count_section_paragraphs(section_text: str) -> int:
+    body = strip_latex_commands(section_text)
+    chunks = [chunk.strip() for chunk in re.split(r"\n\s*\n", body) if chunk.strip()]
+    return sum(1 for chunk in chunks if len(re.sub(r"\s+", "", chunk)) >= 35)
+
+
+def count_equation_units(section_text: str) -> int:
+    env_count = len(re.findall(r"\\begin\{(?:equation|align|gather|split|cases)[*]?\}", section_text))
+    display_count = len(re.findall(r"\\\[", section_text))
+    inline_numbered = len(re.findall(r"\\tag\{", section_text))
+    return env_count + display_count + inline_numbered
+
+
+def count_artifact_refs(section_text: str) -> int:
+    refs = len(re.findall(r"\\(?:ref|cref|Cref)\{(?:fig|tab|table|figure):", section_text))
+    floats = len(re.findall(r"\\begin\{(?:figure|table)\}", section_text))
+    graphics = len(re.findall(r"\\includegraphics", section_text))
+    return refs + floats + graphics
+
+
+def density_rule_for_source(source_name: str) -> tuple[int, int, int] | None:
+    name = Path(source_name).name
+    for prefix, min_paragraphs, min_equations, min_artifacts in SECTION_DENSITY_RULES:
+        if name.startswith(prefix):
+            return min_paragraphs, min_equations, min_artifacts
+    return None
+
+
 def check_tex_source(tex_path: Path, findings: list[Finding]) -> None:
     if not tex_path.exists():
         add(
@@ -398,7 +474,7 @@ def check_tex_source(tex_path: Path, findings: list[Finding]) -> None:
         )
         return
 
-    text = tex_path.read_text(encoding="utf-8", errors="replace")
+    text, sources = read_tex_with_inputs(tex_path)
     abstract = extract_latex_environment(text, "abstract")
 
     if not abstract:
@@ -449,6 +525,42 @@ def check_tex_source(tex_path: Path, findings: list[Finding]) -> None:
             "LaTeX source still contains template placeholders: " + ", ".join(placeholder_hits[:8]),
             "Replace skeleton placeholders before compiling or handing off the paper.",
         )
+
+    for source_name, source_text in sources:
+        for match in SECTION_COMMAND_RE.finditer(source_text):
+            title = match.group("title").strip()
+            if "-" in title:
+                add(
+                    findings,
+                    "FAIL",
+                    "LaTeX Heading Safety Gate",
+                    f"{Path(source_name).name} contains a heading with ASCII hyphen: {title}",
+                    "Remove ASCII hyphens from section/subsection/subsubsection headings, e.g. use Zscore instead of Z-score.",
+                )
+
+    for source_name, source_text in sources:
+        rule = density_rule_for_source(source_name)
+        if not rule:
+            continue
+        min_paragraphs, min_equations, min_artifacts = rule
+        paragraphs = count_section_paragraphs(source_text)
+        equations = count_equation_units(source_text)
+        artifacts = count_artifact_refs(source_text)
+        shortages: list[str] = []
+        if paragraphs < min_paragraphs:
+            shortages.append(f"paragraphs {paragraphs}/{min_paragraphs}")
+        if equations < min_equations:
+            shortages.append(f"equations {equations}/{min_equations}")
+        if artifacts < min_artifacts:
+            shortages.append(f"figure/table refs {artifacts}/{min_artifacts}")
+        if shortages:
+            add(
+                findings,
+                "FAIL",
+                "Section Density Gate",
+                f"{Path(source_name).name} is below minimum density: " + ", ".join(shortages),
+                "Before handoff, enrich the section with explanatory paragraphs, equations, and figure/table evidence instead of filling a thin skeleton later.",
+            )
 
 
 def check_review_file(review_path: Path, findings: list[Finding]) -> None:

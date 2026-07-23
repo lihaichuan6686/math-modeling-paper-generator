@@ -74,6 +74,14 @@ Unknown.
 
 - Unknown.
 
+## v1.6 Priority Family
+
+Read `knowledge/cumcm/v1-6-family-calibration-priority.md` before filling this section.
+
+- Primary priority family: Unknown.
+- Support family: Unknown.
+- Most likely non-human failure: Unknown.
+
 ## Modeled Object
 
 Unknown.
@@ -222,11 +230,33 @@ $routeDecision = @"
 
 Run: $Name
 
-Read `knowledge/algorithms/route-selection-protocol.md` and `prompts/01_ideation.md` before completing this file.
+Read `knowledge/algorithms/route-selection-protocol.md`, `knowledge/cumcm/v1-6-route-to-paper-structure-index.md`, `knowledge/cumcm/v1-6-family-calibration-priority.md`, and `prompts/01_ideation.md` before completing this file.
 
 ## Selected Route Family
 
 Unknown.
+
+## v1.6 Family Calibration
+
+Priority family:
+
+Required body artifact:
+
+Required validation artifact:
+
+Non-human failure to catch:
+
+## v1.6 Paper Structure Conversion
+
+Paper spine:
+
+First-12-page signal:
+
+Abstract claim shape:
+
+Validation close:
+
+First-look failure to avoid:
 
 ## Question Map
 
@@ -317,21 +347,21 @@ $methodDepthPlan = @"
 
 Run: $Name
 
-Read `docs/v1.5-method-route-contract.md`, `knowledge/cumcm/national-problem-family-methodology-matrix.md`, `knowledge/algorithms/route-selection-protocol.md`, and `knowledge/algorithms/method-depth-ladder.md` before completing this file.
+Read `docs/v1.5-method-route-contract.md`, `knowledge/cumcm/national-problem-family-methodology-matrix.md`, `knowledge/cumcm/v1-6-family-calibration-priority.md`, `knowledge/algorithms/v1-5-route-upgrade-atlas.md`, `knowledge/algorithms/v1-6-method-chain-evidence-index.md`, `knowledge/algorithms/route-selection-protocol.md`, and `knowledge/algorithms/method-depth-ladder.md` before completing this file.
 
 ## Depth Target
 
-- target version: v1.5
+- target version: v1.6
 - minimum target depth for major subquestions: Level 3
 - preferred target for central decision subquestions: Level 4 when data and time support it
 
 ## Subquestion Depth Map
 
-| Subquestion | Family | Support layer | Main model | Result artifact | Validation artifact | Paper section | Depth |
-|---|---|---|---|---|---|---|---|
-| Q1 | fill | fill | fill | fill | fill | fill | fill |
-| Q2 | fill | fill | fill | fill | fill | fill | fill |
-| Q3 | fill | fill | fill | fill | fill | fill | fill |
+| Subquestion | Family | Support diagnosis | Main model | Result artifact | Validation artifact | Paper-visible highlight | Paper section | Depth |
+|---|---|---|---|---|---|---|---|---|
+| Q1 | fill | fill | fill | fill | fill | fill | fill | fill |
+| Q2 | fill | fill | fill | fill | fill | fill | fill | fill |
+| Q3 | fill | fill | fill | fill | fill | fill | fill | fill |
 
 ## Method Route Verdict Draft
 
@@ -346,6 +376,7 @@ Read `docs/v1.5-method-route-contract.md`, `knowledge/cumcm/national-problem-fam
 - If a forecast drives a later recommendation, record the propagation path.
 - If a complex algorithm has no route role, remove it or downgrade the claim.
 - If the abstract would claim optimal, stable, accurate, feasible, or robust, point to the validation artifact here first.
+- If the route cannot name a body result artifact and validation artifact, reject it before coding.
 
 ## Thinness Risks
 
@@ -360,7 +391,7 @@ $titleCandidates = @"
 Run: $Name
 Created: $createdAt
 
-Read `knowledge/latex/v1-5-front-matter-rhythm-rules.md` before completing this file.
+Read `knowledge/latex/v1-5-front-matter-rhythm-rules.md` and `knowledge/latex/v1-6-award-feel-soft-rules.md` before completing this file.
 
 Purpose: choose a contest-style paper title before writing `paper/main.tex`.
 
@@ -401,6 +432,228 @@ Selected pattern:
 Why this title fits:
 
 Risk still to check:
+"@
+
+$awardFeelChecklist = @"
+# Award Feel Checklist
+
+Run: $Name
+Created: $createdAt
+
+Read `knowledge/latex/v1-6-award-feel-soft-rules.md` before completing this file.
+
+Purpose: force the paper to pass the first-look human-team test before drafting.
+
+## Title And Abstract
+
+| Item | Decision | Evidence |
+|---|---|---|
+| Title names the object, modeling action, decision target, and strongest method signal | Unknown | See title-candidates.md |
+| Title avoids generic AI-like naming and ASCII hyphens | Unknown | Unknown |
+| Abstract uses opening + per-question + closing rhythm | Unknown | Unknown |
+| Abstract reserves 900-1150 extracted Chinese characters | Unknown | Unknown |
+| Each subquestion has method, result, and interpretation in the abstract | Unknown | Unknown |
+
+## Body Feel
+
+| Item | Decision | Evidence |
+|---|---|---|
+| Page 2 enters restatement or analysis without generic background padding | Unknown | Unknown |
+| Problem analysis explains route choice and subquestion dependency | Unknown | Unknown |
+| Assumptions are useful and tied to model simplification | Unknown | Unknown |
+| Model sections include equations, variables, objectives, constraints, or algorithm logic | Unknown | Unknown |
+| Result tables and figures are interpreted near where they appear | Unknown | Unknown |
+| Validation tests the result instead of only praising the model | Unknown | Unknown |
+| Appendix contains key code or a script index mapped to questions | Unknown | Unknown |
+
+## Human-Team Prose Repairs
+
+- Thin paragraph groups to expand:
+- Bullet-only passages to convert into prose:
+- Missing rejected-route comparisons:
+- Missing intuition checks after result tables:
+- Strong assumptions requiring risk explanation:
+"@
+
+$sectionRhythmBudget = @"
+# Section Rhythm Budget
+
+Run: $Name
+Created: $createdAt
+
+Read `knowledge/latex/v1-6-layout-rhythm-rules.md` and `knowledge/latex/v1-6-section-rhythm-soft-metrics.md` before completing this file.
+
+Target: keep the full PDF near 26-32 pages while avoiding blank-page inflation.
+
+| Section | Target pages | Paragraph target | Formula target | Figure/table target | Evidence file or section | Compression risk | Status |
+|---|---:|---|---|---|---|---|---|
+| Abstract | 1 | opening + one method-result paragraph per major question + closing value sentence | optional only if central result needs it | 3+ bold result fragments, 3+ keyword groups | paper/main.tex abstract | too short or spills | Unknown |
+| Problem restatement | 1-1.5 | modeled object, decision outputs, constraints rewritten in paper language | optional definitions | object/variable map if complex | paper/main.tex section 1 | copied statement | Unknown |
+| Problem analysis | 1.5-2.5 | subquestion dependency, route changes, data traps, output form | route definitions if useful | early concept/mechanism figure or route table | paper/figures/concept_route.png | generic background | Unknown |
+| Assumptions and symbols | 1-1.5 | each assumption tied to simplification | symbol definitions only once | compact 2- or 3-column symbol table | paper/main.tex symbols section | half-empty symbol page | Unknown |
+| Data preprocessing | 2-3 | source, cleaning, derived variables, traps, exploratory facts | cleaning or transformation formulas | data inventory table plus diagnostic artifact | src/ and paper/tables | field dump | Unknown |
+| Model construction | 5-7 | per-question variable, objective, constraint, route justification | 1+ formal block per central subquestion | model route table if needed | model sections | formula pile without story | Unknown |
+| Solution process | 3-5 | solver steps, parameter choices, reproducibility | algorithm or iteration definitions | parameter/convergence/decision table | src/ and artifact-ledger.md | code narrative | Unknown |
+| Results and interpretation | 4-6 | result, comparison, interpretation for each question | derived result formulas when needed | main answer table or figure near each claim | paper/tables and paper/figures | raw outputs without interpretation | Unknown |
+| Validation and sensitivity | 2-3 | perturbation, residual, split, capacity, or feasibility checks | metrics and sensitivity definitions | at least two validation artifacts when data permits | verification-plan.md | praise without evidence | Unknown |
+| Evaluation, conclusion, references, appendix | 4-6 | concrete limits, mirrored conclusion, code-to-question mapping | none unless needed | 8-15 references if supported; script index | reviews and appendix | appendix inflation | Unknown |
+
+## Per-Subquestion Loop Budget
+
+| Subquestion | Route choice | Model/formula artifact | Result artifact | Interpretation paragraph | Validation or limitation | Status |
+|---|---|---|---|---|---|---|
+| Q1 | Unknown | Unknown | Unknown | Unknown | Unknown | Unknown |
+
+## Page Economy Decisions
+
+- Sections to merge if sparse: Unknown.
+- Tables that need `tabularx` or `adjustbox`: Unknown.
+- Figures that may consume too much vertical space: Unknown.
+- Appendix material to keep out of body: Unknown.
+"@
+
+$figureStyleSpec = @"
+# Figure Style Spec
+
+Run: $Name
+Created: $createdAt
+
+Read `knowledge/visuals/v1-6-nature-style-figure-rules.md`, `knowledge/visuals/v1-6-visual-generation-decision.md`, and `docs/concept-figure-helper.md` before generating the early concept/mechanism figure.
+
+## Early Concept Figure
+
+| Field | Plan |
+|---|---|
+| Figure role | concept / mechanism / model route / result explanation |
+| Paper location | first six pages, usually problem analysis or model overview |
+| Zones | Unknown |
+| Nodes | Unknown |
+| Edges | Unknown |
+| Highlights | Unknown |
+| Style | restrained palette, readable labels, grouped zones |
+| Export target | at least 2400 px wide or vector output |
+| PDF readability check | Unknown |
+| Code-native spec | runs/$Name/concept-figure-spec.json |
+
+## Node Map
+
+| Node | Zone | Role | Label length risk |
+|---|---|---|---|
+| Unknown | Unknown | Unknown | Unknown |
+
+## Edge Map
+
+| Source | Target | Meaning | Label |
+|---|---|---|---|
+| Unknown | Unknown | Unknown | Unknown |
+
+## Visual Review Notes
+
+- Text remains readable after PDF insertion: Unknown.
+- No default notebook titles remain: Unknown.
+- Caption interprets the figure, not just names it: Unknown.
+- Figure looks like a problem mechanism, not a project workflow: Unknown.
+"@
+
+$conceptFigureSpec = @"
+{
+  "title": "Model route concept figure",
+  "subtitle": "schematic only; numeric evidence must come from code outputs",
+  "zones": [
+    {
+      "id": "data",
+      "title": "Data objects"
+    },
+    {
+      "id": "model",
+      "title": "Model chain"
+    },
+    {
+      "id": "result",
+      "title": "Result artifacts"
+    },
+    {
+      "id": "review",
+      "title": "Validation"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "input",
+      "zone": "data",
+      "label": "Problem data"
+    },
+    {
+      "id": "features",
+      "zone": "data",
+      "label": "Derived variables"
+    },
+    {
+      "id": "diagnosis",
+      "zone": "model",
+      "label": "Support diagnosis"
+    },
+    {
+      "id": "main_model",
+      "zone": "model",
+      "label": "Main model"
+    },
+    {
+      "id": "answer",
+      "zone": "result",
+      "label": "Answer table",
+      "highlight": true
+    },
+    {
+      "id": "figure",
+      "zone": "result",
+      "label": "Result figure"
+    },
+    {
+      "id": "check",
+      "zone": "review",
+      "label": "Sensitivity check",
+      "highlight": true
+    }
+  ],
+  "edges": [
+    {
+      "source": "input",
+      "target": "features",
+      "label": "clean"
+    },
+    {
+      "source": "features",
+      "target": "diagnosis",
+      "label": "screen"
+    },
+    {
+      "source": "diagnosis",
+      "target": "main_model",
+      "label": "formulate"
+    },
+    {
+      "source": "main_model",
+      "target": "answer",
+      "label": "solve"
+    },
+    {
+      "source": "main_model",
+      "target": "figure",
+      "label": "visualize"
+    },
+    {
+      "source": "answer",
+      "target": "check",
+      "label": "verify"
+    },
+    {
+      "source": "figure",
+      "target": "check",
+      "label": "compare"
+    }
+  ]
+}
 "@
 
 $verificationPlan = @"
@@ -644,6 +897,8 @@ Use knowledge/quality/v1-5-hard-gates.md and reviews/pdf-v15-check.md.
 | Plan-To-Paper Gate | Unknown | Check figure plan, artifact ledger, section budget, and body | Unknown |
 | Appendix Code Gate | Unknown | Check appendix code or script index | Unknown |
 | PDF Density Gate | Unknown | Check reviews/pdf-v15-check.md | Unknown |
+| LaTeX Heading Safety Gate | Unknown | Check paper headings for ASCII hyphens | Unknown |
+| Section Density Gate | Unknown | Check source-level section density | Unknown |
 
 ## Method Route Verdict
 
@@ -664,6 +919,23 @@ Expected command:
 Expected report:
 
 - reviews/pdf-v15-check.md
+
+## v1.6 Layout Gate Verdict
+
+Use knowledge/quality/v1-6-layout-hard-gates.md and reviews/layout-v16-check.md.
+
+| Gate | Pass/Fail | Evidence | Repair |
+|---|---|---|---|
+| Page Rhythm Gate | Unknown | Check page count and section-rhythm-budget.md | Unknown |
+| Abstract Fill Gate | Unknown | Check page 1 extracted chars and visual fill | Unknown |
+| Blank Space Gate | Unknown | Check low-density pages and symbol section | Unknown |
+| Table Width Gate | Unknown | Check LaTeX log and rendered tables | Unknown |
+| Figure Readability And Style Gate | Unknown | Check rendered figures for readability and boxes | Unknown |
+| Nature-Style Concept Figure Gate | Unknown | Check figure-style-spec.md and first six pages | Unknown |
+| Final Source Cleanup Gate | Unknown | Check paper/main.tex for placeholders and prompt leakage | Unknown |
+| Resource Link Gate | Unknown | Check TeX input/include/includegraphics paths | Unknown |
+| Artifact Ledger Consistency Gate | Unknown | Check runs/$Name/artifact-ledger.md against paper artifacts | Unknown |
+| Title Abstract Consistency Gate | Unknown | Check title-candidates.md, abstract structure, bold results, and keywords | Unknown |
 
 ## Critical Findings
 
@@ -688,6 +960,7 @@ Expected report:
 
 - PDF compile and rendered-page inspection.
 - reviews/pdf-v15-check.md.
+- reviews/layout-v16-check.md.
 - Artifact ledger consistency.
 - Problem coverage.
 - Model validation.
@@ -696,8 +969,10 @@ Expected report:
 
 1. Run prompts/06_quality_review.md after paper generation.
 2. Run the v1.5 PDF/source/run-file check and copy failures into this review.
-3. Mark every v1.5 hard gate Pass or Fail with concrete evidence.
-4. Mark every central subquestion in Method Route Verdict.
+3. Run the v1.6 layout check and copy failures into this review.
+4. Mark every v1.5 hard gate Pass or Fail with concrete evidence.
+5. Mark every v1.6 layout gate Pass or Fail with concrete evidence.
+6. Mark every central subquestion in Method Route Verdict.
 
 ## Human Verification Needed
 
@@ -715,6 +990,10 @@ New-TextFileIfNeeded -Path (Join-Path $runDir "model-candidates.md") -Content $m
 New-TextFileIfNeeded -Path (Join-Path $runDir "route-decision.md") -Content $routeDecision
 New-TextFileIfNeeded -Path (Join-Path $runDir "model-plan.md") -Content $modelPlan
 New-TextFileIfNeeded -Path (Join-Path $runDir "method-depth-plan.md") -Content $methodDepthPlan
+New-TextFileIfNeeded -Path (Join-Path $runDir "award-feel-checklist.md") -Content $awardFeelChecklist
+New-TextFileIfNeeded -Path (Join-Path $runDir "section-rhythm-budget.md") -Content $sectionRhythmBudget
+New-TextFileIfNeeded -Path (Join-Path $runDir "figure-style-spec.md") -Content $figureStyleSpec
+New-TextFileIfNeeded -Path (Join-Path $runDir "concept-figure-spec.json") -Content $conceptFigureSpec
 New-TextFileIfNeeded -Path (Join-Path $runDir "verification-plan.md") -Content $verificationPlan
 New-TextFileIfNeeded -Path (Join-Path $runDir "methodology-checklist.md") -Content $methodologyChecklist
 New-TextFileIfNeeded -Path (Join-Path $runDir "online-consensus-notes.md") -Content $onlineConsensusNotes
@@ -728,4 +1007,5 @@ Copy-TemplateIfNeeded -Source (Join-Path $repoRoot "docs\writing-style-plan-temp
 New-TextFileIfNeeded -Path (Join-Path $reviewsDir "review-$Name.md") -Content $reviewCurrent
 
 Write-Host "Created run scaffold: $runDir"
-Write-Host "Next step: follow prompts\15_launch_v1_5.md, fill title-candidates.md, and use paper\templates\cumcm_v15_main.tex before drafting."
+Write-Host "Next step: follow prompts\16_launch_v1_6.md, fill title-candidates.md, award-feel-checklist.md, section-rhythm-budget.md, figure-style-spec.md, and concept-figure-spec.json, then use paper\templates\cumcm_v16_main.tex before drafting."
+Write-Host "Legacy v1.5 fallback: follow prompts\15_launch_v1_5.md when the user explicitly asks for the v1.5 award-paper-feel flow."

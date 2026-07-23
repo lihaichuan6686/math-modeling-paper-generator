@@ -1,0 +1,188 @@
+% cumcm_v16 neutral paper skeleton
+% Copy this file to paper/main.tex, then replace all TODO blocks with problem-specific content.
+\documentclass{ctexart}
+\usepackage[a4paper,margin=2.45cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs,array,tabularx,longtable}
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{listings}
+
+\hypersetup{hidelinks}
+\captionsetup{font=small,labelsep=quad}
+\lstset{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  frame=single,
+  columns=fullflexible,
+  numbers=left,
+  numberstyle=\tiny,
+  keywordstyle=\color{blue!70!black},
+  commentstyle=\color{green!40!black}
+}
+
+\newcommand{\keywords}[1]{\par\noindent\textbf{关键词：}#1}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+
+\title{TODO：使用 runs/current/title-candidates.md 中选定的国赛风格标题}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+TODO：总述段。用 120--180 字交代问题对象、核心矛盾、总体路线和最终输出形式。不要写泛泛背景。
+
+针对问题一，TODO：写清支持层、核心模型、结果形式和关键结论，至少包含一个可核验结果，并对最重要结论使用\textbf{加粗}。
+
+针对问题二，TODO：写清上一问结果如何进入本问，说明模型或决策规则，给出\textbf{关键方案、排序、区间、时点或参数}，并说明可行性检验。
+
+针对问题三，TODO：写清新增因素、约束或情景，给出\textbf{改进后的结果}，并说明相比基线模型的变化。
+
+针对问题四，TODO：写清判定、预测、分类、优化或建议规则，给出\textbf{最终规则或性能指标}，并说明误差、稳定性或边界。
+
+综上，TODO：用 100--160 字收束整体答案、模型特点、实际价值和主要限制。摘要全文应在第一页视觉上接近满页，不应写成一个连续大段。
+
+\keywords{TODO：对象关键词 \quad TODO：方法关键词 \quad TODO：结果关键词}
+\end{abstract}
+
+\section{问题重述}
+
+\subsection{问题背景与研究对象}
+TODO：用自己的话压缩题面背景，明确建模对象、决策对象和数据对象。不要照抄题面。
+
+\subsection{问题要求与输出形式}
+TODO：按问题编号说明需要输出的答案形式，例如数值、分组、排序、策略、路线、时刻表、判定规则或建议。
+
+\section{问题分析}
+
+\subsection{核心矛盾与问题拆解}
+TODO：说明各子问题之间的依赖关系，指出哪些结果会成为后续问题输入。
+
+\subsection{总体技术路线}
+TODO：依据 runs/current/route-decision.md 中的 Paper spine 和 First-12-page signal，写出自然段形式的路线说明。
+
+\begin{figure}[H]
+  \centering
+  \IfFileExists{figures/concept_route.png}{
+    \includegraphics[width=0.86\textwidth]{figures/concept_route.png}
+  }{
+    \fbox{\parbox{0.82\textwidth}{\centering
+    TODO：生成 Nature-style 早期概念图后替换此占位。\\
+    图中应包含问题对象、数据流、模型层、结果层和验证层。
+    }}
+  }
+  \caption{问题机理与总体建模流程示意图}
+  \label{fig:concept-route}
+\end{figure}
+
+TODO：在图后解释图中每个区域如何对应题目问题、模型和输出结果。若暂时无法生成图片，先生成可编译的 TikZ、Graphviz、matplotlib 或 SVG 图，再替换本图。
+
+\section{模型假设}
+
+TODO：每条假设必须包含“假设内容 + 设置理由 + 后文使用位置”。不要列不会使用的假设。
+
+\begin{enumerate}
+  \item TODO：假设一。理由：TODO。使用位置：TODO。
+  \item TODO：假设二。理由：TODO。使用位置：TODO。
+  \item TODO：假设三。理由：TODO。使用位置：TODO。
+\end{enumerate}
+
+\section{符号说明}
+
+\begin{table}[H]
+  \centering
+  \caption{主要符号说明}
+  \begin{tabularx}{\textwidth}{>{\centering\arraybackslash}p{0.16\textwidth}Y>{\centering\arraybackslash}p{0.18\textwidth}}
+    \toprule
+    符号 & 含义 & 单位或说明 \\
+    \midrule
+    TODO & TODO & TODO \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+TODO：如果符号不足以撑开独立页面，应将符号说明与假设或模型准备合并，避免半页空白。
+
+\section{数据处理与数据陷阱}
+
+\subsection{数据来源与字段解释}
+TODO：说明题目文件、附件、字段、样本量、时间范围、空间范围和单位。
+
+\subsection{数据清洗与特征构造}
+TODO：说明缺失、异常、重复、单位转换、标签构造、特征构造和标准化方式。给出必要公式或表格。
+
+\subsection{数据陷阱}
+TODO：列出容易误用的字段、标签含义、样本量不足、中文编码、PDF/Excel 提取错误或不可靠列。
+
+\section{模型建立与求解}
+
+\subsection{问题一模型建立与求解}
+TODO：按“机制解释 -> 变量定义 -> 公式或算法 -> 结果表图 -> 小结”写，不要只放方法名。
+
+\subsection{问题二模型建立与求解}
+TODO：说明问题一结果如何进入本问；如果是规划、排序或判定，必须给出可执行结果表。
+
+\subsection{问题三模型建立与求解}
+TODO：说明相比前两问新增的因素、约束、情景或模型升级，并给出基线对比。
+
+\subsection{问题四模型建立与求解}
+TODO：说明最终规则、建议、预测或判定方式，并明确误判、误差或适用边界。
+
+\section{结果分析}
+
+TODO：每个主要结果按“表图 -> 解释 -> 合理性检查 -> 对下一问的作用”组织。不要把结果只放在结论或附录。
+
+\section{模型检验、误差与敏感性分析}
+
+TODO：至少包含一种基线比较、残差分析、交叉验证、扰动分析、情景检验、可行性审计或直觉复核。验证必须对应摘要中声称的准确、稳定、可行或最优。
+
+\section{模型评价与改进}
+
+\subsection{模型优点}
+TODO：写本题具体优点，例如指标闭环、约束可解释、结果可执行、验证充分。
+
+\subsection{模型局限}
+TODO：写会影响结论的具体限制，例如样本量、测量误差、假设强度、外推边界。
+
+\subsection{改进方向}
+TODO：每条改进方向应对应一个局限，不写空泛套话。
+
+\section{结论}
+
+TODO：按问题编号复述最终答案，确保与摘要、正文表格和 artifact-ledger 一致。
+
+\begin{thebibliography}{99}
+\bibitem{ref1} TODO：真实参考文献，支持方法、数据、领域或验证。
+\end{thebibliography}
+
+\appendix
+\section{关键代码与复现说明}
+
+本附录列出与正文关键图表对应的核心代码或脚本索引。完整原始数据不在正文重复堆放。
+
+\subsection{脚本索引}
+\begin{table}[H]
+  \centering
+  \caption{脚本与正文图表对应关系}
+  \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.24\textwidth}Y>{\raggedright\arraybackslash}p{0.22\textwidth}}
+    \toprule
+    脚本 & 生成内容 & 正文位置 \\
+    \midrule
+    TODO & TODO & TODO \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\subsection{核心代码片段}
+\begin{lstlisting}[language=Python]
+# TODO: put the shortest reproducible core code snippet here.
+\end{lstlisting}
+
+\end{document}
